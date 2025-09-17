@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "auto-implement": "node scripts/auto-implementation.js",
+    "validate": "npm run build && npm run lint",
+    "deploy": "npm run validate && npm run build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
