@@ -1,7 +1,13 @@
 'use client';
 
-import Script from 'next/script';
 import { useEffect } from 'react';
+
+// Extend Window interface for AdSense
+declare global {
+  interface Window {
+    adsbygoogle?: unknown[];
+  }
+}
 
 interface GoogleAdSenseProps {
   adClient?: string;
@@ -14,8 +20,23 @@ interface GoogleAdSenseProps {
   };
 }
 
+// Auto Ads component for Google AdSense Auto placement
+export function AutoAds() {
+  useEffect(() => {
+    // Push auto ads config to AdSense
+    if (typeof window !== 'undefined' && window.adsbygoogle) {
+      (window.adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-6923393739488910",
+        enable_page_level_ads: true
+      });
+    }
+  }, []);
+
+  return null; // Auto ads don't need a visible component
+}
+
 export default function GoogleAdSense({
-  adClient = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXX',
+  adClient = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT || 'ca-pub-6923393739488910',
   adSlot,
   adFormat = 'auto',
   adStyle = { display: 'block' }
@@ -26,8 +47,8 @@ export default function GoogleAdSense({
       return;
     }
 
-    // Initialize AdSense
-    if (window.adsbygoogle) {
+    // Initialize AdSense for manual ad units
+    if (adSlot && window.adsbygoogle) {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
   }, [adClient, adSlot]);
@@ -38,15 +59,7 @@ export default function GoogleAdSense({
 
   return (
     <>
-      {/* Google AdSense Script */}
-      <Script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adClient}`}
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-      
-      {/* Ad Unit */}
+      {/* Ad Unit - Script already loaded in head */}
       {adSlot && (
         <ins
           className="adsbygoogle"

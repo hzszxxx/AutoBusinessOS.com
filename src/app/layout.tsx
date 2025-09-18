@@ -4,7 +4,7 @@ import "./globals.css";
 import StructuredData from "@/components/SEO/StructuredData";
 import { WebVitals } from "@/components/Performance/WebVitals";
 import GoogleAnalytics from "@/components/Analytics/GoogleAnalytics";
-import GoogleAdSense from "@/components/Ads/GoogleAdSense";
+import { AutoAds } from "@/components/Ads/GoogleAdSense";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +33,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google AdSense Auto Ads */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6923393739488910"
+          crossOrigin="anonymous"
+        />
         <StructuredData type="organization" />
         <StructuredData type="website" />
       </head>
@@ -40,7 +46,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <GoogleAnalytics />
-        <GoogleAdSense />
+        <AutoAds />
         <WebVitals />
         {children}
       </body>
