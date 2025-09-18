@@ -75,10 +75,10 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              About <span className="text-yellow-300">AutoBusinessOS</span>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{color: 'white'}}>
+              About <span className="text-yellow-300" style={{color: '#fde047'}}>AutoBusinessOS</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto" style={{color: 'white'}}>
               We're on a mission to revolutionize how businesses operate through intelligent automation. 
               Our platform empowers organizations to achieve 100% workflow automation, driving unprecedented efficiency and growth.
             </p>
@@ -123,8 +123,8 @@ export default function AboutPage() {
             </div>
             <div className="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-2xl p-8">
               <div className="text-6xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why We Exist</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold mb-4" style={{color: '#111827'}}>Why We Exist</h3>
+              <p style={{color: '#374151'}}>
                 Traditional automation solutions are complex, expensive, and require extensive technical expertise. 
                 We saw an opportunity to change this by creating a platform that makes automation accessible to everyone.
               </p>
@@ -236,10 +236,10 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{color: 'white'}}>
             Ready to Work With Us?
           </h2>
-          <p className="text-xl mb-8 text-white max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto" style={{color: 'white'}}>
             Join hundreds of companies that have transformed their operations with AutoBusinessOS. 
             Let's discuss how we can help your business achieve its automation goals.
           </p>

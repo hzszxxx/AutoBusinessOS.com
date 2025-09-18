@@ -167,3 +167,35 @@ section[class*="bg-gradient-to-br"] * {
   color: white !important;
   border-color: white !important;
 }
+
+/* About page specific fixes */
+.bg-gradient-to-br.from-primary-50 * {
+  color: #374151 !important; /* gray-700 for good contrast on light backgrounds */
+}
+
+.bg-gradient-to-br.from-primary-50 h3 {
+  color: #111827 !important; /* gray-900 for headings */
+}
+
+/* Timeline and stats visibility */
+.text-primary-600 {
+  color: #5a67d8 !important;
+}
+
+.text-gray-600 {
+  color: #6b7280 !important;
+}
+
+.text-gray-900 {
+  color: #111827 !important;
+}
+
+/* Hero section text override */
+.pt-24.pb-16 h1,
+.pt-24.pb-16 p {
+  color: white !important;
+}
+
+.pt-24.pb-16 .text-yellow-300 {
+  color: #fde047 !important;
+}
