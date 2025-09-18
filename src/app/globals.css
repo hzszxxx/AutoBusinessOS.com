@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 确保按钮文字颜色不被全局样式覆盖 */
+a.bg-white {
+  color: #5a67d8 !important; /* primary-600 */
+}
+
+a.bg-white:hover {
+  color: #4c51bf !important; /* primary-700 */
+}

@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '销售自动化系统 - CRM集成、销售流程优化、客户跟进自动化 | AutoBusinessOS',
-  description: '专业的销售解决方案，CRM集成、销售流程优化、客户跟进自动化。增加60%销售转化，助力企业实现数字化转型。',
-  keywords: 'sales automation, CRM自动化, 销售流程优化, 客户管理系统',
+  title: 'Sales Automation Systems - CRM Integration, Sales Process Optimization & Customer Follow-up Automation | AutoBusinessOS',
+  description: 'Professional sales solutions featuring CRM integration, sales process optimization, and automated customer follow-up. Increase sales conversion by 60% and drive digital transformation.',
+  keywords: 'sales automation, CRM automation, sales process optimization, customer management system',
 }
 
 export default function salesautomationPage() {
@@ -16,39 +16,39 @@ export default function salesautomationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              销售自动化系统
-              <span className="block text-yellow-300">CRM集成、销售流程优化、客户跟进自动化</span>
+              Sales Automation Systems
+              <span className="block text-yellow-300">CRM Integration, Sales Process Optimization & Customer Follow-up Automation</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专业的销售自动化系统解决方案，帮助企业实现高效、智能的业务流程管理。增加60%销售转化，提升整体运营效率。
+              Professional sales automation system solutions that help enterprises achieve efficient and intelligent business process management. Increase sales conversion by 60% and improve overall operational efficiency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#features"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解功能详情
+                View Features
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 痛点分析 */}
+      {/* Pain Point Analysis */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              传统销售管理的核心痛点
+              Core Pain Points in Traditional Sales Management
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              根据最新企业调研数据，85%的企业在销售管理中面临以下关键挑战
+              According to latest enterprise research data, 85% of companies face these critical challenges in sales management
             </p>
           </div>
 
@@ -59,11 +59,11 @@ export default function salesautomationPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">客户跟进效率低下</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Low Customer Follow-up Efficiency</h3>
               <p className="text-gray-600 mb-4">
-                销售人员平均每天花费3.2小时处理重复性跟进工作，真正用于销售沟通的时间不足40%。大量潜在客户因跟进不及时而流失，转化率长期停滞不前。
+                Sales staff spend an average of 3.2 hours daily on repetitive follow-up tasks, with less than 40% of time dedicated to actual sales communication. Many potential customers are lost due to untimely follow-up, causing conversion rates to stagnate.
               </p>
-              <div className="text-sm text-red-600 font-semibold">平均客户流失率：35%</div>
+              <div className="text-sm text-red-600 font-semibold">Average Customer Loss Rate: 35%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -72,11 +72,11 @@ export default function salesautomationPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">数据分散难以分析</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Scattered Data Difficult to Analyze</h3>
               <p className="text-gray-600 mb-4">
-                客户信息分散在Excel、微信、邮件等多个平台，缺乏统一的数据视图。销售经理无法实时掌握团队业绩，决策依赖经验而非数据驱动。
+                Customer information is scattered across multiple platforms like Excel, WeChat, and email, lacking unified data views. Sales managers cannot track team performance in real-time, making decisions based on experience rather than data-driven insights.
               </p>
-              <div className="text-sm text-orange-600 font-semibold">数据整合度：仅23%</div>
+              <div className="text-sm text-orange-600 font-semibold">Data Integration Level: Only 23%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
@@ -85,29 +85,29 @@ export default function salesautomationPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">销售流程标准化缺失</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Lack of Standardized Sales Processes</h3>
               <p className="text-gray-600 mb-4">
-                不同销售人员采用不同的销售方法，缺乏标准化流程。新员工培训周期长，经验传承困难，团队整体效率参差不齐。
+                Different sales staff use different sales methods, lacking standardized processes. New employee training periods are long, experience transfer is difficult, and overall team efficiency varies significantly.
               </p>
-              <div className="text-sm text-yellow-600 font-semibold">流程标准化程度：不足30%</div>
+              <div className="text-sm text-yellow-600 font-semibold">Process Standardization Level: Less than 30%</div>
             </div>
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">痛点影响：企业销售业绩损失</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Business Impact: Enterprise Sales Performance Loss</h3>
               <div className="grid md:grid-cols-3 gap-6 mt-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-red-600 mb-2">-42%</div>
-                  <p className="text-gray-600">销售效率下降</p>
+                  <p className="text-gray-600">Sales efficiency decline</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">+68%</div>
-                  <p className="text-gray-600">客户获取成本增加</p>
+                  <p className="text-gray-600">Customer acquisition cost increase</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">-35%</div>
-                  <p className="text-gray-600">客户满意度下降</p>
+                  <p className="text-gray-600">Customer satisfaction decline</p>
                 </div>
               </div>
             </div>
@@ -115,19 +115,19 @@ export default function salesautomationPage() {
         </div>
       </section>
 
-      {/* 功能特性详细介绍 */}
+      {/* Core Features Section */}
       <section className="py-20 bg-white" id="features">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              销售自动化系统核心功能
+              Sales Automation System Core Features
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全方位的销售解决方案，从线索获取到成交跟进，实现销售全流程自动化管理
+              Comprehensive sales solutions from lead generation to deal closure, enabling full sales process automation
             </p>
           </div>
 
-          {/* 核心功能卡片 */}
+          {/* Core Feature Cards */}
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
@@ -136,29 +136,29 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能线索管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Lead Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                AI驱动的线索评分系统，自动识别高价值客户。支持多渠道线索汇聚，包括网站表单、社交媒体、电话咨询等，统一管理避免重复跟进。
+                AI-powered lead scoring system that automatically identifies high-value customers. Supports multi-channel lead aggregation including website forms, social media, phone inquiries, providing unified management to avoid duplicate follow-ups.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI智能线索评分，准确率达95%
+                  AI intelligent lead scoring with 95% accuracy
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  多渠道线索自动汇聚整合
+                  Multi-channel lead automatic aggregation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  重复线索智能去重识别
+                  Intelligent duplicate lead detection
                 </li>
               </ul>
             </div>
@@ -170,29 +170,29 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">自动化跟进系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Automated Follow-up System</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                基于客户行为和偏好的智能跟进策略，自动发送个性化邮件、短信和微信消息。支持跟进任务提醒，确保重要客户不被遗漏。
+                Intelligent follow-up strategies based on customer behavior and preferences, automatically sending personalized emails, SMS, and messages. Supports follow-up task reminders to ensure important customers are never overlooked.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  个性化营销内容自动生成
+                  Personalized marketing content auto-generation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  多渠道统一消息推送
+                  Multi-channel unified message delivery
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  智能跟进时机优化推荐
+                  Smart follow-up timing optimization
                 </li>
               </ul>
             </div>
@@ -204,29 +204,29 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">销售数据分析</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Sales Data Analytics</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                实时销售漏斗分析，可视化展示销售进程。预测性分析帮助识别潜在风险客户，智能推荐最佳销售策略，提升成交概率。
+                Real-time sales funnel analysis with visual sales process display. Predictive analytics help identify potential at-risk customers, intelligently recommend optimal sales strategies, and improve deal closure rates.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  实时销售漏斗可视化分析
+                  Real-time sales funnel visualization
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI预测客户成交概率
+                  AI prediction of customer conversion probability
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  销售策略智能推荐引擎
+                  Intelligent sales strategy recommendation engine
                 </li>
               </ul>
             </div>
@@ -238,277 +238,277 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">团队协作管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Team Collaboration Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                统一的客户视图，支持团队成员协作跟进。销售流程标准化模板，新员工快速上手。权限管理确保客户信息安全。
+                Unified customer view supporting team member collaborative follow-up. Standardized sales process templates enable new employees to get up to speed quickly. Permission management ensures customer information security.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  360度客户视图统一展示
+                  360-degree unified customer view
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  标准化销售流程模板
+                  Standardized sales process templates
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  分级权限安全管理
+                  Multi-level security permission management
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* 效果展示 */}
+          {/* Results Display */}
           <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">销售自动化带来的效果提升</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Sales Automation Performance Improvements</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div>
                 <div className="text-4xl font-bold text-primary-600 mb-2">+60%</div>
-                <p className="text-gray-600">销售转化率提升</p>
+                <p className="text-gray-600">Sales conversion rate increase</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-green-600 mb-2">-45%</div>
-                <p className="text-gray-600">客户获取成本降低</p>
+                <p className="text-gray-600">Customer acquisition cost reduction</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-blue-600 mb-2">+80%</div>
-                <p className="text-gray-600">跟进效率提升</p>
+                <p className="text-gray-600">Follow-up efficiency improvement</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-purple-600 mb-2">+35%</div>
-                <p className="text-gray-600">客户满意度提升</p>
+                <p className="text-gray-600">Customer satisfaction increase</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 真实案例研究 */}
+      {/* Real Case Studies */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              客户成功案例
+              Customer Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示销售自动化系统的实际效果和价值
+              Real customer case studies demonstrating the actual effectiveness and value of sales automation systems
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* 案例1 */}
+            {/* Case Study 1 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-bold text-xl">科</span>
+                  <span className="text-blue-600 font-bold text-xl">Tech</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某知名科技公司</h3>
-                  <p className="text-gray-600">员工规模：500-1000人</p>
+                  <h3 className="text-xl font-bold text-gray-900">Leading Technology Company</h3>
+                  <p className="text-gray-600">Employee Scale: 500-1000 people</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 销售团队30人，客户信息分散在个人电脑</li>
-                  <li>• 客户跟进依赖个人经验，标准化程度低</li>
-                  <li>• 月度销售目标完成率仅65%</li>
-                  <li>• 客户流失率高达40%，复购率不足25%</li>
+                  <li>• Sales team of 30 people with customer information scattered across personal computers</li>
+                  <li>• Customer follow-up relied on personal experience with low standardization</li>
+                  <li>• Monthly sales target completion rate only 65%</li>
+                  <li>• Customer churn rate as high as 40%, repeat purchase rate below 25%</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">解决方案：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 部署智能CRM系统，统一客户数据管理</li>
-                  <li>• 建立标准化销售流程和话术模板</li>
-                  <li>• 实施AI智能线索评分和跟进提醒</li>
-                  <li>• 搭建实时销售数据分析dashboard</li>
+                  <li>• Deployed intelligent CRM system for unified customer data management</li>
+                  <li>• Established standardized sales processes and communication templates</li>
+                  <li>• Implemented AI intelligent lead scoring and follow-up reminders</li>
+                  <li>• Built real-time sales data analytics dashboard</li>
                 </ul>
               </div>
 
               <div className="border-t pt-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">实施效果：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
                     <div className="text-2xl font-bold text-green-600">85%</div>
-                    <p className="text-sm text-gray-600">月度目标完成率</p>
+                    <p className="text-sm text-gray-600">Monthly target completion rate</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">+120%</div>
-                    <p className="text-sm text-gray-600">销售效率提升</p>
+                    <p className="text-sm text-gray-600">Sales efficiency improvement</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
                     <div className="text-2xl font-bold text-purple-600">15%</div>
-                    <p className="text-sm text-gray-600">客户流失率降至</p>
+                    <p className="text-sm text-gray-600">Customer churn rate reduced to</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
                     <div className="text-2xl font-bold text-orange-600">65%</div>
-                    <p className="text-sm text-gray-600">客户复购率提升至</p>
+                    <p className="text-sm text-gray-600">Customer repeat purchase rate increased to</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;实施销售自动化系统后，我们的销售团队效率显著提升。现在每个销售人员都能清楚地了解客户状态，跟进更加及时精准。最重要的是，我们的销售业绩实现了翻倍增长。&rdquo;
+                  &ldquo;After implementing the sales automation system, our sales team efficiency has significantly improved. Now every sales person can clearly understand customer status and follow up more timely and accurately. Most importantly, our sales performance has achieved double growth.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— 销售总监 王先生</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">— Sales Director Mr. Wang</p>
               </div>
             </div>
 
-            {/* 案例2 */}
+            {/* Case Study 2 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 font-bold text-xl">贸</span>
+                  <span className="text-green-600 font-bold text-xl">Trade</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某大型贸易公司</h3>
-                  <p className="text-gray-600">员工规模：200-500人</p>
+                  <h3 className="text-xl font-bold text-gray-900">Large Trading Company</h3>
+                  <p className="text-gray-600">Employee Scale: 200-500 people</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 国际客户分布广泛，时差管理困难</li>
-                  <li>• 询盘响应时间平均12小时，竞争劣势明显</li>
-                  <li>• 客户沟通记录缺失，交接困难</li>
-                  <li>• 报价准确性差，成交周期长达45天</li>
+                  <li>• International customers widely distributed, time zone management difficult</li>
+                  <li>• Average inquiry response time 12 hours, obvious competitive disadvantage</li>
+                  <li>• Missing customer communication records, difficult handovers</li>
+                  <li>• Poor quotation accuracy, sales cycle as long as 45 days</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">解决方案：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 实施24/7自动化客户响应系统</li>
-                  <li>• 建立智能报价系统，提升报价准确性</li>
-                  <li>• 部署多语言客户服务机器人</li>
-                  <li>• 建立全球客户时区智能管理</li>
+                  <li>• Implemented 24/7 automated customer response system</li>
+                  <li>• Built intelligent quotation system to improve quotation accuracy</li>
+                  <li>• Deployed multilingual customer service chatbots</li>
+                  <li>• Established global customer time zone intelligent management</li>
                 </ul>
               </div>
 
               <div className="border-t pt-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">实施效果：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">2小时</div>
-                    <p className="text-sm text-gray-600">平均响应时间</p>
+                    <div className="text-2xl font-bold text-green-600">2 hours</div>
+                    <p className="text-sm text-gray-600">Average response time</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600">22天</div>
-                    <p className="text-sm text-gray-600">平均成交周期</p>
+                    <div className="text-2xl font-bold text-blue-600">22 days</div>
+                    <p className="text-sm text-gray-600">Average deal cycle</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
                     <div className="text-2xl font-bold text-purple-600">+95%</div>
-                    <p className="text-sm text-gray-600">报价准确率提升</p>
+                    <p className="text-sm text-gray-600">Quotation accuracy improvement</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
                     <div className="text-2xl font-bold text-orange-600">+180%</div>
-                    <p className="text-sm text-gray-600">年度营收增长</p>
+                    <p className="text-sm text-gray-600">Annual revenue growth</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;自动化销售系统让我们在全球竞争中获得了明显优势。客户响应更快，报价更准确，整个销售流程变得非常顺畅。现在我们的年度营收比去年翻了一倍多。&rdquo;
+                  &ldquo;The automated sales system has given us a clear advantage in global competition. Customer responses are faster, quotations are more accurate, and the entire sales process has become very smooth. Now our annual revenue has more than doubled compared to last year.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— 海外业务部经理 李女士</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">— International Business Manager Ms. Li</p>
               </div>
             </div>
           </div>
 
-          {/* 案例数据汇总 */}
+          {/* Customer Case Data Summary */}
           <div className="mt-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">客户案例数据汇总</h3>
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Customer Case Data Summary</h3>
             <div className="grid md:grid-cols-5 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-                <p className="text-gray-600">成功案例</p>
+                <p className="text-gray-600">Success cases</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-green-600 mb-2">85%</div>
-                <p className="text-gray-600">客户满意度</p>
+                <p className="text-gray-600">Customer satisfaction</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-purple-600 mb-2">3个月</div>
-                <p className="text-gray-600">平均实施周期</p>
+                <div className="text-3xl font-bold text-purple-600 mb-2">3 months</div>
+                <p className="text-gray-600">Average implementation cycle</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-orange-600 mb-2">6个月</div>
-                <p className="text-gray-600">平均投资回收期</p>
+                <div className="text-3xl font-bold text-orange-600 mb-2">6 months</div>
+                <p className="text-gray-600">Average investment payback period</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-red-600 mb-2">320%</div>
-                <p className="text-gray-600">平均ROI提升</p>
+                <p className="text-gray-600">Average ROI improvement</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 实施方法论和最佳实践 */}
+      {/* Implementation Methodology and Best Practices */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              销售自动化实施方法论
+              Sales Automation Implementation Methodology
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于50+成功案例总结的最佳实践方法论，确保项目成功实施
+              Best practice methodology based on 50+ successful cases, ensuring successful project implementation
             </p>
           </div>
 
-          {/* 实施阶段 */}
+          {/* Implementation Phases */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">五阶段实施流程</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Five-Stage Implementation Process</h3>
             <div className="relative">
               <div className="absolute top-1/2 left-0 right-0 h-1 bg-gray-200 transform -translate-y-1/2"></div>
               <div className="relative flex justify-between items-center">
                 <div className="bg-white text-center">
                   <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">1</div>
-                  <h4 className="font-semibold text-gray-900 mb-2">需求调研</h4>
-                  <p className="text-sm text-gray-600 max-w-24">深入了解现有销售流程</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Requirements Research</h4>
+                  <p className="text-sm text-gray-600 max-w-24">Deep understanding of existing sales processes</p>
                 </div>
                 <div className="bg-white text-center">
                   <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">2</div>
-                  <h4 className="font-semibold text-gray-900 mb-2">方案设计</h4>
-                  <p className="text-sm text-gray-600 max-w-24">定制化系统配置方案</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Solution Design</h4>
+                  <p className="text-sm text-gray-600 max-w-24">Customized system configuration plan</p>
                 </div>
                 <div className="bg-white text-center">
                   <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">3</div>
-                  <h4 className="font-semibold text-gray-900 mb-2">系统部署</h4>
-                  <p className="text-sm text-gray-600 max-w-24">分阶段系统上线部署</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">System Deployment</h4>
+                  <p className="text-sm text-gray-600 max-w-24">Phased system rollout deployment</p>
                 </div>
                 <div className="bg-white text-center">
                   <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">4</div>
-                  <h4 className="font-semibold text-gray-900 mb-2">培训推广</h4>
-                  <p className="text-sm text-gray-600 max-w-24">全员培训和使用推广</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Training & Rollout</h4>
+                  <p className="text-sm text-gray-600 max-w-24">Company-wide training and adoption</p>
                 </div>
                 <div className="bg-white text-center">
                   <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">5</div>
-                  <h4 className="font-semibold text-gray-900 mb-2">优化迭代</h4>
-                  <p className="text-sm text-gray-600 max-w-24">持续优化和功能迭代</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">Optimization Iteration</h4>
+                  <p className="text-sm text-gray-600 max-w-24">Continuous optimization and feature iteration</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* 最佳实践 */}
+          {/* Best Practices */}
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">关键成功因素</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Key Success Factors</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
@@ -517,8 +517,8 @@ export default function salesautomationPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">高层领导支持</h4>
-                    <p className="text-gray-600">获得管理层的充分支持和资源投入，确保项目推进顺利</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Senior Leadership Support</h4>
+                    <p className="text-gray-600">Gaining full support and resource investment from management to ensure smooth project progress</p>
                   </div>
                 </div>
 
@@ -529,8 +529,8 @@ export default function salesautomationPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">数据质量管理</h4>
-                    <p className="text-gray-600">建立数据清洗和维护机制，确保客户数据的准确性和完整性</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Data Quality Management</h4>
+                    <p className="text-gray-600">Establish data cleaning and maintenance mechanisms to ensure accuracy and completeness of customer data</p>
                   </div>
                 </div>
 
@@ -541,8 +541,8 @@ export default function salesautomationPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">渐进式实施</h4>
-                    <p className="text-gray-600">分阶段、分部门逐步实施，降低变革阻力，确保平稳过渡</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Gradual Implementation</h4>
+                    <p className="text-gray-600">Phased and departmental gradual implementation to reduce change resistance and ensure smooth transition</p>
                   </div>
                 </div>
 
@@ -553,57 +553,57 @@ export default function salesautomationPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">持续培训支持</h4>
-                    <p className="text-gray-600">建立完善的培训体系，确保用户能够熟练使用系统功能</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Continuous Training Support</h4>
+                    <p className="text-gray-600">Establish comprehensive training systems to ensure users can proficiently use system functions</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">常见实施挑战与解决方案</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Common Implementation Challenges & Solutions</h3>
               <div className="space-y-6">
                 <div className="bg-red-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">挑战：员工抗拒使用新系统</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">Challenge: Employee resistance to new system</h4>
                   <p className="text-red-700 text-sm mb-3">
-                    销售人员习惯传统工作方式，对新系统存在抗拒心理
+                    Sales staff are accustomed to traditional work methods and have resistance to new systems
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">解决方案：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Solutions:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 选择销售冠军作为系统推广大使</li>
-                      <li>• 设置系统使用激励机制</li>
-                      <li>• 展示系统带来的个人效率提升</li>
+                      <li>• Select sales champions as system ambassadors</li>
+                      <li>• Set up system usage incentive mechanisms</li>
+                      <li>• Demonstrate personal efficiency improvements from the system</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">挑战：历史数据迁移困难</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-2">Challenge: Difficult historical data migration</h4>
                   <p className="text-yellow-700 text-sm mb-3">
-                    原有客户数据分散，格式不统一，迁移工作量大
+                    Existing customer data is scattered with inconsistent formats, requiring substantial migration effort
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">解决方案：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Solutions:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 制定数据清洗和标准化流程</li>
-                      <li>• 分批次迁移，优先核心客户数据</li>
-                      <li>• 建立数据质量验证机制</li>
+                      <li>• Develop data cleaning and standardization processes</li>
+                      <li>• Migrate in batches, prioritizing core customer data</li>
+                      <li>• Establish data quality validation mechanisms</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">挑战：系统集成复杂度高</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">Challenge: High system integration complexity</h4>
                   <p className="text-blue-700 text-sm mb-3">
-                    需要与现有ERP、财务系统等多个系统集成
+                    Need to integrate with multiple existing systems like ERP and financial systems
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">解决方案：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Solutions:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 采用标准API接口进行系统集成</li>
-                      <li>• 分阶段实现集成，优先核心功能</li>
-                      <li>• 建立集成测试和验证流程</li>
+                      <li>• Use standard API interfaces for system integration</li>
+                      <li>• Implement integration in phases, prioritizing core functions</li>
+                      <li>• Establish integration testing and validation processes</li>
                     </ul>
                   </div>
                 </div>
@@ -613,93 +613,93 @@ export default function salesautomationPage() {
         </div>
       </section>
 
-      {/* 工具推荐和比较 */}
+      {/* Tool Recommendations and Comparisons */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              销售自动化工具对比分析
+              Sales Automation Tool Comparison Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              为您分析市场主流销售自动化工具，帮助选择最适合的解决方案
+              Analyze mainstream sales automation tools in the market to help you choose the most suitable solution
             </p>
           </div>
 
-          {/* 工具对比表 */}
+          {/* Tool Comparison Table */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">功能特性</th>
+                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Features</th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-primary-600">AutoBusinessOS</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">传统CRM</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">国外SaaS</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">自建系统</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">Traditional CRM</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">Foreign SaaS</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">Custom System</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">AI智能线索评分</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">AI Intelligent Lead Scoring</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 内置
+                        ✓ Built-in
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ 不支持</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 需定制</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 需开发</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ Not supported</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Requires customization</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Requires development</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="px-6 py-4 text-sm text-gray-900">多渠道客户数据整合</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Multi-channel Customer Data Integration</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 全支持
+                        ✓ Full support
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 部分支持</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ 支持</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 需开发</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Partial support</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ Supported</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Requires development</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">本土化支持</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Localization Support</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 深度本土化
+                        ✓ Deep localization
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ 良好</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ 较差</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ 可定制</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ Good</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ Poor</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ Customizable</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="px-6 py-4 text-sm text-gray-900">实施成本</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Implementation Cost</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 低成本
+                        ✓ Low cost
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 中等</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ 高成本</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ 很高</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Medium</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ High cost</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ Very high</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">实施周期</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Implementation Timeline</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 1-3个月
+                        ✓ 1-3 months
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">3-6个月</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">3-6个月</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">6-12个月</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">3-6 months</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">3-6 months</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">6-12 months</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
 
-          {/* 推荐工具组合 */}
+          {/* Recommended Tool Packages */}
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-primary-200">
               <div className="text-center mb-6">
@@ -708,8 +708,8 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">初创企业方案</h3>
-                <p className="text-gray-600 mt-2">适合50人以下团队</p>
+                <h3 className="text-xl font-bold text-gray-900">Startup Solution</h3>
+                <p className="text-gray-600 mt-2">Suitable for teams under 50 people</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -717,31 +717,31 @@ export default function salesautomationPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  轻量级CRM系统
+                  Lightweight CRM system
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  基础自动化跟进
+                  Basic automated follow-up
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  简单数据分析
+                  Simple data analytics
                 </li>
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-600 mb-2">¥299/月</div>
-                <p className="text-sm text-gray-600">每用户每月</p>
+                <div className="text-2xl font-bold text-primary-600 mb-2">$39/month</div>
+                <p className="text-sm text-gray-600">Per user per month</p>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-200 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">推荐</span>
+                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Recommended</span>
               </div>
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -749,8 +749,8 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">成长企业方案</h3>
-                <p className="text-gray-600 mt-2">适合50-500人团队</p>
+                <h3 className="text-xl font-bold text-gray-900">Growth Enterprise Solution</h3>
+                <p className="text-gray-600 mt-2">Suitable for 50-500 person teams</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -758,31 +758,31 @@ export default function salesautomationPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI智能销售助手
+                  AI intelligent sales assistant
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  高级数据分析
+                  Advanced data analytics
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  多系统集成
+                  Multi-system integration
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  个性化定制
+                  Personalized customization
                 </li>
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-green-600 mb-2">¥599/月</div>
-                <p className="text-sm text-gray-600">每用户每月</p>
+                <div className="text-2xl font-bold text-green-600 mb-2">$79/month</div>
+                <p className="text-sm text-gray-600">Per user per month</p>
               </div>
             </div>
 
@@ -793,8 +793,8 @@ export default function salesautomationPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">企业级方案</h3>
-                <p className="text-gray-600 mt-2">适合500人以上团队</p>
+                <h3 className="text-xl font-bold text-gray-900">Enterprise Solution</h3>
+                <p className="text-gray-600 mt-2">Suitable for teams over 500 people</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -802,31 +802,31 @@ export default function salesautomationPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  全功能AI平台
+                  Full-featured AI platform
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  私有化部署
+                  Private deployment
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  专属技术支持
+                  Dedicated technical support
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  定制化开发
+                  Custom development
                 </li>
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-purple-600 mb-2">定制报价</div>
-                <p className="text-sm text-gray-600">根据需求定制</p>
+                <div className="text-2xl font-bold text-purple-600 mb-2">Custom Pricing</div>
+                <p className="text-sm text-gray-600">Customized based on requirements</p>
               </div>
             </div>
           </div>
@@ -837,23 +837,23 @@ export default function salesautomationPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开始您的销售自动化之旅？
+            Ready to Start Your Sales Automation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            使用我们的ROI计算器，了解销售自动化系统能为您的企业带来多少价值
+            Use our ROI calculator to understand how much value a sales automation system can bring to your business
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
           </div>
         </div>

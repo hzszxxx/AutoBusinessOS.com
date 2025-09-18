@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '运营自动化平台 - 库存管理、供应链优化、数据分析 | AutoBusinessOS',
-  description: '专业的运营解决方案，库存管理、供应链优化、数据分析。提升40%运营效率，助力企业实现数字化转型。',
-  keywords: 'operations automation, 运营自动化, 库存管理, 供应链优化',
+  title: 'Operations Automation Platform - Inventory Management, Supply Chain Optimization & Data Analytics | AutoBusinessOS',
+  description: 'Professional operations solutions featuring inventory management, supply chain optimization, and data analytics. Improve 40% operational efficiency and drive digital transformation.',
+  keywords: 'operations automation, inventory management, supply chain optimization, workflow automation',
 }
 
 export default function operationsautomationPage() {
@@ -16,44 +16,44 @@ export default function operationsautomationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              运营自动化平台
-              <span className="block text-yellow-300">库存管理、供应链优化、数据分析</span>
+              Operations Automation Platform
+              <span className="block text-yellow-300">Inventory Management, Supply Chain Optimization & Data Analytics</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专业的运营自动化平台解决方案，帮助企业实现高效、智能的业务流程管理。提升40%运营效率，提升整体运营效率。
+              Professional operations automation platform solutions that help enterprises achieve efficient and intelligent business process management. Improve 40% operational efficiency and enhance overall operational performance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#features"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解功能详情
+                View Features
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 痛点分析区域 */}
+      {/* Pain Point Analysis Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">运营管理痛点分析</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Operations Management Pain Point Analysis</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              传统运营管理模式面临效率低下、成本高昂、决策滞后等严峻挑战
+              Traditional operations management faces severe challenges including low efficiency, high costs, and delayed decision-making
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-red-500 text-4xl mb-4">📦</div>
-              <h3 className="text-xl font-semibold mb-3">库存管理混乱</h3>
+              <h3 className="text-xl font-semibold mb-3">Chaotic Inventory Management</h3>
               <p className="text-gray-600">
                 缺乏实时库存监控，库存积压和缺货现象严重，资金占用率高达30%，
                 库存周转率低，影响企业资金流和运营效率。
@@ -62,7 +62,7 @@ export default function operationsautomationPage() {
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-orange-500 text-4xl mb-4">🚚</div>
-              <h3 className="text-xl font-semibold mb-3">供应链不透明</h3>
+              <h3 className="text-xl font-semibold mb-3">Opaque Supply Chain</h3>
               <p className="text-gray-600">
                 供应链信息孤岛严重，缺乏端到端可视化管理，供应商协调困难，
                 平均交付延期率达25%，客户满意度下降。
@@ -71,7 +71,7 @@ export default function operationsautomationPage() {
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-blue-500 text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-semibold mb-3">数据分析滞后</h3>
+              <h3 className="text-xl font-semibold mb-3">Delayed Data Analysis</h3>
               <p className="text-gray-600">
                 缺乏实时数据分析能力，运营决策依赖经验判断，市场响应速度慢，
                 错失业务机遇，竞争优势逐渐丧失。
@@ -80,7 +80,7 @@ export default function operationsautomationPage() {
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-purple-500 text-4xl mb-4">⚙️</div>
-              <h3 className="text-xl font-semibold mb-3">流程标准化差</h3>
+              <h3 className="text-xl font-semibold mb-3">Poor Process Standardization</h3>
               <p className="text-gray-600">
                 业务流程不规范，依赖人工经验，标准化程度低，
                 运营成本居高不下，质量控制困难。
@@ -90,21 +90,21 @@ export default function operationsautomationPage() {
         </div>
       </section>
 
-      {/* 功能特性详解 */}
+      {/* Feature Details */}
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">功能特性详解</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Feature Details</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全方位运营自动化解决方案，从库存管理到数据分析，提升企业运营效率和竞争力
+              Comprehensive operations automation solutions, from inventory management to data analytics, improving enterprise operational efficiency and competitiveness
             </p>
           </div>
 
           <div className="space-y-16">
-            {/* 智能库存管理 */}
+            {/* Smart Inventory Management */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">智能库存管理系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Inventory Management System</h3>
                 <p className="text-gray-600 mb-6">
                   基于AI预测算法的智能库存管理系统，实现库存水位自动优化和智能补货。
                   支持多仓库、多SKU管理，提供实时库存监控和预警功能。
@@ -134,7 +134,7 @@ export default function operationsautomationPage() {
               </div>
             </div>
 
-            {/* 供应链协同平台 */}
+            {/* Supply Chain Collaboration Platform */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
@@ -145,7 +145,7 @@ export default function operationsautomationPage() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">供应链协同平台</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Supply Chain Collaboration Platform</h3>
                 <p className="text-gray-600 mb-6">
                   端到端供应链可视化管理平台，实现供应商、制造商、分销商的无缝协同。
                   提供实时物流跟踪、供应商绩效管理和风险预警功能。
@@ -167,10 +167,10 @@ export default function operationsautomationPage() {
               </div>
             </div>
 
-            {/* 运营数据分析 */}
+            {/* Operations Data Analytics */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">运营数据分析中心</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Operations Data Analytics Center</h3>
                 <p className="text-gray-600 mb-6">
                   集成多源数据的运营分析平台，提供实时运营监控和智能分析报告。
                   支持自定义KPI指标和可视化看板，帮助管理者快速决策。
@@ -200,7 +200,7 @@ export default function operationsautomationPage() {
               </div>
             </div>
 
-            {/* 质量管理系统 */}
+            {/* Quality Management System */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
@@ -211,7 +211,7 @@ export default function operationsautomationPage() {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">智能质量管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Quality Management</h3>
                 <p className="text-gray-600 mb-6">
                   基于统计过程控制的智能质量管理系统，实现全流程质量监控和预警。
                   支持质量追溯、不合格品管理和持续改进闭环管理。
@@ -236,13 +236,13 @@ export default function operationsautomationPage() {
         </div>
       </section>
 
-      {/* 应用场景案例 */}
+      {/* Application Case Studies */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">应用场景案例</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Application Case Studies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示运营自动化平台的显著成效和价值创造
+              Real customer cases demonstrating the significant benefits and value creation of operations automation platforms
             </p>
           </div>
 
@@ -395,13 +395,13 @@ export default function operationsautomationPage() {
         </div>
       </section>
 
-      {/* 实施方法论 */}
+      {/* Implementation Methodology */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">实施方法论</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Implementation Methodology</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于精益运营理念的五步实施方法论，确保运营自动化项目成功落地并持续优化
+              Five-step implementation methodology based on lean operations principles, ensuring successful deployment and continuous optimization of operations automation projects
             </p>
           </div>
 
@@ -480,13 +480,13 @@ export default function operationsautomationPage() {
         </div>
       </section>
 
-      {/* 工具推荐比较 */}
+      {/* Tool Comparison */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">主流运营自动化工具对比</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Mainstream Operations Automation Tool Comparison</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              综合评估主流运营管理系统，帮助您选择最适合的数字化转型方案
+              Comprehensive evaluation of mainstream operations management systems to help you choose the most suitable digital transformation solution
             </p>
           </div>
 
@@ -574,23 +574,23 @@ export default function operationsautomationPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开始您的运营自动化之旅？
+            Ready to Start Your Operations Automation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            使用我们的ROI计算器，了解运营自动化平台能为您的企业带来多少价值
+            Use our ROI calculator to understand how much value an operations automation platform can bring to your enterprise
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
           </div>
         </div>

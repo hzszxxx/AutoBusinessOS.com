@@ -7,11 +7,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navigation = [
-    { name: '解决方案', href: '/solutions', hasDropdown: true },
-    { name: '行业案例', href: '/industries' },
-    { name: '工具', href: '/tools' },
-    { name: '资源', href: '/resources' },
-    { name: '关于我们', href: '/about' },
+    { name: 'Solutions', href: '/solutions', hasDropdown: true },
+    { name: 'Industries', href: '/industries' },
+    { name: 'Tools', href: '/tools' },
+    { name: 'Resources', href: '/resources' },
+    { name: 'About', href: '/about' },
   ]
 
   return (
@@ -45,7 +45,7 @@ export default function Header() {
               href="/tools/roi-calculator"
               className="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200"
             >
-              免费ROI计算
+Free ROI Calculator
             </Link>
           </div>
 
@@ -55,7 +55,7 @@ export default function Header() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary-500 p-2"
             >
-              <span className="sr-only">打开主菜单</span>
+              <span className="sr-only">Open main menu</span>
               {!isMenuOpen ? (
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -88,7 +88,7 @@ export default function Header() {
                 className="bg-primary-600 hover:bg-primary-700 text-white block px-3 py-2 rounded-lg text-base font-medium mt-4"
                 onClick={() => setIsMenuOpen(false)}
               >
-                免费ROI计算
+  Free ROI Calculator
               </Link>
             </div>
           </div>

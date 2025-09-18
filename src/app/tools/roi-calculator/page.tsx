@@ -4,9 +4,9 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'ROI计算器 - 3分钟计算自动化投资回报率 | AutoBusinessOS',
-  description: '免费的企业自动化ROI计算器，3分钟快速计算投资回报率、成本节省和回收期。专业的自动化投资分析工具，帮助企业做出明智决策。',
-  keywords: 'ROI计算器, 投资回报率, 自动化ROI, 成本节省计算, 投资分析工具, 企业自动化评估',
+  title: 'ROI Calculator - Calculate Automation Return on Investment in 3 Minutes | AutoBusinessOS',
+  description: 'Free enterprise automation ROI calculator. Calculate return on investment, cost savings, and payback period in 3 minutes. Professional automation investment analysis tool to help businesses make informed decisions.',
+  keywords: 'ROI calculator, return on investment, automation ROI, cost savings calculator, investment analysis tool, enterprise automation assessment',
 }
 
 export default function ROICalculatorPage() {
@@ -17,27 +17,27 @@ export default function ROICalculatorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              自动化ROI计算器
+              Automation ROI Calculator
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              3分钟快速计算企业自动化投资回报率，了解自动化能为您的企业带来多少价值
+              Calculate your enterprise automation ROI in 3 minutes and discover how much value automation can bring to your business
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-600">
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
-                专业ROI算法
+                Professional ROI Algorithm
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
-                实时成本分析
+                Real-time Cost Analysis
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-purple-400 rounded-full mr-2"></span>
-                详细投资建议
+                Detailed Investment Recommendations
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-                免费详细报告
+                Free Detailed Report
               </div>
             </div>
           </div>
@@ -52,10 +52,10 @@ export default function ROICalculatorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              为什么需要计算自动化ROI？
+              Why Calculate Automation ROI?
             </h2>
             <p className="text-xl text-gray-600">
-              数据驱动决策，让每一分投资都物有所值
+              Make data-driven decisions and ensure every investment delivers value
             </p>
           </div>
 
@@ -64,9 +64,9 @@ export default function ROICalculatorPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">精确成本评估</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Precise Cost Assessment</h3>
               <p className="text-gray-600">
-                准确计算实施成本、人力节省、错误减少等各项收益，为投资决策提供科学依据
+                Accurately calculate implementation costs, labor savings, error reduction, and other benefits to provide scientific basis for investment decisions
               </p>
             </div>
 
@@ -74,9 +74,9 @@ export default function ROICalculatorPage() {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">📊</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">风险控制</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Risk Control</h3>
               <p className="text-gray-600">
-                提前了解投资回收期和潜在风险，避免盲目投资，确保项目成功实施
+                Understand payback period and potential risks in advance, avoid blind investment, and ensure successful project implementation
               </p>
             </div>
 
@@ -84,9 +84,9 @@ export default function ROICalculatorPage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎯</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">优化方案</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Solution Optimization</h3>
               <p className="text-gray-600">
-                基于ROI分析结果，优化自动化实施方案，确保获得最大投资回报
+                Optimize automation implementation plans based on ROI analysis results to ensure maximum return on investment
               </p>
             </div>
           </div>
@@ -98,80 +98,80 @@ export default function ROICalculatorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ROI计算方法论
+              ROI Calculation Methodology
             </h2>
             <p className="text-xl text-gray-600">
-              基于行业最佳实践的专业计算模型
+              Professional calculation model based on industry best practices
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">计算公式</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Calculation Formula</h3>
 
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h4 className="font-semibold text-gray-900 mb-2">年度节省成本</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">Annual Cost Savings</h4>
                   <div className="text-sm text-gray-600 space-y-1">
-                    <div>人力成本节省 = 员工成本 × 可自动化时间 × 效率提升比例</div>
-                    <div>错误成本减少 = 营收 × 错误率 × 错误影响系数</div>
-                    <div><strong>总节省 = 人力节省 + 错误减少</strong></div>
+                    <div>Labor Cost Savings = Employee Cost × Automatable Time × Efficiency Improvement</div>
+                    <div>Error Cost Reduction = Revenue × Error Rate × Error Impact Factor</div>
+                    <div><strong>Total Savings = Labor Savings + Error Reduction</strong></div>
                   </div>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h4 className="font-semibold text-gray-900 mb-2">投资回报率</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">Return on Investment</h4>
                   <div className="text-sm text-gray-600">
-                    <div className="mb-2">实施成本 = 营收 × 3% (最低3万元)</div>
-                    <div><strong>ROI = (年度节省 - 实施成本) ÷ 实施成本 × 100%</strong></div>
+                    <div className="mb-2">Implementation Cost = Revenue × 3% (minimum $5,000)</div>
+                    <div><strong>ROI = (Annual Savings - Implementation Cost) ÷ Implementation Cost × 100%</strong></div>
                   </div>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h4 className="font-semibold text-gray-900 mb-2">投资回收期</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">Payback Period</h4>
                   <div className="text-sm text-gray-600">
-                    <strong>回收期 = 实施成本 ÷ 月度节省成本</strong>
+                    <strong>Payback Period = Implementation Cost ÷ Monthly Savings</strong>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">关键参数说明</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Parameter Explanations</h3>
 
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-medium text-gray-900 mb-2">🏢 年营收</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">🏢 Annual Revenue</h4>
                   <p className="text-sm text-gray-600">
-                    公司年度总营业收入，影响错误成本计算和实施投入规模
+                    Company's total annual revenue, affecting error cost calculation and implementation investment scale
                   </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-medium text-gray-900 mb-2">👥 人力成本</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">👥 Labor Costs</h4>
                   <p className="text-sm text-gray-600">
-                    涉及自动化流程的员工年度薪酬总成本，包括工资、社保、福利等
+                    Total annual compensation cost of employees involved in automation processes, including salary, benefits, and overhead
                   </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-medium text-gray-900 mb-2">⏰ 处理时间占比</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">⏰ Time Allocation</h4>
                   <p className="text-sm text-gray-600">
-                    员工用于可自动化工作的时间占比，通常在40-80%之间
+                    Percentage of employee time spent on automatable work, typically between 40-80%
                   </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-medium text-gray-900 mb-2">❌ 人为错误率</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">❌ Human Error Rate</h4>
                   <p className="text-sm text-gray-600">
-                    人工操作的错误频率，自动化可显著降低错误率并减少相关损失
+                    Frequency of errors in manual operations. Automation can significantly reduce error rates and related losses
                   </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-medium text-gray-900 mb-2">📈 效率提升预期</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">📈 Efficiency Improvement</h4>
                   <p className="text-sm text-gray-600">
-                    基于行业平均水平，大多数企业可实现60-80%的效率提升
+                    Based on industry averages, most enterprises can achieve 60-80% efficiency improvements
                   </p>
                 </div>
               </div>
@@ -185,40 +185,40 @@ export default function ROICalculatorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              行业ROI基准数据
+              Industry ROI Benchmarks
             </h2>
             <p className="text-xl text-gray-600">
-              了解不同行业的自动化投资回报表现
+              Understand automation ROI performance across different industries
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                industry: '制造业',
+                industry: 'Manufacturing',
                 avgROI: '180%',
-                payback: '8个月',
+                payback: '8 months',
                 efficiency: '75%',
                 color: 'blue'
               },
               {
-                industry: '金融服务',
+                industry: 'Financial Services',
                 avgROI: '220%',
-                payback: '6个月',
+                payback: '6 months',
                 efficiency: '85%',
                 color: 'green'
               },
               {
-                industry: '电商零售',
+                industry: 'E-commerce Retail',
                 avgROI: '150%',
-                payback: '10个月',
+                payback: '10 months',
                 efficiency: '70%',
                 color: 'purple'
               },
               {
-                industry: 'SaaS科技',
+                industry: 'SaaS Technology',
                 avgROI: '300%',
-                payback: '5个月',
+                payback: '5 months',
                 efficiency: '90%',
                 color: 'orange'
               }
@@ -228,15 +228,15 @@ export default function ROICalculatorPage() {
                 <div className="space-y-3">
                   <div>
                     <div className="text-2xl font-bold text-primary-600">{item.avgROI}</div>
-                    <div className="text-xs text-gray-600">平均ROI</div>
+                    <div className="text-xs text-gray-600">Average ROI</div>
                   </div>
                   <div>
                     <div className="text-lg font-semibold text-gray-900">{item.payback}</div>
-                    <div className="text-xs text-gray-600">回收期</div>
+                    <div className="text-xs text-gray-600">Payback Period</div>
                   </div>
                   <div>
                     <div className="text-lg font-semibold text-gray-900">{item.efficiency}</div>
-                    <div className="text-xs text-gray-600">效率提升</div>
+                    <div className="text-xs text-gray-600">Efficiency Gain</div>
                   </div>
                 </div>
               </div>
@@ -245,7 +245,7 @@ export default function ROICalculatorPage() {
 
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-500">
-              * 数据来源于AutoBusinessOS服务的1000+企业客户实际实施效果
+              * Data based on actual implementation results from 1000+ enterprise clients served by AutoBusinessOS
             </p>
           </div>
         </div>
@@ -255,34 +255,34 @@ export default function ROICalculatorPage() {
       <section className="py-16 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            计算完ROI，接下来该怎么做？
+            After Calculating ROI, What's Next?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            我们的专家团队将为您提供个性化的自动化实施建议
+            Our expert team will provide you with personalized automation implementation recommendations
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">📋</div>
-              <h3 className="font-semibold mb-2">需求分析</h3>
+              <h3 className="font-semibold mb-2">Requirements Analysis</h3>
               <p className="text-sm text-primary-100">
-                专业顾问一对一分析您的具体需求和业务流程
+                Professional consultants provide one-on-one analysis of your specific needs and business processes
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">🛠️</div>
-              <h3 className="font-semibold mb-2">方案设计</h3>
+              <h3 className="font-semibold mb-2">Solution Design</h3>
               <p className="text-sm text-primary-100">
-                量身定制自动化解决方案和实施路线图
+                Customized automation solutions and implementation roadmaps tailored to your needs
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">🚀</div>
-              <h3 className="font-semibold mb-2">实施落地</h3>
+              <h3 className="font-semibold mb-2">Implementation</h3>
               <p className="text-sm text-primary-100">
-                专业团队全程支持，确保项目成功实施
+                Professional team provides full support to ensure successful project implementation
               </p>
             </div>
           </div>
@@ -292,13 +292,13 @@ export default function ROICalculatorPage() {
               href="/contact"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
             <Link
               href="/solutions"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              查看解决方案
+              View Solutions
             </Link>
           </div>
         </div>
@@ -309,30 +309,30 @@ export default function ROICalculatorPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              常见问题
+              Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
-              关于ROI计算的常见疑问解答
+              Common questions and answers about ROI calculations
             </p>
           </div>
 
           <div className="space-y-6">
             {[
               {
-                question: 'ROI计算结果的准确性如何？',
-                answer: '我们的计算模型基于1000+企业的实际实施数据，准确率达85%以上。但实际效果还会受到企业规模、实施质量、员工配合度等因素影响，建议将计算结果作为参考依据。'
+                question: 'How accurate are the ROI calculation results?',
+                answer: 'Our calculation model is based on actual implementation data from 1000+ enterprises, with an accuracy rate of over 85%. However, actual results may be affected by factors such as company size, implementation quality, and employee cooperation. We recommend using the calculation results as a reference.'
               },
               {
-                question: '什么情况下不建议投资自动化？',
-                answer: '当ROI低于50%、回收期超过3年，或企业当前面临重大变革时，建议暂缓自动化投资。建议先优化现有流程，或考虑部分自动化试点。'
+                question: 'When is automation investment not recommended?',
+                answer: 'When ROI is below 50%, payback period exceeds 3 years, or the company is currently facing major changes, we recommend postponing automation investment. Consider optimizing existing processes first or implementing partial automation pilots.'
               },
               {
-                question: '如何提高自动化项目的成功率？',
-                answer: '关键因素包括：明确的目标设定、高层支持、员工培训、分阶段实施、持续优化。我们建议采用敏捷实施方法，从小范围试点开始逐步扩展。'
+                question: 'How to improve the success rate of automation projects?',
+                answer: 'Key factors include: clear goal setting, top-level support, employee training, phased implementation, and continuous optimization. We recommend using agile implementation methods, starting with small-scale pilots and gradually expanding.'
               },
               {
-                question: '计算中的实施成本是否包含所有费用？',
-                answer: '我们的估算包含软件许可、实施服务、培训成本等主要费用，但不包含硬件采购、长期维护等。详细的成本分析需要根据具体方案进行评估。'
+                question: 'Does the implementation cost include all expenses?',
+                answer: 'Our estimate includes major costs such as software licensing, implementation services, and training costs, but does not include hardware purchases and long-term maintenance. Detailed cost analysis needs to be evaluated based on specific solutions.'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">

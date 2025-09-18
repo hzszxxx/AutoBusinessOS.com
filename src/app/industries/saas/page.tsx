@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'SaaS企业自动化系统 - 用户激活、客户成功、销售流程自动化 | AutoBusinessOS',
-  description: '专业的SaaS企业自动化解决方案，用户激活、客户成功、销售流程全面自动化。增加200%用户，提升80%续费率，助力SaaS企业快速增长。',
-  keywords: 'SaaS自动化, 软件企业自动化, SaaS运营自动化, 用户激活自动化, 客户成功自动化, SaaS销售自动化',
+  title: 'SaaS Business Automation Systems - User Activation, Customer Success & Sales Process Automation | AutoBusinessOS',
+  description: 'Professional SaaS business automation solutions covering user activation, customer success, and sales processes. Increase users by 200%, improve renewal rates by 80%, and accelerate SaaS company growth.',
+  keywords: 'SaaS automation, software company automation, SaaS operations automation, user activation automation, customer success automation, SaaS sales automation',
 }
 
 export default function SaasPage() {
@@ -16,24 +16,24 @@ export default function SaasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              SaaS企业自动化系统
-              <span className="block text-yellow-300">用户激活、客户成功、销售流程全面自动化</span>
+              SaaS Business Automation Systems
+              <span className="block text-yellow-300">Complete User Activation, Customer Success & Sales Process Automation</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专为SaaS企业打造的智能自动化平台，从用户获取到续费留存全生命周期优化。帮助SaaS企业增加200%活跃用户，提升80%续费率，实现高质量持续增长。
+              Intelligent automation platform built specifically for SaaS companies, optimizing the entire lifecycle from user acquisition to renewal retention. Help SaaS companies increase active users by 200%, improve renewal rates by 80%, and achieve high-quality sustained growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解解决方案
+                View Solutions
               </Link>
             </div>
           </div>

@@ -1,32 +1,70 @@
 import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
+import { FAQDisplay } from '@/components/SEO/FAQSchema'
+import PageEngagement from '@/components/Analytics/PageEngagement'
+import { InContentAd, ResponsiveAd } from '@/components/Ads/GoogleAdSense'
 
 export default function Home() {
+  const faqItems = [
+    {
+      question: "What is AutoBusinessOS?",
+      answer: "AutoBusinessOS is an enterprise automation platform that transforms how businesses operate. Our AI-powered solutions streamline your entire workflow—from marketing and sales to customer service and finance—delivering measurable efficiency gains of 80% or more."
+    },
+    {
+      question: "What ROI can I expect from AutoBusinessOS?",
+      answer: "Our clients typically see: 80% boost in operational efficiency, 60% reduction in labor costs, 90% improvement in customer satisfaction, and 70% faster process completion. Beyond the numbers, you'll eliminate human errors, improve data accuracy, and empower your team to focus on strategic, high-value initiatives."
+    },
+    {
+      question: "How quickly can we get started and see results?",
+      answer: "Implementation typically takes 2-8 weeks depending on your organization's size and complexity. Most clients see significant returns within 3-6 months, with average ROI exceeding 300%. Use our ROI calculator to get a personalized estimate for your business."
+    },
+    {
+      question: "Is AutoBusinessOS right for my industry and company size?",
+      answer: "AutoBusinessOS scales with businesses of all sizes—from 50-person startups to 5,000+ enterprises. We have proven success across e-commerce, SaaS, manufacturing, healthcare, consulting, and financial services. Our modular approach adapts to your specific industry needs and growth trajectory."
+    },
+    {
+      question: "Do we need technical expertise to implement AutoBusinessOS?",
+      answer: "Not at all. Our intuitive, visual interface is designed for business users—no coding required. We provide comprehensive onboarding, training, and ongoing support to ensure your team maximizes the platform's potential from day one."
+    },
+    {
+      question: "How secure is our data with AutoBusinessOS?",
+      answer: "Security is our top priority. We maintain enterprise-grade protection with end-to-end encryption, multi-factor authentication, and comprehensive audit trails. Our platform is ISO27001 and SOC2 certified, meeting the highest international security standards for enterprise data protection."
+    }
+  ];
+
   return (
     <Layout>
+      <PageEngagement 
+        pagePath="/" 
+        estimatedValue={50}
+        trackScroll={true}
+        trackTime={true}
+        scrollThreshold={75}
+        timeThreshold={300}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              革命性的<span className="text-yellow-300">自动化</span>
-              <br />商业操作系统
+              The Future of <span className="text-yellow-300">Business</span>
+              <br />Automation is Here
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto">
-              让企业业务流程100%自动化运行，提升效率80%，降低成本60%，释放团队创造力
+              Transform your business with intelligent automation. Drive 80% efficiency gains, cut costs by 60%, and empower your team to focus on what matters most.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
               >
-                免费计算ROI →
+                Get Your ROI Report →
               </Link>
               <Link
                 href="/solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block"
               >
-                查看解决方案
+                Explore Solutions
               </Link>
             </div>
           </div>
@@ -38,56 +76,56 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              全方位自动化解决方案
+              End-to-End Business Automation
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              覆盖企业运营的每个环节，从营销获客到客户服务，从销售管理到财务分析
+              Streamline every aspect of your business operations—from lead generation and sales to customer success and financial reporting
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: '营销自动化',
-                description: '智能线索培育、邮件营销、社交媒体管理',
+                title: 'Marketing Automation',
+                description: 'Intelligent lead nurturing, omnichannel campaigns, and performance analytics',
                 icon: '📊',
                 href: '/solutions/marketing-automation',
-                stats: '提升80%营销效率'
+                stats: '80% higher marketing ROI'
               },
               {
-                title: '销售自动化',
-                description: 'CRM集成、销售流程优化、客户跟进自动化',
+                title: 'Sales Automation',
+                description: 'Streamlined CRM workflows, predictive analytics, and automated follow-ups',
                 icon: '💼',
                 href: '/solutions/sales-automation',
-                stats: '增加60%销售转化'
+                stats: '60% boost in conversions'
               },
               {
-                title: '客服自动化',
-                description: '智能客服机器人、工单系统、知识库管理',
+                title: 'Customer Success',
+                description: 'AI-powered support, smart routing, and self-service solutions',
                 icon: '🎧',
                 href: '/solutions/customer-service-automation',
-                stats: '降低70%响应时间'
+                stats: '70% faster resolution'
               },
               {
-                title: '财务自动化',
-                description: '发票处理、费用管理、财务报表生成',
+                title: 'Financial Operations',
+                description: 'Automated invoicing, expense tracking, and real-time reporting',
                 icon: '💰',
                 href: '/solutions/finance-automation',
-                stats: '减少90%手工录入'
+                stats: '90% less manual work'
               },
               {
-                title: 'HR自动化',
-                description: '招聘流程、员工管理、绩效评估自动化',
+                title: 'Human Resources',
+                description: 'Streamlined recruiting, employee onboarding, and performance management',
                 icon: '👥',
                 href: '/solutions/hr-automation',
-                stats: '节省50%HR工作量'
+                stats: '50% faster hiring'
               },
               {
-                title: '运营自动化',
-                description: '库存管理、供应链优化、数据分析',
+                title: 'Operations Management',
+                description: 'Smart inventory control, supply chain optimization, and business intelligence',
                 icon: '⚙️',
                 href: '/solutions/operations-automation',
-                stats: '提升40%运营效率'
+                stats: '40% operational gains'
               }
             ].map((solution) => (
               <Link
@@ -107,20 +145,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ad Space 1 - Between Solutions and ROI Calculator */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center">
+            <ResponsiveAd adSlot="1234567890" />
+          </div>
+        </div>
+      </section>
+
       {/* ROI Calculator CTA */}
       <section className="py-20 bg-gradient-to-r from-gray-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            计算您的自动化投资回报率
+            Discover Your Automation Potential
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            使用我们的专业ROI计算器，3分钟了解自动化能为您的企业带来多少价值
+            Get a personalized ROI analysis in under 3 minutes. See exactly how automation will impact your bottom line.
           </p>
           <Link
             href="/tools/roi-calculator"
             className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
           >
-            立即免费计算 →
+            Start Your Analysis →
           </Link>
         </div>
       </section>
@@ -130,19 +177,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              成功案例与行业应用
+              Proven Results Across Industries
             </h2>
             <p className="text-xl text-gray-600">
-              看看其他企业如何通过自动化实现业务增长
+              Join thousands of companies transforming their operations with AutoBusinessOS
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: '电商零售', href: '/industries/ecommerce', growth: '+150%销量' },
-              { name: 'SaaS企业', href: '/industries/saas', growth: '+200%用户' },
-              { name: '制造业', href: '/industries/manufacturing', growth: '+80%效率' },
-              { name: '医疗健康', href: '/industries/healthcare', growth: '+90%满意度' }
+              { name: 'E-commerce', href: '/industries/ecommerce', growth: '+150% Revenue' },
+              { name: 'SaaS', href: '/industries/saas', growth: '+200% Growth' },
+              { name: 'Manufacturing', href: '/industries/manufacturing', growth: '+80% Output' },
+              { name: 'Healthcare', href: '/industries/healthcare', growth: '+90% Patient Satisfaction' }
             ].map((industry) => (
               <Link
                 key={industry.name}
@@ -156,6 +203,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Ad Space 2 - Before FAQ Section */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center">
+            <InContentAd />
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <FAQDisplay faqItems={faqItems} />
     </Layout>
   )
 }

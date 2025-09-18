@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'HR自动化管理系统 - 招聘流程、员工管理、绩效评估自动化 | AutoBusinessOS',
-  description: '专业的HR解决方案，招聘流程、员工管理、绩效评估自动化。节省50%HR工作量，助力企业实现数字化转型。',
-  keywords: 'HR automation, 人力资源自动化, 招聘自动化, 员工管理系统',
+  title: 'HR Automation Management System - Recruitment Process, Employee Management & Performance Evaluation Automation | AutoBusinessOS',
+  description: 'Professional HR solutions featuring recruitment automation, employee lifecycle management, and performance evaluation. Reduce 50% HR workload and drive digital transformation.',
+  keywords: 'HR automation, human resources automation, recruitment automation, employee management system',
 }
 
 export default function hrautomationPage() {
@@ -16,24 +16,24 @@ export default function hrautomationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              HR自动化管理系统
-              <span className="block text-yellow-300">招聘流程、员工管理、绩效评估自动化</span>
+              HR Automation Management System
+              <span className="block text-yellow-300">Recruitment Process, Employee Management & Performance Evaluation Automation</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专业的HR自动化管理系统解决方案，帮助企业实现高效、智能的业务流程管理。节省50%HR工作量，提升整体运营效率。
+              Professional HR automation management system solutions that help enterprises achieve efficient and intelligent business process management. Reduce 50% HR workload and improve overall operational efficiency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#features"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解功能详情
+                View Features
               </Link>
             </div>
           </div>
@@ -80,31 +80,31 @@ export default function hrautomationPage() {
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-purple-500 text-4xl mb-4">⚡</div>
-              <h3 className="text-xl font-semibold mb-3">HR工作重复</h3>
+              <h3 className="text-xl font-semibold mb-3">Repetitive HR Work</h3>
               <p className="text-gray-600">
-                大量重复性事务工作占用HR人员70%时间，
-                无法专注于人才发展和组织建设等战略性工作。
+                Large amounts of repetitive administrative work occupy 70% of HR personnel time,
+                unable to focus on strategic work such as talent development and organizational building.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 功能特性详解 */}
+      {/* Feature Details */}
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">功能特性详解</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Feature Details</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全生命周期HR自动化解决方案，从招聘到离职，提供智能化人力资源管理体验
+              Complete lifecycle HR automation solutions, from recruitment to departure, providing intelligent human resource management experience
             </p>
           </div>
 
           <div className="space-y-16">
-            {/* 智能招聘系统 */}
+            {/* Smart Recruitment System */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">智能招聘系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Recruitment System</h3>
                 <p className="text-gray-600 mb-6">
                   基于AI技术的智能简历筛选和候选人匹配系统，自动化面试安排和跟进流程。
                   支持多渠道简历收集，智能推荐最匹配候选人，大幅提升招聘效率。

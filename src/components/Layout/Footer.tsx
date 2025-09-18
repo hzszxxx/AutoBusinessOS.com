@@ -1,32 +1,33 @@
 import Link from 'next/link'
+import NewsletterSignup from '@/components/Forms/NewsletterSignup'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const footerLinks = {
-    '解决方案': [
-      { name: '营销自动化', href: '/solutions/marketing-automation' },
-      { name: '销售自动化', href: '/solutions/sales-automation' },
-      { name: '客服自动化', href: '/solutions/customer-service-automation' },
-      { name: '财务自动化', href: '/solutions/finance-automation' },
+    'Solutions': [
+      { name: 'Marketing Automation', href: '/solutions/marketing-automation' },
+      { name: 'Sales Automation', href: '/solutions/sales-automation' },
+      { name: 'Customer Service Automation', href: '/solutions/customer-service-automation' },
+      { name: 'Finance Automation', href: '/solutions/finance-automation' },
     ],
-    '行业案例': [
-      { name: '电商行业', href: '/industries/ecommerce' },
-      { name: 'SaaS企业', href: '/industries/saas' },
-      { name: '制造业', href: '/industries/manufacturing' },
-      { name: '医疗健康', href: '/industries/healthcare' },
+    'Industries': [
+      { name: 'E-commerce', href: '/industries/ecommerce' },
+      { name: 'SaaS', href: '/industries/saas' },
+      { name: 'Manufacturing', href: '/industries/manufacturing' },
+      { name: 'Healthcare', href: '/industries/healthcare' },
     ],
-    '资源中心': [
-      { name: 'ROI计算器', href: '/tools/roi-calculator' },
-      { name: '自动化指南', href: '/resources/guides' },
-      { name: '案例研究', href: '/resources/case-studies' },
-      { name: '模板下载', href: '/resources/templates' },
+    'Resources': [
+      { name: 'ROI Calculator', href: '/tools/roi-calculator' },
+      { name: 'Automation Guides', href: '/resources/guides' },
+      { name: 'Case Studies', href: '/resources/case-studies' },
+      { name: 'Templates', href: '/resources/templates' },
     ],
-    '公司信息': [
-      { name: '关于我们', href: '/about' },
-      { name: '联系我们', href: '/contact' },
-      { name: '隐私政策', href: '/privacy' },
-      { name: '服务条款', href: '/terms' },
+    'Company': [
+      { name: 'About Us', href: '/about' },
+      { name: 'Contact', href: '/contact' },
+      { name: 'Privacy Policy', href: '/privacy' },
+      { name: 'Terms of Service', href: '/terms' },
     ],
   }
 
@@ -58,28 +59,10 @@ export default function Footer() {
 
         {/* Newsletter Signup */}
         <div className="mt-8 pt-8 border-t border-gray-800">
-          <div className="md:flex md:items-center md:justify-between">
-            <div className="md:w-1/2">
-              <h3 className="text-white text-lg font-semibold mb-2">
-                获取最新的自动化资讯
-              </h3>
-              <p className="text-gray-400 text-sm">
-                订阅我们的邮件，第一时间了解企业自动化趋势和最佳实践。
-              </p>
-            </div>
-            <div className="mt-4 md:mt-0 md:w-1/2 md:ml-8">
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="输入您的邮箱地址"
-                  className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                />
-                <button className="bg-primary-600 hover:bg-primary-700 text-white px-6 py-2 rounded-r-lg transition-colors duration-200">
-                  订阅
-                </button>
-              </div>
-            </div>
-          </div>
+          <NewsletterSignup 
+            source="footer" 
+            className="text-white"
+          />
         </div>
 
         {/* Bottom Footer */}
@@ -93,7 +76,7 @@ export default function Footer() {
 
           <div className="mt-4 md:mt-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} AutoBusinessOS. 保留所有权利。
+              © {currentYear} AutoBusinessOS. All rights reserved.
             </p>
           </div>
         </div>

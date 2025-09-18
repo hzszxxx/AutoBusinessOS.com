@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '咨询服务自动化系统 - 项目管理、客户沟通、报告生成自动化 | AutoBusinessOS',
-  description: '专业的咨询服务自动化解决方案，项目管理、客户沟通、报告生成全面自动化。提升70%效率，增加50%利润率，助力咨询企业专业化发展。',
-  keywords: '咨询自动化, 专业服务自动化, 顾问自动化, 项目管理自动化, 客户沟通自动化, 报告生成自动化',
+  title: 'Professional Services Automation - Project Management, Client Communication, Report Generation | AutoBusinessOS',
+  description: 'Comprehensive consulting automation solutions for project management, client communication, and report generation. Boost efficiency by 70%, increase profit margins by 50%, and drive professional services digitalization.',
+  keywords: 'consulting automation, professional services automation, consultant automation, project management automation, client communication automation, report generation automation',
 }
 
 export default function ConsultingPage() {
@@ -16,39 +16,39 @@ export default function ConsultingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              咨询服务自动化系统
-              <span className="block text-yellow-300">项目管理、客户沟通、报告生成智能化</span>
+              Professional Services Automation
+              <span className="block text-yellow-300">Project Management, Client Communication & Report Generation</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专为咨询服务行业打造的智能自动化系统，覆盖项目管理、客户关系、知识管理、报告生成等全流程。帮助咨询企业提升70%工作效率，增加50%利润率，实现专业服务数字化升级。
+              Intelligent automation system designed specifically for consulting services, covering project management, client relationships, knowledge management, and report generation. Help consulting firms boost work efficiency by 70%, increase profit margins by 50%, and achieve professional services digital transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+Calculate ROI Free
               </Link>
               <Link
                 href="#solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解解决方案
+Explore Solutions
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 咨询行业痛点分析 */}
+      {/* Consulting Industry Pain Points Analysis */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              咨询服务行业面临的核心挑战
+              Core Challenges Facing Professional Services Firms
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              在数字化转型浪潮下，85%的咨询企业在业务运营和服务交付中面临以下关键痛点
+              In the digital transformation wave, 85% of consulting firms face these critical pain points in business operations and service delivery
             </p>
           </div>
 
@@ -59,11 +59,11 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">项目管理效率低下</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Inefficient Project Management</h3>
               <p className="text-gray-600 mb-4">
-                传统项目管理依赖Excel和邮件，协作效率低。项目进度跟踪困难，资源分配不合理，经常出现交付延期。多项目并行管理混乱，无法有效监控项目健康度和盈利能力。
+                Traditional project management relies on Excel and email, resulting in low collaboration efficiency. Difficult project progress tracking, unreasonable resource allocation, and frequent delivery delays. Chaotic multi-project parallel management with inability to effectively monitor project health and profitability.
               </p>
-              <div className="text-sm text-red-600 font-semibold">项目延期率：高达40%</div>
+              <div className="text-sm text-red-600 font-semibold">Project Delay Rate: Up to 40%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -72,11 +72,11 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">客户沟通缺乏系统性</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Lack of Systematic Client Communication</h3>
               <p className="text-gray-600 mb-4">
-                客户沟通分散在多个渠道，缺乏统一管理。客户需求变更处理不及时，沟通记录不完整。项目团队与客户信息不对称，影响服务质量和客户满意度。
+                Client communication is scattered across multiple channels without unified management. Untimely handling of client requirement changes and incomplete communication records. Information asymmetry between project teams and clients affects service quality and client satisfaction.
               </p>
-              <div className="text-sm text-orange-600 font-semibold">客户满意度：仅75%</div>
+              <div className="text-sm text-orange-600 font-semibold">Client Satisfaction: Only 75%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
@@ -85,11 +85,11 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">报告生成耗时费力</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Time-Consuming Report Generation</h3>
               <p className="text-gray-600 mb-4">
-                报告制作依赖手工整理，格式不统一，质量参差不齐。数据收集和分析效率低，重复性工作占用大量时间。报告审核流程冗长，交付时效难以保证。
+                Report creation relies on manual compilation with inconsistent formats and varying quality. Low efficiency in data collection and analysis, with repetitive work consuming significant time. Lengthy report review processes make delivery timelines difficult to guarantee.
               </p>
-              <div className="text-sm text-yellow-600 font-semibold">报告制作时间：占总工时35%</div>
+              <div className="text-sm text-yellow-600 font-semibold">Report Creation Time: 35% of Total Hours</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
@@ -98,11 +98,11 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">知识管理体系薄弱</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Weak Knowledge Management System</h3>
               <p className="text-gray-600 mb-4">
-                项目经验和知识分散存储，难以复用和传承。行业洞察和最佳实践无法有效沉淀，新员工学习成本高。缺乏统一的知识库和方法论，服务标准化程度低。
+                Project experience and knowledge are stored dispersedly, making reuse and inheritance difficult. Industry insights and best practices cannot be effectively accumulated, resulting in high learning costs for new employees. Lack of unified knowledge base and methodology leads to low service standardization.
               </p>
-              <div className="text-sm text-purple-600 font-semibold">知识复用率：仅20%</div>
+              <div className="text-sm text-purple-600 font-semibold">Knowledge Reuse Rate: Only 20%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
@@ -111,11 +111,11 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">盈利能力分析困难</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Difficult Profitability Analysis</h3>
               <p className="text-gray-600 mb-4">
-                项目成本核算不精准，无法准确评估项目盈利能力。时间记录和费用统计混乱，财务数据滞后。缺乏有效的定价模型和成本控制机制，利润率持续下降。
+                Inaccurate project cost accounting makes it impossible to accurately assess project profitability. Chaotic time recording and expense statistics with lagging financial data. Lack of effective pricing models and cost control mechanisms leads to continuously declining profit margins.
               </p>
-              <div className="text-sm text-blue-600 font-semibold">平均利润率：仅15%</div>
+              <div className="text-sm text-blue-600 font-semibold">Average Profit Margin: Only 15%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-500">
@@ -124,33 +124,33 @@ export default function ConsultingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">业务发展缺乏数据支撑</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Business Development Lacks Data Support</h3>
               <p className="text-gray-600 mb-4">
-                缺乏有效的业务数据分析，无法识别增长机会。客户价值评估不准确，业务拓展方向不明确。市场趋势洞察不足，竞争策略制定缺乏数据依据。
+                Lack of effective business data analysis makes it impossible to identify growth opportunities. Inaccurate client value assessment with unclear business expansion directions. Insufficient market trend insights and lack of data foundation for competitive strategy formulation.
               </p>
-              <div className="text-sm text-green-600 font-semibold">数据驱动决策：不足30%</div>
+              <div className="text-sm text-green-600 font-semibold">Data-Driven Decisions: Less than 30%</div>
             </div>
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">痛点影响：咨询企业竞争力与盈利能力双重挑战</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pain Point Impact: Dual Challenge of Consulting Firm Competitiveness & Profitability</h3>
               <div className="grid md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-red-600 mb-2">-45%</div>
-                  <p className="text-gray-600">运营效率损失</p>
+                  <p className="text-gray-600">Operational Efficiency Loss</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">+60%</div>
-                  <p className="text-gray-600">项目交付成本增加</p>
+                  <p className="text-gray-600">Project Delivery Cost Increase</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">-30%</div>
-                  <p className="text-gray-600">客户续约率下降</p>
+                  <p className="text-gray-600">Client Renewal Rate Decline</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">-25%</div>
-                  <p className="text-gray-600">市场竞争力减弱</p>
+                  <p className="text-gray-600">Market Competitiveness Weakening</p>
                 </div>
               </div>
             </div>
@@ -158,15 +158,15 @@ export default function ConsultingPage() {
         </div>
       </section>
 
-      {/* 咨询自动化解决方案 */}
+      {/* Consulting Automation Solutions */}
       <section className="py-20 bg-white" id="solutions">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              咨询服务自动化解决方案
+              Professional Services Automation Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全面覆盖咨询服务各个环节，从项目管理到知识沉淀，实现智能化、自动化专业服务
+              Comprehensive coverage of all consulting service aspects, from project management to knowledge accumulation, delivering intelligent and automated professional services
             </p>
           </div>
 
@@ -179,35 +179,35 @@ export default function ConsultingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能项目管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Project Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                AI驱动的项目管理平台，智能任务分配和进度跟踪。自动风险识别和预警，资源优化配置，项目盈利能力实时分析。项目成功率提升至95%，交付效率提升70%。
+                AI-driven project management platform with intelligent task allocation and progress tracking. Automated risk identification and alerting, optimized resource allocation, and real-time project profitability analysis. Project success rate improves to 95%, delivery efficiency increases by 70%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI智能任务分配和调度
+                  AI-powered task allocation and scheduling
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  实时进度跟踪和预警
+                  Real-time progress tracking and alerts
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  资源优化配置算法
+                  Resource optimization algorithms
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  项目盈利能力分析
+                  Project profitability analysis
                 </li>
               </ul>
             </div>
@@ -219,35 +219,35 @@ export default function ConsultingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">客户关系自动化</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Client Relationship Automation</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                全生命周期客户管理平台，智能客户分级和价值评估。自动化沟通跟进，需求变更管理，客户满意度监控。客户满意度提升至95%，续约率提升80%。
+                Full lifecycle client management platform with intelligent client segmentation and value assessment. Automated communication follow-up, requirement change management, and client satisfaction monitoring. Client satisfaction improves to 95%, renewal rate increases by 80%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  360度客户视图和分析
+                  360-degree client view and analysis
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  智能客户分级和画像
+                  Intelligent client segmentation and profiling
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  自动化沟通和跟进
+                  Automated communication and follow-up
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  需求变更智能管理
+                  Intelligent requirement change management
                 </li>
               </ul>
             </div>
@@ -415,23 +415,23 @@ export default function ConsultingPage() {
 
           {/* 效果展示 */}
           <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">咨询自动化带来的效果提升</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Results Achieved Through Consulting Automation</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div>
                 <div className="text-4xl font-bold text-primary-600 mb-2">+70%</div>
-                <p className="text-gray-600">工作效率提升</p>
+                <p className="text-gray-600">Work Efficiency Improvement</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-green-600 mb-2">+50%</div>
-                <p className="text-gray-600">利润率增长</p>
+                <p className="text-gray-600">Profit Margin Growth</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-blue-600 mb-2">-80%</div>
-                <p className="text-gray-600">报告制作时间</p>
+                <p className="text-gray-600">Report Creation Time</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-purple-600 mb-2">+95%</div>
-                <p className="text-gray-600">客户满意度</p>
+                <p className="text-gray-600">Client Satisfaction</p>
               </div>
             </div>
           </div>
@@ -443,10 +443,10 @@ export default function ConsultingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              咨询服务客户成功案例
+              Professional Services Client Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示咨询自动化系统的实际效果和商业价值
+              Real client case studies demonstrating the practical results and business value of consulting automation systems
             </p>
           </div>
 
@@ -974,10 +974,10 @@ export default function ConsultingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              咨询自动化投资回报分析
+              Consulting Automation Investment ROI Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于真实咨询企业案例数据，为您分析咨询自动化的投资价值和回报预期
+              Based on real consulting firm case data, analyze the investment value and return expectations of consulting automation
             </p>
           </div>
 
@@ -1086,23 +1086,23 @@ export default function ConsultingPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开启咨询服务数字化转型？
+            Ready to Begin Your Professional Services Digital Transformation?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            立即联系我们，获得专业的咨询服务自动化解决方案，提升效率与盈利能力
+            Contact us today to get professional consulting services automation solutions that boost efficiency and profitability
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费评估ROI
+Free ROI Assessment
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+Contact Expert Consultation
             </Link>
           </div>
         </div>

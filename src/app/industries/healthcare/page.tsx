@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '医疗健康自动化系统 - 病人管理、预约系统、医疗记录自动化 | AutoBusinessOS',
-  description: '专业的医疗健康自动化解决方案，病人管理、预约系统、医疗记录全面自动化。提升90%满意度，减少60%等待时间，助力医疗行业数字化升级。',
-  keywords: '医疗自动化, 医院自动化, 健康管理自动化, 病人管理自动化, 预约系统自动化, 医疗记录自动化',
+  title: 'Healthcare Automation System - Patient Management, Appointment System, Medical Records Automation | AutoBusinessOS',
+  description: 'Professional healthcare automation solutions for patient management, appointment systems, and medical records with comprehensive automation. Improve satisfaction by 90%, reduce waiting time by 60%, and accelerate digital transformation in healthcare.',
+  keywords: 'healthcare automation, hospital automation, patient management automation, appointment system automation, medical records automation, health management automation',
 }
 
 export default function HealthcarePage() {
@@ -16,39 +16,39 @@ export default function HealthcarePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              医疗健康自动化系统
-              <span className="block text-yellow-300">病人管理、预约系统、医疗记录智能化</span>
+              Healthcare Automation System
+              <span className="block text-yellow-300">Patient Management, Appointment System & Medical Records Intelligence</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专为医疗健康行业打造的智能自动化系统，覆盖病人管理、预约调度、医疗记录、诊疗流程等全环节。帮助医疗机构提升90%患者满意度，减少60%等待时间，实现高效智慧医疗。
+              Intelligent automation system designed specifically for the healthcare industry, covering patient management, appointment scheduling, medical records, and clinical workflows. Help healthcare institutions achieve 90% patient satisfaction, reduce waiting time by 60%, and realize efficient smart healthcare.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解解决方案
+                Explore Solutions
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 医疗行业痛点分析 */}
+      {/* Healthcare Industry Pain Points Analysis */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              医疗健康行业面临的核心挑战
+              Core Challenges Facing the Healthcare Industry
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              随着医疗需求持续增长和服务质量要求提升，90%的医疗机构在运营管理中面临以下关键痛点
+              With continuously growing healthcare demand and rising service quality requirements, 90% of healthcare institutions face these critical pain points in operational management
             </p>
           </div>
 
@@ -59,11 +59,11 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">就诊等待时间过长</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Excessive Treatment Waiting Times</h3>
               <p className="text-gray-600 mb-4">
-                传统挂号排队模式导致患者等待时间长，门诊高峰期等待时间平均超过2小时。资源调配不均衡，部分科室闲置，部分科室超负荷运转，严重影响患者就医体验。
+                Traditional registration and queuing systems result in long patient waiting times, with average wait times exceeding 2 hours during peak outpatient periods. Unbalanced resource allocation leads to some departments being idle while others are overloaded, severely impacting patient experience.
               </p>
-              <div className="text-sm text-red-600 font-semibold">平均等待时间：120分钟</div>
+              <div className="text-sm text-red-600 font-semibold">Average Waiting Time: 120 minutes</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -72,11 +72,11 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">医疗记录管理混乱</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Chaotic Medical Records Management</h3>
               <p className="text-gray-600 mb-4">
-                纸质病历管理效率低下，查找困难，信息更新不及时。电子病历系统不完善，数据标准化程度低，跨科室、跨机构信息共享困难，影响诊疗决策和连续性护理。
+                Paper-based medical record management is inefficient, difficult to search, and information updates are not timely. Electronic medical record systems are incomplete with low data standardization, making cross-departmental and inter-institutional information sharing difficult, affecting clinical decision-making and continuity of care.
               </p>
-              <div className="text-sm text-orange-600 font-semibold">信息化程度：仅40%</div>
+              <div className="text-sm text-orange-600 font-semibold">Digitization Level: Only 40%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
@@ -85,11 +85,11 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V7a2 2 0 012-2h4a2 2 0 012 2v0M8 7v8a2 2 0 002 2h4a2 2 0 002-2V7M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-2" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">预约系统效率低下</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Inefficient Appointment System</h3>
               <p className="text-gray-600 mb-4">
-                传统电话预约方式效率低，患者预约体验差。预约资源分配不合理，无法根据医生专长和患者需求智能匹配。取消和变更预约处理繁琐，资源浪费严重。
+                Traditional phone appointment methods are inefficient with poor patient experience. Unreasonable appointment resource allocation cannot intelligently match doctor specialties with patient needs. Cancellation and appointment changes are cumbersome, causing serious resource waste.
               </p>
-              <div className="text-sm text-yellow-600 font-semibold">预约成功率：仅65%</div>
+              <div className="text-sm text-yellow-600 font-semibold">Appointment Success Rate: Only 65%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
@@ -98,11 +98,11 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">人力资源配置不当</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Improper Human Resource Allocation</h3>
               <p className="text-gray-600 mb-4">
-                医护人员排班缺乏科学性，工作强度分配不均。专科医生资源紧张，全科医生利用率不足。护理人员配比不合理，护理质量和安全风险隐患增加。
+                Medical staff scheduling lacks scientific approach with uneven workload distribution. Specialist doctor resources are tight while general practitioner utilization is insufficient. Unreasonable nursing staff ratios increase nursing quality and safety risk concerns.
               </p>
-              <div className="text-sm text-purple-600 font-semibold">医护利用率：仅70%</div>
+              <div className="text-sm text-purple-600 font-semibold">Medical Staff Utilization: Only 70%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
@@ -111,11 +111,11 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">医疗数据利用不足</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Insufficient Medical Data Utilization</h3>
               <p className="text-gray-600 mb-4">
-                大量医疗数据缺乏有效分析和利用，无法为临床决策提供支持。疾病预防和健康管理缺乏数据驱动，慢性病管理效果差。医疗质量评估缺乏量化指标和持续改进机制。
+                Vast amounts of medical data lack effective analysis and utilization, unable to support clinical decision-making. Disease prevention and health management lack data-driven approaches, with poor chronic disease management outcomes. Medical quality assessment lacks quantitative indicators and continuous improvement mechanisms.
               </p>
-              <div className="text-sm text-blue-600 font-semibold">数据利用率：不足25%</div>
+              <div className="text-sm text-blue-600 font-semibold">Data Utilization Rate: Less than 25%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-500">
@@ -124,33 +124,33 @@ export default function HealthcarePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">运营成本持续上升</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Continuously Rising Operating Costs</h3>
               <p className="text-gray-600 mb-4">
-                医疗设备维护成本高，药品库存管理不精准。人工成本占比过高，医疗资源利用效率低下。能耗管理缺乏智能化，运营成本控制困难，医疗机构盈利能力下降。
+                High medical equipment maintenance costs and imprecise pharmaceutical inventory management. Labor costs are too high with low medical resource utilization efficiency. Energy management lacks intelligence, making operating cost control difficult and reducing healthcare institution profitability.
               </p>
-              <div className="text-sm text-green-600 font-semibold">成本增长率：年均12%</div>
+              <div className="text-sm text-green-600 font-semibold">Cost Growth Rate: 12% annually</div>
             </div>
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">痛点影响：医疗服务质量与效率双重挑战</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pain Point Impact: Dual Challenges in Healthcare Service Quality & Efficiency</h3>
               <div className="grid md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-red-600 mb-2">-35%</div>
-                  <p className="text-gray-600">患者满意度下降</p>
+                  <p className="text-gray-600">Patient Satisfaction Decline</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">+45%</div>
-                  <p className="text-gray-600">运营成本增加</p>
+                  <p className="text-gray-600">Operating Cost Increase</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">-50%</div>
-                  <p className="text-gray-600">资源利用效率</p>
+                  <p className="text-gray-600">Resource Utilization Efficiency</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">-25%</div>
-                  <p className="text-gray-600">医护工作效率</p>
+                  <p className="text-gray-600">Medical Staff Work Efficiency</p>
                 </div>
               </div>
             </div>
@@ -158,19 +158,19 @@ export default function HealthcarePage() {
         </div>
       </section>
 
-      {/* 医疗自动化解决方案 */}
+      {/* Healthcare Automation Solutions */}
       <section className="py-20 bg-white" id="solutions">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              医疗健康自动化解决方案
+              Healthcare Automation Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全面覆盖医疗健康服务各个环节，从患者管理到诊疗流程，实现智能化、自动化医疗服务
+              Comprehensive coverage of all healthcare service aspects, from patient management to clinical workflows, achieving intelligent and automated medical services
             </p>
           </div>
 
-          {/* 核心功能卡片 */}
+          {/* Core Feature Cards */}
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
@@ -179,7 +179,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V7a2 2 0 012-2h4a2 2 0 012 2v0M8 7v8a2 2 0 002 2h4a2 2 0 002-2V7M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-2" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能预约调度</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Appointment Scheduling</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 AI驱动的预约调度系统，智能匹配患者需求和医生专长。支持多渠道预约，实时资源调配，自动提醒和确认。预约成功率提升至95%，等待时间减少60%。
@@ -219,7 +219,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">患者管理系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Patient Management System</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 全生命周期患者管理平台，整合患者基本信息、就诊历史、健康档案。智能患者分流，个性化健康提醒，慢性病管理自动化。患者满意度提升至95%以上。
@@ -259,7 +259,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">电子病历系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Electronic Medical Records System</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 智能化电子病历管理系统，支持语音录入、结构化数据提取、智能诊断辅助。病历模板标准化，跨科室信息共享，数据安全性和完整性大幅提升。
@@ -299,7 +299,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">医护协作平台</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Medical-Nursing Collaboration Platform</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 智能医护协作和排班系统，优化人力资源配置。护理计划自动化，医嘱执行监控，跨团队沟通协作。医护工作效率提升50%，医疗安全事件减少80%。
@@ -339,7 +339,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">医疗数据分析</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Medical Data Analytics</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 综合医疗数据分析平台，实时监控医疗质量指标和运营效率。疾病趋势预测，资源利用分析，医疗成本控制。为管理决策提供数据支撑，提升医疗服务质量。
@@ -379,7 +379,7 @@ export default function HealthcarePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能运营管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Operations Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
                 医院运营智能化管理系统，包含药品库存管理、设备维护、能耗控制、财务管理等。自动化采购决策，设备预测性维护，运营成本降低30%，运营效率提升60%。
@@ -413,40 +413,40 @@ export default function HealthcarePage() {
             </div>
           </div>
 
-          {/* 效果展示 */}
+          {/* Results Showcase */}
           <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">医疗自动化带来的效果提升</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Healthcare Automation Results & Improvements</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div>
                 <div className="text-4xl font-bold text-primary-600 mb-2">+90%</div>
-                <p className="text-gray-600">患者满意度提升</p>
+                <p className="text-gray-600">Patient Satisfaction Improvement</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-green-600 mb-2">-60%</div>
-                <p className="text-gray-600">等待时间减少</p>
+                <p className="text-gray-600">Waiting Time Reduction</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-blue-600 mb-2">+50%</div>
-                <p className="text-gray-600">医护工作效率</p>
+                <p className="text-gray-600">Medical Staff Work Efficiency</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-purple-600 mb-2">-30%</div>
-                <p className="text-gray-600">运营成本降低</p>
+                <p className="text-gray-600">Operating Cost Reduction</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 成功案例研究 */}
+      {/* Success Case Studies */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              医疗健康客户成功案例
+              Healthcare Customer Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示医疗自动化系统的实际效果和社会价值
+              Real customer case studies showcasing the actual results and social value of healthcare automation systems
             </p>
           </div>
 
@@ -633,7 +633,7 @@ export default function HealthcarePage() {
 
                   <div className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-sm text-gray-600 italic">
-                      &ldquo;智能化系统让我们这些基层医疗机构也能提供高质量的健康管理服务。居民健康水平显著提升，慢性病控制率大幅改善，真正实现了&apos;小病不出社区&apos;的目标。&rdquo;
+                      &ldquo;智能化系统让我们这些基层医疗机构也能提供高质量的健康管理服务。居民健康水平显著提升，慢性病控制率大幅改善，真正实现了'小病不出社区'的目标。&rdquo;
                     </p>
                     <p className="text-sm font-semibold text-gray-800 mt-2">— 主任 王医生</p>
                   </div>
@@ -979,15 +979,15 @@ export default function HealthcarePage() {
         </div>
       </section>
 
-      {/* ROI分析 */}
+      {/* ROI Analysis */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              医疗自动化投资回报分析
+              Healthcare Automation Investment ROI Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于真实医疗机构案例数据，为您分析医疗自动化的投资价值和回报预期
+              Based on real healthcare institution case data, analyzing the investment value and return expectations of healthcare automation for your organization
             </p>
           </div>
 
@@ -1077,16 +1077,16 @@ export default function HealthcarePage() {
           {/* ROI计算器CTA */}
           <div className="mt-16 bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              想计算您医疗机构的具体ROI？
+              Want to Calculate Your Healthcare Institution's Specific ROI?
             </h3>
             <p className="text-gray-600 mb-6">
-              使用我们的专业ROI计算器，输入您的医疗机构数据，获得个性化的投资回报分析报告
+              Use our professional ROI calculator to input your healthcare institution data and receive a personalized investment return analysis report
             </p>
             <Link
               href="/tools/roi-calculator"
               className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors inline-block"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
           </div>
         </div>
@@ -1096,23 +1096,23 @@ export default function HealthcarePage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开启智慧医疗转型之旅？
+            Ready to Begin Your Smart Healthcare Transformation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            立即联系我们，获得专业的医疗健康自动化解决方案，提升医疗服务质量与效率
+            Contact us today to get professional healthcare automation solutions and improve medical service quality and efficiency
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费评估ROI
+              Free ROI Assessment
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
           </div>
         </div>

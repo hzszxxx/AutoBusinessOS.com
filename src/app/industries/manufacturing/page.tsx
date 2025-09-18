@@ -3,9 +3,9 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '制造业自动化系统 - 生产计划、质量控制、供应链管理自动化 | AutoBusinessOS',
-  description: '专业的制造业自动化解决方案，生产计划、质量控制、供应链管理全面自动化。提升80%效率，降低25%成本，助力制造业数字化转型升级。',
-  keywords: '制造业自动化, 工厂自动化, 生产自动化, 生产计划自动化, 质量控制自动化, 供应链自动化',
+  title: 'Manufacturing Automation Systems - Production Planning, Quality Control & Supply Chain Management | AutoBusinessOS',
+  description: 'Professional manufacturing automation solutions covering production planning, quality control, and supply chain management. Boost efficiency by 80%, reduce costs by 25%, and accelerate digital transformation.',
+  keywords: 'manufacturing automation, factory automation, production automation, production planning automation, quality control automation, supply chain automation',
 }
 
 export default function ManufacturingPage() {
@@ -16,39 +16,39 @@ export default function ManufacturingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              制造业自动化系统
-              <span className="block text-yellow-300">生产计划、质量控制、供应链管理智能化</span>
+              Manufacturing Automation Systems
+              <span className="block text-yellow-300">Intelligent Production Planning, Quality Control & Supply Chain Management</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              专为制造业打造的智能自动化系统，覆盖生产计划、质量管控、供应链协同全流程。帮助制造企业提升80%生产效率，降低25%运营成本，实现工业4.0智能制造。
+              Intelligent automation systems designed specifically for manufacturing, covering the entire process from production planning to quality control and supply chain coordination. Help manufacturing companies boost production efficiency by 80%, reduce operational costs by 25%, and achieve Industry 4.0 smart manufacturing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
               >
-                免费计算ROI
+                Calculate ROI Free
               </Link>
               <Link
                 href="#solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                了解解决方案
+                View Solutions
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 制造业痛点分析 */}
+      {/* Manufacturing Pain Points Analysis */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业面临的核心挑战
+              Core Challenges Facing Manufacturing
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              在全球化竞争和智能制造浪潮下，95%的制造企业在生产运营中面临以下关键痛点
+              In the era of global competition and smart manufacturing transformation, 95% of manufacturing enterprises face these critical pain points in production operations
             </p>
           </div>
 
@@ -59,11 +59,11 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">生产计划缺乏精准性</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Lack of Precision in Production Planning</h3>
               <p className="text-gray-600 mb-4">
-                传统生产计划依赖经验制定，缺乏数据支撑，准确性差。无法及时响应市场需求变化，经常出现产能过剩或不足。插单、急单处理困难，严重影响交期承诺。
+                Traditional production planning relies on experience without data support, resulting in poor accuracy. Unable to respond timely to market demand changes, frequently causing capacity surplus or shortage. Difficult to handle rush orders and urgent orders, severely impacting delivery commitments.
               </p>
-              <div className="text-sm text-red-600 font-semibold">计划准确率：仅55%</div>
+              <div className="text-sm text-red-600 font-semibold">Planning Accuracy: Only 55%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -72,11 +72,11 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">质量控制管理落后</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Outdated Quality Control Management</h3>
               <p className="text-gray-600 mb-4">
-                质量检测主要依靠人工抽检，检测效率低，覆盖面有限。质量数据分散存储，无法形成有效的质量分析和预警。质量问题发现滞后，返工成本高昂。
+                Quality inspection mainly relies on manual sampling with low efficiency and limited coverage. Quality data is scattered across systems, preventing effective quality analysis and early warning. Quality issues are discovered too late, leading to high rework costs.
               </p>
-              <div className="text-sm text-orange-600 font-semibold">质量问题成本：占总成本15%</div>
+              <div className="text-sm text-orange-600 font-semibold">Quality Issue Costs: 15% of Total Costs</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
@@ -85,11 +85,11 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">供应链协同困难</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Supply Chain Coordination Difficulties</h3>
               <p className="text-gray-600 mb-4">
-                供应商管理分散，信息不透明，协同效率低下。采购计划与生产计划脱节，库存积压和缺料并存。供应商交期不准确，影响整体生产节拍和客户交期。
+                Scattered supplier management with poor information transparency and low coordination efficiency. Procurement planning disconnected from production planning, causing both inventory backlog and material shortages. Inaccurate supplier delivery times affecting overall production rhythm and customer delivery.
               </p>
-              <div className="text-sm text-yellow-600 font-semibold">库存周转率：仅6次/年</div>
+              <div className="text-sm text-yellow-600 font-semibold">Inventory Turnover: Only 6 times/year</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
@@ -98,11 +98,11 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">设备效率监控缺失</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Missing Equipment Efficiency Monitoring</h3>
               <p className="text-gray-600 mb-4">
-                设备运行状态监控主要依靠巡检，无法实时掌握设备健康状况。设备故障预警机制不完善，突发故障导致停机损失巨大。设备维护缺乏科学规划，维护成本居高不下。
+                Equipment status monitoring mainly relies on manual inspections, unable to monitor equipment health in real-time. Inadequate equipment failure warning mechanisms lead to massive downtime losses from unexpected failures. Equipment maintenance lacks scientific planning, keeping maintenance costs high.
               </p>
-              <div className="text-sm text-purple-600 font-semibold">设备综合效率：仅65%</div>
+              <div className="text-sm text-purple-600 font-semibold">Overall Equipment Efficiency: Only 65%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
@@ -111,11 +111,11 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">数据孤岛问题严重</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Serious Data Silos Problems</h3>
               <p className="text-gray-600 mb-4">
-                生产、质量、物流、财务等系统相互独立，数据无法有效整合。缺乏统一的数据分析平台，管理决策缺乏数据支撑。信息传递延迟，影响快速响应能力。
+                Production, quality, logistics, and finance systems operate independently, preventing effective data integration. Lack of unified data analysis platform leaves management decisions without data support. Information transmission delays affect rapid response capabilities.
               </p>
-              <div className="text-sm text-blue-600 font-semibold">数据整合度：不足35%</div>
+              <div className="text-sm text-blue-600 font-semibold">Data Integration Level: Less than 35%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-500">
@@ -124,33 +124,33 @@ export default function ManufacturingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">人力资源配置不当</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Improper Human Resource Allocation</h3>
               <p className="text-gray-600 mb-4">
-                技能人才短缺，招聘培训成本高。人员排班缺乏科学性，人力资源浪费严重。一线工人技能参差不齐，标准化作业执行困难，影响产品质量稳定性。
+                Skilled talent shortage with high recruitment and training costs. Unscientific staff scheduling causes serious human resource waste. Uneven skill levels among front-line workers make standardized operations difficult to execute, affecting product quality consistency.
               </p>
-              <div className="text-sm text-green-600 font-semibold">人员利用率：仅70%</div>
+              <div className="text-sm text-green-600 font-semibold">Staff Utilization Rate: Only 70%</div>
             </div>
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">痛点影响：制造企业竞争力下降</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pain Point Impact: Declining Manufacturing Competitiveness</h3>
               <div className="grid md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-red-600 mb-2">-45%</div>
-                  <p className="text-gray-600">生产效率损失</p>
+                  <p className="text-gray-600">Production Efficiency Loss</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">+35%</div>
-                  <p className="text-gray-600">运营成本增加</p>
+                  <p className="text-gray-600">Operating Cost Increase</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">-30%</div>
-                  <p className="text-gray-600">客户满意度下降</p>
+                  <p className="text-gray-600">Customer Satisfaction Decline</p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">-25%</div>
-                  <p className="text-gray-600">市场竞争力减弱</p>
+                  <p className="text-gray-600">Market Competitiveness Weakening</p>
                 </div>
               </div>
             </div>
@@ -158,19 +158,19 @@ export default function ManufacturingPage() {
         </div>
       </section>
 
-      {/* 制造业自动化解决方案 */}
+      {/* Manufacturing Automation Solutions */}
       <section className="py-20 bg-white" id="solutions">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业自动化解决方案
+              Manufacturing Automation Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              全面覆盖制造业核心业务场景，从生产计划到质量控制，实现智能化、自动化制造
+              Comprehensive coverage of core manufacturing business scenarios, from production planning to quality control, achieving intelligent and automated manufacturing
             </p>
           </div>
 
-          {/* 核心功能卡片 */}
+          {/* Core Function Cards */}
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
@@ -179,35 +179,35 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能生产计划</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Smart Production Planning</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                AI驱动的生产计划优化系统，基于订单需求、设备产能、物料状况等多维度数据，自动生成最优生产计划。支持动态调整和实时优化，计划准确率提升至95%以上。
+                AI-driven production planning optimization system that automatically generates optimal production plans based on multi-dimensional data including order demand, equipment capacity, and material status. Supports dynamic adjustment and real-time optimization, improving planning accuracy to over 95%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI智能产能平衡优化
+                  AI Intelligent Capacity Balancing
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  动态插单和紧急调度
+                  Dynamic Rush Orders and Emergency Scheduling
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  多工厂协同计划管理
+                  Multi-Factory Collaborative Planning
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  交期承诺智能评估
+                  Smart Delivery Commitment Assessment
                 </li>
               </ul>
             </div>
@@ -219,35 +219,35 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能质量控制</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Smart Quality Control</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                基于机器视觉和AI算法的质量检测系统，实现产品质量的全流程自动监控。预测性质量分析，主动发现质量风险，质量合格率提升至99.5%，质量成本降低60%。
+                Quality inspection system based on machine vision and AI algorithms, achieving full-process automated monitoring of product quality. Predictive quality analysis proactively identifies quality risks, improving quality pass rate to 99.5% and reducing quality costs by 60%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  机器视觉自动检测
+                  Automated Machine Vision Detection
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  质量数据实时分析
+                  Real-time Quality Data Analysis
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  质量问题预测预警
+                  Quality Issue Prediction & Early Warning
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  质量追溯和改进建议
+                  Quality Traceability & Improvement Recommendations
                 </li>
               </ul>
             </div>
@@ -259,35 +259,35 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">供应链协同平台</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Supply Chain Collaboration Platform</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                端到端供应链可视化管理，与供应商实现深度协同。智能采购决策，库存优化管理，供应风险预警。库存周转率提升200%，采购成本降低15%。
+                End-to-end supply chain visibility management with deep collaboration with suppliers. Smart procurement decisions, inventory optimization management, and supply risk early warning. Inventory turnover improved by 200%, procurement costs reduced by 15%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  供应商协同管理平台
+                  Supplier Collaboration Management Platform
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  智能需求预测和采购
+                  Smart Demand Forecasting & Procurement
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  库存优化和安全库存
+                  Inventory Optimization & Safety Stock
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  供应风险监控预警
+                  Supply Risk Monitoring & Early Warning
                 </li>
               </ul>
             </div>
@@ -299,35 +299,35 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">设备智能维护</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Smart Equipment Maintenance</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                IoT传感器+AI算法的设备健康监控系统，实时监测设备运行状态。预测性维护，减少计划外停机，设备综合效率提升至85%以上，维护成本降低40%。
+                Equipment health monitoring system combining IoT sensors and AI algorithms, monitoring equipment operating status in real-time. Predictive maintenance reduces unplanned downtime, improving overall equipment efficiency to over 85% and reducing maintenance costs by 40%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  设备实时监控和诊断
+                  Real-time Equipment Monitoring & Diagnostics
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  预测性维护计划制定
+                  Predictive Maintenance Planning
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  故障模式识别和预警
+                  Failure Pattern Recognition & Early Warning
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  维护工单自动生成
+                  Automated Maintenance Work Orders
                 </li>
               </ul>
             </div>
@@ -339,35 +339,35 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">生产数据中台</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Manufacturing Data Platform</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                统一的制造数据平台，整合生产、质量、设备、物料等全维度数据。实时生产看板，智能报表生成，为管理决策提供数据支撑，决策效率提升300%。
+                Unified manufacturing data platform integrating multi-dimensional data including production, quality, equipment, and materials. Real-time production dashboards, intelligent report generation, providing data support for management decisions, improving decision efficiency by 300%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  全域数据集成和治理
+                  Enterprise-wide Data Integration & Governance
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  实时生产监控大屏
+                  Real-time Production Monitoring Dashboards
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  智能分析和决策支持
+                  Smart Analytics & Decision Support
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  自定义报表和KPI监控
+                  Customizable Reports & KPI Monitoring
                 </li>
               </ul>
             </div>
@@ -379,137 +379,137 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">智能人力配置</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Smart Workforce Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                基于生产计划和技能模型的智能排班系统，优化人力资源配置。技能培训管理，作业指导自动化，标准化作业执行监控，人效提升50%，质量稳定性大幅改善。
+                Smart scheduling system based on production planning and skill models, optimizing human resource allocation. Skills training management, automated work instructions, standardized operations monitoring. Improves productivity by 50% and significantly enhances quality consistency.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  智能排班和人力调配
+                  Smart Scheduling & Workforce Allocation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  技能培训和认证管理
+                  Skills Training & Certification Management
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  作业指导智能推送
+                  Smart Work Instruction Delivery
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  绩效考核自动化
+                  Automated Performance Evaluation
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* 效果展示 */}
+          {/* Results Display */}
           <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">制造业自动化带来的效果提升</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Manufacturing Automation Impact Results</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div>
                 <div className="text-4xl font-bold text-primary-600 mb-2">+80%</div>
-                <p className="text-gray-600">生产效率提升</p>
+                <p className="text-gray-600">Production Efficiency Boost</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-green-600 mb-2">-25%</div>
-                <p className="text-gray-600">运营成本降低</p>
+                <p className="text-gray-600">Operating Cost Reduction</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-blue-600 mb-2">+99.5%</div>
-                <p className="text-gray-600">质量合格率</p>
+                <p className="text-gray-600">Quality Pass Rate</p>
               </div>
               <div>
                 <div className="text-4xl font-bold text-purple-600 mb-2">+200%</div>
-                <p className="text-gray-600">库存周转率</p>
+                <p className="text-gray-600">Inventory Turnover Rate</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 成功案例研究 */}
+      {/* Success Case Studies */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业客户成功案例
+              Manufacturing Customer Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示制造业自动化系统的实际效果和商业价值
+              Real customer case studies demonstrating the actual results and business value of manufacturing automation systems
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* 案例1 */}
+            {/* Case 1 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-bold text-xl">电</span>
+                  <span className="text-blue-600 font-bold text-xl">E</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某大型电子制造企业</h3>
-                  <p className="text-gray-600">年产值：30亿元，员工：8000人</p>
+                  <h3 className="text-xl font-bold text-gray-900">Major Electronics Manufacturing Enterprise</h3>
+                  <p className="text-gray-600">Annual Revenue: $4.3B, Employees: 8,000</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 产品种类多，生产计划复杂，经常延期交货</li>
-                  <li>• 质量检测依赖人工，漏检率高，客户投诉频发</li>
-                  <li>• 设备故障突发，停机损失每月超过500万</li>
-                  <li>• 数据孤岛严重，决策缺乏数据支撑</li>
+                  <li>• Multiple product lines with complex production planning, frequent delivery delays</li>
+                  <li>• Quality inspection relied on manual processes with high miss rates and frequent customer complaints</li>
+                  <li>• Unexpected equipment failures causing over $700K monthly downtime losses</li>
+                  <li>• Severe data silos leaving decisions without data support</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">解决方案：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 部署AI智能生产计划系统</li>
-                  <li>• 实施机器视觉质量检测系统</li>
-                  <li>• 上线设备预测性维护平台</li>
-                  <li>• 建立统一的制造数据中台</li>
+                  <li>• Deployed AI-powered smart production planning system</li>
+                  <li>• Implemented machine vision quality inspection system</li>
+                  <li>• Launched predictive equipment maintenance platform</li>
+                  <li>• Established unified manufacturing data platform</li>
                 </ul>
               </div>
 
               <div className="border-t pt-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">实施效果：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
                     <div className="text-2xl font-bold text-green-600">95%</div>
-                    <p className="text-sm text-gray-600">计划准确率</p>
+                    <p className="text-sm text-gray-600">Planning Accuracy</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">99.8%</div>
-                    <p className="text-sm text-gray-600">质量合格率</p>
+                    <p className="text-sm text-gray-600">Quality Pass Rate</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
                     <div className="text-2xl font-bold text-purple-600">-80%</div>
-                    <p className="text-sm text-gray-600">设备故障损失</p>
+                    <p className="text-sm text-gray-600">Equipment Failure Losses</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
                     <div className="text-2xl font-bold text-orange-600">+120%</div>
-                    <p className="text-sm text-gray-600">生产效率提升</p>
+                    <p className="text-sm text-gray-600">Production Efficiency</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;自动化系统彻底改变了我们的生产管理模式。现在我们能够精准预测和规划，质量问题大幅减少，设备利用率显著提升。年利润增长超过2亿元。&rdquo;
+                  &ldquo;The automation system completely transformed our production management model. We can now accurately forecast and plan, quality issues have dramatically decreased, and equipment utilization has significantly improved. Annual profit growth exceeded $290M.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— 制造总监 赵先生</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">— Manufacturing Director, Mr. Zhang</p>
               </div>
             </div>
 
