@@ -41,15 +41,15 @@ body {
 }
 
 .bg-gradient-to-br .text-yellow-300 {
-  color: #fde047 !important;
+  color: #fef08a !important; /* 统一使用更亮的黄色 */
 }
 
 .bg-gradient-to-br .text-primary-100 {
-  color: #e0e7ff !important;
+  color: #f0f4ff !important; /* 提高对比度 */
 }
 
 .bg-gradient-to-br .text-primary-200 {
-  color: #c7d2fe !important;
+  color: #e0eaff !important; /* 统一浅蓝色调 */
 }
 
 /* 强制Hero区域的所有文字为白色 */
@@ -107,15 +107,15 @@ section[class*="bg-gradient-to-br"] * {
 }
 
 .bg-gradient-to-br .text-yellow-300 {
-  color: #fde047 !important;
+  color: #fef08a !important; /* 统一使用更亮的黄色 */
 }
 
 .bg-gradient-to-br .text-primary-100 {
-  color: #e0e7ff !important;
+  color: #f0f4ff !important; /* 提高对比度 */
 }
 
 .bg-gradient-to-br .text-primary-200 {
-  color: #c7d2fe !important;
+  color: #e0eaff !important; /* 统一浅蓝色调 */
 }
 
 /* 防止透明文字 */
@@ -123,7 +123,7 @@ section[class*="bg-gradient-to-br"] * {
   color: #fde047 !important;
 }
 
-/* 所有gradient背景的通用修复 */
+/* 所有gradient背景的通用修复 - 优化对比度 */
 [class*="bg-gradient-to-r"] {
   color: white;
 }
@@ -146,15 +146,15 @@ section[class*="bg-gradient-to-br"] * {
 }
 
 [class*="bg-gradient-to-r"] .text-yellow-300 {
-  color: #fde047 !important;
+  color: #fef08a !important; /* 使用更亮的黄色以提高对比度 */
 }
 
 [class*="bg-gradient-to-r"] .text-primary-100 {
-  color: #e0e7ff !important;
+  color: #f0f4ff !important; /* 更亮的浅色，提高可读性 */
 }
 
 [class*="bg-gradient-to-r"] .text-primary-200 {
-  color: #c7d2fe !important;
+  color: #e0eaff !important; /* 优化后的浅蓝色 */
 }
 
 /* 确保按钮可见性 */

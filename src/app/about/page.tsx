@@ -76,7 +76,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{color: 'white'}}>
-              About <span className="text-yellow-300" style={{color: '#fde047'}}>AutoBusinessOS</span>
+              About <span className="text-yellow-300" style={{color: '#fef08a'}}>AutoBusinessOS</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto" style={{color: 'white'}}>
               We're on a mission to revolutionize how businesses operate through intelligent automation. 
