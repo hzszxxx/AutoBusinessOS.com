@@ -20,12 +20,26 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 确保按钮文字颜色不被全局样式覆盖 */
+/* 确保按钮和文字颜色不被全局样式覆盖 */
+.bg-gradient-to-br {
+  color: white !important;
+}
+
+.bg-gradient-to-br * {
+  color: inherit;
+}
+
+.bg-gradient-to-br .text-yellow-300 {
+  color: #fde047 !important;
+}
+
+.bg-gradient-to-br .text-primary-100 {
+  color: #e0e7ff !important;
+}
+
 a.bg-white {
   color: #5a67d8 !important; /* primary-600 */
 }

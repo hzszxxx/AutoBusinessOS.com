@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { FAQDisplay } from '@/components/SEO/FAQSchema'
 import PageEngagement from '@/components/Analytics/PageEngagement'
-import { InContentAd, ResponsiveAd } from '@/components/Ads/GoogleAdSense'
+import { InContentAd, ResponsiveAd, HeaderAd } from '@/components/Ads/GoogleAdSense'
 
 export default function Home() {
   const faqItems = [
@@ -32,6 +32,63 @@ export default function Home() {
     }
   ];
 
+  const features = [
+    {
+      icon: "🚀",
+      title: "Lightning Fast Setup",
+      description: "Get up and running in minutes, not months. Our intuitive interface makes automation accessible to everyone."
+    },
+    {
+      icon: "🤖",
+      title: "AI-Powered Intelligence",
+      description: "Advanced machine learning algorithms that learn and adapt to your business processes automatically."
+    },
+    {
+      icon: "📊",
+      title: "Real-Time Analytics",
+      description: "Comprehensive dashboards and reports that give you instant insights into your automation performance."
+    },
+    {
+      icon: "🔒",
+      title: "Enterprise Security",
+      description: "Bank-level security with end-to-end encryption, multi-factor authentication, and compliance certifications."
+    },
+    {
+      icon: "⚡",
+      title: "99.9% Uptime",
+      description: "Reliable cloud infrastructure ensures your automation never stops working, even during peak loads."
+    },
+    {
+      icon: "🌍",
+      title: "Global Scale",
+      description: "Deploy across multiple regions and time zones with our worldwide cloud infrastructure."
+    }
+  ];
+
+  const testimonials = [
+    {
+      name: "Sarah Johnson",
+      company: "TechFlow Inc.",
+      role: "CEO",
+      content: "AutoBusinessOS transformed our operations completely. We've seen 85% efficiency gains and our team can now focus on strategic initiatives instead of repetitive tasks.",
+      avatar: "SJ"
+    },
+    {
+      name: "Michael Chen",
+      company: "Global Manufacturing Co.",
+      role: "Operations Director",
+      content: "The ROI was immediate. Within 3 months, we reduced operational costs by 60% while increasing output by 40%. This platform is a game-changer.",
+      avatar: "MC"
+    },
+    {
+      name: "Emily Rodriguez",
+      company: "HealthTech Solutions",
+      role: "VP of Operations",
+      content: "Implementation was seamless and the results exceeded our expectations. Our customer satisfaction scores improved by 90% thanks to automated workflows.",
+      avatar: "ER"
+    }
+  ];
+
   return (
     <Layout>
       <PageEngagement 
@@ -42,31 +99,94 @@ export default function Home() {
         scrollThreshold={75}
         timeThreshold={300}
       />
+      
+      {/* Header Ad */}
+      <section className="py-2 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <HeaderAd />
+        </div>
+      </section>
+
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 bg-black opacity-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              The Future of <span className="text-yellow-300">Business</span>
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium mb-8">
+              <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+              Trusted by 500+ companies worldwide
+            </div>
+            
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+              The Future of <span className="text-yellow-300 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent">Business</span>
               <br />Automation is Here
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto">
-              Transform your business with intelligent automation. Drive 80% efficiency gains, cut costs by 60%, and empower your team to focus on what matters most.
+            
+            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto leading-relaxed">
+              Transform your business with intelligent automation. Drive <span className="font-semibold text-yellow-300">80% efficiency gains</span>, cut costs by <span className="font-semibold text-yellow-300">60%</span>, and empower your team to focus on what matters most.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
+                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Get Your ROI Report →
               </Link>
               <Link
                 href="/solutions"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
               >
                 Explore Solutions
               </Link>
             </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">500+</div>
+                <div className="text-primary-200 text-sm">Happy Clients</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">80%</div>
+                <div className="text-primary-200 text-sm">Efficiency Gain</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">60%</div>
+                <div className="text-primary-200 text-sm">Cost Reduction</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">99.9%</div>
+                <div className="text-primary-200 text-sm">Uptime</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Features */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Why Choose AutoBusinessOS?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Powerful features designed to transform your business operations and drive unprecedented growth
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {features.map((feature, index) => (
+              <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="text-4xl mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
