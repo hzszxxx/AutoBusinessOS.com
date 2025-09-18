@@ -29,7 +29,15 @@ body {
 }
 
 .bg-gradient-to-br * {
-  color: inherit;
+  color: white !important;
+}
+
+.bg-gradient-to-br h1,
+.bg-gradient-to-br h2,
+.bg-gradient-to-br h3,
+.bg-gradient-to-br p,
+.bg-gradient-to-br div {
+  color: white !important;
 }
 
 .bg-gradient-to-br .text-yellow-300 {
@@ -40,10 +48,122 @@ body {
   color: #e0e7ff !important;
 }
 
-a.bg-white {
-  color: #5a67d8 !important; /* primary-600 */
+.bg-gradient-to-br .text-primary-200 {
+  color: #c7d2fe !important;
 }
 
-a.bg-white:hover {
+/* 强制Hero区域的所有文字为白色 */
+section[class*="bg-gradient-to-br"] {
+  color: white !important;
+}
+
+section[class*="bg-gradient-to-br"] * {
+  color: white !important;
+}
+
+/* 按钮样式覆盖 */
+.bg-gradient-to-br a.bg-white {
+  color: #5a67d8 !important; /* primary-600 */
+  background-color: white !important;
+}
+
+.bg-gradient-to-br a.bg-white:hover {
   color: #4c51bf !important; /* primary-700 */
+  background-color: #f7fafc !important;
+}
+
+.bg-gradient-to-br a[class*="border-white"] {
+  color: white !important;
+  border-color: white !important;
+}
+
+.bg-gradient-to-br a[class*="border-white"]:hover {
+  background-color: white !important;
+  color: #5a67d8 !important;
+}
+
+/* 数据统计区域 */
+.bg-gradient-to-br .text-3xl,
+.bg-gradient-to-br .text-4xl {
+  color: #fde047 !important; /* yellow-300 */
+}
+
+/* 确保所有gradient背景下的文字可见 */
+.bg-gradient-to-br h1,
+.bg-gradient-to-br h2,
+.bg-gradient-to-br h3,
+.bg-gradient-to-br h4,
+.bg-gradient-to-br h5,
+.bg-gradient-to-br h6 {
+  color: white !important;
+}
+
+.bg-gradient-to-br p {
+  color: white !important;
+}
+
+.bg-gradient-to-br span {
+  color: inherit !important;
+}
+
+.bg-gradient-to-br .text-yellow-300 {
+  color: #fde047 !important;
+}
+
+.bg-gradient-to-br .text-primary-100 {
+  color: #e0e7ff !important;
+}
+
+.bg-gradient-to-br .text-primary-200 {
+  color: #c7d2fe !important;
+}
+
+/* 防止透明文字 */
+.text-transparent {
+  color: #fde047 !important;
+}
+
+/* 所有gradient背景的通用修复 */
+[class*="bg-gradient-to-r"] {
+  color: white;
+}
+
+[class*="bg-gradient-to-r"] * {
+  color: inherit;
+}
+
+[class*="bg-gradient-to-r"] h1,
+[class*="bg-gradient-to-r"] h2,
+[class*="bg-gradient-to-r"] h3,
+[class*="bg-gradient-to-r"] h4,
+[class*="bg-gradient-to-r"] h5,
+[class*="bg-gradient-to-r"] h6 {
+  color: white !important;
+}
+
+[class*="bg-gradient-to-r"] p {
+  color: white !important;
+}
+
+[class*="bg-gradient-to-r"] .text-yellow-300 {
+  color: #fde047 !important;
+}
+
+[class*="bg-gradient-to-r"] .text-primary-100 {
+  color: #e0e7ff !important;
+}
+
+[class*="bg-gradient-to-r"] .text-primary-200 {
+  color: #c7d2fe !important;
+}
+
+/* 确保按钮可见性 */
+[class*="bg-gradient-to-r"] a.bg-white {
+  color: #5a67d8 !important;
+  background-color: white !important;
+}
+
+[class*="bg-gradient-to-r"] a[class*="border-white"] {
+  color: white !important;
+  border-color: white !important;
 }

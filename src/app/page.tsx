@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              The Future of <span className="text-yellow-300 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent">Business</span>
+              The Future of <span className="text-yellow-300 font-bold">Business</span>
               <br />Automation is Here
             </h1>
             
