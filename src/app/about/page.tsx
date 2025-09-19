@@ -72,22 +72,22 @@ export default function AboutPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{color: 'white'}}>
-              About <span className="text-yellow-300" style={{color: '#fef08a'}}>AutoBusinessOS</span>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              About <span className="text-blue-600">AutoBusinessOS</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto" style={{color: 'white'}}>
-              We're on a mission to revolutionize how businesses operate through intelligent automation. 
-              Our platform empowers organizations to achieve 100% workflow automation, driving unprecedented efficiency and growth.
+            <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
+              We're revolutionizing business operations through intelligent automation.
+              Our platform empowers organizations to achieve complete workflow automation and drive unprecedented growth.
             </p>
           </div>
         </div>
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -95,37 +95,37 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                To democratize enterprise automation by making it accessible, affordable, and easy to implement for businesses of all sizes. 
-                We believe that every organization deserves the power of automation to compete and thrive in the digital economy.
+                To democratize enterprise automation by making it accessible, affordable, and easy to implement for businesses of all sizes.
+                We believe every organization deserves the power of automation to compete and thrive.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our platform combines cutting-edge AI technology with deep industry expertise to deliver automation solutions 
-                that not only work but transform how businesses operate.
+                Our platform combines cutting-edge AI technology with deep industry expertise to deliver
+                automation solutions that transform how businesses operate.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">500+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
                   <div className="text-gray-600">Enterprise Clients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">15</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">15</div>
                   <div className="text-gray-600">Countries</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">80%</div>
-                  <div className="text-gray-600">Average Efficiency Gain</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
+                  <div className="text-gray-600">Efficiency Gain</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">$2B+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$2B+</div>
                   <div className="text-gray-600">Client Savings</div>
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-2xl p-8">
-              <div className="text-6xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bold mb-4" style={{color: '#111827'}}>Why We Exist</h3>
-              <p style={{color: '#374151'}}>
-                Traditional automation solutions are complex, expensive, and require extensive technical expertise. 
+            <div className="bg-white rounded-lg p-8 shadow-sm">
+              <div className="text-4xl mb-4">🚀</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why We Exist</h3>
+              <p className="text-gray-600">
+                Traditional automation solutions are complex, expensive, and require extensive technical expertise.
                 We saw an opportunity to change this by creating a platform that makes automation accessible to everyone.
               </p>
             </div>
@@ -134,24 +134,24 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Meet Our Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our diverse team of automation experts, engineers, and business strategists work together 
+              Automation experts, engineers, and business strategists working together
               to deliver exceptional results for our clients.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-6xl mb-4">{member.image}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
-                <div className="text-primary-600 font-semibold mb-3">{member.role}</div>
+              <div key={index} className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-4xl mb-4">{member.image}</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">{member.name}</h3>
+                <div className="text-blue-600 font-semibold mb-3">{member.role}</div>
                 <p className="text-gray-600 text-sm">{member.bio}</p>
               </div>
             ))}
@@ -234,25 +234,25 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{color: 'white'}}>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Work With Us?
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto" style={{color: 'white'}}>
-            Join hundreds of companies that have transformed their operations with AutoBusinessOS. 
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Join hundreds of companies that have transformed their operations with AutoBusinessOS.
             Let's discuss how we can help your business achieve its automation goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
               Get in Touch
             </Link>
             <Link
               href="/tools/roi-calculator"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
               Calculate Your ROI
             </Link>

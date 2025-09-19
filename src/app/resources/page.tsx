@@ -5,25 +5,25 @@ export default function ResourcesPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <section className="bg-white pt-20 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <span className="text-yellow-300">Resource</span> Hub
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Resource <span className="text-blue-600">Hub</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto">
+            <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Expert guides, proven case studies, ready-to-use templates, and industry intelligence to accelerate your automation success
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/resources/guides"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
                 Explore Guides →
               </Link>
               <Link
                 href="/resources/case-studies"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block"
+                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors inline-block"
               >
                 Success Stories
               </Link>
@@ -44,18 +44,18 @@ export default function ResourcesPage() {
                 <input
                   type="text"
                   placeholder="Search guides, case studies, templates..."
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
               </div>
               <div className="flex gap-4">
-                <select className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500">
+                <select className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
                   <option>All Content</option>
                   <option>Implementation Guides</option>
                   <option>Case Studies</option>
                   <option>Templates & Tools</option>
                   <option>Industry Insights</option>
                 </select>
-                <select className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500">
+                <select className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
                   <option>All Industries</option>
                   <option>E-commerce</option>
                   <option>SaaS Software</option>
@@ -63,7 +63,7 @@ export default function ResourcesPage() {
                   <option>Healthcare</option>
                   <option>Financial Services</option>
                 </select>
-                <button className="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
                   Find Resources
                 </button>
               </div>
@@ -125,11 +125,11 @@ export default function ResourcesPage() {
                 className={`${category.color} p-8 rounded-xl transition-all group border-2`}
               >
                 <div className="text-4xl mb-4">{category.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-primary-600">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-blue-600">
                   {category.title}
                 </h3>
                 <p className="text-gray-600 mb-4">{category.description}</p>
-                <div className="text-sm font-medium text-primary-600">{category.count}</div>
+                <div className="text-sm font-medium text-blue-600">{category.count}</div>
               </Link>
             ))}
           </div>
@@ -184,14 +184,14 @@ export default function ResourcesPage() {
                 className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 group"
               >
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-sm bg-primary-100 text-primary-700 px-3 py-1 rounded-full font-medium">
+                  <span className="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
                     {resource.type}
                   </span>
                   <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full font-medium">
                     {resource.tag}
                   </span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-primary-600">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-blue-600">
                   {resource.title}
                 </h3>
                 <p className="text-gray-600 mb-4">{resource.description}</p>
@@ -206,12 +206,12 @@ export default function ResourcesPage() {
       </section>
 
       {/* Lead Generation CTA */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Get Your Custom Automation Strategy
           </h2>
-          <p className="text-xl mb-8 text-primary-100">
+          <p className="text-xl mb-8">
             Submit your business information to receive a customized automation implementation roadmap and ROI analysis report
           </p>
 
@@ -225,7 +225,7 @@ export default function ResourcesPage() {
                   <input
                     type="text"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500 text-gray-900"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-gray-900"
                     placeholder="Your full name"
                   />
                 </div>
@@ -236,7 +236,7 @@ export default function ResourcesPage() {
                   <input
                     type="email"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500 text-gray-900"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-gray-900"
                     placeholder="Your email address"
                   />
                 </div>
@@ -250,7 +250,7 @@ export default function ResourcesPage() {
                   <input
                     type="text"
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500 text-gray-900"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-gray-900"
                     placeholder="Your company name"
                   />
                 </div>
@@ -260,7 +260,7 @@ export default function ResourcesPage() {
                   </label>
                   <select
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500 text-gray-900"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-gray-900"
                   >
                     <option value="">Select your industry</option>
                     <option value="ecommerce">E-commerce & Retail</option>
@@ -286,7 +286,7 @@ export default function ResourcesPage() {
 
               <button
                 type="submit"
-                className="w-full bg-primary-600 text-white py-3 px-6 rounded-md hover:bg-primary-700 transition-colors font-semibold"
+                className="w-full bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors font-semibold"
               >
                 Get Custom Strategy →
               </button>
@@ -338,7 +338,7 @@ export default function ResourcesPage() {
               <Link
                 key={update.title}
                 href={update.href}
-                className="border border-gray-200 rounded-lg p-6 hover:border-primary-300 hover:shadow-lg transition-all"
+                className="border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-lg transition-all"
               >
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-sm text-gray-500">{update.date}</span>
@@ -346,7 +346,7 @@ export default function ResourcesPage() {
                     {update.type}
                   </span>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2 hover:text-primary-600">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600">
                   {update.title}
                 </h3>
                 <p className="text-gray-600 text-sm">{update.excerpt}</p>

@@ -237,7 +237,7 @@ export default function ROICalculator() {
 
       {/* Results Display */}
       {results && (
-        <div className="mt-8 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-xl p-6">
+        <div className="mt-8 bg-blue-50 rounded-lg p-6">
           <h3 className="text-2xl font-bold mb-6 text-gray-800 text-center">
             🎉 Your Business Impact Projection
           </h3>

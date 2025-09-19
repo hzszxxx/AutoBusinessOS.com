@@ -13,13 +13,13 @@ export default function ContactPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Contact <span className="text-yellow-300">Us</span>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
+              Contact <span className="text-blue-600">Us</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
               Ready to transform your business with automation? Get in touch with our experts 
               for a personalized consultation and discover how AutoBusinessOS can help you achieve your goals.
             </p>

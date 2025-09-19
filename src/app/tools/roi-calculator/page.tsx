@@ -13,7 +13,7 @@ export default function ROICalculatorPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-secondary-50 py-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -61,7 +61,7 @@ export default function ROICalculatorPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Precise Cost Assessment</h3>
@@ -227,7 +227,7 @@ export default function ROICalculatorPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">{item.industry}</h3>
                 <div className="space-y-3">
                   <div>
-                    <div className="text-2xl font-bold text-primary-600">{item.avgROI}</div>
+                    <div className="text-2xl font-bold text-blue-600">{item.avgROI}</div>
                     <div className="text-xs text-gray-600">Average ROI</div>
                   </div>
                   <div>
@@ -252,12 +252,12 @@ export default function ROICalculatorPage() {
       </section>
 
       {/* Next Steps */}
-      <section className="py-16 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             After Calculating ROI, What's Next?
           </h2>
-          <p className="text-xl mb-8 text-primary-100">
+          <p className="text-xl mb-8 text-gray-100">
             Our expert team will provide you with personalized automation implementation recommendations
           </p>
 
@@ -265,7 +265,7 @@ export default function ROICalculatorPage() {
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">📋</div>
               <h3 className="font-semibold mb-2">Requirements Analysis</h3>
-              <p className="text-sm text-primary-100">
+              <p className="text-sm text-gray-100">
                 Professional consultants provide one-on-one analysis of your specific needs and business processes
               </p>
             </div>
@@ -273,7 +273,7 @@ export default function ROICalculatorPage() {
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">🛠️</div>
               <h3 className="font-semibold mb-2">Solution Design</h3>
-              <p className="text-sm text-primary-100">
+              <p className="text-sm text-gray-100">
                 Customized automation solutions and implementation roadmaps tailored to your needs
               </p>
             </div>
@@ -281,7 +281,7 @@ export default function ROICalculatorPage() {
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <div className="text-3xl mb-3">🚀</div>
               <h3 className="font-semibold mb-2">Implementation</h3>
-              <p className="text-sm text-primary-100">
+              <p className="text-sm text-gray-100">
                 Professional team provides full support to ensure successful project implementation
               </p>
             </div>
@@ -290,13 +290,13 @@ export default function ROICalculatorPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Contact Expert Consultation
             </Link>
             <Link
               href="/solutions"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
+              className="border border-gray-300 text-white hover:bg-gray-50 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               View Solutions
             </Link>

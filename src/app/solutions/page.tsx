@@ -72,25 +72,25 @@ export default function SolutionsPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Complete <span className="text-yellow-300">Automation</span> Solutions
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
+              Complete <span className="text-blue-600">Automation</span> Solutions
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
               Transform every aspect of your business with our comprehensive automation solutions. From marketing to finance, we've got you covered.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
                 Calculate Your ROI
               </Link>
               <Link
                 href="/resources/guides"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+                className="border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
               >
                 View Implementation Guides
               </Link>
@@ -121,7 +121,7 @@ export default function SolutionsPage() {
                 <div className={`h-2 bg-gradient-to-r ${solution.color}`}></div>
                 <div className="p-8">
                   <div className="text-4xl mb-4">{solution.icon}</div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {solution.name}
                   </h3>
                   <p className="text-gray-600 mb-6 leading-relaxed">
@@ -130,12 +130,12 @@ export default function SolutionsPage() {
                   <div className="space-y-2 mb-6">
                     {solution.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-center text-sm text-gray-700">
-                        <div className="w-2 h-2 bg-primary-500 rounded-full mr-3"></div>
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
                         {benefit}
                       </div>
                     ))}
                   </div>
-                  <div className="mt-6 text-primary-600 font-semibold group-hover:text-primary-700 transition-colors">
+                  <div className="mt-6 text-blue-600 font-semibold group-hover:text-blue-700 transition-colors">
                     Learn More →
                   </div>
                 </div>
@@ -159,7 +159,7 @@ export default function SolutionsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">🔗</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Integrated Platform</h3>
@@ -169,7 +169,7 @@ export default function SolutionsPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Rapid Deployment</h3>
@@ -179,7 +179,7 @@ export default function SolutionsPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl">📊</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Measurable Results</h3>
@@ -205,19 +205,19 @@ export default function SolutionsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-primary-600 mb-2">80%</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">80%</div>
               <div className="text-gray-600">Average Efficiency Increase</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-primary-600 mb-2">60%</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">60%</div>
               <div className="text-gray-600">Cost Reduction</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-primary-600 mb-2">90%</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">90%</div>
               <div className="text-gray-600">Time Savings</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-primary-600 mb-2">95%</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
               <div className="text-gray-600">Client Satisfaction</div>
             </div>
           </div>
@@ -225,24 +225,24 @@ export default function SolutionsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Automate Your Business?
           </h2>
-          <p className="text-xl mb-8 text-white max-w-3xl mx-auto">
+          <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
             Start with one solution or implement a complete transformation. Our experts will help you choose the right automation strategy for your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
               Calculate Your ROI
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+              className="border border-gray-300 text-white hover:bg-gray-50 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
             >
               Get Started Today
             </Link>

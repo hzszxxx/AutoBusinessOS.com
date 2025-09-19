@@ -57,25 +57,25 @@ export default function ToolsPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Automation <span className="text-yellow-300">Tools</span>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Automation <span className="text-blue-600">Tools</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
+            <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Powerful tools and calculators to help you plan, implement, and optimize your automation solutions. Make data-driven decisions with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
                 Try ROI Calculator
               </Link>
               <Link
                 href="/contact"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors inline-block"
               >
                 Get Expert Help
               </Link>
@@ -98,23 +98,23 @@ export default function ToolsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {toolCards.map((tool, index) => (
-              <Link key={index} href={tool.href} className="block bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8 group">
-                <div className="text-5xl mb-6 text-center">{tool.icon}</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+              <Link key={index} href={tool.href} className="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 group">
+                <div className="text-4xl mb-4 text-center">{tool.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                   {tool.title}
                 </h3>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-4">
                   {tool.description}
                 </p>
                 <div className="space-y-2">
                   {tool.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center text-sm text-gray-500">
-                      <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
+                    <div key={featureIndex} className="flex items-center text-sm text-gray-700">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
                       {feature}
                     </div>
                   ))}
                 </div>
-                <div className="mt-6 text-primary-600 font-semibold group-hover:text-primary-700 transition-colors">
+                <div className="mt-4 text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
                   Learn More →
                 </div>
               </Link>
@@ -137,30 +137,30 @@ export default function ToolsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🎯</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">🎯</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Expert-Designed</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Expert-Designed</h3>
               <p className="text-gray-600">
                 Built by automation professionals with years of industry experience and proven methodologies.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">📊</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">📊</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Data-Driven</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Data-Driven</h3>
               <p className="text-gray-600">
                 Based on real-world data and industry benchmarks to provide accurate, reliable results.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">⚡</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">⚡</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Easy to Use</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Easy to Use</h3>
               <p className="text-gray-600">
                 Intuitive interfaces and step-by-step guidance make complex calculations simple and accessible.
               </p>
@@ -170,24 +170,24 @@ export default function ToolsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl mb-8 text-white max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
             Start with our ROI calculator to see the potential impact of automation on your business, or explore our full suite of tools.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
               Calculate Your ROI
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
               Contact Our Experts
             </Link>

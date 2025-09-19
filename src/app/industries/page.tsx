@@ -58,25 +58,25 @@ export default function IndustriesPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white pt-24 pb-16">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Industry-Specific <span className="text-yellow-300">Automation</span>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Industry-Specific <span className="text-blue-600">Automation</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
+            <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Tailored automation solutions for every industry. Transform your sector with intelligent workflows designed for your unique challenges and opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
                 Calculate Your ROI
               </Link>
               <Link
                 href="/resources/guides"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors inline-block"
               >
                 View Implementation Guides
               </Link>
@@ -97,33 +97,30 @@ export default function IndustriesPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {industries.map((industry) => (
               <Link
                 key={industry.name}
                 href={industry.href}
-                className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
+                className="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6"
               >
-                <div className={`h-2 bg-gradient-to-r ${industry.color}`}></div>
-                <div className="p-8">
-                  <div className="text-4xl mb-4">{industry.icon}</div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
-                    {industry.name}
-                  </h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
-                    {industry.description}
-                  </p>
-                  <div className="space-y-2">
-                    {industry.benefits.map((benefit, index) => (
-                      <div key={index} className="flex items-center text-sm text-gray-700">
-                        <div className="w-2 h-2 bg-primary-500 rounded-full mr-3"></div>
-                        {benefit}
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-6 text-primary-600 font-semibold group-hover:text-primary-700 transition-colors">
-                    Learn More →
-                  </div>
+                <div className="text-3xl mb-4">{industry.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  {industry.name}
+                </h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {industry.description}
+                </p>
+                <div className="space-y-2">
+                  {industry.benefits.map((benefit, index) => (
+                    <div key={index} className="flex items-center text-sm text-gray-700">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                      {benefit}
+                    </div>
+                  ))}
+                </div>
+                <div className="mt-4 text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
+                  Learn More →
                 </div>
               </Link>
             ))}
@@ -145,30 +142,30 @@ export default function IndustriesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🎯</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">🎯</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Targeted Solutions</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Targeted Solutions</h3>
               <p className="text-gray-600">
                 Each industry has unique workflows, regulations, and challenges. Our automation solutions are specifically designed for your sector's requirements.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">⚡</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">⚡</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Faster Implementation</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Faster Implementation</h3>
               <p className="text-gray-600">
                 Pre-built industry templates and workflows mean faster deployment and quicker time-to-value for your organization.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🛡️</span>
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-xl">🛡️</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Compliance Ready</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Compliance Ready</h3>
               <p className="text-gray-600">
                 Built-in compliance features and industry best practices ensure your automation meets regulatory requirements from day one.
               </p>
@@ -189,42 +186,42 @@ export default function IndustriesPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-2xl">🛒</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-lg">🛒</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">E-commerce Giant</h3>
-                  <p className="text-gray-600">Online Retailer</p>
+                  <h3 className="text-lg font-semibold text-gray-900">E-commerce Giant</h3>
+                  <p className="text-gray-600 text-sm">Online Retailer</p>
                 </div>
               </div>
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-4">
                 "AutoBusinessOS helped us automate our entire order fulfillment process. We've seen a 150% increase in sales while reducing operational costs by 40%."
               </p>
-              <div className="flex items-center text-primary-600 font-semibold">
-                <Link href="/industries/ecommerce" className="hover:text-primary-700">
+              <div className="flex items-center text-blue-600 font-medium">
+                <Link href="/industries/ecommerce" className="hover:text-blue-700">
                   Read Full Case Study →
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-2xl">💻</span>
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                  <span className="text-lg">💻</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">SaaS Startup</h3>
-                  <p className="text-gray-600">Software Company</p>
+                  <h3 className="text-lg font-semibold text-gray-900">SaaS Startup</h3>
+                  <p className="text-gray-600 text-sm">Software Company</p>
                 </div>
               </div>
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-4">
                 "Customer onboarding that used to take days now happens in minutes. Our support team can focus on complex issues instead of routine tasks."
               </p>
-              <div className="flex items-center text-primary-600 font-semibold">
-                <Link href="/industries/saas" className="hover:text-primary-700">
+              <div className="flex items-center text-blue-600 font-medium">
+                <Link href="/industries/saas" className="hover:text-blue-700">
                   Read Full Case Study →
                 </Link>
               </div>
@@ -234,24 +231,24 @@ export default function IndustriesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Industry?
           </h2>
-          <p className="text-xl mb-8 text-white max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
             Join thousands of companies already using AutoBusinessOS to automate their industry-specific processes and drive unprecedented growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
               Calculate Your Industry ROI
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block shadow-lg"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
               Speak with an Expert
             </Link>

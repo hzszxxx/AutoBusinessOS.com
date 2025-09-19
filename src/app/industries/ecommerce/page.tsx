@@ -12,26 +12,26 @@ export default function EcommercePage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-secondary-600 text-white py-20">
+      <section className="bg-white pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               E-commerce Automation System
-              <span className="block text-yellow-300">Inventory Management, Order Processing & Customer Service</span>
+              <span className="block text-blue-600">Inventory Management, Order Processing & Customer Service</span>
             </h1>
-            <p className="text-xl mb-8 text-primary-100">
+            <p className="text-xl mb-8 text-gray-600">
               Intelligent automation system designed for e-commerce businesses, optimizing the entire workflow from inventory management to customer service. Help e-commerce companies boost sales by 150%, reduce operational costs by 40%, and achieve efficient digital operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block text-center"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block text-center"
               >
 Calculate ROI Free
               </Link>
               <Link
                 href="#solutions"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
+                className="border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block text-center"
               >
 Explore Solutions
               </Link>
@@ -1081,7 +1081,7 @@ Explore Solutions
             </p>
             <Link
               href="/tools/roi-calculator"
-              className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors inline-block"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
             >
               Calculate ROI Free
             </Link>
@@ -1090,24 +1090,24 @@ Explore Solutions
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Begin Your E-commerce Automation Transformation Journey?
           </h2>
-          <p className="text-xl mb-8 text-primary-100">
+          <p className="text-xl mb-8 text-gray-100">
             Contact us today to get professional e-commerce automation solutions and accelerate your enterprise digital transformation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
-              className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Free ROI Assessment
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
+              className="border border-gray-300 text-white hover:bg-gray-50 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               Contact Expert Consultation
             </Link>
