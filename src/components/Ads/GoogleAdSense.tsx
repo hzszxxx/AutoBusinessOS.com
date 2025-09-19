@@ -23,13 +23,23 @@ interface GoogleAdSenseProps {
 // Auto Ads component for Google AdSense Auto placement
 export function AutoAds() {
   useEffect(() => {
-    // Push auto ads config to AdSense
-    if (typeof window !== 'undefined' && window.adsbygoogle) {
-      (window.adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-6923393739488910",
-        enable_page_level_ads: true
-      });
-    }
+    // Push auto ads config to AdSense - only on client
+    const initializeAutoAds = () => {
+      if (typeof window !== 'undefined' && window.adsbygoogle) {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6923393739488910",
+            enable_page_level_ads: true
+          });
+        } catch (error) {
+          console.log('AdSense auto ads initialization deferred');
+        }
+      }
+    };
+
+    // Delay initialization to ensure DOM is ready
+    const timer = setTimeout(initializeAutoAds, 100);
+    return () => clearTimeout(timer);
   }, []);
 
   return null; // Auto ads don't need a visible component

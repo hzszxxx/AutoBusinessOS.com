@@ -43,16 +43,21 @@ export function FAQDisplay({ faqItems, title = "Frequently Asked Questions" }: F
   return (
     <>
       <FAQSchema faqItems={faqItems} />
-      <section className="py-12">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{title}</h2>
-          <div className="space-y-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{title}</h2>
+            <p className="text-xl text-gray-600">
+              Common questions about AutoBusinessOS automation platform
+            </p>
+          </div>
+          <div className="space-y-4">
             {faqItems.map((item, index) => (
-              <details key={index} className="group bg-white border border-gray-200 rounded-lg">
-                <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-gray-900 hover:bg-gray-50">
+              <details key={index} className="group bg-gray-50 border border-gray-200 rounded-lg">
+                <summary className="flex justify-between items-center cursor-pointer p-6 text-lg font-semibold text-gray-900 hover:bg-gray-100 transition-colors">
                   {item.question}
                   <svg
-                    className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                    className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180 flex-shrink-0 ml-4"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

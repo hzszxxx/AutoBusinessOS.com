@@ -39,12 +39,13 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6923393739488910"
           crossOrigin="anonymous"
         />
+        <StructuredData type="organization" />
+        <StructuredData type="website" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning={true}
       >
-        <StructuredData type="organization" />
-        <StructuredData type="website" />
         <GoogleAnalytics />
         <AutoAds />
         <WebVitals />

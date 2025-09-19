@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { FAQDisplay } from '@/components/SEO/FAQSchema'
 import PageEngagement from '@/components/Analytics/PageEngagement'
-import { InContentAd, ResponsiveAd, HeaderAd } from '@/components/Ads/GoogleAdSense'
+import { HeaderAd } from '@/components/Ads/GoogleAdSense'
 
 export default function Home() {
   const faqItems = [
@@ -101,66 +101,67 @@ export default function Home() {
       />
       
       {/* Header Ad */}
-      <section className="py-2 bg-gray-50">
+      <section className="py-2 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <HeaderAd />
         </div>
       </section>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
-        
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <section className="bg-white pt-20 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium mb-8">
-              <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+            {/* Trust Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-8">
+              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
               Trusted by 500+ companies worldwide
             </div>
-            
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              The Future of <span className="text-yellow-300 font-bold">Business</span>
-              <br />Automation is Here
+
+            {/* Main Headline */}
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              Automate Your Business,
+              <br />
+              <span className="text-blue-600">Accelerate Growth</span>
             </h1>
-            
-            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto leading-relaxed">
-              Transform your business with intelligent automation. Drive <span className="font-semibold text-yellow-300">80% efficiency gains</span>, cut costs by <span className="font-semibold text-yellow-300">60%</span>, and empower your team to focus on what matters most.
+
+            {/* Subtitle */}
+            <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+              Transform your operations with intelligent automation. Increase efficiency by 80%, reduce costs by 60%, and focus your team on what matters most.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <Link
                 href="/tools/roi-calculator"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                Get Your ROI Report →
+                Calculate Your ROI
               </Link>
               <Link
                 href="/solutions"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
+                className="border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                Explore Solutions
+                View Solutions
               </Link>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">500+</div>
-                <div className="text-primary-200 text-sm">Happy Clients</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                <div className="text-gray-600 text-sm">Happy Clients</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">80%</div>
-                <div className="text-primary-200 text-sm">Efficiency Gain</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
+                <div className="text-gray-600 text-sm">Efficiency Gain</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">60%</div>
-                <div className="text-primary-200 text-sm">Cost Reduction</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">60%</div>
+                <div className="text-gray-600 text-sm">Cost Reduction</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">99.9%</div>
-                <div className="text-primary-200 text-sm">Uptime</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">99.9%</div>
+                <div className="text-gray-600 text-sm">Uptime</div>
               </div>
             </div>
           </div>
@@ -175,16 +176,22 @@ export default function Home() {
               Why Choose AutoBusinessOS?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Powerful features designed to transform your business operations and drive unprecedented growth
+              Enterprise-grade automation platform trusted by leading companies worldwide
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
+              <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-xl mb-4">
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-600">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>
@@ -196,111 +203,106 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              End-to-End Business Automation
+              Complete Business Automation Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Streamline every aspect of your business operations—from lead generation and sales to customer success and financial reporting
+              From marketing to operations, automate every aspect of your business with our comprehensive platform
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 title: 'Marketing Automation',
-                description: 'Intelligent lead nurturing, omnichannel campaigns, and performance analytics',
+                description: 'Intelligent lead nurturing, campaigns, and analytics',
                 icon: '📊',
                 href: '/solutions/marketing-automation',
-                stats: '80% higher marketing ROI'
+                stats: '80% higher ROI'
               },
               {
                 title: 'Sales Automation',
-                description: 'Streamlined CRM workflows, predictive analytics, and automated follow-ups',
+                description: 'CRM workflows, predictive analytics, automated follow-ups',
                 icon: '💼',
                 href: '/solutions/sales-automation',
-                stats: '60% boost in conversions'
+                stats: '60% more conversions'
               },
               {
-                title: 'Customer Success',
-                description: 'AI-powered support, smart routing, and self-service solutions',
+                title: 'Customer Service',
+                description: 'AI-powered support and smart ticket routing',
                 icon: '🎧',
                 href: '/solutions/customer-service-automation',
                 stats: '70% faster resolution'
               },
               {
-                title: 'Financial Operations',
-                description: 'Automated invoicing, expense tracking, and real-time reporting',
+                title: 'Finance Operations',
+                description: 'Automated invoicing, expenses, and reporting',
                 icon: '💰',
                 href: '/solutions/finance-automation',
                 stats: '90% less manual work'
               },
               {
                 title: 'Human Resources',
-                description: 'Streamlined recruiting, employee onboarding, and performance management',
+                description: 'Recruiting, onboarding, and performance management',
                 icon: '👥',
                 href: '/solutions/hr-automation',
                 stats: '50% faster hiring'
               },
               {
-                title: 'Operations Management',
-                description: 'Smart inventory control, supply chain optimization, and business intelligence',
+                title: 'Operations',
+                description: 'Inventory, supply chain, and business intelligence',
                 icon: '⚙️',
                 href: '/solutions/operations-automation',
-                stats: '40% operational gains'
+                stats: '40% efficiency gains'
               }
             ].map((solution) => (
               <Link
                 key={solution.title}
                 href={solution.href}
-                className="bg-gray-50 hover:bg-gray-100 p-8 rounded-xl transition-colors group"
+                className="block p-6 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors"
               >
-                <div className="text-4xl mb-4">{solution.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-primary-600">
+                <div className="text-2xl mb-3">{solution.icon}</div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {solution.title}
                 </h3>
-                <p className="text-gray-600 mb-4">{solution.description}</p>
-                <div className="text-sm font-medium text-primary-600">{solution.stats}</div>
+                <p className="text-gray-600 mb-3 text-sm">
+                  {solution.description}
+                </p>
+                <div className="text-blue-600 font-medium text-sm">
+                  {solution.stats} →
+                </div>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Ad Space 1 - Between Solutions and ROI Calculator */}
-      <section className="py-8 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
-            <ResponsiveAd adSlot="1234567890" />
-          </div>
-        </div>
-      </section>
-
       {/* ROI Calculator CTA */}
-      <section className="py-20 bg-gradient-to-r from-gray-50 to-primary-50">
+      <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Discover Your Automation Potential
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            See Your ROI in 3 Minutes
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Get a personalized ROI analysis in under 3 minutes. See exactly how automation will impact your bottom line.
+          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            Calculate the exact impact automation will have on your business. Get personalized results instantly.
           </p>
           <Link
             href="/tools/roi-calculator"
-            className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
+            className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
           >
-            Start Your Analysis →
+            Calculate ROI →
           </Link>
         </div>
       </section>
 
       {/* Industry Cases */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Proven Results Across Industries
+              Trusted Across Industries
             </h2>
             <p className="text-xl text-gray-600">
-              Join thousands of companies transforming their operations with AutoBusinessOS
+              Companies in every sector rely on AutoBusinessOS for growth
             </p>
           </div>
 
@@ -309,26 +311,17 @@ export default function Home() {
               { name: 'E-commerce', href: '/industries/ecommerce', growth: '+150% Revenue' },
               { name: 'SaaS', href: '/industries/saas', growth: '+200% Growth' },
               { name: 'Manufacturing', href: '/industries/manufacturing', growth: '+80% Output' },
-              { name: 'Healthcare', href: '/industries/healthcare', growth: '+90% Patient Satisfaction' }
+              { name: 'Healthcare', href: '/industries/healthcare', growth: '+90% Satisfaction' }
             ].map((industry) => (
               <Link
                 key={industry.name}
                 href={industry.href}
-                className="text-center p-6 border border-gray-200 rounded-lg hover:border-primary-300 hover:shadow-lg transition-all"
+                className="text-center p-6 bg-white rounded-lg hover:shadow-md transition-shadow"
               >
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{industry.name}</h3>
-                <div className="text-primary-600 font-medium">{industry.growth}</div>
+                <div className="text-blue-600 font-medium">{industry.growth}</div>
               </Link>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Ad Space 2 - Before FAQ Section */}
-      <section className="py-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
-            <InContentAd />
           </div>
         </div>
       </section>
