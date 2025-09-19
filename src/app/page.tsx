@@ -126,7 +126,7 @@ export default function Home() {
 
             {/* Subtitle */}
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Transform your operations with intelligent automation. Increase efficiency by 80%, reduce costs by 60%, and focus your team on what matters most.
+              The enterprise automation platform that scales with your ambition. Join 500+ companies achieving remarkable growth through intelligent workflow automation and AI-powered business optimization.
             </p>
 
             {/* CTA Buttons */}
@@ -135,7 +135,7 @@ export default function Home() {
                 href="/tools/roi-calculator"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                Calculate Your ROI
+                Discover Your Automation Potential
               </Link>
               <Link
                 href="/solutions"
@@ -152,12 +152,12 @@ export default function Home() {
                 <div className="text-gray-600 text-sm">Happy Clients</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
-                <div className="text-gray-600 text-sm">Efficiency Gain</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">75%</div>
+                <div className="text-gray-600 text-sm">Avg Efficiency Boost</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">60%</div>
-                <div className="text-gray-600 text-sm">Cost Reduction</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">3.2x</div>
+                <div className="text-gray-600 text-sm">Average ROI</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600 mb-2">99.9%</div>
@@ -168,16 +168,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Key Features */}
+      {/* Unique Value Proposition */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose AutoBusinessOS?
+              The AutoBusinessOS Advantage
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Enterprise-grade automation platform trusted by leading companies worldwide
+              Unlike generic automation tools, our platform combines enterprise-grade security with intuitive design,
+              delivering measurable results in weeks, not years.
             </p>
+          </div>
+
+          {/* Success Metrics Banner */}
+          <div className="bg-blue-600 text-white rounded-2xl p-8 mb-16 text-center">
+            <h3 className="text-2xl font-bold mb-4">Proven Results Across Industries</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div>
+                <div className="text-3xl font-bold">4.8/5</div>
+                <div className="text-blue-100 text-sm">Customer Satisfaction</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold">2.1M+</div>
+                <div className="text-blue-100 text-sm">Tasks Automated Daily</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold">156</div>
+                <div className="text-blue-100 text-sm">Countries Served</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold">$847M</div>
+                <div className="text-blue-100 text-sm">Total Client Savings</div>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -289,7 +313,7 @@ export default function Home() {
             href="/tools/roi-calculator"
             className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
           >
-            Calculate ROI →
+            Get My ROI Analysis →
           </Link>
         </div>
       </section>

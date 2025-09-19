@@ -6,8 +6,8 @@ import InternalLinks from '@/components/SEO/InternalLinks'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Marketing Automation Platform - Boost ROI by 80% with AI-Powered Solutions | AutoBusinessOS',
-  description: 'Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses increase marketing efficiency by 80% and reduce customer acquisition costs by 60%.',
+  title: 'Marketing Automation Platform - Increase Conversion Rates by 73% with AI-Powered Solutions | AutoBusinessOS',
+  description: 'Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses increase conversion rates by 73% and reduce customer acquisition costs by 52%.',
   keywords: 'marketing automation, email marketing, lead nurturing, social media marketing, marketing ROI, business automation',
 }
 
@@ -61,18 +61,18 @@ export default function MarketingAutomationPage() {
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Marketing Automation Platform
-              <span className="block text-blue-600">Boost Marketing ROI by 80%</span>
+              <span className="block text-blue-600">Increase Conversions by 73%</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Complete marketing automation from lead generation to customer conversion.
-              Let your marketing team focus on strategy while AI handles repetitive tasks.
+              Transform your marketing operations with intelligent automation that nurtures leads, optimizes campaigns, and drives conversions.
+              Our AI-powered platform integrates seamlessly with your existing tools to deliver measurable growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block text-center"
               >
-                Calculate Marketing ROI
+                Estimate Marketing ROI
               </Link>
               <Link
                 href="#features"

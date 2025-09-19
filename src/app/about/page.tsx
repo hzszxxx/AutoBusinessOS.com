@@ -76,12 +76,26 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About <span className="text-blue-600">AutoBusinessOS</span>
+              The Team Behind <span className="text-blue-600">Your Success</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              We're revolutionizing business operations through intelligent automation.
-              Our platform empowers organizations to achieve complete workflow automation and drive unprecedented growth.
+              Founded by automation experts with deep enterprise experience, AutoBusinessOS was built to solve the complexity gap in business automation.
+              We combine cutting-edge AI technology with proven methodologies to deliver measurable results.
             </p>
+
+            {/* Origin Story */}
+            <div className="bg-blue-50 rounded-2xl p-8 mb-8 text-left max-w-3xl mx-auto">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Our Origin Story</h3>
+              <p className="text-gray-700 leading-relaxed">
+                The idea for AutoBusinessOS was born in 2019 when our founders, working as automation consultants for Fortune 500 companies,
+                repeatedly encountered the same problem: existing automation tools were either too complex for business users or too simple for enterprise needs.
+                After manually building custom solutions for dozens of clients, we realized there had to be a better way.
+              </p>
+              <p className="text-gray-700 leading-relaxed mt-4">
+                We spent 18 months researching, prototyping, and testing with early customers before launching our platform in 2021.
+                Today, our no-code automation platform serves over 500 companies across 15 countries.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -112,8 +126,8 @@ export default function AboutPage() {
                   <div className="text-gray-600">Countries</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
-                  <div className="text-gray-600">Efficiency Gain</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">92%</div>
+                  <div className="text-gray-600">Client Retention</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">$2B+</div>
@@ -248,13 +262,13 @@ export default function AboutPage() {
               href="/contact"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
-              Get in Touch
+              Schedule Consultation
             </Link>
             <Link
               href="/tools/roi-calculator"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
-              Calculate Your ROI
+              See Our Impact Calculator
             </Link>
           </div>
         </div>

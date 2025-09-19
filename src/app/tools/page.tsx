@@ -61,24 +61,51 @@ export default function ToolsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Automation <span className="text-blue-600">Tools</span>
+              Smart Automation <span className="text-blue-600">Calculators</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              Powerful tools and calculators to help you plan, implement, and optimize your automation solutions. Make data-driven decisions with confidence.
+              Get instant insights with our suite of business intelligence tools. From ROI calculations to implementation planning,
+              our calculators help you make informed automation decisions in minutes, not weeks.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/tools/roi-calculator"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
-                Try ROI Calculator
+                Launch Impact Calculator
               </Link>
               <Link
                 href="/contact"
                 className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors inline-block"
               >
-                Get Expert Help
+                Request Tool Demo
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tool Selection Guide */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">📋 Smart Tool Selection Process</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl">1</div>
+                <h4 className="font-semibold text-gray-900 mb-2">Calculate ROI First</h4>
+                <p className="text-sm text-gray-600">Understand potential returns before investing time and resources</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl">2</div>
+                <h4 className="font-semibold text-gray-900 mb-2">Assess Current State</h4>
+                <p className="text-sm text-gray-600">Identify gaps and opportunities in your existing processes</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl">3</div>
+                <h4 className="font-semibold text-gray-900 mb-2">Plan & Execute</h4>
+                <p className="text-sm text-gray-600">Create detailed implementation roadmaps with clear milestones</p>
+              </div>
             </div>
           </div>
         </div>
@@ -89,10 +116,11 @@ export default function ToolsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Essential Automation Tools
+              Professional-Grade Business Calculators
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From ROI calculations to compliance checking, our comprehensive toolkit helps you succeed at every stage of your automation journey.
+              Built by automation consultants using data from 500+ successful implementations.
+              Get accurate projections and actionable insights in minutes, not weeks.
             </p>
           </div>
 
@@ -183,13 +211,13 @@ export default function ToolsPage() {
               href="/tools/roi-calculator"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
             >
-              Calculate Your ROI
+              Start ROI Analysis
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
-              Contact Our Experts
+              Get Tool Support
             </Link>
           </div>
         </div>

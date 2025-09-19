@@ -9,23 +9,24 @@ export default function ResourcesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Resource <span className="text-blue-600">Hub</span>
+              Knowledge <span className="text-blue-600">Center</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              Expert guides, proven case studies, ready-to-use templates, and industry intelligence to accelerate your automation success
+              Access our comprehensive library of automation expertise. From detailed implementation guides to real-world case studies,
+              find everything you need to plan, execute, and optimize your automation strategy successfully.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/resources/guides"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
               >
-                Explore Guides →
+                Browse Expert Guides →
               </Link>
               <Link
                 href="/resources/case-studies"
                 className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors inline-block"
               >
-                Success Stories
+                View Case Studies
               </Link>
             </div>
           </div>
