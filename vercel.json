@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "GOOGLE_ANALYTICS_ID": "@google_analytics_id",
+    "GOOGLE_ADSENSE_ID": "@google_adsense_id"
+  }
+}
