@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
+import InternalLinks from '@/components/SEO/InternalLinks'
 
 export const metadata: Metadata = {
   title: 'Automation Solutions - Complete Business Process Automation | AutoBusinessOS',
@@ -249,6 +250,37 @@ export default function SolutionsPage() {
           </div>
         </div>
       </section>
+
+      {/* Related Internal Links */}
+      <InternalLinks
+        title="相关资源和工具"
+        links={[
+          {
+            title: "行业解决方案",
+            description: "查看针对特定行业的自动化解决方案",
+            href: "/industries",
+            category: "行业"
+          },
+          {
+            title: "实施指南",
+            description: "获取自动化实施的完整指南",
+            href: "/resources/guides",
+            category: "指南"
+          },
+          {
+            title: "成功案例",
+            description: "了解其他企业的自动化成功故事",
+            href: "/resources/case-studies",
+            category: "案例"
+          },
+          {
+            title: "ROI计算器",
+            description: "计算自动化投资的预期回报",
+            href: "/tools/roi-calculator",
+            category: "工具"
+          }
+        ]}
+      />
     </Layout>
   )
 }

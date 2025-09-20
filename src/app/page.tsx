@@ -3,6 +3,7 @@ import Layout from '@/components/Layout/Layout'
 import { FAQDisplay } from '@/components/SEO/FAQSchema'
 import PageEngagement from '@/components/Analytics/PageEngagement'
 import { HeaderAd } from '@/components/Ads/GoogleAdSense'
+import InternalLinks from '@/components/SEO/InternalLinks'
 
 export default function Home() {
   const faqItems = [
@@ -352,6 +353,37 @@ export default function Home() {
 
       {/* FAQ Section */}
       <FAQDisplay faqItems={faqItems} />
+
+      {/* Related Internal Links */}
+      <InternalLinks
+        title="探索更多解决方案"
+        links={[
+          {
+            title: "ROI计算器",
+            description: "立即计算自动化投资回报率",
+            href: "/tools/roi-calculator",
+            category: "工具"
+          },
+          {
+            title: "企业解决方案",
+            description: "查看完整的自动化解决方案",
+            href: "/solutions",
+            category: "解决方案"
+          },
+          {
+            title: "案例研究",
+            description: "了解成功客户的实施案例",
+            href: "/resources/case-studies",
+            category: "资源"
+          },
+          {
+            title: "实施指南",
+            description: "自动化入门完整指南",
+            href: "/resources/guides/automation-getting-started",
+            category: "指南"
+          }
+        ]}
+      />
     </Layout>
   )
 }

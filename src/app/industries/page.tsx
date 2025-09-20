@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
+import InternalLinks from '@/components/SEO/InternalLinks'
 
 export const metadata: Metadata = {
   title: 'Industry Solutions - Enterprise Automation for Every Sector | AutoBusinessOS',
@@ -371,6 +372,37 @@ export default function IndustriesPage() {
           </div>
         </div>
       </section>
+
+      {/* Related Internal Links */}
+      <InternalLinks
+        title="深入了解行业解决方案"
+        links={[
+          {
+            title: "自动化解决方案概览",
+            description: "了解所有可用的自动化解决方案",
+            href: "/solutions",
+            category: "解决方案"
+          },
+          {
+            title: "成功案例详情",
+            description: "查看详细的客户成功案例",
+            href: "/resources/case-studies",
+            category: "案例研究"
+          },
+          {
+            title: "实施指南",
+            description: "获取行业特定的实施指导",
+            href: "/resources/guides",
+            category: "指南"
+          },
+          {
+            title: "工具和资源",
+            description: "使用我们的工具评估自动化潜力",
+            href: "/tools",
+            category: "工具"
+          }
+        ]}
+      />
     </Layout>
   )
 }

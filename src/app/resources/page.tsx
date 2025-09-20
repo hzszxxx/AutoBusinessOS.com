@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
+import InternalLinks from '@/components/SEO/InternalLinks'
 
 export default function ResourcesPage() {
   return (
@@ -356,6 +357,37 @@ export default function ResourcesPage() {
           </div>
         </div>
       </section>
+
+      {/* Related Internal Links */}
+      <InternalLinks
+        title="更多资源和工具"
+        links={[
+          {
+            title: "解决方案概览",
+            description: "了解所有自动化解决方案",
+            href: "/solutions",
+            category: "解决方案"
+          },
+          {
+            title: "行业应用",
+            description: "查看针对特定行业的解决方案",
+            href: "/industries",
+            category: "行业"
+          },
+          {
+            title: "工具箱",
+            description: "使用计算器和评估工具",
+            href: "/tools",
+            category: "工具"
+          },
+          {
+            title: "联系咨询",
+            description: "获取个性化咨询服务",
+            href: "/contact",
+            category: "咨询"
+          }
+        ]}
+      />
     </Layout>
   )
 }
