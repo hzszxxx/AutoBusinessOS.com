@@ -4,18 +4,27 @@ Allow: /
 # Sitemap
 Sitemap: https://autobusinessos.com/sitemap.xml
 
-# Crawl delay
+# Crawl-delay for all bots
 Crawl-delay: 1
 
-# Disallow admin areas
-Disallow: /admin/
-Disallow: /api/
-Disallow: /_next/
-Disallow: /private/
-
-# Allow important directories
+# Allow specific pages
 Allow: /solutions/
 Allow: /industries/
-Allow: /tools/
 Allow: /resources/
-Allow: /images/
+Allow: /tools/
+Allow: /about
+Allow: /contact
+
+# Block admin and private areas (if any exist)
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2

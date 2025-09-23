@@ -658,69 +658,69 @@ Explore Solutions
         </div>
       </section>
 
-      {/* 实施方法论 */}
+      {/* Implementation Methodology */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              电商自动化实施方法论
+              E-commerce Automation Implementation Methodology
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于100+电商成功案例的最佳实践，确保项目快速、稳妥地实施落地
+              Based on best practices from 100+ successful e-commerce cases, ensuring fast and secure project implementation
             </p>
           </div>
 
-          {/* 实施阶段 */}
+          {/* Implementation Phases */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">四阶段实施流程</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Four-Phase Implementation Process</h3>
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">1</div>
-                <h4 className="font-semibold text-gray-900 mb-3">业务调研诊断</h4>
-                <p className="text-sm text-gray-600">深入分析现有业务流程，识别关键痛点和自动化机会点</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Business Research & Diagnosis</h4>
+                <p className="text-sm text-gray-600">Deep analysis of existing business processes, identifying key pain points and automation opportunities</p>
                 <ul className="text-xs text-gray-500 mt-3 space-y-1">
-                  <li>• 业务流程梳理</li>
-                  <li>• 系统现状评估</li>
-                  <li>• 数据质量分析</li>
+                  <li>• Business process mapping</li>
+                  <li>• System status assessment</li>
+                  <li>• Data quality analysis</li>
                 </ul>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">2</div>
-                <h4 className="font-semibold text-gray-900 mb-3">方案设计规划</h4>
-                <p className="text-sm text-gray-600">制定详细的自动化实施方案，确定技术架构和实施路径</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Solution Design & Planning</h4>
+                <p className="text-sm text-gray-600">Develop detailed automation implementation plans, determine technical architecture and implementation path</p>
                 <ul className="text-xs text-gray-500 mt-3 space-y-1">
-                  <li>• 技术方案设计</li>
-                  <li>• 实施计划制定</li>
-                  <li>• 风险评估预案</li>
+                  <li>• Technical solution design</li>
+                  <li>• Implementation plan development</li>
+                  <li>• Risk assessment contingency</li>
                 </ul>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">3</div>
-                <h4 className="font-semibold text-gray-900 mb-3">分阶段实施</h4>
-                <p className="text-sm text-gray-600">采用分阶段部署策略，先核心后扩展，确保业务连续性</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Phased Implementation</h4>
+                <p className="text-sm text-gray-600">Adopt phased deployment strategy, core first then expansion, ensuring business continuity</p>
                 <ul className="text-xs text-gray-500 mt-3 space-y-1">
-                  <li>• 核心功能先行</li>
-                  <li>• 数据迁移测试</li>
-                  <li>• 用户培训推广</li>
+                  <li>• Core functions first</li>
+                  <li>• Data migration testing</li>
+                  <li>• User training promotion</li>
                 </ul>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">4</div>
-                <h4 className="font-semibold text-gray-900 mb-3">优化迭代</h4>
-                <p className="text-sm text-gray-600">持续监控系统运行效果，不断优化算法和流程</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Optimization & Iteration</h4>
+                <p className="text-sm text-gray-600">Continuously monitor system performance, continuously optimize algorithms and processes</p>
                 <ul className="text-xs text-gray-500 mt-3 space-y-1">
-                  <li>• 效果数据监控</li>
-                  <li>• 算法持续优化</li>
-                  <li>• 功能扩展升级</li>
+                  <li>• Performance data monitoring</li>
+                  <li>• Continuous algorithm optimization</li>
+                  <li>• Feature expansion upgrade</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* 关键成功因素 */}
+          {/* Key Success Factors */}
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">关键成功因素</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Key Success Factors</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
@@ -729,8 +729,8 @@ Explore Solutions
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">数据质量保障</h4>
-                    <p className="text-gray-600">确保基础数据的准确性和完整性，这是自动化成功的基石</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Data Quality Assurance</h4>
+                    <p className="text-gray-600">Ensure accuracy and completeness of basic data, which is the foundation of automation success</p>
                   </div>
                 </div>
 
@@ -741,8 +741,8 @@ Explore Solutions
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">业务流程标准化</h4>
-                    <p className="text-gray-600">梳理和标准化现有业务流程，为自动化实施奠定基础</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Business Process Standardization</h4>
+                    <p className="text-gray-600">Organize and standardize existing business processes, laying the foundation for automation implementation</p>
                   </div>
                 </div>
 
@@ -753,8 +753,8 @@ Explore Solutions
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">团队培训支持</h4>
-                    <p className="text-gray-600">全面的用户培训和持续技术支持，确保系统有效使用</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Team Training Support</h4>
+                    <p className="text-gray-600">Comprehensive user training and ongoing technical support, ensuring effective system usage</p>
                   </div>
                 </div>
 
@@ -765,57 +765,57 @@ Explore Solutions
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">持续监控优化</h4>
-                    <p className="text-gray-600">建立效果监控机制，持续优化算法和流程，提升自动化效果</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Continuous Monitoring & Optimization</h4>
+                    <p className="text-gray-600">Establish performance monitoring mechanisms, continuously optimize algorithms and processes, improve automation effectiveness</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">风险控制措施</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Risk Control Measures</h3>
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">数据安全风险</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-2">Data Security Risk</h4>
                   <p className="text-yellow-700 text-sm mb-3">
-                    客户数据和交易信息的安全保护至关重要
+                    Security protection of customer data and transaction information is crucial
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防护措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Protection Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 数据加密存储和传输</li>
-                      <li>• 访问权限严格控制</li>
-                      <li>• 定期安全审计和备份</li>
+                      <li>• Data encryption storage and transmission</li>
+                      <li>• Strict access control</li>
+                      <li>• Regular security audits and backups</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">业务连续性风险</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">Business Continuity Risk</h4>
                   <p className="text-blue-700 text-sm mb-3">
-                    系统切换过程中可能影响正常业务运营
+                    System switching process may impact normal business operations
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防护措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Protection Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 灰度发布和A/B测试</li>
-                      <li>• 备用方案和快速回滚</li>
-                      <li>• 24/7监控和应急响应</li>
+                      <li>• Gradual rollout and A/B testing</li>
+                      <li>• Backup plans and quick rollback</li>
+                      <li>• 24/7 monitoring and emergency response</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-red-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">算法准确性风险</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">Algorithm Accuracy Risk</h4>
                   <p className="text-red-700 text-sm mb-3">
-                    AI算法的预测和决策可能存在偏差
+                    AI algorithm predictions and decisions may have bias
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防护措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Protection Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 人工审核和干预机制</li>
-                      <li>• 模型持续训练和优化</li>
-                      <li>• 多算法对比验证</li>
+                      <li>• Manual review and intervention mechanisms</li>
+                      <li>• Continuous model training and optimization</li>
+                      <li>• Multi-algorithm comparison validation</li>
                     </ul>
                   </div>
                 </div>
@@ -875,14 +875,14 @@ Explore Solutions
                   href="/tools/roi-calculator"
                   className="bg-primary-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-200 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">推荐</span>
+                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Recommended</span>
               </div>
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -890,8 +890,8 @@ Explore Solutions
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">营销自动化平台</h3>
-                <p className="text-gray-600 mt-2">精准营销和客户触达</p>
+                <h3 className="text-xl font-bold text-gray-900">Marketing Automation Platform</h3>
+                <p className="text-gray-600 mt-2">Precision marketing and customer engagement</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -899,25 +899,25 @@ Explore Solutions
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  个性化商品推荐
+                  Personalized product recommendations
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  自动化邮件/短信营销
+                  Automated email/SMS marketing
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  客户行为分析追踪
+                  Customer behavior analysis tracking
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  ROI效果实时监控
+                  Real-time ROI performance monitoring
                 </li>
               </ul>
 
@@ -926,7 +926,7 @@ Explore Solutions
                   href="/solutions/marketing-automation"
                   className="bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -938,8 +938,8 @@ Explore Solutions
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a3 3 0 01-3-3V6a3 3 0 013-3h6a3 3 0 013 3v2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">智能客服系统</h3>
-                <p className="text-gray-600 mt-2">24/7自动化客户服务</p>
+                <h3 className="text-xl font-bold text-gray-900">Intelligent Customer Service System</h3>
+                <p className="text-gray-600 mt-2">24/7 automated customer service</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -947,19 +947,19 @@ Explore Solutions
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI智能问答机器人
+                  AI intelligent Q&A chatbot
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  多渠道统一接入
+                  Multi-channel unified access
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  工单管理和跟踪
+                  Ticket management and tracking
                 </li>
               </ul>
 
@@ -968,7 +968,7 @@ Explore Solutions
                   href="/solutions/customer-service-automation"
                   className="bg-purple-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-purple-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -976,102 +976,102 @@ Explore Solutions
         </div>
       </section>
 
-      {/* ROI分析 */}
+      {/* ROI Analysis */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              电商自动化投资回报分析
+              E-commerce Automation Investment Return Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于真实案例数据，为您分析电商自动化的投资价值和回报预期
+              Based on real case data, analyze the investment value and return expectations of e-commerce automation for you
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">投资成本分析</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Cost Analysis</h3>
               <div className="space-y-6">
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">系统部署成本</h4>
-                    <span className="text-blue-600 font-bold">30-50万</span>
+                    <h4 className="font-semibold text-gray-900">System Deployment Cost</h4>
+                    <span className="text-blue-600 font-bold">$300K-500K</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含软件许可、系统集成、数据迁移等一次性投入</p>
+                  <p className="text-gray-600 text-sm">Including software licenses, system integration, data migration and other one-time investments</p>
                 </div>
 
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">年度运营成本</h4>
-                    <span className="text-green-600 font-bold">10-20万</span>
+                    <h4 className="font-semibold text-gray-900">Annual Operating Cost</h4>
+                    <span className="text-green-600 font-bold">$100K-200K</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含系统维护、技术支持、功能升级等持续投入</p>
+                  <p className="text-gray-600 text-sm">Including system maintenance, technical support, feature upgrades and other ongoing investments</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">培训推广成本</h4>
-                    <span className="text-purple-600 font-bold">5-10万</span>
+                    <h4 className="font-semibold text-gray-900">Training & Implementation Cost</h4>
+                    <span className="text-purple-600 font-bold">$50K-100K</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含员工培训、流程优化、变革管理等投入</p>
+                  <p className="text-gray-600 text-sm">Including employee training, process optimization, change management and other investments</p>
                 </div>
 
                 <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300">
                   <div className="flex justify-between items-center">
-                    <h4 className="font-bold text-gray-900">总投资成本</h4>
-                    <span className="text-2xl font-bold text-gray-900">45-80万</span>
+                    <h4 className="font-bold text-gray-900">Total Investment Cost</h4>
+                    <span className="text-2xl font-bold text-gray-900">$450K-800K</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">投资回报预期</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Return Expectations</h3>
               <div className="space-y-6">
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">销售额提升</h4>
+                    <h4 className="font-semibold text-gray-900">Sales Growth</h4>
                     <span className="text-green-600 font-bold">+150%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">通过精准营销和转化优化，年销售额平均提升150%</p>
+                  <p className="text-gray-600 text-sm">Through precision marketing and conversion optimization, annual sales increase by 150% on average</p>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">运营成本降低</h4>
+                    <h4 className="font-semibold text-gray-900">Operating Cost Reduction</h4>
                     <span className="text-blue-600 font-bold">-40%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">自动化处理减少人工成本，运营效率大幅提升</p>
+                  <p className="text-gray-600 text-sm">Automated processing reduces labor costs, significantly improves operational efficiency</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">库存成本优化</h4>
+                    <h4 className="font-semibold text-gray-900">Inventory Cost Optimization</h4>
                     <span className="text-purple-600 font-bold">-30%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">智能库存管理减少积压和缺货，降低资金占用</p>
+                  <p className="text-gray-600 text-sm">Intelligent inventory management reduces stockpiling and shortages, lowering capital utilization</p>
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">客户获取成本</h4>
+                    <h4 className="font-semibold text-gray-900">Customer Acquisition Cost</h4>
                     <span className="text-yellow-600 font-bold">-50%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">精准营销提升转化率，降低客户获取成本</p>
+                  <p className="text-gray-600 text-sm">Precision marketing improves conversion rates, reduces customer acquisition costs</p>
                 </div>
 
                 <div className="bg-gradient-to-r from-green-100 to-blue-100 p-6 rounded-lg border-2 border-green-300">
                   <div className="text-center">
-                    <h4 className="font-bold text-gray-900 mb-2">预期投资回报率</h4>
+                    <h4 className="font-bold text-gray-900 mb-2">Expected Investment Return Rate</h4>
                     <div className="text-4xl font-bold text-green-600 mb-2">450%</div>
-                    <p className="text-gray-600 text-sm">4-6个月投资回收期</p>
+                    <p className="text-gray-600 text-sm">4-6 months investment recovery period</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* ROI计算器CTA */}
+          {/* ROI Calculator CTA */}
           <div className="mt-16 bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Want to Understand Your Enterprise's Specific ROI?

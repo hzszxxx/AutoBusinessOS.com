@@ -10,7 +10,7 @@ interface InternalLinksProps {
   }>;
 }
 
-export default function InternalLinks({ title = "相关资源", links }: InternalLinksProps) {
+export default function InternalLinks({ title = "Related Resources", links }: InternalLinksProps) {
   if (!links || links.length === 0) return null;
 
   return (

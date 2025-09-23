@@ -375,31 +375,31 @@ export default function IndustriesPage() {
 
       {/* Related Internal Links */}
       <InternalLinks
-        title="深入了解行业解决方案"
+        title="Dive Deeper into Industry Solutions"
         links={[
           {
-            title: "自动化解决方案概览",
-            description: "了解所有可用的自动化解决方案",
+            title: "Automation Solutions Overview",
+            description: "Learn about all available automation solutions",
             href: "/solutions",
-            category: "解决方案"
+            category: "Solutions"
           },
           {
-            title: "成功案例详情",
-            description: "查看详细的客户成功案例",
+            title: "Success Story Details",
+            description: "View detailed customer success cases",
             href: "/resources/case-studies",
-            category: "案例研究"
+            category: "Case Studies"
           },
           {
-            title: "实施指南",
-            description: "获取行业特定的实施指导",
+            title: "Implementation Guides",
+            description: "Get industry-specific implementation guidance",
             href: "/resources/guides",
-            category: "指南"
+            category: "Guides"
           },
           {
-            title: "工具和资源",
-            description: "使用我们的工具评估自动化潜力",
+            title: "Tools and Resources",
+            description: "Use our tools to assess automation potential",
             href: "/tools",
-            category: "工具"
+            category: "Tools"
           }
         ]}
       />

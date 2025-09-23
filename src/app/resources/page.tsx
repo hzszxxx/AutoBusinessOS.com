@@ -360,31 +360,31 @@ export default function ResourcesPage() {
 
       {/* Related Internal Links */}
       <InternalLinks
-        title="更多资源和工具"
+        title="More Resources and Tools"
         links={[
           {
-            title: "解决方案概览",
-            description: "了解所有自动化解决方案",
+            title: "Solutions Overview",
+            description: "Learn about all automation solutions",
             href: "/solutions",
-            category: "解决方案"
+            category: "Solutions"
           },
           {
-            title: "行业应用",
-            description: "查看针对特定行业的解决方案",
+            title: "Industry Applications",
+            description: "View industry-specific solutions",
             href: "/industries",
-            category: "行业"
+            category: "Industries"
           },
           {
-            title: "工具箱",
-            description: "使用计算器和评估工具",
+            title: "Toolbox",
+            description: "Use calculators and assessment tools",
             href: "/tools",
-            category: "工具"
+            category: "Tools"
           },
           {
-            title: "联系咨询",
-            description: "获取个性化咨询服务",
+            title: "Contact Consultation",
+            description: "Get personalized consulting services",
             href: "/contact",
-            category: "咨询"
+            category: "Consultation"
           }
         ]}
       />

@@ -356,31 +356,31 @@ export default function Home() {
 
       {/* Related Internal Links */}
       <InternalLinks
-        title="探索更多解决方案"
+        title="Explore More Solutions"
         links={[
           {
-            title: "ROI计算器",
-            description: "立即计算自动化投资回报率",
+            title: "ROI Calculator",
+            description: "Calculate automation investment returns instantly",
             href: "/tools/roi-calculator",
-            category: "工具"
+            category: "Tools"
           },
           {
-            title: "企业解决方案",
-            description: "查看完整的自动化解决方案",
+            title: "Enterprise Solutions",
+            description: "View complete automation solutions",
             href: "/solutions",
-            category: "解决方案"
+            category: "Solutions"
           },
           {
-            title: "案例研究",
-            description: "了解成功客户的实施案例",
+            title: "Case Studies",
+            description: "Learn from successful customer implementations",
             href: "/resources/case-studies",
-            category: "资源"
+            category: "Resources"
           },
           {
-            title: "实施指南",
-            description: "自动化入门完整指南",
+            title: "Implementation Guide",
+            description: "Complete automation getting started guide",
             href: "/resources/guides/automation-getting-started",
-            category: "指南"
+            category: "Guides"
           }
         ]}
       />

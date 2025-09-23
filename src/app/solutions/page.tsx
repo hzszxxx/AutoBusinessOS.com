@@ -253,31 +253,31 @@ export default function SolutionsPage() {
 
       {/* Related Internal Links */}
       <InternalLinks
-        title="相关资源和工具"
+        title="Related Resources and Tools"
         links={[
           {
-            title: "行业解决方案",
-            description: "查看针对特定行业的自动化解决方案",
+            title: "Industry Solutions",
+            description: "View automation solutions for specific industries",
             href: "/industries",
-            category: "行业"
+            category: "Industries"
           },
           {
-            title: "实施指南",
-            description: "获取自动化实施的完整指南",
+            title: "Implementation Guides",
+            description: "Get complete automation implementation guides",
             href: "/resources/guides",
-            category: "指南"
+            category: "Guides"
           },
           {
-            title: "成功案例",
-            description: "了解其他企业的自动化成功故事",
+            title: "Success Cases",
+            description: "Learn about other enterprises' automation success stories",
             href: "/resources/case-studies",
-            category: "案例"
+            category: "Cases"
           },
           {
-            title: "ROI计算器",
-            description: "计算自动化投资的预期回报",
+            title: "ROI Calculator",
+            description: "Calculate expected returns on automation investment",
             href: "/tools/roi-calculator",
-            category: "工具"
+            category: "Tools"
           }
         ]}
       />

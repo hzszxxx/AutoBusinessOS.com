@@ -19,31 +19,31 @@ export default function MetaTags({
   schema,
   noIndex = false
 }: MetaTagsProps) {
-  const fullTitle = `${title} | AutoBusinessOS - 企业自动化解决方案`
+  const fullTitle = `${title} | AutoBusinessOS - Enterprise Automation Solutions`
   const robotsContent = noIndex ? 'noindex, nofollow' : 'index, follow'
 
   return (
     <Head>
-      {/* 基础Meta标签 */}
+      {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="robots" content={robotsContent} />
       <meta name="googlebot" content={robotsContent} />
 
-      {/* 规范链接 */}
+      {/* Canonical Link */}
       <link rel="canonical" href={canonicalUrl} />
 
-      {/* Open Graph标签 */}
+      {/* Open Graph Tags */}
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:site_name" content="AutoBusinessOS" />
-      <meta property="og:locale" content="zh_CN" />
+      <meta property="og:locale" content="en_US" />
 
-      {/* Twitter卡片 */}
+      {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
