@@ -40,41 +40,41 @@ export default function hrautomationPage() {
         </div>
       </section>
 
-      {/* 痛点分析区域 */}
+      {/* Pain Point Analysis Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">人力资源管理痛点分析</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">HR Management Pain Point Analysis</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              传统HR管理模式面临效率低、成本高、体验差等多重挑战，亟需数字化转型
+              Traditional HR management faces multiple challenges including low efficiency, high costs, and poor experience, urgently needing digital transformation
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-red-500 text-4xl mb-4">📋</div>
-              <h3 className="text-xl font-semibold mb-3">招聘流程冗长</h3>
+              <h3 className="text-xl font-semibold mb-3">Lengthy Recruitment Process</h3>
               <p className="text-gray-600">
-                传统招聘流程复杂，从简历筛选到面试安排平均耗时45天，
-                优秀人才流失率高达60%，严重影响企业人才获取效率。
+                Traditional recruitment processes are complex, taking an average of 45 days from resume screening to interview scheduling.
+                Excellent talent loss rate reaches 60%, seriously impacting enterprise talent acquisition efficiency.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-orange-500 text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-semibold mb-3">员工管理散乱</h3>
+              <h3 className="text-xl font-semibold mb-3">Disorganized Employee Management</h3>
               <p className="text-gray-600">
-                人事档案管理混乱，员工信息更新滞后，缺乏统一的员工生命周期管理，
-                导致管理成本增加35%。
+                HR records management is chaotic, employee information updates are delayed, lacking unified employee lifecycle management,
+                leading to a 35% increase in management costs.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="text-blue-500 text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold mb-3">绩效评估主观</h3>
+              <h3 className="text-xl font-semibold mb-3">Subjective Performance Evaluation</h3>
               <p className="text-gray-600">
-                传统绩效评估缺乏客观数据支撑，评估周期长、反馈滞后，
-                员工满意度仅为42%，影响团队积极性。
+                Traditional performance evaluations lack objective data support, with long evaluation cycles and delayed feedback.
+                Employee satisfaction is only 42%, affecting team motivation.
               </p>
             </div>
 
@@ -106,128 +106,128 @@ export default function hrautomationPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Recruitment System</h3>
                 <p className="text-gray-600 mb-6">
-                  基于AI技术的智能简历筛选和候选人匹配系统，自动化面试安排和跟进流程。
-                  支持多渠道简历收集，智能推荐最匹配候选人，大幅提升招聘效率。
+                  AI-powered intelligent resume screening and candidate matching system with automated interview scheduling and follow-up processes.
+                  Supports multi-channel resume collection, intelligent recommendation of best-matched candidates, significantly improving recruitment efficiency.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    AI简历解析和智能匹配，准确率达95%以上
+                    AI resume parsing and intelligent matching with 95%+ accuracy
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    自动化面试邀请和日程安排，节省80%协调时间
+                    Automated interview invitations and scheduling, saving 80% coordination time
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    多维度候选人评估，提升招聘决策质量
+                    Multi-dimensional candidate assessment, improving recruitment decision quality
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-2xl">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-primary-600 mb-2">65%</div>
-                  <p className="text-gray-600 mb-4">招聘周期缩短</p>
+                  <p className="text-gray-600 mb-4">Recruitment Cycle Reduction</p>
                   <div className="text-2xl font-bold text-secondary-600 mb-2">95%</div>
-                  <p className="text-gray-600">简历匹配准确率</p>
+                  <p className="text-gray-600">Resume Matching Accuracy</p>
                 </div>
               </div>
             </div>
 
-            {/* 员工全生命周期管理 */}
+            {/* Employee Lifecycle Management */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-secondary-600 mb-2">统一</div>
-                  <p className="text-gray-600 mb-4">员工信息管理</p>
+                  <div className="text-4xl font-bold text-secondary-600 mb-2">Unified</div>
+                  <p className="text-gray-600 mb-4">Employee Information Management</p>
                   <div className="text-2xl font-bold text-primary-600 mb-2">90%</div>
-                  <p className="text-gray-600">管理效率提升</p>
+                  <p className="text-gray-600">Management Efficiency Improvement</p>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">员工全生命周期管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Employee Lifecycle Management</h3>
                 <p className="text-gray-600 mb-6">
-                  从入职到离职的完整员工生命周期管理系统。包括员工档案管理、入职流程自动化、
-                  培训跟踪、职业发展规划等，实现员工信息的统一管理和流程的标准化。
+                  Complete employee lifecycle management system from onboarding to departure. Includes employee file management, onboarding process automation,
+                  training tracking, career development planning, achieving unified employee information management and process standardization.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    数字化入职流程，新员工体验提升75%
+                    Digital onboarding process, 75% improvement in new employee experience
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    动态员工画像，实时掌握员工状态
+                    Dynamic employee profiles, real-time understanding of employee status
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    智能离职预警，降低核心人才流失率
+                    Intelligent turnover alerts, reducing core talent loss rate
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* 智能绩效评估 */}
+            {/* Intelligent Performance Evaluation */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">智能绩效评估系统</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Intelligent Performance Evaluation System</h3>
                 <p className="text-gray-600 mb-6">
-                  基于多维度数据的客观绩效评估体系，支持OKR、KPI等多种评估模式。
-                  实时反馈机制和可视化分析，让绩效管理更加科学、透明。
+                  Objective performance evaluation system based on multi-dimensional data, supporting multiple evaluation modes such as OKR and KPI.
+                  Real-time feedback mechanism and visual analysis make performance management more scientific and transparent.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    多维度数据采集，评估结果更客观
+                    Multi-dimensional data collection for more objective evaluation results
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    实时绩效跟踪，及时发现问题和机会
+                    Real-time performance tracking, timely discovery of problems and opportunities
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    智能目标推荐，提升员工发展针对性
+                    Intelligent goal recommendations, improving employee development targeting
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-2xl">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-primary-600 mb-2">85%</div>
-                  <p className="text-gray-600 mb-4">员工满意度</p>
+                  <p className="text-gray-600 mb-4">Employee Satisfaction</p>
                   <div className="text-2xl font-bold text-secondary-600 mb-2">60%</div>
-                  <p className="text-gray-600">评估时间缩短</p>
+                  <p className="text-gray-600">Evaluation Time Reduction</p>
                 </div>
               </div>
             </div>
 
-            {/* 薪酬福利管理 */}
+            {/* Compensation and Benefits Management */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-secondary-600 mb-2">精准</div>
-                  <p className="text-gray-600 mb-4">薪酬核算</p>
+                  <div className="text-4xl font-bold text-secondary-600 mb-2">Precise</div>
+                  <p className="text-gray-600 mb-4">Compensation Calculation</p>
                   <div className="text-2xl font-bold text-primary-600 mb-2">99.8%</div>
-                  <p className="text-gray-600">计算准确率</p>
+                  <p className="text-gray-600">Calculation Accuracy</p>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">薪酬福利管理</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Compensation and Benefits Management</h3>
                 <p className="text-gray-600 mb-6">
-                  智能化薪酬计算和福利管理系统，支持复杂薪酬结构和个性化福利方案。
-                  自动化考勤统计、社保公积金计算，确保薪酬发放的准确性和合规性。
+                  Intelligent compensation calculation and benefits management system supporting complex compensation structures and personalized benefits plans.
+                  Automated attendance statistics and social insurance calculations ensure accuracy and compliance of compensation distribution.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    智能薪酬核算，减少99%计算错误
+                    Intelligent compensation calculation, reducing 99% calculation errors
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    弹性福利配置，满足个性化需求
+                    Flexible benefits configuration, meeting personalized needs
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    合规性监控，自动识别风险点
+                    Compliance monitoring, automatic risk point identification
                   </li>
                 </ul>
               </div>
@@ -236,46 +236,46 @@ export default function hrautomationPage() {
         </div>
       </section>
 
-      {/* 应用场景案例 */}
+      {/* Application Scenarios and Case Studies */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">应用场景案例</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Application Scenarios and Case Studies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              真实客户案例展示HR自动化系统的显著成效和价值创造
+              Real customer cases demonstrating the significant effectiveness and value creation of HR automation systems
             </p>
           </div>
 
           <div className="space-y-12">
-            {/* 案例1：科技企业 */}
+            {/* Case 1: Technology Enterprise */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">科技企业</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">某互联网企业人才管理数字化转型</h3>
+                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">Technology Enterprise</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">Internet Company Talent Management Digital Transformation</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该企业员工5000人，年招聘需求2000人次。传统招聘流程繁琐，HR团队压力巨大，
-                    优秀候选人流失率高，员工入职体验差，急需数字化解决方案。
+                    This company has 5,000 employees with annual recruitment needs of 2,000 people. Traditional recruitment processes were cumbersome, HR teams faced enormous pressure,
+                    high-quality candidate loss rates were high, and employee onboarding experience was poor, urgently needing digital solutions.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">转型前挑战：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Pre-transformation challenges:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 招聘周期平均45天</li>
-                        <li>• 候选人流失率60%</li>
-                        <li>• HR工作效率低下</li>
-                        <li>• 员工入职体验评分3.2</li>
+                        <li>• Average recruitment cycle of 45 days</li>
+                        <li>• 60% candidate loss rate</li>
+                        <li>• Low HR work efficiency</li>
+                        <li>• Employee onboarding experience score 3.2</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">转型后效果：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Post-transformation results:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 招聘周期缩短至16天</li>
-                        <li>• 候选人流失率降至25%</li>
-                        <li>• HR效率提升200%</li>
-                        <li>• 入职体验评分提升至4.6</li>
+                        <li>• Recruitment cycle shortened to 16 days</li>
+                        <li>• Candidate loss rate reduced to 25%</li>
+                        <li>• HR efficiency improved by 200%</li>
+                        <li>• Onboarding experience score improved to 4.6</li>
                       </ul>
                     </div>
                   </div>
@@ -283,43 +283,43 @@ export default function hrautomationPage() {
                 <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary-600 mb-2">65%</div>
-                    <p className="text-gray-600 mb-4">招聘周期缩短</p>
+                    <p className="text-gray-600 mb-4">Recruitment Cycle Reduction</p>
                     <div className="text-2xl font-bold text-secondary-600 mb-2">200%</div>
-                    <p className="text-gray-600">HR效率提升</p>
+                    <p className="text-gray-600">HR Efficiency Improvement</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 案例2：传统制造业 */}
+            {/* Case 2: Traditional Manufacturing */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">制造业</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">传统制造企业绩效管理升级</h3>
+                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">Manufacturing</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">Traditional Manufacturing Performance Management Upgrade</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该制造企业员工3000人，传统纸质绩效考核方式效率低下，评估主观性强，
-                    员工对绩效结果满意度低，影响团队士气和工作积极性。
+                    This manufacturing company has 3,000 employees. Traditional paper-based performance evaluation methods were inefficient and highly subjective,
+                    resulting in low employee satisfaction with performance results, affecting team morale and work motivation.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">升级前问题：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Pre-upgrade issues:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 绩效评估周期长达2个月</li>
-                        <li>• 员工满意度仅42%</li>
-                        <li>• 评估结果主观性强</li>
-                        <li>• 人才发展缺乏方向</li>
+                        <li>• Performance evaluation cycle up to 2 months</li>
+                        <li>• Employee satisfaction only 42%</li>
+                        <li>• Highly subjective evaluation results</li>
+                        <li>• Lack of direction for talent development</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">升级后成果：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Post-upgrade achievements:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 绩效评估缩短至1周</li>
-                        <li>• 员工满意度提升至85%</li>
-                        <li>• 客观数据支撑决策</li>
-                        <li>• 个性化发展路径清晰</li>
+                        <li>• Performance evaluation shortened to 1 week</li>
+                        <li>• Employee satisfaction improved to 85%</li>
+                        <li>• Objective data supports decisions</li>
+                        <li>• Clear personalized development paths</li>
                       </ul>
                     </div>
                   </div>
@@ -327,23 +327,23 @@ export default function hrautomationPage() {
                 <div className="bg-gradient-to-br from-secondary-50 to-primary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-secondary-600 mb-2">85%</div>
-                    <p className="text-gray-600 mb-4">员工满意度</p>
+                    <p className="text-gray-600 mb-4">Employee Satisfaction</p>
                     <div className="text-2xl font-bold text-primary-600 mb-2">87.5%</div>
-                    <p className="text-gray-600">评估效率提升</p>
+                    <p className="text-gray-600">Evaluation Efficiency Improvement</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 客户证言 */}
+            {/* Customer Testimonial */}
             <div className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white">
               <div className="text-center">
                 <blockquote className="text-xl italic mb-6">
-                  &ldquo;HR自动化系统让我们的人力资源管理变得更加智能和高效。招聘周期大幅缩短，
-                  员工满意度显著提升，HR团队终于可以专注于战略性工作，为公司创造更大价值。&rdquo;
+                  &ldquo;The HR automation system has made our human resources management more intelligent and efficient. Recruitment cycles have been significantly shortened,
+                  employee satisfaction has improved dramatically, and the HR team can finally focus on strategic work, creating greater value for the company.&rdquo;
                 </blockquote>
                 <cite className="text-primary-100">
-                  — 李总 | 某科技企业CHRO
+                  — Mr. Li | CHRO of a Technology Company
                 </cite>
               </div>
             </div>
@@ -351,13 +351,13 @@ export default function hrautomationPage() {
         </div>
       </section>
 
-      {/* 实施方法论 */}
+      {/* Implementation Methodology */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">实施方法论</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Implementation Methodology</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于最佳实践的五步实施方法论，确保HR自动化项目顺利落地并产生实际效益
+              Five-step implementation methodology based on best practices, ensuring HR automation projects are successfully implemented and produce practical benefits
             </p>
           </div>
 
@@ -366,9 +366,9 @@ export default function hrautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">1</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">现状诊断</h3>
+              <h3 className="text-lg font-semibold mb-3">Current State Diagnosis</h3>
               <p className="text-gray-600 text-sm">
-                深入调研企业HR管理现状，识别关键痛点和改进机会，制定针对性解决方案
+                In-depth research on enterprise HR management status, identify key pain points and improvement opportunities, develop targeted solutions
               </p>
             </div>
 
@@ -376,9 +376,9 @@ export default function hrautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">2</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">流程重塑</h3>
+              <h3 className="text-lg font-semibold mb-3">Process Redesign</h3>
               <p className="text-gray-600 text-sm">
-                基于最佳实践重新设计HR流程，优化组织架构和岗位设置，提升管理效率
+                Redesign HR processes based on best practices, optimize organizational structure and job settings, improve management efficiency
               </p>
             </div>
 
@@ -386,9 +386,9 @@ export default function hrautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">3</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">系统实施</h3>
+              <h3 className="text-lg font-semibold mb-3">System Implementation</h3>
               <p className="text-gray-600 text-sm">
-                按阶段部署HR自动化系统，完成数据迁移和系统集成，确保平滑过渡
+                Deploy HR automation system in phases, complete data migration and system integration, ensure smooth transition
               </p>
             </div>
 
@@ -396,9 +396,9 @@ export default function hrautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">4</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">能力建设</h3>
+              <h3 className="text-lg font-semibold mb-3">Capability Building</h3>
               <p className="text-gray-600 text-sm">
-                开展系统性培训和知识转移，提升HR团队数字化能力和系统运营水平
+                Conduct systematic training and knowledge transfer, improve HR team digital capabilities and system operation levels
               </p>
             </div>
 
@@ -406,43 +406,43 @@ export default function hrautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">5</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">持续优化</h3>
+              <h3 className="text-lg font-semibold mb-3">Continuous Optimization</h3>
               <p className="text-gray-600 text-sm">
-                建立持续改进机制，根据业务发展和用户反馈不断优化系统功能和流程
+                Establish continuous improvement mechanisms, continuously optimize system functions and processes based on business development and user feedback
               </p>
             </div>
           </div>
 
           <div className="mt-16 bg-gray-50 rounded-2xl p-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">关键成功要素</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Key Success Factors</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-primary-500 text-3xl mb-3">🎯</div>
-                <h4 className="font-semibold mb-2">战略对齐</h4>
-                <p className="text-gray-600 text-sm">确保HR自动化战略与企业整体发展战略高度对齐</p>
+                <h4 className="font-semibold mb-2">Strategic Alignment</h4>
+                <p className="text-gray-600 text-sm">Ensure HR automation strategy is highly aligned with overall enterprise development strategy</p>
               </div>
               <div className="text-center">
                 <div className="text-secondary-500 text-3xl mb-3">👥</div>
-                <h4 className="font-semibold mb-2">全员参与</h4>
-                <p className="text-gray-600 text-sm">建立跨部门协作机制，获得管理层和员工的充分支持</p>
+                <h4 className="font-semibold mb-2">Full Participation</h4>
+                <p className="text-gray-600 text-sm">Establish cross-departmental collaboration mechanisms, gain full support from management and employees</p>
               </div>
               <div className="text-center">
                 <div className="text-primary-500 text-3xl mb-3">📈</div>
-                <h4 className="font-semibold mb-2">数据驱动</h4>
-                <p className="text-gray-600 text-sm">建立完善的数据监控体系，用数据指导决策和改进</p>
+                <h4 className="font-semibold mb-2">Data-Driven</h4>
+                <p className="text-gray-600 text-sm">Establish comprehensive data monitoring systems, use data to guide decisions and improvements</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 工具推荐比较 */}
+      {/* Tool Comparison */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">主流HR自动化工具对比</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Mainstream HR Automation Tool Comparison</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              综合评估主流HR管理系统，帮助您选择最适合的解决方案
+              Comprehensive evaluation of mainstream HR management systems to help you choose the most suitable solution
             </p>
           </div>
 
@@ -450,75 +450,75 @@ export default function hrautomationPage() {
             <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden">
               <thead className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white">
                 <tr>
-                  <th className="px-6 py-4 text-left">功能模块</th>
+                  <th className="px-6 py-4 text-left">Feature Module</th>
                   <th className="px-6 py-4 text-center">AutoBusinessOS</th>
-                  <th className="px-6 py-4 text-center">传统HRIS</th>
-                  <th className="px-6 py-4 text-center">国外SaaS</th>
+                  <th className="px-6 py-4 text-center">Traditional HRIS</th>
+                  <th className="px-6 py-4 text-center">International SaaS</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr>
-                  <td className="px-6 py-4 font-medium">智能招聘</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ AI简历匹配</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 基础筛选</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 有限AI功能</td>
+                  <td className="px-6 py-4 font-medium">Intelligent Recruitment</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ AI Resume Matching</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Basic Screening</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Limited AI Features</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">员工生命周期管理</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 全流程覆盖</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 部分模块</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 功能完整</td>
+                  <td className="px-6 py-4 font-medium">Employee Lifecycle Management</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Complete Process Coverage</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Partial Modules</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Complete Features</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-medium">绩效考核</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 智能分析</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 传统评估</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 多维评估</td>
+                  <td className="px-6 py-4 font-medium">Performance Evaluation</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Intelligent Analysis</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Traditional Evaluation</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Multi-dimensional Evaluation</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">移动端体验</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 原生APP</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 体验较差</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 响应式网页</td>
+                  <td className="px-6 py-4 font-medium">Mobile Experience</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Native APP</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Poor Experience</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Responsive Web</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-medium">本土化适配</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 完全适配</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 本土产品</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 适配不足</td>
+                  <td className="px-6 py-4 font-medium">Localization Adaptation</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Fully Adapted</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Local Product</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Insufficient Adaptation</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">总拥有成本</td>
-                  <td className="px-6 py-4 text-center text-green-600">中等</td>
-                  <td className="px-6 py-4 text-center text-red-600">高</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">中高</td>
+                  <td className="px-6 py-4 font-medium">Total Cost of Ownership</td>
+                  <td className="px-6 py-4 text-center text-green-600">Medium</td>
+                  <td className="px-6 py-4 text-center text-red-600">High</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">Medium-High</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div className="mt-8 bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-6">选型建议</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-6">Selection Recommendations</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6 bg-primary-50 rounded-xl">
-                <h4 className="font-semibold text-primary-600 mb-3">成长型企业</h4>
+                <h4 className="font-semibold text-primary-600 mb-3">Growing Enterprises</h4>
                 <p className="text-gray-600 text-sm">
-                  推荐AutoBusinessOS，功能完整、快速实施、成本可控，
-                  满足快速发展期的HR管理需求
+                  Recommend AutoBusinessOS, complete functions, rapid implementation, controllable costs,
+                  meeting HR management needs during rapid development
                 </p>
               </div>
               <div className="text-center p-6 bg-secondary-50 rounded-xl">
-                <h4 className="font-semibold text-secondary-600 mb-3">大型企业</h4>
+                <h4 className="font-semibold text-secondary-600 mb-3">Large Enterprises</h4>
                 <p className="text-gray-600 text-sm">
-                  AutoBusinessOS提供企业级功能和个性化定制服务，
-                  支持复杂组织架构和业务流程
+                  AutoBusinessOS provides enterprise-level functions and personalized customization services,
+                  supporting complex organizational structures and business processes
                 </p>
               </div>
               <div className="text-center p-6 bg-gray-50 rounded-xl">
-                <h4 className="font-semibold text-gray-600 mb-3">传统行业</h4>
+                <h4 className="font-semibold text-gray-600 mb-3">Traditional Industries</h4>
                 <p className="text-gray-600 text-sm">
-                  深度理解传统行业特点，提供符合行业规范的
-                  HR数字化转型解决方案
+                  Deep understanding of traditional industry characteristics, providing HR digital transformation solutions
+                  that comply with industry standards
                 </p>
               </div>
             </div>
@@ -530,23 +530,23 @@ export default function hrautomationPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开始您的HR自动化之旅？
+            Ready to Start Your HR Automation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            使用我们的ROI计算器，了解HR自动化管理系统能为您的企业带来多少价值
+            Use our ROI calculator to understand how much value HR automation management systems can bring to your enterprise
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
           </div>
         </div>
