@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
-// Force rebuild for deployment
+// Force rebuild for deployment - cache cleared
 
 export const metadata: Metadata = {
   title: 'HR Automation Management System - Recruitment Process, Employee Management & Performance Evaluation Automation | AutoBusinessOS',
