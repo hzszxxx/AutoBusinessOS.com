@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
+// Force rebuild for deployment
+
 export const metadata: Metadata = {
   title: 'HR Automation Management System - Recruitment Process, Employee Management & Performance Evaluation Automation | AutoBusinessOS',
   description: 'Professional HR solutions featuring recruitment automation, employee lifecycle management, and performance evaluation. Reduce 50% HR workload and drive digital transformation.',
