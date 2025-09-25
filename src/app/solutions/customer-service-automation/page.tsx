@@ -20,7 +20,7 @@ export default function customerserviceautomationPage() {
               <span className="block text-yellow-300">AI Chatbots, Ticketing Systems & Knowledge Base Management</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              Professional customer service automation platform solutions that help enterprises achieve efficient and intelligent business process management. Reduce response time by 70% and improve overall operational efficiency.
+              Transform your customer support from cost center to competitive advantage. Our intelligent automation platform delivers instant responses, seamless escalations, and personalized experiences that keep customers coming back.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -45,10 +45,10 @@ export default function customerserviceautomationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Core Pain Points in Traditional Customer Service Management
+              Why Traditional Customer Service Falls Short
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Research shows that 78% of enterprises face serious efficiency and quality issues in customer service management
+              Even the best support teams struggle with outdated processes that frustrate customers and exhaust staff. Here's what businesses like yours face every day.
             </p>
           </div>
 
@@ -59,9 +59,9 @@ export default function customerserviceautomationPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Excessive Response Times</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Customers Wait Too Long for Answers</h3>
               <p className="text-gray-600 mb-4">
-                Traditional customer service has average response times exceeding 24 hours, reaching 48 hours during peak periods. Long customer wait times cause satisfaction to plummet, complaints to surge, and severe damage to brand image.
+                When customers reach out with urgent issues, they expect immediate help—not a 24-48 hour wait. Every delayed response is a potential lost customer, negative review, or frustrated team member dealing with escalated complaints.
               </p>
               <div className="text-sm text-red-600 font-semibold">Average Response Time: 24+ Hours</div>
             </div>
