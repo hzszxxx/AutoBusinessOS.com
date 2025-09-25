@@ -28,26 +28,26 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
     const isReturningUser = localStorage.getItem('user_visited') === 'true';
     const userType = isReturningUser ? 'returning' : 'new';
 
-    // 检测设备类型
+    // Detect device type
     const deviceType = window.innerWidth <= 768 ? 'mobile' :
                       window.innerWidth <= 1024 ? 'tablet' : 'desktop';
 
-    // 检测流量来源
+    // Detect traffic source
     const trafficSource = document.referrer ?
       new URL(document.referrer).hostname : 'direct';
 
-    // 设置智能竞价信号
+    // Set smart bidding signals
     setSmartBiddingSignals(userType, trafficSource, deviceType);
 
-    // 标记用户已访问
+    // Mark user as visited
     localStorage.setItem('user_visited', 'true');
 
-    // 高价值页面追踪
+    // High value page tracking
     if (highValuePage && trackPageValue) {
       trackHighValuePageView(window.location.pathname, trackPageValue);
     }
 
-    // 滚动深度追踪
+    // Scroll depth tracking
     const handleScroll = () => {
       if (!trackScrollDepth) return;
 
@@ -58,12 +58,12 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
       if (scrollPercent > maxScrollDepth.current) {
         maxScrollDepth.current = scrollPercent;
 
-        // 追踪关键滚动里程碑
+        // Track key scroll milestones
         if ([25, 50, 75, 90].includes(scrollPercent)) {
           trackPageDepth(scrollPercent);
         }
 
-        // 深度参与转化追踪
+        // Deep engagement conversion tracking
         if (scrollPercent >= 75 && !hasTrackedEngagement.current) {
           hasTrackedEngagement.current = true;
           trackEvent('deep_engagement', {
@@ -76,7 +76,7 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
       }
     };
 
-    // 页面离开时追踪时间
+    // Track time when leaving page
     const handleBeforeUnload = () => {
       if (!trackTimeOnPage) return;
 
@@ -89,8 +89,8 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
         time_spent: timeOnPage
       });
 
-      // 高参与度转化追踪
-      if (timeOnPage > 120) { // 超过2分钟
+      // High engagement conversion tracking
+      if (timeOnPage > 120) { // Over 2 minutes
         trackEvent('high_engagement', {
           category: 'engagement',
           label: 'long_session',
@@ -100,12 +100,12 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
       }
     };
 
-    // 页面可见性变化追踪
+    // Page visibility change tracking
     const handleVisibilityChange = () => {
       if (document.hidden) {
-        // 页面隐藏时记录时间
+        // Record time when page is hidden
         const sessionTime = Date.now() - startTime.current;
-        if (sessionTime > 30000) { // 超过30秒才记录
+        if (sessionTime > 30000) { // Only record if over 30 seconds
           trackEvent('page_visibility', {
             category: 'engagement',
             label: 'page_hidden',
@@ -116,12 +116,12 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
       }
     };
 
-    // 添加事件监听器
+    // Add event listeners
     window.addEventListener('scroll', handleScroll, { passive: true });
     window.addEventListener('beforeunload', handleBeforeUnload);
     document.addEventListener('visibilitychange', handleVisibilityChange);
 
-    // 初始页面视图追踪
+    // Initial page view tracking
     trackEvent('page_view_enhanced', {
       category: 'navigation',
       label: window.location.pathname,
@@ -139,7 +139,7 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
     };
   }, [trackScrollDepth, trackTimeOnPage, trackPageValue, highValuePage]);
 
-  // 返回追踪函数供组件使用
+  // Return tracking functions for component use
   return {
     trackCustomEvent: trackEvent,
     getSessionTime: () => Date.now() - startTime.current,
@@ -147,7 +147,7 @@ export function useAnalytics(config: AnalyticsConfig = {}) {
   };
 }
 
-// 特定页面的分析配置
+// Analytics configurations for specific pages
 export const AnalyticsPageConfigs = {
   homepage: {
     trackScrollDepth: true,

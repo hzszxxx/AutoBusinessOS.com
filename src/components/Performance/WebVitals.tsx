@@ -21,10 +21,10 @@ declare global {
 
 export function WebVitals() {
   useEffect(() => {
-    // 动态导入 web-vitals
+    // Dynamically import web-vitals
     import('web-vitals').then(({ onCLS, onINP, onFCP, onLCP, onTTFB }) => {
       onCLS(sendToGoogleAnalytics);
-      onINP(sendToGoogleAnalytics); // FID被INP替代
+      onINP(sendToGoogleAnalytics); // INP replaces FID
       onFCP(sendToGoogleAnalytics);
       onLCP(sendToGoogleAnalytics);
       onTTFB(sendToGoogleAnalytics);
@@ -35,7 +35,7 @@ export function WebVitals() {
 }
 
 function sendToGoogleAnalytics({ name, value, id }: WebVitalsMetric) {
-  // 发送到 Google Analytics
+  // Send to Google Analytics
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', name, {
       event_category: 'Web Vitals',
@@ -45,15 +45,15 @@ function sendToGoogleAnalytics({ name, value, id }: WebVitalsMetric) {
     });
   }
 
-  // 开发环境下的性能日志
+  // Performance logging in development environment
   if (process.env.NODE_ENV === 'development') {
     console.log('Web Vitals:', { name, value, id });
   }
 
-  // 性能阈值警告
+  // Performance threshold warnings
   const thresholds = {
     LCP: 2500, // Largest Contentful Paint
-    INP: 200,  // Interaction to Next Paint (替代FID)
+    INP: 200,  // Interaction to Next Paint (replaces FID)
     CLS: 0.1,  // Cumulative Layout Shift
     FCP: 1800, // First Contentful Paint
     TTFB: 800, // Time to First Byte

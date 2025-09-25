@@ -244,7 +244,7 @@ export default function TemplatesPage() {
                   </p>
 
                   <div className="mb-4">
-                    <h4 className="font-medium text-gray-900 mb-2 text-sm">主要功能：</h4>
+                    <h4 className="font-medium text-gray-900 mb-2 text-sm">Key Features:</h4>
                     <div className="grid grid-cols-2 gap-1">
                       {template.features.map((feature, fIndex) => (
                         <div key={fIndex} className="flex items-center text-xs text-gray-600">
@@ -258,16 +258,16 @@ export default function TemplatesPage() {
                   <div className="border-t border-gray-200 pt-4">
                     <div className="grid grid-cols-2 gap-4 text-xs text-gray-500 mb-4">
                       <div>
-                        <span className="font-medium">格式：</span> {template.format}
+                        <span className="font-medium">Format:</span> {template.format}
                       </div>
                       <div>
-                        <span className="font-medium">大小：</span> {template.size}
+                        <span className="font-medium">Size:</span> {template.size}
                       </div>
                       <div>
-                        <span className="font-medium">下载：</span> {template.downloads}
+                        <span className="font-medium">Downloads:</span> {template.downloads}
                       </div>
                       <div className="flex items-center">
-                        <span className="font-medium mr-1">评分：</span>
+                        <span className="font-medium mr-1">Rating:</span>
                         <span className="text-yellow-500">⭐</span>
                         <span className="ml-1">{template.rating}</span>
                       </div>
@@ -275,10 +275,10 @@ export default function TemplatesPage() {
 
                     <div className="flex gap-2">
                       <button className="flex-1 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors text-sm font-medium">
-                        免费下载
+                        Free Download
                       </button>
                       <button className="bg-gray-100 text-gray-700 px-3 py-2 rounded-lg hover:bg-gray-200 transition-colors text-sm">
-                        预览
+                        Preview
                       </button>
                     </div>
                   </div>
@@ -409,10 +409,10 @@ export default function TemplatesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              如何使用模板
+              How to Use Templates
             </h2>
             <p className="text-xl text-gray-600">
-              简单4步，让模板为您的项目发挥最大价值
+              Simple 4 steps to maximize template value for your projects
             </p>
           </div>
 
@@ -420,30 +420,30 @@ export default function TemplatesPage() {
             {[
               {
                 step: 1,
-                title: "选择合适模板",
-                description: "根据您的项目需求和阶段，选择最适合的模板",
-                tips: ["明确项目目标", "评估团队技能", "考虑行业特点"],
+                title: "Select Suitable Template",
+                description: "Choose the most appropriate template based on your project needs and phase",
+                tips: ["Define project goals", "Assess team skills", "Consider industry characteristics"],
                 icon: "🎯"
               },
               {
                 step: 2,
-                title: "下载和预览",
-                description: "免费下载模板，仔细阅读使用说明和示例",
-                tips: ["查看模板结构", "理解填写要求", "准备相关数据"],
+                title: "Download and Preview",
+                description: "Download templates for free, carefully read usage instructions and examples",
+                tips: ["Review template structure", "Understand completion requirements", "Prepare relevant data"],
                 icon: "📥"
               },
               {
                 step: 3,
-                title: "定制化调整",
-                description: "根据企业实际情况，调整模板内容和格式",
-                tips: ["修改企业信息", "调整评估维度", "增加特殊要求"],
+                title: "Customize and Adjust",
+                description: "Adjust template content and format according to actual enterprise situation",
+                tips: ["Modify company information", "Adjust evaluation dimensions", "Add special requirements"],
                 icon: "✏️"
               },
               {
                 step: 4,
-                title: "应用和优化",
-                description: "在实际项目中应用模板，根据使用效果持续优化",
-                tips: ["收集使用反馈", "记录改进点", "分享最佳实践"],
+                title: "Apply and Optimize",
+                description: "Apply templates in actual projects and continuously optimize based on usage results",
+                tips: ["Collect usage feedback", "Record improvement points", "Share best practices"],
                 icon: "🚀"
               }
             ].map((step) => (
@@ -461,7 +461,7 @@ export default function TemplatesPage() {
                     </div>
                     <p className="text-gray-600 mb-4">{step.description}</p>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-2 text-sm">使用要点：</h4>
+                      <h4 className="font-medium text-gray-900 mb-2 text-sm">Key Points:</h4>
                       <ul className="space-y-1">
                         {step.tips.map((tip, tipIndex) => (
                           <li key={tipIndex} className="flex items-center text-sm text-gray-600">
@@ -484,29 +484,29 @@ export default function TemplatesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-lg p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
-              需要定制化模板？
+              Need Customized Templates?
             </h2>
             <p className="text-xl mb-6 text-orange-100">
-              我们的专家团队可以为您量身定制专业模板
+              Our expert team can create professional templates tailored for you
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                <h3 className="font-semibold mb-2">🎨 个性化设计</h3>
+                <h3 className="font-semibold mb-2">🎨 Personalized Design</h3>
                 <p className="text-sm text-orange-100">
-                  根据企业VI和文化特色定制模板样式
+                  Customize template styles based on corporate VI and cultural characteristics
                 </p>
               </div>
               <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                <h3 className="font-semibold mb-2">🔧 功能定制</h3>
+                <h3 className="font-semibold mb-2">🔧 Function Customization</h3>
                 <p className="text-sm text-orange-100">
-                  针对特殊业务需求开发专属功能
+                  Develop exclusive functions for special business needs
                 </p>
               </div>
               <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                <h3 className="font-semibold mb-2">📞 专业支持</h3>
+                <h3 className="font-semibold mb-2">📞 Professional Support</h3>
                 <p className="text-sm text-orange-100">
-                  提供使用培训和技术支持服务
+                  Provide usage training and technical support services
                 </p>
               </div>
             </div>
@@ -516,10 +516,10 @@ export default function TemplatesPage() {
                 href="/contact"
                 className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                咨询定制服务
+                Consult Custom Services
               </Link>
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors">
-                查看定制案例
+                View Custom Cases
               </button>
             </div>
           </div>
@@ -531,34 +531,34 @@ export default function TemplatesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              常见问题
+              Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
-              关于模板下载和使用的常见疑问
+              Common questions about template downloads and usage
             </p>
           </div>
 
           <div className="space-y-6">
             {[
               {
-                question: "模板是否完全免费？",
-                answer: "是的，我们提供的所有模板都是完全免费的，无需注册或付费。我们相信通过分享优质资源，能够帮助更多企业成功实施自动化项目。"
+                question: "Are templates completely free?",
+                answer: "Yes, all templates we provide are completely free with no registration or payment required. We believe that by sharing quality resources, we can help more enterprises successfully implement automation projects."
               },
               {
-                question: "模板支持哪些软件格式？",
-                answer: "我们的模板主要支持Microsoft Office套件（Word、Excel、PowerPoint）和Google Workspace。所有模板都经过兼容性测试，确保在常用办公软件中正常使用。"
+                question: "What software formats do templates support?",
+                answer: "Our templates primarily support Microsoft Office suite (Word, Excel, PowerPoint) and Google Workspace. All templates have undergone compatibility testing to ensure they work properly in common office software."
               },
               {
-                question: "可以对模板进行修改吗？",
-                answer: "当然可以！我们鼓励用户根据自己的需求对模板进行定制化修改。模板设计时充分考虑了灵活性，您可以调整内容、格式和样式以适应企业需求。"
+                question: "Can templates be modified?",
+                answer: "Absolutely! We encourage users to customize templates according to their needs. Templates are designed with flexibility in mind, allowing you to adjust content, format, and styles to fit your enterprise requirements."
               },
               {
-                question: "如何获得模板使用支持？",
-                answer: "每个模板都包含详细的使用说明文档。如果遇到问题，可以通过我们的在线客服或邮件联系我们。我们也定期举办模板使用培训活动。"
+                question: "How to get template usage support?",
+                answer: "Each template includes detailed usage documentation. If you encounter issues, you can contact us through online customer service or email. We also regularly hold template usage training activities."
               },
               {
-                question: "模板会定期更新吗？",
-                answer: "是的，我们会根据行业最佳实践和用户反馈定期更新模板。已下载用户会收到更新通知，可以免费获取最新版本。"
+                question: "Will templates be regularly updated?",
+                answer: "Yes, we regularly update templates based on industry best practices and user feedback. Downloaded users will receive update notifications and can get the latest versions for free."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
@@ -578,20 +578,20 @@ export default function TemplatesPage() {
       <section className="py-20 bg-gradient-to-r from-orange-600 to-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            立即下载专业模板
+            Download Professional Templates Now
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            加速您的自动化项目实施，提升工作效率
+            Accelerate your automation project implementation and improve work efficiency
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
-              📥 浏览全部模板
+              📥 Browse All Templates
             </button>
             <Link
               href="/tools/roi-calculator"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors inline-block"
             >
-              🧮 使用ROI计算器
+              🧮 Use ROI Calculator
             </Link>
           </div>
         </div>

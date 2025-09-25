@@ -43,34 +43,34 @@ export default function AutomationGettingStartedGuide() {
       <section className="bg-gray-50 py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-sm p-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">📖 目录导航</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">📖 Table of Contents</h3>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <a href="#introduction" className="block py-2 text-blue-600 hover:text-blue-800">
-                  1. 什么是企业自动化
+                  1. What is Enterprise Automation
                 </a>
                 <a href="#benefits" className="block py-2 text-blue-600 hover:text-blue-800">
-                  2. 自动化的核心价值
+                  2. Core Value of Automation
                 </a>
                 <a href="#assessment" className="block py-2 text-blue-600 hover:text-blue-800">
-                  3. 现状评估方法
+                  3. Current State Assessment Methods
                 </a>
                 <a href="#planning" className="block py-2 text-blue-600 hover:text-blue-800">
-                  4. 实施规划策略
+                  4. Implementation Planning Strategy
                 </a>
               </div>
               <div>
                 <a href="#tools" className="block py-2 text-blue-600 hover:text-blue-800">
-                  5. 工具选择指南
+                  5. Tool Selection Guide
                 </a>
                 <a href="#implementation" className="block py-2 text-blue-600 hover:text-blue-800">
-                  6. 实施步骤详解
+                  6. Implementation Steps Details
                 </a>
                 <a href="#pitfalls" className="block py-2 text-blue-600 hover:text-blue-800">
-                  7. 常见误区避免
+                  7. Common Pitfall Avoidance
                 </a>
                 <a href="#next-steps" className="block py-2 text-blue-600 hover:text-blue-800">
-                  8. 下一步行动计划
+                  8. Next Steps Action Plan
                 </a>
               </div>
             </div>
@@ -85,39 +85,38 @@ export default function AutomationGettingStartedGuide() {
 
             {/* Introduction */}
             <div id="introduction" className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">1. 什么是企业自动化</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">1. What is Enterprise Automation</h2>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                企业自动化是指利用技术手段，将原本需要人工执行的重复性、规则性业务流程，
-                转化为由系统自动完成的过程。它不仅仅是简单的工具替换，更是对整个业务运营模式的重新思考和优化。
+                Enterprise automation refers to using technology to transform repetitive and rule-based business processes that originally required manual execution into processes automatically completed by systems. It is not just simple tool replacement, but a rethinking and optimization of the entire business operating model.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-6">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">💡 核心理念</h4>
+                <h4 className="text-lg font-semibold text-blue-900 mb-3">💡 Core Concept</h4>
                 <p className="text-blue-800">
-                  &ldquo;自动化的真正价值不在于替代人力，而在于释放人的创造力，让员工专注于更有价值的战略性工作。&rdquo;
+                  &ldquo;The true value of automation lies not in replacing human labor, but in unleashing human creativity, allowing employees to focus on more valuable strategic work.&rdquo;
                 </p>
               </div>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">自动化的三个层次</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Three Levels of Automation</h3>
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">🔧 任务自动化</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">🔧 Task Automation</h4>
                   <p className="text-gray-600 text-sm">
-                    自动化单个重复性任务，如数据录入、邮件发送、报告生成等。
+                    Automate individual repetitive tasks such as data entry, email sending, report generation, etc.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">🔄 流程自动化</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">🔄 Process Automation</h4>
                   <p className="text-gray-600 text-sm">
-                    自动化完整的业务流程，如客户入职、订单处理、审批流程等。
+                    Automate complete business processes such as customer onboarding, order processing, approval workflows, etc.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-3">🧠 智能自动化</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">🧠 Intelligent Automation</h4>
                   <p className="text-gray-600 text-sm">
-                    结合AI技术的高级自动化，能够处理复杂决策和学习优化。
+                    Advanced automation combined with AI technology, capable of handling complex decisions and learning optimization.
                   </p>
                 </div>
               </div>
@@ -125,11 +124,11 @@ export default function AutomationGettingStartedGuide() {
 
             {/* Benefits */}
             <div id="benefits" className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">2. 自动化的核心价值</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Core Value of Automation</h2>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                企业实施自动化能够在多个维度创造价值。根据我们对500+企业的调研数据，
-                自动化带来的价值远超过单纯的成本节约。
+                Enterprise automation implementation creates value across multiple dimensions. Based on our research data from 500+ enterprises,
+                the value brought by automation far exceeds simple cost savings.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -139,11 +138,11 @@ export default function AutomationGettingStartedGuide() {
                       <span className="text-green-600">💰</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">成本效益</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Cost Effectiveness</h4>
                       <ul className="text-gray-600 text-sm space-y-1">
-                        <li>• 运营成本平均降低40-60%</li>
-                        <li>• 人力成本优化30-50%</li>
-                        <li>• 错误率减少90%以上</li>
+                        <li>• Operating costs reduced by 40-60% on average</li>
+                        <li>• Labor costs optimized by 30-50%</li>
+                        <li>• Error rates reduced by over 90%</li>
                       </ul>
                     </div>
                   </div>
@@ -153,11 +152,11 @@ export default function AutomationGettingStartedGuide() {
                       <span className="text-blue-600">⚡</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">效率提升</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Efficiency Improvement</h4>
                       <ul className="text-gray-600 text-sm space-y-1">
-                        <li>• 处理速度提升5-10倍</li>
-                        <li>• 24/7不间断运行</li>
-                        <li>• 响应时间大幅缩短</li>
+                        <li>• Processing speed improved 5-10 times</li>
+                        <li>• 24/7 continuous operation</li>
+                        <li>• Response time significantly reduced</li>
                       </ul>
                     </div>
                   </div>
@@ -169,11 +168,11 @@ export default function AutomationGettingStartedGuide() {
                       <span className="text-purple-600">📊</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">数据洞察</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Data Insights</h4>
                       <ul className="text-gray-600 text-sm space-y-1">
-                        <li>• 实时数据收集和分析</li>
-                        <li>• 业务透明度提升</li>
-                        <li>• 数据驱动决策</li>
+                        <li>• Real-time data collection and analysis</li>
+                        <li>• Business transparency improvement</li>
+                        <li>• Data-driven decision making</li>
                       </ul>
                     </div>
                   </div>
@@ -183,11 +182,11 @@ export default function AutomationGettingStartedGuide() {
                       <span className="text-orange-600">🎯</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">竞争优势</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Competitive Advantage</h4>
                       <ul className="text-gray-600 text-sm space-y-1">
-                        <li>• 更快的市场响应速度</li>
-                        <li>• 更好的客户体验</li>
-                        <li>• 更强的创新能力</li>
+                        <li>• Faster market response speed</li>
+                        <li>• Better customer experience</li>
+                        <li>• Stronger innovation capabilities</li>
                       </ul>
                     </div>
                   </div>
@@ -195,23 +194,23 @@ export default function AutomationGettingStartedGuide() {
               </div>
 
               <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">📈 成功案例数据</h4>
+                <h4 className="text-lg font-semibold text-yellow-900 mb-3">📈 Success Case Data</h4>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                   <div>
                     <div className="text-2xl font-bold text-yellow-900">80%</div>
-                    <div className="text-sm text-yellow-700">效率提升</div>
+                    <div className="text-sm text-yellow-700">Efficiency Improvement</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-yellow-900">60%</div>
-                    <div className="text-sm text-yellow-700">成本降低</div>
+                    <div className="text-sm text-yellow-700">Cost Reduction</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-yellow-900">90%</div>
-                    <div className="text-sm text-yellow-700">错误减少</div>
+                    <div className="text-sm text-yellow-700">Error Reduction</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-yellow-900">6-18月</div>
-                    <div className="text-sm text-yellow-700">投资回收期</div>
+                    <div className="text-sm text-yellow-700">Payback Period</div>
                   </div>
                 </div>
               </div>

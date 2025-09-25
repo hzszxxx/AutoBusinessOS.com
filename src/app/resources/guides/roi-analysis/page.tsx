@@ -9,30 +9,30 @@ export default function ROIAnalysisGuide() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-8">
             <div className="inline-flex items-center bg-green-800 bg-opacity-50 rounded-full px-4 py-2 mb-4">
-              <span className="text-sm font-medium">📊 财务分析</span>
+              <span className="text-sm font-medium">📊 Financial Analysis</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-6">
-              自动化投资回报率分析指南
+              Automation Investment ROI Analysis Guide
             </h1>
             <p className="text-xl text-green-100 mb-6">
-              科学计算自动化ROI，做出明智的投资决策
+              Scientifically calculate automation ROI and make informed investment decisions
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-green-200">
-              <span>⏱️ 预计阅读时间：18分钟</span>
-              <span>📈 难度级别：中级</span>
-              <span>📥 已下载：2,800+ 次</span>
-              <span>⭐ 用户评分：4.8/5</span>
+              <span>⏱️ Estimated Reading Time: 18 minutes</span>
+              <span>📈 Difficulty Level: Intermediate</span>
+              <span>📥 Downloads: 2,800+ times</span>
+              <span>⭐ User Rating: 4.8/5</span>
             </div>
           </div>
 
           <div className="bg-white bg-opacity-10 rounded-lg p-6 text-center">
-            <p className="text-green-100 mb-4">下载完整ROI计算模板和案例分析</p>
+            <p className="text-green-100 mb-4">Download complete ROI calculation templates and case studies</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                📥 下载ROI模板
+                📥 Download ROI Template
               </button>
               <Link href="/tools/roi-calculator" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
-                🧮 在线ROI计算器
+                🧮 Online ROI Calculator
               </Link>
             </div>
           </div>
@@ -43,34 +43,34 @@ export default function ROIAnalysisGuide() {
       <section className="bg-gray-50 py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-sm p-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">📖 目录导航</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">📚 Table of Contents</h3>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <a href="#overview" className="block py-2 text-green-600 hover:text-green-800">
-                  1. ROI分析概述
+                  1. ROI Analysis Overview
                 </a>
                 <a href="#framework" className="block py-2 text-green-600 hover:text-green-800">
-                  2. ROI计算框架
+                  2. ROI Calculation Framework
                 </a>
                 <a href="#costs" className="block py-2 text-green-600 hover:text-green-800">
-                  3. 成本分析详解
+                  3. Cost Analysis Details
                 </a>
                 <a href="#benefits" className="block py-2 text-green-600 hover:text-green-800">
-                  4. 收益量化方法
+                  4. Benefit Quantification Methods
                 </a>
               </div>
               <div>
                 <a href="#cases" className="block py-2 text-green-600 hover:text-green-800">
-                  5. 行业案例分析
+                  5. Industry Case Analysis
                 </a>
                 <a href="#risks" className="block py-2 text-green-600 hover:text-green-800">
-                  6. 风险评估方法
+                  6. Risk Assessment Methods
                 </a>
                 <a href="#decision" className="block py-2 text-green-600 hover:text-green-800">
-                  7. 投资决策框架
+                  7. Investment Decision Framework
                 </a>
                 <a href="#tools" className="block py-2 text-green-600 hover:text-green-800">
-                  8. 实用工具和模板
+                  8. Practical Tools and Templates
                 </a>
               </div>
             </div>
@@ -105,39 +105,39 @@ export default function ROIAnalysisGuide() {
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
                     <span className="bg-blue-100 rounded-full p-2 mr-3">🎯</span>
-                    决策支持
+                    Decision Support
                   </h4>
                   <ul className="text-gray-600 text-sm space-y-2">
-                    <li>• 客观评估项目价值</li>
-                    <li>• 比较不同投资方案</li>
-                    <li>• 确定项目优先级</li>
-                    <li>• 获得管理层支持</li>
+                    <li>• Objectively evaluate project value</li>
+                    <li>• Compare different investment options</li>
+                    <li>• Determine project priorities</li>
+                    <li>• Gain management support</li>
                   </ul>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
                     <span className="bg-green-100 rounded-full p-2 mr-3">📈</span>
-                    价值管理
+                    Value Management
                   </h4>
                   <ul className="text-gray-600 text-sm space-y-2">
-                    <li>• 设定明确的成功标准</li>
-                    <li>• 监控项目进展</li>
-                    <li>• 识别优化机会</li>
-                    <li>• 证明投资价值</li>
+                    <li>• Set clear success criteria</li>
+                    <li>• Monitor project progress</li>
+                    <li>• Identify optimization opportunities</li>
+                    <li>• Prove investment value</li>
                   </ul>
                 </div>
               </div>
 
               <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">📋 ROI分析的三个层次</h4>
+                <h4 className="text-lg font-semibold text-yellow-900 mb-3">📋 Three Levels of ROI Analysis</h4>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">
                       <span className="text-yellow-800 font-bold text-xs">1</span>
                     </div>
                     <div>
-                      <h5 className="font-medium text-yellow-900">财务ROI</h5>
-                      <p className="text-sm text-yellow-800">直接的成本节约和收入增长</p>
+                      <h5 className="font-medium text-yellow-900">Financial ROI</h5>
+                      <p className="text-sm text-yellow-800">Direct cost savings and revenue growth</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -145,8 +145,8 @@ export default function ROIAnalysisGuide() {
                       <span className="text-yellow-800 font-bold text-xs">2</span>
                     </div>
                     <div>
-                      <h5 className="font-medium text-yellow-900">运营ROI</h5>
-                      <p className="text-sm text-yellow-800">效率提升、质量改善等运营价值</p>
+                      <h5 className="font-medium text-yellow-900">Operational ROI</h5>
+                      <p className="text-sm text-yellow-800">Operational value from efficiency improvements, quality enhancements, etc.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -154,8 +154,8 @@ export default function ROIAnalysisGuide() {
                       <span className="text-yellow-800 font-bold text-xs">3</span>
                     </div>
                     <div>
-                      <h5 className="font-medium text-yellow-900">战略ROI</h5>
-                      <p className="text-sm text-yellow-800">竞争优势、创新能力等长期价值</p>
+                      <h5 className="font-medium text-yellow-900">Strategic ROI</h5>
+                      <p className="text-sm text-yellow-800">Long-term value from competitive advantages, innovation capabilities, etc.</p>
                     </div>
                   </div>
                 </div>

@@ -3,12 +3,12 @@ import Layout from '@/components/Layout/Layout'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'SaaS Business Automation Systems - User Activation, Customer Success & Sales Process Automation | AutoBusinessOS',
-  description: 'Professional SaaS business automation solutions covering user activation, customer success, and sales processes. Increase users by 200%, improve renewal rates by 80%, and accelerate SaaS company growth.',
-  keywords: 'SaaS automation, software company automation, SaaS operations automation, user activation automation, customer success automation, SaaS sales automation',
+  title: 'Healthcare Automation System - Patient Management, Appointment System, Medical Records Automation | AutoBusinessOS',
+  description: 'Professional healthcare automation solutions for patient management, appointment systems, and medical records with comprehensive automation. Improve satisfaction by 90%, reduce waiting time by 60%, and accelerate digital transformation in healthcare.',
+  keywords: 'healthcare automation, hospital automation, patient management automation, appointment system automation, medical records automation, health management automation',
 }
 
-export default function SaasPage() {
+export default function HealthcarePage() {
   return (
     <Layout>
       {/* Hero Section */}
@@ -16,11 +16,11 @@ export default function SaasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              SaaS Business Automation Systems
-              <span className="block text-yellow-300">Complete User Activation, Customer Success & Sales Process Automation</span>
+              Healthcare Automation System
+              <span className="block text-yellow-300">Patient Management, Appointment System & Medical Records Intelligence</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              Intelligent automation platform built specifically for SaaS companies, optimizing the entire lifecycle from user acquisition to renewal retention. Help SaaS companies increase active users by 200%, improve renewal rates by 80%, and achieve high-quality sustained growth.
+              Intelligent automation system designed specifically for the healthcare industry, covering patient management, appointment scheduling, medical records, and clinical workflows. Help healthcare institutions achieve 90% patient satisfaction, reduce waiting time by 60%, and realize efficient smart healthcare.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -33,22 +33,22 @@ export default function SaasPage() {
                 href="#solutions"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors inline-block text-center"
               >
-                View Solutions
+                Explore Solutions
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* SaaS Industry Pain Points Analysis */}
+      {/* Healthcare Industry Pain Points Analysis */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Core Challenges in SaaS Enterprise Operations
+              Core Challenges Facing the Healthcare Industry
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              With intensifying SaaS market competition, 92% of SaaS enterprises face the following critical pain points in business growth
+              With continuously growing healthcare demand and rising service quality requirements, 90% of healthcare institutions face these critical pain points in operational management
             </p>
           </div>
 
@@ -56,101 +56,101 @@ export default function SaasPage() {
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-red-500">
               <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Low User Activation Rate</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Excessive Treatment Waiting Times</h3>
               <p className="text-gray-600 mb-4">
-                Only 25% of newly registered users successfully activate and continue using the product. Lack of effective user onboarding processes causes users to lose direction during initial usage. Product value cannot be quickly communicated to users, leading to massive potential customer churn.
+                Traditional registration and queuing systems result in long patient waiting times, with average wait times exceeding 2 hours during peak outpatient periods. Unbalanced resource allocation leads to some departments being idle while others are overloaded, severely impacting patient experience.
               </p>
-              <div className="text-sm text-red-600 font-semibold">User Activation Rate: Only 25%</div>
+              <div className="text-sm text-red-600 font-semibold">Average Waiting Time: 120 minutes</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Absent Customer Success Management</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Chaotic Medical Records Management</h3>
               <p className="text-gray-600 mb-4">
-                Lack of systematic customer success management systems prevents timely identification of customer health scores. Customer churn warning mechanisms are imperfect, often discovering issues only after customers have decided to leave. Customer success teams manage too many customers per person, making service quality difficult to guarantee.
+                Paper-based medical record management is inefficient, difficult to search, and information updates are not timely. Electronic medical record systems are incomplete with low data standardization, making cross-departmental and inter-institutional information sharing difficult, affecting clinical decision-making and continuity of care.
               </p>
-              <div className="text-sm text-orange-600 font-semibold">Annual Churn Rate: Up to 35%</div>
+              <div className="text-sm text-orange-600 font-semibold">Digitization Level: Only 40%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
               <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V7a2 2 0 012-2h4a2 2 0 012 2v0M8 7v8a2 2 0 002 2h4a2 2 0 002-2V7M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-2" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Prolonged Sales Cycle</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Inefficient Appointment System</h3>
               <p className="text-gray-600 mb-4">
-                B2B SaaS sales cycles average 6-9 months, resulting in low sales efficiency. Insufficient lead nurturing causes many quality prospects to be lost during lengthy sales processes. Sales teams cannot effectively identify high-value customers, leading to unreasonable resource allocation.
+                Traditional phone appointment methods are inefficient with poor patient experience. Unreasonable appointment resource allocation cannot intelligently match doctor specialties with patient needs. Cancellation and appointment changes are cumbersome, causing serious resource waste.
               </p>
-              <div className="text-sm text-yellow-600 font-semibold">Average Sales Cycle: 8 months</div>
+              <div className="text-sm text-yellow-600 font-semibold">Appointment Success Rate: Only 65%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Product Usage Data Silos</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Improper Human Resource Allocation</h3>
               <p className="text-gray-600 mb-4">
-                User behavior data is scattered across different systems, preventing formation of unified user profiles. Product usage depth and frequency are difficult to quantitatively analyze, failing to effectively drive product optimization. Insufficient data-driven decision capabilities affect product iteration direction.
+                Medical staff scheduling lacks scientific approach with uneven workload distribution. Specialist doctor resources are tight while general practitioner utilization is insufficient. Unreasonable nursing staff ratios increase nursing quality and safety risk concerns.
               </p>
-              <div className="text-sm text-purple-600 font-semibold">Data Integration: Less than 30%</div>
+              <div className="text-sm text-purple-600 font-semibold">Medical Staff Utilization: Only 70%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Declining Renewal Rates</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Insufficient Medical Data Utilization</h3>
               <p className="text-gray-600 mb-4">
-                Lack of effective renewal management strategies results in declining renewal rates year over year. Inability to timely identify renewal risk customers leads to missed retention opportunities. Insufficient product value delivery prevents customers from perceiving continued usage value, resulting in low renewal willingness.
+                Vast amounts of medical data lack effective analysis and utilization, unable to support clinical decision-making. Disease prevention and health management lack data-driven approaches, with poor chronic disease management outcomes. Medical quality assessment lacks quantitative indicators and continuous improvement mechanisms.
               </p>
-              <div className="text-sm text-blue-600 font-semibold">Annual Renewal Rate: Only 65%</div>
+              <div className="text-sm text-blue-600 font-semibold">Data Utilization Rate: Less than 25%</div>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-500">
               <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                 <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 109.75 9.75c0-5.385-4.365-9.75-9.75-9.75z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Insufficient Expansion Sales Capability</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Continuously Rising Operating Costs</h3>
               <p className="text-gray-600 mb-4">
-                Inaccurate identification of upselling and upgrade opportunities for existing customers results in slow expansion revenue growth. Lack of systematic value-added service recommendation mechanisms prevents effective improvement of customer lifetime value. Poor execution of cross-selling and upselling strategies.
+                High medical equipment maintenance costs and imprecise pharmaceutical inventory management. Labor costs are too high with low medical resource utilization efficiency. Energy management lacks intelligence, making operating cost control difficult and reducing healthcare institution profitability.
               </p>
-              <div className="text-sm text-green-600 font-semibold">Expansion Revenue Share: Only 15%</div>
+              <div className="text-sm text-green-600 font-semibold">Cost Growth Rate: 12% annually</div>
             </div>
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pain Point Impact: SaaS Business Growth Hindered</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pain Point Impact: Dual Challenges in Healthcare Service Quality & Efficiency</h3>
               <div className="grid md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-red-600 mb-2">-60%</div>
-                  <p className="text-gray-600">Customer Acquisition Efficiency Decline</p>
+                  <div className="text-3xl font-bold text-red-600 mb-2">-35%</div>
+                  <p className="text-gray-600">Patient Satisfaction Decline</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">+120%</div>
-                  <p className="text-gray-600">Customer Acquisition Cost Increase</p>
+                  <div className="text-3xl font-bold text-orange-600 mb-2">+45%</div>
+                  <p className="text-gray-600">Operating Cost Increase</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-600 mb-2">-45%</div>
-                  <p className="text-gray-600">Customer Lifetime Value</p>
+                  <div className="text-3xl font-bold text-yellow-600 mb-2">-50%</div>
+                  <p className="text-gray-600">Resource Utilization Efficiency</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">-35%</div>
-                  <p className="text-gray-600">Annual Recurring Revenue</p>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">-25%</div>
+                  <p className="text-gray-600">Medical Staff Work Efficiency</p>
                 </div>
               </div>
             </div>
@@ -158,15 +158,15 @@ export default function SaasPage() {
         </div>
       </section>
 
-      {/* SaaS Automation Solutions */}
+      {/* Healthcare Automation Solutions */}
       <section className="py-20 bg-white" id="solutions">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              SaaS Automation Solutions
+              Healthcare Automation Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Covering the complete SaaS business lifecycle from user acquisition to renewal growth, achieving intelligent and automated operations
+              Comprehensive coverage of all healthcare service aspects, from patient management to clinical workflows, achieving intelligent and automated medical services
             </p>
           </div>
 
@@ -176,38 +176,38 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V7a2 2 0 012-2h4a2 2 0 012 2v0M8 7v8a2 2 0 002 2h4a2 2 0 002-2V7M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-2" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Intelligent User Activation</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Appointment Scheduling</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Intelligent onboarding system based on user behavior with personalized activation flow design. Through coordinated multi-touchpoint approaches including in-product guidance, email sequences, and in-app messages, quickly help users experience core product value, improving activation rates to over 85%.
+                AI-powered appointment scheduling system that intelligently matches patient needs with physician specialties. Supports multi-channel appointments, real-time resource allocation, automated reminders and confirmations. Appointment success rate increased to 95%, waiting time reduced by 60%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Personalized user onboarding flows
+                  AI-powered patient-physician matching algorithm
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Intelligent in-product guidance and tips
+                  Multi-channel unified appointment platform
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Multi-channel activation marketing automation
+                  Real-time dynamic resource allocation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Real-time activation funnel monitoring and optimization
+                  Automated reminder and confirmation system
                 </li>
               </ul>
             </div>
@@ -216,38 +216,38 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Customer Success Automation</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Patient Management System</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                AI-driven customer health scoring system that automatically monitors customer usage behavior and satisfaction. Predictive churn alerts, proactive customer care, and personalized success plan development. Improve customer retention rates to over 90%, significantly reducing churn costs.
+                Comprehensive patient lifecycle management platform integrating patient demographics, medical history, and health records. Intelligent patient triage, personalized health reminders, and automated chronic disease management. Patient satisfaction increased to over 95%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI customer health scoring model
+                  360-degree patient health records
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Predictive churn risk alerts
+                  Intelligent patient triage and navigation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Automated customer care workflows
+                  Personalized health management plans
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Personalized success path planning
+                  Automated chronic disease monitoring
                 </li>
               </ul>
             </div>
@@ -256,38 +256,38 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Sales Process Optimization</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Electronic Medical Records System</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Data-driven sales lead scoring and nurturing automation, intelligent sales opportunity identification and assignment. Automated sales follow-up sequences, personalized demo invitations, and contract approval process optimization. Reduce sales cycles by 50% and increase conversion rates by 120%.
+                Intelligent electronic medical records management system supporting voice recognition input, structured data extraction, and clinical decision support. Standardized medical record templates, cross-departmental information sharing, with significantly enhanced data security and integrity.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Intelligent lead scoring and qualification
+                  Voice recognition intelligent input
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Automated prospect nurturing sequences
+                  Structured medical record data extraction
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Intelligent sales opportunity recommendations
+                  Seamless cross-departmental information sharing
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Contract generation and approval automation
+                  Intelligent clinical decision support
                 </li>
               </ul>
             </div>
@@ -296,38 +296,38 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Product Analytics Platform</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Medical-Nursing Collaboration Platform</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Comprehensive user behavior analysis and product usage insights with real-time monitoring of key business metrics. User journey visualization, feature usage heatmap analysis, and A/B testing automation. Data-driven product optimization decisions to enhance user experience and product value.
+                Intelligent medical-nursing collaboration and scheduling system optimizing human resource allocation. Automated nursing care plans, medical order execution monitoring, and cross-team communication collaboration. Medical staff work efficiency improved by 50%, medical safety incidents reduced by 80%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Real-time user behavior tracking and analysis
+                  Intelligent scheduling and resource allocation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  User journey visualization
+                  Automated nursing care plan generation
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Feature usage heatmaps and funnels
+                  Real-time medical order execution monitoring
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  A/B testing and performance analysis
+                  Cross-team collaboration communication platform
                 </li>
               </ul>
             </div>
@@ -336,38 +336,38 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Renewal Growth Engine</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Medical Data Analytics</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                Intelligent renewal prediction and automated renewal management, proactively identifying renewal risks and growth opportunities. Personalized renewal plan recommendations, automated renewal reminders and incentives. Expansion sales opportunity identification to maximize customer value, improving renewal rates to 95%.
+                Comprehensive medical data analytics platform for real-time monitoring of healthcare quality indicators and operational efficiency. Disease trend prediction, resource utilization analysis, and medical cost control. Provides data-driven support for management decisions and improves healthcare service quality.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Intelligent renewal probability prediction
+                  Real-time healthcare quality monitoring
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Automated renewal reminders and follow-up
+                  Disease trend prediction analysis
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Upsell and upgrade opportunity identification
+                  Resource utilization efficiency analysis
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Customer lifetime value optimization
+                  Cost control and optimization recommendations
                 </li>
               </ul>
             </div>
@@ -376,62 +376,62 @@ export default function SaasPage() {
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Intelligent Customer Support</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Intelligent Operations Management</h3>
               </div>
               <p className="text-gray-600 mb-6">
-                AI-driven customer support system with automated ticket classification and priority setting. Intelligent knowledge base search, predictive problem resolution, and proactive support recommendations. Improve support team efficiency by 200% and achieve customer satisfaction rates above 98%.
+                Intelligent hospital operations management system covering pharmaceutical inventory management, equipment maintenance, energy consumption control, and financial management. Automated procurement decisions, predictive equipment maintenance, operating costs reduced by 30%, operational efficiency improved by 60%.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI intelligent ticket classification and routing
+                  Intelligent pharmaceutical inventory management
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Intelligent knowledge base and self-service
+                  Predictive equipment maintenance
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Predictive problem identification and resolution
+                  Intelligent energy consumption control
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Real-time customer satisfaction monitoring
+                  Automated financial management
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* Performance Results */}
+          {/* Results Showcase */}
           <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Performance Improvements from SaaS Automation</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Healthcare Automation Results & Improvements</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div>
-                <div className="text-4xl font-bold text-primary-600 mb-2">+200%</div>
-                <p className="text-gray-600">Active User Growth</p>
+                <div className="text-4xl font-bold text-primary-600 mb-2">+90%</div>
+                <p className="text-gray-600">Patient Satisfaction Improvement</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-green-600 mb-2">+80%</div>
-                <p className="text-gray-600">Renewal Rate Improvement</p>
+                <div className="text-4xl font-bold text-green-600 mb-2">-60%</div>
+                <p className="text-gray-600">Waiting Time Reduction</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-blue-600 mb-2">-50%</div>
-                <p className="text-gray-600">Sales Cycle Reduction</p>
+                <div className="text-4xl font-bold text-blue-600 mb-2">+50%</div>
+                <p className="text-gray-600">Medical Staff Work Efficiency</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-purple-600 mb-2">+150%</div>
-                <p className="text-gray-600">Customer Lifetime Value</p>
+                <div className="text-4xl font-bold text-purple-600 mb-2">-30%</div>
+                <p className="text-gray-600">Operating Cost Reduction</p>
               </div>
             </div>
           </div>
@@ -443,10 +443,10 @@ export default function SaasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              SaaS Customer Success Cases
+              Healthcare Customer Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Real customer cases demonstrating the practical results and business value of SaaS automation systems
+              Real customer case studies showcasing the actual results and social value of healthcare automation systems
             </p>
           </div>
 
@@ -455,31 +455,31 @@ export default function SaasPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-bold text-xl">C</span>
+                  <span className="text-blue-600 font-bold text-xl">GH</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">Collaborative Office SaaS Platform</h3>
-                  <p className="text-gray-600">ARR: $7M USD, Users: 500K+</p>
+                  <h3 className="text-xl font-bold text-gray-900">Major Tertiary General Hospital</h3>
+                  <p className="text-gray-600">Beds: 1,500 | Daily Outpatient Volume: 8,000 visits</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 新User Activation Rate仅20%，大量注册用户流失</li>
-                  <li>• 客户成功团队人效低，无法覆盖所有客户</li>
-                  <li>• 续费管理混乱，续费率逐年下降至60%</li>
-                  <li>• 产品使用数据分散，优化方向不明确</li>
+                  <li>• Patient waiting times exceeded 3 hours during peak outpatient periods</li>
+                  <li>• Chaotic medical records management with difficult retrieval and poor information sharing</li>
+                  <li>• High-intensity workload for medical staff with unreasonable scheduling</li>
+                  <li>• Healthcare quality monitoring lacked real-time data support</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solutions:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 部署智能用户激活引导系统</li>
-                  <li>• 实施AI驱动的客户健康度监控</li>
-                  <li>• 建立自动化续费管理流程</li>
-                  <li>• 上线统一的产品分析平台</li>
+                  <li>• Deployed intelligent appointment scheduling system</li>
+                  <li>• Implemented unified electronic medical records platform</li>
+                  <li>• Launched medical-nursing collaboration management system</li>
+                  <li>• Established real-time healthcare quality monitoring platform</li>
                 </ul>
               </div>
 
@@ -487,29 +487,29 @@ export default function SaasPage() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">85%</div>
-                    <p className="text-sm text-gray-600">User Activation Rate</p>
+                    <div className="text-2xl font-bold text-green-600">45 minutes</div>
+                    <p className="text-sm text-gray-600">Average waiting time</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600">+320%</div>
-                    <p className="text-sm text-gray-600">Customer Success Efficiency</p>
+                    <div className="text-2xl font-bold text-blue-600">98%</div>
+                    <p className="text-sm text-gray-600">Medical record digitization rate</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
-                    <div className="text-2xl font-bold text-purple-600">92%</div>
-                    <p className="text-sm text-gray-600">Annual Renewal Rate</p>
+                    <div className="text-2xl font-bold text-purple-600">+65%</div>
+                    <p className="text-sm text-gray-600">Medical staff efficiency</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
-                    <div className="text-2xl font-bold text-orange-600">+180%</div>
-                    <p className="text-sm text-gray-600">ARR Growth</p>
+                    <div className="text-2xl font-bold text-orange-600">95%</div>
+                    <p className="text-sm text-gray-600">Patient satisfaction</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;The automation system has completely transformed our operations. User activation rates significantly improved, customer churn rates notably decreased. Most importantly, our ARR achieved rapid growth, and the business entered a virtuous cycle.&rdquo;
+                  &ldquo;The automation system has completely transformed our healthcare service model. Patient waiting times have been significantly reduced, medical staff work efficiency has notably improved, and both healthcare service quality and patient satisfaction have reached new heights.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— CEO Mr. Liu</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">&mdash; Hospital Director, Professor Zhang</p>
               </div>
             </div>
 
@@ -517,31 +517,31 @@ export default function SaasPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 font-bold text-xl">M</span>
+                  <span className="text-green-600 font-bold text-xl">SH</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">Marketing Automation SaaS Platform</h3>
-                  <p className="text-gray-600">ARR: $4.2M USD, Enterprise Clients: 2000+</p>
+                  <h3 className="text-xl font-bold text-gray-900">Specialty Hospital Group</h3>
+                  <p className="text-gray-600">Branch Hospitals: 12 | Specialties: Cardiovascular, Oncology</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• B2B销售周期长达9个月，转化率低</li>
-                  <li>• 客户使用深度不足，价值实现困难</li>
-                  <li>• 扩展销售机会识别不准确</li>
-                  <li>• 客户支持响应时间长，满意度差</li>
+                  <li>• Multi-campus patient information could not be shared, leading to duplicate tests</li>
+                  <li>• Uneven distribution of specialist resources, difficult appointments</li>
+                  <li>• Chronic disease patient management lacked continuity</li>
+                  <li>• Medical cost control difficulties, declining profitability</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solutions:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 实施智能销售线索评分和培育</li>
-                  <li>• 部署产品使用行为分析系统</li>
-                  <li>• 建立扩展销售机会识别引擎</li>
-                  <li>• 上线AI智能客户支持系统</li>
+                  <li>• Established unified patient management platform across the group</li>
+                  <li>• Implemented cross-campus intelligent appointment system</li>
+                  <li>• Deployed automated chronic disease management system</li>
+                  <li>• Launched intelligent operations management platform</li>
                 </ul>
               </div>
 
@@ -549,63 +549,63 @@ export default function SaasPage() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">4个月</div>
-                    <p className="text-sm text-gray-600">平均销售周期</p>
+                    <div className="text-2xl font-bold text-green-600">-80%</div>
+                    <p className="text-sm text-gray-600">Duplicate test rate</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600">+250%</div>
-                    <p className="text-sm text-gray-600">产品使用深度</p>
+                    <div className="text-2xl font-bold text-blue-600">+150%</div>
+                    <p className="text-sm text-gray-600">Specialist resource utilization</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
-                    <div className="text-2xl font-bold text-purple-600">+165%</div>
-                    <p className="text-sm text-gray-600">扩展收入增长</p>
+                    <div className="text-2xl font-bold text-purple-600">92%</div>
+                    <p className="text-sm text-gray-600">Chronic disease management compliance</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
-                    <div className="text-2xl font-bold text-orange-600">98%</div>
-                    <p className="text-sm text-gray-600">客户满意度</p>
+                    <div className="text-2xl font-bold text-orange-600">-25%</div>
+                    <p className="text-sm text-gray-600">Operating cost reduction</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;Automation not only improved our sales efficiency, but more importantly helped customers use the product better. Now our customers not only have high renewal rates, but also proactively upgrade their plans, resulting in very healthy business growth.&rdquo;
+                  &ldquo;The group-wide medical information system has enabled us to achieve true resource sharing and collaborative development. Patients can enjoy uniformly high-quality medical services at any of our branch hospitals, while both operational efficiency and profitability have significantly improved.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— VP Sales Ms. Wang</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">&mdash; Group CEO, Director Li</p>
               </div>
             </div>
 
-            {/* 案例3 */}
+            {/* Case Study 3 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg lg:col-span-2">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-purple-600 font-bold text-xl">HR</span>
+                  <span className="text-purple-600 font-bold text-xl">CC</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某HR管理SaaS平台</h3>
-                  <p className="text-gray-600">ARR：8000万元，企业客户：5000+，员工覆盖：100万+</p>
+                  <h3 className="text-xl font-bold text-gray-900">Municipal Community Healthcare Center</h3>
+                  <p className="text-gray-600">Served Population: 500,000 | Community Sites: 25</p>
                 </div>
               </div>
 
               <div className="grid lg:grid-cols-2 gap-8">
                 <div>
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                     <ul className="space-y-2 text-gray-600">
-                      <li>• 大客户实施周期长，激活困难</li>
-                      <li>• 多模块产品使用率不均衡</li>
-                      <li>• 客户成功团队规模化管理困难</li>
-                      <li>• 续费谈判缺乏数据支撑</li>
+                      <li>• Incomplete resident health records with fragmented management</li>
+                      <li>• Difficult chronic disease patient follow-up with poor compliance</li>
+                      <li>• Limited medical resources with low service efficiency</li>
+                      <li>• Lack of effective referral mechanism with tertiary hospitals</li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Solutions:</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                     <ul className="space-y-2 text-gray-600">
-                      <li>• 实施分阶段产品激活策略</li>
-                      <li>• 建立模块使用促进自动化</li>
-                      <li>• 部署规模化客户成功管理</li>
-                      <li>• 上线数据驱动的续费优化</li>
+                      <li>• Established regional resident health record system</li>
+                      <li>• Implemented intelligent chronic disease management platform</li>
+                      <li>• Deployed telemedicine and consultation system</li>
+                      <li>• Built intelligent tiered diagnosis and treatment system</li>
                     </ul>
                   </div>
                 </div>
@@ -614,111 +614,116 @@ export default function SaasPage() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="text-center p-4 bg-green-50 rounded-lg">
-                      <div className="text-2xl font-bold text-green-600">-60%</div>
-                      <p className="text-sm text-gray-600">实施周期缩短</p>
+                      <div className="text-2xl font-bold text-green-600">95%</div>
+                      <p className="text-sm text-gray-600">Health record completion rate</p>
                     </div>
                     <div className="text-center p-4 bg-blue-50 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">+85%</div>
-                      <p className="text-sm text-gray-600">模块使用率</p>
+                      <div className="text-2xl font-bold text-blue-600">+300%</div>
+                      <p className="text-sm text-gray-600">Chronic disease follow-up efficiency</p>
                     </div>
                     <div className="text-center p-4 bg-purple-50 rounded-lg">
-                      <div className="text-2xl font-bold text-purple-600">+400%</div>
-                      <p className="text-sm text-gray-600">客户管理效率</p>
+                      <div className="text-2xl font-bold text-purple-600">+180%</div>
+                      <p className="text-sm text-gray-600">Service coverage rate</p>
                     </div>
                     <div className="text-center p-4 bg-orange-50 rounded-lg">
-                      <div className="text-2xl font-bold text-orange-600">96%</div>
-                      <p className="text-sm text-gray-600">Annual Renewal Rate</p>
+                      <div className="text-2xl font-bold text-orange-600">85%</div>
+                      <p className="text-sm text-gray-600">Tiered diagnosis accuracy rate</p>
                     </div>
                   </div>
 
                   <div className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-sm text-gray-600 italic">
-                      &ldquo;自动化系统让我们能够同时服务更多客户，而且服务质量更高。客户使用深度大幅提升，续费率创历史新高。这为我们的规模化发展奠定了坚实基础。&rdquo;
+                      &ldquo;The intelligent system has enabled us primary healthcare institutions to provide high-quality health management services. Resident health levels have significantly improved, chronic disease control rates have greatly enhanced, and we've truly achieved the goal of 'minor illnesses treated within the community.'&rdquo;
                     </p>
-                    <p className="text-sm font-semibold text-gray-800 mt-2">— 客户成功VP 李女士</p>
+                    <p className="text-sm font-semibold text-gray-800 mt-2">&mdash; Director, Dr. Wang</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* 案例数据汇总 */}
+          {/* Case Study Data Summary */
           <div className="mt-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">SaaS客户案例数据汇总</h3>
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Healthcare Customer Case Study Data Summary</h3>
             <div className="grid md:grid-cols-5 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">80+</div>
-                <p className="text-gray-600">成功案例</p>
+                <div className="text-3xl font-bold text-blue-600 mb-2">150+</div>
+                <p className="text-gray-600">Successful Cases</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-600 mb-2">94%</div>
-                <p className="text-gray-600">客户满意度</p>
+                <div className="text-3xl font-bold text-green-600 mb-2">98%</div>
+                <p className="text-gray-600">Customer Satisfaction</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-purple-600 mb-2">3个月</div>
-                <p className="text-gray-600">平均实施周期</p>
+                <div className="text-3xl font-bold text-purple-600 mb-2">6 months</div>
+                <p className="text-gray-600">Average Implementation Cycle</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-orange-600 mb-2">5个月</div>
-                <p className="text-gray-600">平均投资回收期</p>
+                <div className="text-3xl font-bold text-orange-600 mb-2">10 months</div>
+                <p className="text-gray-600">Average Investment Payback Period</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-red-600 mb-2">380%</div>
-                <p className="text-gray-600">平均ROI提升</p>
+                <div className="text-3xl font-bold text-red-600 mb-2">220%</div>
+                <p className="text-gray-600">Average ROI Improvement</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 实施方法论 */}
+      {/* Implementation Methodology */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              SaaS自动化实施方法论
+              Healthcare Automation Implementation Methodology
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于80+SaaS成功案例的最佳实践，针对SaaS业务特点定制的实施方法论
+              Based on best practices from 150+ healthcare institution success cases, ensuring safe and secure implementation of healthcare automation projects
             </p>
           </div>
 
-          {/* 实施阶段 */}
+          {/* Implementation Phases */
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">SaaS自动化五步法</h3>
-            <div className="grid md:grid-cols-5 gap-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Healthcare Informatization Six-Step Method</h3>
+            <div className="grid md:grid-cols-6 gap-4">
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">1</div>
-                <h4 className="font-semibold text-gray-900 mb-3">指标基准建立</h4>
-                <p className="text-sm text-gray-600">建立关键SaaS指标基准，包括激活率、留存率、NPS等核心指标</p>
+                <div className="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">1</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Requirements Research</h4>
+                <p className="text-xs text-gray-600">In-depth understanding of medical workflows and pain points</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">2</div>
-                <h4 className="font-semibold text-gray-900 mb-3">用户旅程映射</h4>
-                <p className="text-sm text-gray-600">梳理从注册到续费的完整用户旅程，识别关键触点和优化机会</p>
+                <div className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">2</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Compliance Assessment</h4>
+                <p className="text-xs text-gray-600">Ensure compliance with healthcare industry regulations</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">3</div>
-                <h4 className="font-semibold text-gray-900 mb-3">自动化场景设计</h4>
-                <p className="text-sm text-gray-600">设计激活、留存、扩展等关键场景的自动化流程和触发条件</p>
+                <div className="w-14 h-14 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">3</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Security Design</h4>
+                <p className="text-xs text-gray-600">Design solutions compliant with medical safety standards</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">4</div>
-                <h4 className="font-semibold text-gray-900 mb-3">系统集成部署</h4>
-                <p className="text-sm text-gray-600">与现有产品、CRM、支持系统等深度集成，确保数据流畅通</p>
+                <div className="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">4</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Phased Implementation</h4>
+                <p className="text-xs text-gray-600">Staged deployment ensuring business continuity</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">5</div>
-                <h4 className="font-semibold text-gray-900 mb-3">持续优化迭代</h4>
-                <p className="text-sm text-gray-600">基于数据反馈持续优化自动化流程，提升关键指标表现</p>
+                <div className="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">5</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Training & Go-Live</h4>
+                <p className="text-xs text-gray-600">Comprehensive training for medical staff on system usage</p>
+              </div>
+              <div className="text-center">
+                <div className="w-14 h-14 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">6</div>
+                <h4 className="font-semibold text-gray-900 mb-2 text-sm">Continuous Optimization</h4>
+                <p className="text-xs text-gray-600">Continuous system improvement based on user feedback</p>
               </div>
             </div>
           </div>
 
-          {/* 关键成功因素 */}
+          {/* Key Success Factors */
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">SaaS自动化关键成功因素</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Healthcare Automation Key Success Factors</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
@@ -727,8 +732,8 @@ export default function SaasPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">产品数据埋点完善</h4>
-                    <p className="text-gray-600">确保产品内关键行为数据埋点完整，为自动化决策提供准确数据基础</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Medical Safety Priority</h4>
+                    <p className="text-gray-600">Ensure system design meets medical safety standards with strict compliance for patient privacy protection</p>
                   </div>
                 </div>
 
@@ -739,8 +744,8 @@ export default function SaasPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">客户分层精细化</h4>
-                    <p className="text-gray-600">基于价值、规模、行业等维度进行客户分层，制定差异化自动化策略</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Business Process Optimization</h4>
+                    <p className="text-gray-600">Deep understanding of medical workflows, optimizing rather than simply systematizing existing processes</p>
                   </div>
                 </div>
 
@@ -751,8 +756,8 @@ export default function SaasPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">内容个性化能力</h4>
-                    <p className="text-gray-600">建立丰富的内容素材库，支持基于用户特征的个性化内容推送</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Medical Staff Participation</h4>
+                    <p className="text-gray-600">Fully listen to frontline medical staff opinions, ensuring system design meets actual usage requirements</p>
                   </div>
                 </div>
 
@@ -763,57 +768,57 @@ export default function SaasPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">跨团队协作机制</h4>
-                    <p className="text-gray-600">建立产品、销售、客户成功、支持团队的协作机制和共同目标</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Data Standardization</h4>
+                    <p className="text-gray-600">Establish unified medical data standards as the foundation for cross-system collaboration</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">实施风险及防范</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Implementation Risks and Prevention</h3>
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">过度自动化风险</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-2">Medical Safety Risk</h4>
                   <p className="text-yellow-700 text-sm mb-3">
-                    过度依赖自动化可能导致用户体验机械化，缺乏人情味
+                    System failures may impact medical services and threaten patient safety
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 保留人工干预节点和通道</li>
-                      <li>• 设置自动化效果监控指标</li>
-                      <li>• 定期收集用户体验反馈</li>
+                      <li>• Establish comprehensive emergency plans and backup systems</li>
+                      <li>• Implement strict system testing and validation</li>
+                      <li>• Set up multiple security protection mechanisms</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">数据质量风险</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">Data Privacy Risk</h4>
                   <p className="text-blue-700 text-sm mb-3">
-                    数据质量问题可能导致自动化决策偏差，影响用户体验
+                    Patient privacy data breaches may lead to legal and trust crises
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 建立数据质量监控机制</li>
-                      <li>• 设置数据异常告警</li>
-                      <li>• 定期数据清洗和校验</li>
+                      <li>• Strictly comply with medical data protection regulations</li>
+                      <li>• Implement data encryption and access control</li>
+                      <li>• Regular security audits and vulnerability detection</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-red-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">隐私合规风险</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">User Acceptance Risk</h4>
                   <p className="text-red-700 text-sm mb-3">
-                    自动化处理用户数据需要遵守数据保护法规要求
+                    Medical staff resistance to new systems may impact implementation effectiveness
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 严格遵守数据保护法规</li>
-                      <li>• 透明的数据使用政策</li>
-                      <li>• 用户数据控制权限设置</li>
+                      <li>• Comprehensive upfront communication and participation</li>
+                      <li>• Systematic training and support</li>
+                      <li>• Progressive deployment strategy</li>
                     </ul>
                   </div>
                 </div>
@@ -823,15 +828,15 @@ export default function SaasPage() {
         </div>
       </section>
 
-      {/* 工具推荐 */}
+      {/* Healthcare Tools Recommendation */
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              SaaS自动化工具推荐
+              Healthcare Automation Tool Recommendations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              精选适合SaaS企业的自动化工具组合，覆盖用户生命周期各个环节
+              Carefully selected automation tool combinations suitable for the healthcare industry, covering the entire healthcare service workflow
             </p>
           </div>
 
@@ -840,11 +845,11 @@ export default function SaasPage() {
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V7a2 2 0 012-2h4a2 2 0 012 2v0M8 7v8a2 2 0 002 2h4a2 2 0 002-2V7M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-2" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">用户激活工具</h3>
-                <p className="text-gray-600 mt-2">产品内引导和激活优化</p>
+                <h3 className="text-xl font-bold text-gray-900">Appointment Management System</h3>
+                <p className="text-gray-600 mt-2">Intelligent appointment scheduling and resource allocation</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -852,19 +857,19 @@ export default function SaasPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  交互式产品导览
+                  AI intelligent scheduling algorithm
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  个性化激活路径
+                  Multi-channel appointment integration
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  激活漏斗分析
+                  Automated reminders and confirmations
                 </li>
               </ul>
 
@@ -873,23 +878,23 @@ export default function SaasPage() {
                   href="/tools/roi-calculator"
                   className="bg-primary-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-200 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">推荐</span>
+                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Recommended</span>
               </div>
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">客户成功平台</h3>
-                <p className="text-gray-600 mt-2">全生命周期客户管理</p>
+                <h3 className="text-xl font-bold text-gray-900">Patient Management Platform</h3>
+                <p className="text-gray-600 mt-2">Comprehensive patient lifecycle health management</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -897,25 +902,25 @@ export default function SaasPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  客户健康度监控
+                  Health record management
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  流失预警和挽回
+                  Automated chronic disease management
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  续费管理自动化
+                  Health reminders and follow-ups
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  扩展销售机会识别
+                  Intelligent health assessment
                 </li>
               </ul>
 
@@ -924,7 +929,7 @@ export default function SaasPage() {
                   href="/solutions/customer-service-automation"
                   className="bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -933,11 +938,11 @@ export default function SaasPage() {
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">产品分析工具</h3>
-                <p className="text-gray-600 mt-2">用户行为深度分析</p>
+                <h3 className="text-xl font-bold text-gray-900">Electronic Medical Records System</h3>
+                <p className="text-gray-600 mt-2">Intelligent medical record management and information sharing</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -945,19 +950,19 @@ export default function SaasPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  用户行为追踪
+                  Voice recognition input
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  漏斗转化分析
+                  Structured data extraction
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  A/B测试平台
+                  Cross-departmental information sharing
                 </li>
               </ul>
 
@@ -966,7 +971,7 @@ export default function SaasPage() {
                   href="/solutions/operations-automation"
                   className="bg-purple-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-purple-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -974,114 +979,114 @@ export default function SaasPage() {
         </div>
       </section>
 
-      {/* ROI分析 */}
+      {/* ROI Analysis */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              SaaS自动化投资回报分析
+              Healthcare Automation Investment ROI Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于真实SaaS案例数据，为您分析SaaS自动化的投资价值和回报预期
+              Based on real healthcare institution case data, analyzing the investment value and return expectations of healthcare automation for your organization
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">投资成本构成</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Cost Analysis</h3>
               <div className="space-y-6">
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">平台部署成本</h4>
-                    <span className="text-blue-600 font-bold">50-100万</span>
+                    <h4 className="font-semibold text-gray-900">Information System Development</h4>
+                    <span className="text-blue-600 font-bold">$3-8 Million</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含自动化平台、集成开发、数据迁移等一次性投入</p>
+                  <p className="text-gray-600 text-sm">Including HIS, EMR, PACS and other core system development and integration</p>
                 </div>
 
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">年度运营成本</h4>
-                    <span className="text-green-600 font-bold">20-40万</span>
+                    <h4 className="font-semibold text-gray-900">Hardware Equipment Procurement</h4>
+                    <span className="text-green-600 font-bold">$2-5 Million</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含系统维护、内容更新、算法优化等持续投入</p>
+                  <p className="text-gray-600 text-sm">Including servers, network equipment, terminal devices and other hardware investments</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">团队培训成本</h4>
-                    <span className="text-purple-600 font-bold">10-20万</span>
+                    <h4 className="font-semibold text-gray-900">Implementation & Training Costs</h4>
+                    <span className="text-purple-600 font-bold">$1-2 Million</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含团队培训、流程优化、变革管理等投入</p>
+                  <p className="text-gray-600 text-sm">Including system implementation, staff training, process optimization and other investments</p>
                 </div>
 
                 <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300">
                   <div className="flex justify-between items-center">
-                    <h4 className="font-bold text-gray-900">总投资成本</h4>
-                    <span className="text-2xl font-bold text-gray-900">80-160万</span>
+                    <h4 className="font-bold text-gray-900">Total Investment Cost</h4>
+                    <span className="text-2xl font-bold text-gray-900">$6-15 Million</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">收益价值分析</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Return Expectations</h3>
               <div className="space-y-6">
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">ARR Growth提升</h4>
-                    <span className="text-green-600 font-bold">+200%</span>
+                    <h4 className="font-semibold text-gray-900">Operational Efficiency Improvement</h4>
+                    <span className="text-green-600 font-bold">+60%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">通过提升激活率和续费率，ARR实现快速增长</p>
+                  <p className="text-gray-600 text-sm">Significantly improve healthcare service efficiency through process optimization and automation</p>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">客户获取成本</h4>
-                    <span className="text-blue-600 font-bold">-45%</span>
+                    <h4 className="font-semibold text-gray-900">Labor Cost Savings</h4>
+                    <span className="text-blue-600 font-bold">-25%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">提升转化率和激活率，降低有效客户获取成本</p>
+                  <p className="text-gray-600 text-sm">Automation reduces repetitive work and optimizes human resource allocation</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">客户服务成本</h4>
-                    <span className="text-purple-600 font-bold">-60%</span>
+                    <h4 className="font-semibold text-gray-900">Healthcare Quality Improvement</h4>
+                    <span className="text-purple-600 font-bold">+40%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">自动化客户成功和支持，大幅降低人工成本</p>
+                  <p className="text-gray-600 text-sm">Reduce medical errors, improve diagnostic quality and patient safety</p>
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">销售效率提升</h4>
-                    <span className="text-yellow-600 font-bold">+150%</span>
+                    <h4 className="font-semibold text-gray-900">Patient Satisfaction</h4>
+                    <span className="text-yellow-600 font-bold">+90%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">自动化销售流程，销售团队效率大幅提升</p>
+                  <p className="text-gray-600 text-sm">Improve patient experience, enhance patient satisfaction and trust</p>
                 </div>
 
                 <div className="bg-gradient-to-r from-green-100 to-blue-100 p-6 rounded-lg border-2 border-green-300">
                   <div className="text-center">
-                    <h4 className="font-bold text-gray-900 mb-2">预期投资回报率</h4>
-                    <div className="text-4xl font-bold text-green-600 mb-2">380%</div>
-                    <p className="text-gray-600 text-sm">5-8个月投资回收期</p>
+                    <h4 className="font-bold text-gray-900 mb-2">Expected Investment Return Rate</h4>
+                    <div className="text-4xl font-bold text-green-600 mb-2">220%</div>
+                    <p className="text-gray-600 text-sm">10-15 months investment payback period</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* ROI计算器CTA */}
+          {/* ROI Calculator CTA */}
           <div className="mt-16 bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              想计算您SaaS企业的具体ROI？
+              Want to Calculate Your Healthcare Institution's Specific ROI?
             </h3>
             <p className="text-gray-600 mb-6">
-              使用我们的专业ROI计算器，输入您的SaaS关键指标，获得个性化的投资回报分析报告
+              Use our professional ROI calculator to input your healthcare institution data and receive a personalized investment return analysis report
             </p>
             <Link
               href="/tools/roi-calculator"
               className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors inline-block"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
           </div>
         </div>
@@ -1091,10 +1096,10 @@ export default function SaasPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Accelerate Your SaaS Business Growth?
+            Ready to Begin Your Smart Healthcare Transformation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            Contact us immediately to get professional SaaS automation solutions and achieve breakthrough in both user growth and revenue improvement
+            Contact us today to get professional healthcare automation solutions and improve medical service quality and efficiency
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

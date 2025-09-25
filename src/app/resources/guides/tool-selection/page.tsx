@@ -9,30 +9,30 @@ export default function ToolSelectionGuide() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-8">
             <div className="inline-flex items-center bg-purple-800 bg-opacity-50 rounded-full px-4 py-2 mb-4">
-              <span className="text-sm font-medium">🔧 工具选择</span>
+              <span className="text-sm font-medium">🔧 Tool Selection</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-6">
-              自动化工具选择决策指南
+              Automation Tool Selection Decision Guide
             </h1>
             <p className="text-xl text-purple-100 mb-6">
-              科学评估，精准选择，让技术为业务赋能
+              Scientific evaluation, precise selection, let technology empower business
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-purple-200">
-              <span>⏱️ 预计阅读时间：20分钟</span>
-              <span>📈 难度级别：中级</span>
-              <span>📥 已下载：2,200+ 次</span>
-              <span>⭐ 用户评分：4.7/5</span>
+              <span>⏱️ Estimated Reading Time: 20 minutes</span>
+              <span>📈 Difficulty Level: Intermediate</span>
+              <span>📥 Downloads: 2,200+ times</span>
+              <span>⭐ User Rating: 4.7/5</span>
             </div>
           </div>
 
           <div className="bg-white bg-opacity-10 rounded-lg p-6 text-center">
-            <p className="text-purple-100 mb-4">下载工具对比表格和评估框架</p>
+            <p className="text-purple-100 mb-4">Download tool comparison tables and evaluation frameworks</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                📥 下载选择框架
+                📥 Download Selection Framework
               </button>
               <Link href="/tools/roi-calculator" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
-                🧮 计算工具ROI
+                🧮 Calculate Tool ROI
               </Link>
             </div>
           </div>
@@ -44,46 +44,46 @@ export default function ToolSelectionGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              自动化工具全景图
+              Automation Tools Landscape
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              了解不同类型的自动化工具，找到最适合您业务需求的解决方案
+              Understand different types of automation tools and find the best solution for your business needs
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                category: "流程自动化",
+                category: "Process Automation",
                 icon: "🔄",
-                tools: ["RPA工具", "BPM平台", "工作流引擎"],
-                useCase: "重复性任务、流程标准化",
-                complexity: "中等",
-                roi: "3-12个月"
+                tools: ["RPA Tools", "BPM Platforms", "Workflow Engines"],
+                useCase: "Repetitive tasks, process standardization",
+                complexity: "Medium",
+                roi: "3-12 months"
               },
               {
-                category: "营销自动化",
+                category: "Marketing Automation",
                 icon: "📧",
-                tools: ["营销平台", "CRM系统", "邮件工具"],
-                useCase: "线索培育、客户沟通",
-                complexity: "简单",
-                roi: "2-6个月"
+                tools: ["Marketing Platforms", "CRM Systems", "Email Tools"],
+                useCase: "Lead nurturing, customer communication",
+                complexity: "Simple",
+                roi: "2-6 months"
               },
               {
-                category: "数据自动化",
+                category: "Data Automation",
                 icon: "📊",
-                tools: ["ETL工具", "BI平台", "数据管道"],
-                useCase: "数据处理、报表生成",
-                complexity: "中等",
-                roi: "4-10个月"
+                tools: ["ETL Tools", "BI Platforms", "Data Pipelines"],
+                useCase: "Data processing, report generation",
+                complexity: "Medium",
+                roi: "4-10 months"
               },
               {
-                category: "智能自动化",
+                category: "Intelligent Automation",
                 icon: "🤖",
-                tools: ["AI平台", "机器学习", "认知服务"],
-                useCase: "智能决策、预测分析",
-                complexity: "复杂",
-                roi: "6-18个月"
+                tools: ["AI Platforms", "Machine Learning", "Cognitive Services"],
+                useCase: "Smart decisions, predictive analytics",
+                complexity: "Complex",
+                roi: "6-18 months"
               }
             ].map((category) => (
               <div key={category.category} className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow">
@@ -93,16 +93,16 @@ export default function ToolSelectionGuide() {
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div>
-                    <span className="font-medium text-gray-700">主要工具：</span>
+                    <span className="font-medium text-gray-700">Main Tools:</span>
                     <div className="text-gray-600">{category.tools.join(", ")}</div>
                   </div>
                   <div>
-                    <span className="font-medium text-gray-700">适用场景：</span>
+                    <span className="font-medium text-gray-700">Use Cases:</span>
                     <div className="text-gray-600">{category.useCase}</div>
                   </div>
                   <div className="flex justify-between">
                     <div>
-                      <span className="font-medium text-gray-700">复杂度：</span>
+                      <span className="font-medium text-gray-700">Complexity:</span>
                       <span className="text-gray-600">{category.complexity}</span>
                     </div>
                     <div>
@@ -122,10 +122,10 @@ export default function ToolSelectionGuide() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              SMART工具选择框架
+              SMART Tool Selection Framework
             </h2>
             <p className="text-xl text-gray-600">
-              基于业务需求的科学决策方法
+              Scientific decision-making method based on business needs
             </p>
           </div>
 
@@ -134,61 +134,61 @@ export default function ToolSelectionGuide() {
               {
                 letter: "S",
                 word: "Specific",
-                title: "具体需求分析",
-                description: "明确定义要解决的具体业务问题和目标",
+                title: "Specific Needs Analysis",
+                description: "Clearly define the specific business problems and goals to be solved",
                 questions: [
-                  "要自动化的具体流程是什么？",
-                  "涉及哪些系统和数据？",
-                  "期望达到什么效果？",
-                  "有哪些约束条件？"
+                  "What specific processes need automation?",
+                  "Which systems and data are involved?",
+                  "What outcomes are expected?",
+                  "What are the constraints?"
                 ]
               },
               {
                 letter: "M",
                 word: "Measurable",
-                title: "可量化指标",
-                description: "设定清晰的成功衡量标准和KPI",
+                title: "Measurable Metrics",
+                description: "Set clear success measurement standards and KPIs",
                 questions: [
-                  "如何量化当前效率？",
-                  "目标改进幅度是多少？",
-                  "ROI预期是什么？",
-                  "如何监控实施效果？"
+                  "How to quantify current efficiency?",
+                  "What is the target improvement range?",
+                  "What is the expected ROI?",
+                  "How to monitor implementation results?"
                 ]
               },
               {
                 letter: "A",
                 word: "Achievable",
-                title: "可实现性评估",
-                description: "评估技术可行性和组织准备度",
+                title: "Achievability Assessment",
+                description: "Assess technical feasibility and organizational readiness",
                 questions: [
-                  "技术复杂度是否匹配？",
-                  "团队技能是否足够？",
-                  "预算是否充足？",
-                  "时间安排是否合理？"
+                  "Does technical complexity match capabilities?",
+                  "Are team skills sufficient?",
+                  "Is the budget adequate?",
+                  "Is the timeline reasonable?"
                 ]
               },
               {
                 letter: "R",
                 word: "Relevant",
-                title: "相关性匹配",
-                description: "确保解决方案与业务战略高度匹配",
+                title: "Relevance Matching",
+                description: "Ensure solutions are highly aligned with business strategy",
                 questions: [
-                  "是否符合业务战略？",
-                  "能否带来竞争优势？",
-                  "与现有系统兼容吗？",
-                  "支持未来扩展吗？"
+                  "Does it align with business strategy?",
+                  "Can it bring competitive advantages?",
+                  "Is it compatible with existing systems?",
+                  "Does it support future expansion?"
                 ]
               },
               {
                 letter: "T",
                 word: "Time-bound",
-                title: "时间边界",
-                description: "设定明确的实施时间表和里程碑",
+                title: "Time-bound",
+                description: "Set clear implementation timeline and milestones",
                 questions: [
-                  "实施周期是多长？",
-                  "关键里程碑有哪些？",
-                  "何时能看到效果？",
-                  "如何处理延期风险？"
+                  "What is the implementation cycle?",
+                  "What are the key milestones?",
+                  "When can results be seen?",
+                  "How to handle delay risks?"
                 ]
               }
             ].map((item, index) => (
@@ -223,26 +223,26 @@ export default function ToolSelectionGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              主流工具对比分析
+              Mainstream Tool Comparison Analysis
             </h2>
             <p className="text-xl text-gray-600">
-              客观对比主流自动化工具的优劣势
+              Objective comparison of mainstream automation tools' advantages and disadvantages
             </p>
           </div>
 
           <div className="space-y-12">
             {/* RPA Tools */}
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">RPA工具对比</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6">RPA Tools Comparison</h3>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
                   <thead>
                     <tr className="bg-gray-50">
-                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">工具</th>
-                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">易用性</th>
-                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">功能丰富度</th>
-                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">成本</th>
-                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">适合场景</th>
+                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">Tool</th>
+                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">Ease of Use</th>
+                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">Feature Richness</th>
+                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">Cost</th>
+                      <th className="border border-gray-200 px-4 py-3 text-left font-medium text-gray-900">Suitable Scenarios</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -251,29 +251,29 @@ export default function ToolSelectionGuide() {
                         tool: "UiPath",
                         ease: "⭐⭐⭐⭐",
                         features: "⭐⭐⭐⭐⭐",
-                        cost: "高",
-                        scenario: "大型企业、复杂流程"
+                        cost: "High",
+                        scenario: "Large enterprises, complex processes"
                       },
                       {
                         tool: "Automation Anywhere",
                         ease: "⭐⭐⭐⭐",
                         features: "⭐⭐⭐⭐",
-                        cost: "高",
-                        scenario: "企业级、云原生"
+                        cost: "High",
+                        scenario: "Enterprise-level, cloud-native"
                       },
                       {
                         tool: "Blue Prism",
                         ease: "⭐⭐⭐",
                         features: "⭐⭐⭐⭐",
-                        cost: "高",
-                        scenario: "金融、严格合规"
+                        cost: "High",
+                        scenario: "Finance, strict compliance"
                       },
                       {
                         tool: "Power Automate",
                         ease: "⭐⭐⭐⭐⭐",
                         features: "⭐⭐⭐",
-                        cost: "中",
-                        scenario: "Microsoft生态、中小企业"
+                        cost: "Medium",
+                        scenario: "Microsoft ecosystem, SMBs"
                       }
                     ].map((item, index) => (
                       <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
@@ -291,28 +291,28 @@ export default function ToolSelectionGuide() {
 
             {/* Marketing Automation */}
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">营销自动化工具对比</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Marketing Automation Tools Comparison</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 {[
                   {
                     tool: "HubSpot",
-                    pros: ["易于使用", "功能全面", "免费版本", "生态丰富"],
-                    cons: ["高级功能付费", "定制化有限"],
-                    bestFor: "中小企业、初学者",
+                    pros: ["Easy to use", "Comprehensive features", "Free version", "Rich ecosystem"],
+                    cons: ["Advanced features require payment", "Limited customization"],
+                    bestFor: "SMBs, beginners",
                     pricing: "免费-$1,200/月"
                   },
                   {
                     tool: "Marketo",
-                    pros: ["功能强大", "B2B专业", "深度分析", "扩展性好"],
-                    cons: ["学习曲线陡", "价格较高"],
-                    bestFor: "大型B2B企业",
+                    pros: ["Powerful features", "B2B specialized", "Deep analytics", "Good scalability"],
+                    cons: ["Steep learning curve", "Higher price"],
+                    bestFor: "Large B2B enterprises",
                     pricing: "$1,195-$5,999/月"
                   },
                   {
                     tool: "Pardot",
-                    pros: ["Salesforce集成", "B2B导向", "AI支持"],
-                    cons: ["依赖Salesforce", "复杂度高"],
-                    bestFor: "Salesforce用户",
+                    pros: ["Salesforce integration", "B2B oriented", "AI support"],
+                    cons: ["Depends on Salesforce", "High complexity"],
+                    bestFor: "Salesforce users",
                     pricing: "$1,250-$4,000/月"
                   }
                 ].map((tool) => (
@@ -320,7 +320,7 @@ export default function ToolSelectionGuide() {
                     <h4 className="text-lg font-semibold text-gray-900 mb-4">{tool.tool}</h4>
                     <div className="space-y-4">
                       <div>
-                        <h5 className="font-medium text-green-700 mb-2">优势</h5>
+                        <h5 className="font-medium text-green-700 mb-2">Advantages</h5>
                         <ul className="text-sm text-gray-600 space-y-1">
                           {tool.pros.map((pro, index) => (
                             <li key={index} className="flex items-center">
@@ -331,7 +331,7 @@ export default function ToolSelectionGuide() {
                         </ul>
                       </div>
                       <div>
-                        <h5 className="font-medium text-red-700 mb-2">劣势</h5>
+                        <h5 className="font-medium text-red-700 mb-2">Disadvantages</h5>
                         <ul className="text-sm text-gray-600 space-y-1">
                           {tool.cons.map((con, index) => (
                             <li key={index} className="flex items-center">
@@ -343,11 +343,11 @@ export default function ToolSelectionGuide() {
                       </div>
                       <div className="pt-2 border-t border-gray-200">
                         <div className="text-sm">
-                          <div className="font-medium text-gray-700">适合对象：</div>
+                          <div className="font-medium text-gray-700">Suitable For:</div>
                           <div className="text-gray-600">{tool.bestFor}</div>
                         </div>
                         <div className="text-sm mt-2">
-                          <div className="font-medium text-gray-700">价格范围：</div>
+                          <div className="font-medium text-gray-700">Price Range:</div>
                           <div className="text-gray-600">{tool.pricing}</div>
                         </div>
                       </div>

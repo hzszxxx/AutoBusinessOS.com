@@ -574,31 +574,31 @@ export default function customerserviceautomationPage() {
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">挑战：客户不信任机器人</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-2">Challenge: Customer Distrust of Bots</h4>
                   <p className="text-yellow-700 text-sm mb-3">
-                    客户习惯人工服务，对机器人存在抗拒心理
+                    Customers are accustomed to human service and have resistance to chatbots
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">解决方案：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Solutions:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 明确标识机器人身份，设置合理期望</li>
-                      <li>• 提供随时转人工的便捷入口</li>
-                      <li>• 通过优质服务逐步建立信任</li>
+                      <li>• Clearly identify bot identity and set reasonable expectations</li>
+                      <li>• Provide convenient access to human agents at any time</li>
+                      <li>• Gradually build trust through quality service</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">挑战：复杂问题处理能力不足</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">Challenge: Limited Complex Problem Handling</h4>
                   <p className="text-blue-700 text-sm mb-3">
-                    机器人难以处理复杂的业务咨询和投诉
+                    Bots struggle with complex business inquiries and complaints
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">解决方案：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Solutions:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 建立智能路由，复杂问题自动转接</li>
-                      <li>• 人机协作模式，机器人辅助人工</li>
-                      <li>• 建立专家知识库处理专业问题</li>
+                      <li>• Establish intelligent routing for automatic escalation of complex issues</li>
+                      <li>• Human-AI collaboration mode with bot assistance</li>
+                      <li>• Build expert knowledge base for professional issues</li>
                     </ul>
                   </div>
                 </div>
@@ -608,45 +608,45 @@ export default function customerserviceautomationPage() {
         </div>
       </section>
 
-      {/* 工具推荐和比较 */}
+      {/* Tool Recommendation and Comparison */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              客服自动化工具对比分析
+              Customer Service Automation Tool Comparison Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              为您分析市场主流客服自动化工具，帮助选择最适合的解决方案
+              Comprehensive analysis of mainstream customer service automation tools to help you choose the most suitable solution
             </p>
           </div>
 
-          {/* 工具对比表 */}
+          {/* Tool Comparison Table */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">功能特性</th>
+                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Features</th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-primary-600">AutoBusinessOS</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">传统客服系统</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">国外SaaS</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">纯聊天机器人</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">Traditional Systems</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">International SaaS</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-gray-600">Pure Chatbots</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">AI自然语言理解</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">AI Natural Language Understanding</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ 95%+准确率
+                        ✓ 95%+ Accuracy
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ 不支持</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ 支持</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ 基础支持</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✗ Not Supported</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">✓ Supported</td>
+                    <td className="px-6 py-4 text-center text-sm text-gray-500">△ Basic Support</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="px-6 py-4 text-sm text-gray-900">智能工单系统</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Intelligent Ticketing System</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                         ✓ Full Features
@@ -657,7 +657,7 @@ export default function customerserviceautomationPage() {
                     <td className="px-6 py-4 text-center text-sm text-gray-500">✗ Not Supported</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 text-sm text-gray-900">Multi-language Understanding</td>
+                    <td className="px-6 py-4 text-sm text-gray-900">Localization Support</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                         ✓ Professional Optimization
@@ -671,7 +671,7 @@ export default function customerserviceautomationPage() {
                     <td className="px-6 py-4 text-sm text-gray-900">Data Security Compliance</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ Local Compliance
+                        ✓ Full Compliance
                       </span>
                     </td>
                     <td className="px-6 py-4 text-center text-sm text-gray-500">✓ Supported</td>
@@ -682,7 +682,7 @@ export default function customerserviceautomationPage() {
                     <td className="px-6 py-4 text-sm text-gray-900">Implementation Cost</td>
                     <td className="px-6 py-4 text-center">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        ✓ Low Cost
+                        ✓ Cost Effective
                       </span>
                     </td>
                     <td className="px-6 py-4 text-center text-sm text-gray-500">△ Medium</td>
@@ -704,7 +704,7 @@ export default function customerserviceautomationPage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">Basic Plan</h3>
-                <p className="text-gray-600 mt-2">Suitable for SME</p>
+                <p className="text-gray-600 mt-2">Suitable for small and medium enterprises</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -729,7 +729,7 @@ export default function customerserviceautomationPage() {
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-600 mb-2">¥199/月</div>
+                <div className="text-2xl font-bold text-primary-600 mb-2">$29/month</div>
                 <p className="text-sm text-gray-600">Unlimited customer service agents</p>
               </div>
             </div>
@@ -776,7 +776,7 @@ export default function customerserviceautomationPage() {
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-green-600 mb-2">¥599/月</div>
+                <div className="text-2xl font-bold text-green-600 mb-2">$89/month</div>
                 <p className="text-sm text-gray-600">Includes advanced features</p>
               </div>
             </div>
@@ -803,25 +803,25 @@ export default function customerserviceautomationPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Private Deployment
+                  Private Cloud Deployment
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Customized development
+                  Custom Development Services
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Dedicated technical support
+                  24/7 Dedicated Technical Support
                 </li>
               </ul>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-purple-600 mb-2">Custom Quote</div>
-                <p className="text-sm text-gray-600">Customized based on requirements</p>
+                <div className="text-2xl font-bold text-purple-600 mb-2">Custom Pricing</div>
+                <p className="text-sm text-gray-600">Tailored to your specific needs</p>
               </div>
             </div>
           </div>

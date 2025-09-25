@@ -27,7 +27,7 @@ export default function LazySection({
         if (entry.isIntersecting && !hasIntersected) {
           setIsVisible(true);
           setHasIntersected(true);
-          // 一旦加载就不再观察
+          // Stop observing once loaded
           if (elementRef.current) {
             observer.unobserve(elementRef.current);
           }

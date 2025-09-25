@@ -90,7 +90,7 @@ export default function financeautomationPage() {
         </div>
       </section>
 
-      {/* 功能特性详解 */}
+      {/* Feature Details */}
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -258,35 +258,35 @@ export default function financeautomationPage() {
               </div>
             </div>
 
-            {/* 案例2：零售连锁 */}
+            {/* Case Study 2: Retail Chain */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">零售连锁</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">全国连锁零售企业费用管控</h3>
+                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">Retail Chain</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">National Retail Chain Expense Management</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该连锁企业拥有500家门店，每月处理费用单据超过10万张。传统手工审批模式导致费用管控困难，
-                    预算超支现象严重，年度超支率达30%。
+                    This retail chain operates 500 stores and processes over 100,000 expense documents monthly. The traditional manual approval process
+                    led to difficult expense control and severe budget overruns, with an annual overspend rate of 30%.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">核心问题：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Core Challenges:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 费用审批周期长达10天</li>
-                        <li>• 预算超支率30%</li>
-                        <li>• 门店费用监控困难</li>
-                        <li>• 财务合规风险高</li>
+                        <li>• Expense approval cycle up to 10 days</li>
+                        <li>• Budget overspend rate of 30%</li>
+                        <li>• Difficult to monitor store expenses</li>
+                        <li>• High financial compliance risks</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">解决效果：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Solution Results:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 费用审批缩短至2天</li>
-                        <li>• 预算超支率降至5%</li>
-                        <li>• 实时费用监控预警</li>
-                        <li>• 合规率提升至99%</li>
+                        <li>• Expense approval reduced to 2 days</li>
+                        <li>• Budget overspend rate decreased to 5%</li>
+                        <li>• Real-time expense monitoring alerts</li>
+                        <li>• Compliance rate improved to 99%</li>
                       </ul>
                     </div>
                   </div>
@@ -294,23 +294,23 @@ export default function financeautomationPage() {
                 <div className="bg-gradient-to-br from-secondary-50 to-primary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-secondary-600 mb-2">75%</div>
-                    <p className="text-gray-600 mb-4">审批时间缩短</p>
+                    <p className="text-gray-600 mb-4">Approval Time Reduction</p>
                     <div className="text-2xl font-bold text-primary-600 mb-2">25%</div>
-                    <p className="text-gray-600">超支率降低</p>
+                    <p className="text-gray-600">Overspend Rate Reduction</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 客户证言 */}
+            {/* Customer Testimonial */}
             <div className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white">
               <div className="text-center">
                 <blockquote className="text-xl italic mb-6">
-                  &ldquo;财务自动化系统彻底改变了我们的工作方式。以前需要一周才能完成的财务报表，
-                  现在几分钟就能生成。团队可以把更多时间投入到战略分析上，为公司创造更大价值。&rdquo;
+                  &ldquo;The finance automation system has completely transformed our way of working. Financial reports that used to take a week to complete
+                  can now be generated in minutes. Our team can invest more time in strategic analysis, creating greater value for the company.&rdquo;
                 </blockquote>
                 <cite className="text-primary-100">
-                  — 王总 | 某大型制造企业CFO
+                  — Mr. Wang | CFO of Large Manufacturing Enterprise
                 </cite>
               </div>
             </div>

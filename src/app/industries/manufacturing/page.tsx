@@ -513,212 +513,212 @@ export default function ManufacturingPage() {
               </div>
             </div>
 
-            {/* 案例2 */}
+            {/* Case 2 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 font-bold text-xl">汽</span>
+                  <span className="text-green-600 font-bold text-xl">A</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某汽车零部件制造商</h3>
-                  <p className="text-gray-600">年产值：15亿元，工厂：5个</p>
+                  <h3 className="text-xl font-bold text-gray-900">Major Automotive Parts Manufacturer</h3>
+                  <p className="text-gray-600">Annual Revenue: $2.1B, Factories: 5</p>
                 </div>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 多工厂协调困难，产能分配不均衡</li>
-                  <li>• 汽车行业质量标准严格，质量成本高</li>
-                  <li>• 供应链复杂，库存积压和缺料并存</li>
-                  <li>• 客户需求变化快，交期压力大</li>
+                  <li>• Multi-factory coordination difficulties with unbalanced capacity allocation</li>
+                  <li>• Strict automotive industry quality standards resulting in high quality costs</li>
+                  <li>• Complex supply chain with inventory backlog and material shortages coexisting</li>
+                  <li>• Rapid customer demand changes creating intense delivery pressure</li>
                 </ul>
               </div>
 
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-3">解决方案：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 实施多工厂协同生产计划系统</li>
-                  <li>• 部署全流程质量追溯系统</li>
-                  <li>• 上线供应链协同管理平台</li>
-                  <li>• 建立客户需求响应机制</li>
+                  <li>• Deployed multi-factory collaborative production planning system</li>
+                  <li>• Implemented full-process quality traceability system</li>
+                  <li>• Launched supply chain collaboration management platform</li>
+                  <li>• Established customer demand response mechanism</li>
                 </ul>
               </div>
 
               <div className="border-t pt-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">实施效果：</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-green-50 rounded-lg">
                     <div className="text-2xl font-bold text-green-600">+85%</div>
-                    <p className="text-sm text-gray-600">产能利用率</p>
+                    <p className="text-sm text-gray-600">Capacity Utilization</p>
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">-70%</div>
-                    <p className="text-sm text-gray-600">质量成本降低</p>
+                    <p className="text-sm text-gray-600">Quality Cost Reduction</p>
                   </div>
                   <div className="text-center p-4 bg-purple-50 rounded-lg">
                     <div className="text-2xl font-bold text-purple-600">+150%</div>
-                    <p className="text-sm text-gray-600">库存周转率</p>
+                    <p className="text-sm text-gray-600">Inventory Turnover Rate</p>
                   </div>
                   <div className="text-center p-4 bg-orange-50 rounded-lg">
                     <div className="text-2xl font-bold text-orange-600">98%</div>
-                    <p className="text-sm text-gray-600">准时交付率</p>
+                    <p className="text-sm text-gray-600">On-Time Delivery Rate</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  &ldquo;自动化让我们在激烈的汽车供应链竞争中脱颖而出。不仅成本大幅降低，质量和交期也得到客户高度认可，订单量持续增长。&rdquo;
+                  &ldquo;Automation helped us stand out in the fierce automotive supply chain competition. Not only did costs drop significantly, but our quality and delivery performance gained high customer recognition, leading to continuous order growth.&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-gray-800 mt-2">— 总经理 李女士</p>
+                <p className="text-sm font-semibold text-gray-800 mt-2">— General Manager, Ms. Li</p>
               </div>
             </div>
 
-            {/* 案例3 */}
+            {/* Case 3 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg lg:col-span-2">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-purple-600 font-bold text-xl">机</span>
+                  <span className="text-purple-600 font-bold text-xl">P</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">某精密机械制造集团</h3>
-                  <p className="text-gray-600">年产值：50亿元，工厂：12个，员工：15000人</p>
+                  <h3 className="text-xl font-bold text-gray-900">Major Precision Machinery Manufacturing Group</h3>
+                  <p className="text-gray-600">Annual Revenue: $7.1B, Factories: 12, Employees: 15,000</p>
                 </div>
               </div>
 
               <div className="grid lg:grid-cols-2 gap-8">
                 <div>
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">实施前挑战：</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Pre-Implementation Challenges:</h4>
                     <ul className="space-y-2 text-gray-600">
-                      <li>• 集团化管理复杂，各工厂标准不统一</li>
-                      <li>• 精密加工要求高，设备维护成本巨大</li>
-                      <li>• 技术工人短缺，质量稳定性难保证</li>
-                      <li>• 订单交期长，客户满意度下降</li>
+                      <li>• Complex group management with inconsistent factory standards</li>
+                      <li>• High precision machining requirements with enormous equipment maintenance costs</li>
+                      <li>• Technical worker shortage making quality consistency difficult to guarantee</li>
+                      <li>• Long order lead times resulting in declining customer satisfaction</li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">解决方案：</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Solution Implemented:</h4>
                     <ul className="space-y-2 text-gray-600">
-                      <li>• 建立集团统一的智能制造平台</li>
-                      <li>• 实施全集团设备预测性维护</li>
-                      <li>• 部署智能作业指导系统</li>
-                      <li>• 建立客户订单协同管理系统</li>
+                      <li>• Established unified group-wide smart manufacturing platform</li>
+                      <li>• Implemented group-wide predictive equipment maintenance</li>
+                      <li>• Deployed intelligent work instruction system</li>
+                      <li>• Built customer order collaboration management system</li>
                     </ul>
                   </div>
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">实施效果：</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Implementation Results:</h4>
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="text-center p-4 bg-green-50 rounded-lg">
                       <div className="text-2xl font-bold text-green-600">+300%</div>
-                      <p className="text-sm text-gray-600">管理效率提升</p>
+                      <p className="text-sm text-gray-600">Management Efficiency</p>
                     </div>
                     <div className="text-center p-4 bg-blue-50 rounded-lg">
                       <div className="text-2xl font-bold text-blue-600">-50%</div>
-                      <p className="text-sm text-gray-600">设备维护成本</p>
+                      <p className="text-sm text-gray-600">Equipment Maintenance Cost</p>
                     </div>
                     <div className="text-center p-4 bg-purple-50 rounded-lg">
                       <div className="text-2xl font-bold text-purple-600">+180%</div>
-                      <p className="text-sm text-gray-600">人员技能提升</p>
+                      <p className="text-sm text-gray-600">Staff Skill Enhancement</p>
                     </div>
                     <div className="text-center p-4 bg-orange-50 rounded-lg">
                       <div className="text-2xl font-bold text-orange-600">-40%</div>
-                      <p className="text-sm text-gray-600">订单交期缩短</p>
+                      <p className="text-sm text-gray-600">Order Lead Time Reduction</p>
                     </div>
                   </div>
 
                   <div className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-sm text-gray-600 italic">
-                      &ldquo;集团级的智能制造平台让我们实现了真正的统一管理。各工厂效率大幅提升，成本显著下降，客户满意度创历史新高。这为我们的国际化发展奠定了坚实基础。&rdquo;
+                      &ldquo;The group-level smart manufacturing platform enabled us to achieve truly unified management. Factory efficiency improved dramatically, costs dropped significantly, and customer satisfaction reached historic highs. This laid a solid foundation for our international expansion.&rdquo;
                     </p>
-                    <p className="text-sm font-semibold text-gray-800 mt-2">— 集团CEO 王先生</p>
+                    <p className="text-sm font-semibold text-gray-800 mt-2">— Group CEO, Mr. Wang</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* 案例数据汇总 */}
+          {/* Case Data Summary */}
           <div className="mt-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">制造业客户案例数据汇总</h3>
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Manufacturing Customer Case Data Summary</h3>
             <div className="grid md:grid-cols-5 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">120+</div>
-                <p className="text-gray-600">成功案例</p>
+                <p className="text-gray-600">Success Cases</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-green-600 mb-2">96%</div>
-                <p className="text-gray-600">客户满意度</p>
+                <p className="text-gray-600">Customer Satisfaction</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-purple-600 mb-2">4个月</div>
-                <p className="text-gray-600">平均实施周期</p>
+                <div className="text-3xl font-bold text-purple-600 mb-2">4 Months</div>
+                <p className="text-gray-600">Average Implementation Cycle</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-orange-600 mb-2">8个月</div>
-                <p className="text-gray-600">平均投资回收期</p>
+                <div className="text-3xl font-bold text-orange-600 mb-2">8 Months</div>
+                <p className="text-gray-600">Average ROI Recovery Period</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-red-600 mb-2">280%</div>
-                <p className="text-gray-600">平均ROI提升</p>
+                <p className="text-gray-600">Average ROI Improvement</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 实施方法论 */}
+      {/* Implementation Methodology */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业自动化实施方法论
+              Manufacturing Automation Implementation Methodology
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于120+制造业成功案例的最佳实践，针对制造业特点定制的实施方法论
+              Best practices based on 120+ successful manufacturing cases, customized implementation methodology tailored for manufacturing characteristics
             </p>
           </div>
 
-          {/* 实施阶段 */}
+          {/* Implementation Phases */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">制造业数字化五步法</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Manufacturing Digitization Five-Step Approach</h3>
             <div className="grid md:grid-cols-5 gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">1</div>
-                <h4 className="font-semibold text-gray-900 mb-3">现状诊断评估</h4>
-                <p className="text-sm text-gray-600">全面评估现有生产体系，识别自动化改造的关键节点和价值点</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Current State Assessment</h4>
+                <p className="text-sm text-gray-600">Comprehensive evaluation of existing production systems, identifying key automation transformation points and value opportunities</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">2</div>
-                <h4 className="font-semibold text-gray-900 mb-3">顶层架构设计</h4>
-                <p className="text-sm text-gray-600">设计统一的智能制造架构，制定分阶段实施路线图</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Top-Level Architecture Design</h4>
+                <p className="text-sm text-gray-600">Design unified smart manufacturing architecture and develop phased implementation roadmap</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">3</div>
-                <h4 className="font-semibold text-gray-900 mb-3">核心场景实施</h4>
-                <p className="text-sm text-gray-600">优先实施关键业务场景，快速验证效果，建立成功样板</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Core Scenario Implementation</h4>
+                <p className="text-sm text-gray-600">Prioritize critical business scenarios, rapidly validate effectiveness, and establish successful templates</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">4</div>
-                <h4 className="font-semibold text-gray-900 mb-3">全面推广复制</h4>
-                <p className="text-sm text-gray-600">基于成功经验，向其他产线、车间、工厂全面推广复制</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Full-Scale Rollout</h4>
+                <p className="text-sm text-gray-600">Based on successful experience, comprehensively roll out to other production lines, workshops, and factories</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">5</div>
-                <h4 className="font-semibold text-gray-900 mb-3">持续优化升级</h4>
-                <p className="text-sm text-gray-600">建立持续改进机制，不断优化算法模型，提升自动化水平</p>
+                <h4 className="font-semibold text-gray-900 mb-3">Continuous Optimization</h4>
+                <p className="text-sm text-gray-600">Establish continuous improvement mechanisms, continuously optimize algorithmic models, and enhance automation levels</p>
               </div>
             </div>
           </div>
 
-          {/* 关键成功因素 */}
+          {/* Key Success Factors */}
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">制造业自动化关键成功因素</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Manufacturing Automation Key Success Factors</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
@@ -727,8 +727,8 @@ export default function ManufacturingPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">标准化基础建设</h4>
-                    <p className="text-gray-600">建立统一的数据标准、流程标准、接口标准，为自动化奠定基础</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Standardization Foundation Building</h4>
+                    <p className="text-gray-600">Establish unified data standards, process standards, and interface standards to lay the foundation for automation</p>
                   </div>
                 </div>
 
@@ -739,8 +739,8 @@ export default function ManufacturingPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">设备数字化改造</h4>
-                    <p className="text-gray-600">对关键设备进行数字化改造，确保数据采集的完整性和准确性</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Equipment Digitization Transformation</h4>
+                    <p className="text-gray-600">Conduct digital transformation of key equipment to ensure completeness and accuracy of data collection</p>
                   </div>
                 </div>
 
@@ -751,8 +751,8 @@ export default function ManufacturingPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">人才队伍建设</h4>
-                    <p className="text-gray-600">培养既懂制造又懂数字化的复合型人才，建立可持续发展能力</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Talent Development</h4>
+                    <p className="text-gray-600">Cultivate cross-functional talent with both manufacturing and digitization expertise to build sustainable development capabilities</p>
                   </div>
                 </div>
 
@@ -763,57 +763,57 @@ export default function ManufacturingPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">价值导向实施</h4>
-                    <p className="text-gray-600">以业务价值为导向，优先实施ROI高、见效快的自动化场景</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Value-Driven Implementation</h4>
+                    <p className="text-gray-600">Focus on business value, prioritizing automation scenarios with high ROI and quick results</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">实施风险及防范</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Implementation Risks and Prevention</h3>
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-yellow-800 mb-2">技术选型风险</h4>
+                  <h4 className="font-semibold text-yellow-800 mb-2">Technology Selection Risk</h4>
                   <p className="text-yellow-700 text-sm mb-3">
-                    技术选择不当可能导致系统不兼容，影响整体效果
+                    Inappropriate technology choices may lead to system incompatibility, affecting overall effectiveness
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 技术方案充分论证和测试</li>
-                      <li>• 选择成熟稳定的技术路线</li>
-                      <li>• 建立技术风险评估机制</li>
+                      <li>• Thorough validation and testing of technical solutions</li>
+                      <li>• Select mature and stable technology routes</li>
+                      <li>• Establish technical risk assessment mechanisms</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">生产连续性风险</h4>
+                  <h4 className="font-semibold text-blue-800 mb-2">Production Continuity Risk</h4>
                   <p className="text-blue-700 text-sm mb-3">
-                    系统切换可能影响正常生产，造成订单延期
+                    System transitions may impact normal production, causing order delays
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 制定详细的切换方案</li>
-                      <li>• 准备应急备用方案</li>
-                      <li>• 选择生产淡季实施</li>
+                      <li>• Develop detailed transition plans</li>
+                      <li>• Prepare emergency backup solutions</li>
+                      <li>• Choose off-peak production periods for implementation</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-red-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">投资回报风险</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">Investment Return Risk</h4>
                   <p className="text-red-700 text-sm mb-3">
-                    投资规模大，回报周期长，可能影响企业现金流
+                    Large investment scale and long payback period may impact enterprise cash flow
                   </p>
                   <div className="bg-white p-4 rounded">
-                    <h5 className="font-semibold text-gray-900 mb-2">防范措施：</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">Prevention Measures:</h5>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 分阶段投资，逐步实施</li>
-                      <li>• 优先高ROI项目</li>
-                      <li>• 建立效果监控机制</li>
+                      <li>• Phased investment with gradual implementation</li>
+                      <li>• Prioritize high-ROI projects</li>
+                      <li>• Establish effect monitoring mechanisms</li>
                     </ul>
                   </div>
                 </div>
@@ -823,15 +823,15 @@ export default function ManufacturingPage() {
         </div>
       </section>
 
-      {/* 工具推荐 */}
+      {/* Tool Recommendations */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业自动化工具推荐
+              Manufacturing Automation Tool Recommendations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              精选适合制造业的自动化工具组合，覆盖生产制造全流程各个环节
+              Carefully selected automation tool combinations suitable for manufacturing, covering all aspects of the production manufacturing process
             </p>
           </div>
 
@@ -843,8 +843,8 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">生产计划系统</h3>
-                <p className="text-gray-600 mt-2">智能生产计划和调度</p>
+                <h3 className="text-xl font-bold text-gray-900">Production Planning System</h3>
+                <p className="text-gray-600 mt-2">Intelligent production planning and scheduling</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -852,19 +852,19 @@ export default function ManufacturingPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI产能优化算法
+                  AI Capacity Optimization Algorithms
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  动态调度和插单
+                  Dynamic Scheduling and Rush Orders
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  交期承诺分析
+                  Delivery Commitment Analysis
                 </li>
               </ul>
 
@@ -873,14 +873,14 @@ export default function ManufacturingPage() {
                   href="/tools/roi-calculator"
                   className="bg-primary-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-200 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">推荐</span>
+                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Recommended</span>
               </div>
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -888,8 +888,8 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">质量控制平台</h3>
-                <p className="text-gray-600 mt-2">智能质量检测和管控</p>
+                <h3 className="text-xl font-bold text-gray-900">Quality Control Platform</h3>
+                <p className="text-gray-600 mt-2">Intelligent quality detection and management</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -897,25 +897,25 @@ export default function ManufacturingPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  机器视觉检测
+                  Machine Vision Detection
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  质量数据分析
+                  Quality Data Analysis
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  质量追溯系统
+                  Quality Traceability System
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  预测性质量控制
+                  Predictive Quality Control
                 </li>
               </ul>
 
@@ -924,7 +924,7 @@ export default function ManufacturingPage() {
                   href="/solutions/operations-automation"
                   className="bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -936,8 +936,8 @@ export default function ManufacturingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">设备维护系统</h3>
-                <p className="text-gray-600 mt-2">智能设备健康管理</p>
+                <h3 className="text-xl font-bold text-gray-900">Equipment Maintenance System</h3>
+                <p className="text-gray-600 mt-2">Intelligent equipment health management</p>
               </div>
 
               <ul className="space-y-3 mb-6">
@@ -945,19 +945,19 @@ export default function ManufacturingPage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  设备状态监控
+                  Equipment Status Monitoring
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  预测性维护
+                  Predictive Maintenance
                 </li>
                 <li className="flex items-center text-gray-700">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  故障诊断和预警
+                  Fault Diagnosis and Early Warning
                 </li>
               </ul>
 
@@ -966,7 +966,7 @@ export default function ManufacturingPage() {
                   href="/solutions/operations-automation"
                   className="bg-purple-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-purple-700 transition-colors inline-block"
                 >
-                  了解更多
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -974,114 +974,114 @@ export default function ManufacturingPage() {
         </div>
       </section>
 
-      {/* ROI分析 */}
+      {/* ROI Analysis */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              制造业自动化投资回报分析
+              Manufacturing Automation Investment Return Analysis
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              基于真实制造业案例数据，为您分析制造业自动化的投资价值和回报预期
+              Based on real manufacturing case data, analyze the investment value and return expectations of manufacturing automation for you
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">投资成本分析</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Cost Analysis</h3>
               <div className="space-y-6">
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">系统建设成本</h4>
-                    <span className="text-blue-600 font-bold">200-500万</span>
+                    <h4 className="font-semibold text-gray-900">System Construction Cost</h4>
+                    <span className="text-blue-600 font-bold">$2.8-7.1M</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含软硬件采购、系统集成、数据中台建设等投入</p>
+                  <p className="text-gray-600 text-sm">Including software and hardware procurement, system integration, data platform construction and other investments</p>
                 </div>
 
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">设备改造成本</h4>
-                    <span className="text-green-600 font-bold">100-300万</span>
+                    <h4 className="font-semibold text-gray-900">Equipment Transformation Cost</h4>
+                    <span className="text-green-600 font-bold">$1.4-4.2M</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含关键设备数字化改造、传感器部署等投入</p>
+                  <p className="text-gray-600 text-sm">Including digital transformation of key equipment, sensor deployment and other investments</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">培训实施成本</h4>
-                    <span className="text-purple-600 font-bold">50-100万</span>
+                    <h4 className="font-semibold text-gray-900">Training Implementation Cost</h4>
+                    <span className="text-purple-600 font-bold">$0.7-1.4M</span>
                   </div>
-                  <p className="text-gray-600 text-sm">包含人员培训、流程梳理、变革管理等投入</p>
+                  <p className="text-gray-600 text-sm">Including staff training, process optimization, change management and other investments</p>
                 </div>
 
                 <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300">
                   <div className="flex justify-between items-center">
-                    <h4 className="font-bold text-gray-900">总投资成本</h4>
-                    <span className="text-2xl font-bold text-gray-900">350-900万</span>
+                    <h4 className="font-bold text-gray-900">Total Investment Cost</h4>
+                    <span className="text-2xl font-bold text-gray-900">$4.9-12.7M</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">投资回报预期</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Investment Return Expectations</h3>
               <div className="space-y-6">
                 <div className="bg-green-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">生产效率提升</h4>
+                    <h4 className="font-semibold text-gray-900">Production Efficiency Improvement</h4>
                     <span className="text-green-600 font-bold">+80%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">通过智能调度和优化，生产效率大幅提升</p>
+                  <p className="text-gray-600 text-sm">Production efficiency dramatically improved through intelligent scheduling and optimization</p>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">质量成本降低</h4>
+                    <h4 className="font-semibold text-gray-900">Quality Cost Reduction</h4>
                     <span className="text-blue-600 font-bold">-60%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">自动化质量检测减少质量问题和返工成本</p>
+                  <p className="text-gray-600 text-sm">Automated quality inspection reduces quality issues and rework costs</p>
                 </div>
 
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">设备维护成本</h4>
+                    <h4 className="font-semibold text-gray-900">Equipment Maintenance Cost</h4>
                     <span className="text-purple-600 font-bold">-40%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">预测性维护减少设备故障和维护费用</p>
+                  <p className="text-gray-600 text-sm">Predictive maintenance reduces equipment failures and maintenance costs</p>
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="font-semibold text-gray-900">库存成本优化</h4>
+                    <h4 className="font-semibold text-gray-900">Inventory Cost Optimization</h4>
                     <span className="text-yellow-600 font-bold">-30%</span>
                   </div>
-                  <p className="text-gray-600 text-sm">智能供应链管理降低库存积压和缺料风险</p>
+                  <p className="text-gray-600 text-sm">Intelligent supply chain management reduces inventory backlog and material shortage risks</p>
                 </div>
 
                 <div className="bg-gradient-to-r from-green-100 to-blue-100 p-6 rounded-lg border-2 border-green-300">
                   <div className="text-center">
-                    <h4 className="font-bold text-gray-900 mb-2">预期投资回报率</h4>
+                    <h4 className="font-bold text-gray-900 mb-2">Expected Return on Investment</h4>
                     <div className="text-4xl font-bold text-green-600 mb-2">280%</div>
-                    <p className="text-gray-600 text-sm">8-12个月投资回收期</p>
+                    <p className="text-gray-600 text-sm">8-12 month investment recovery period</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* ROI计算器CTA */}
+          {/* ROI Calculator CTA */}
           <div className="mt-16 bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              想计算您制造企业的具体ROI？
+              Want to Calculate Your Manufacturing Enterprise's Specific ROI?
             </h3>
             <p className="text-gray-600 mb-6">
-              使用我们的专业ROI计算器，输入您的制造业务数据，获得个性化的投资回报分析报告
+              Use our professional ROI calculator, input your manufacturing business data, and get a personalized investment return analysis report
             </p>
             <Link
               href="/tools/roi-calculator"
               className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition-colors inline-block"
             >
-              免费计算ROI
+              Calculate ROI Free
             </Link>
           </div>
         </div>
@@ -1091,23 +1091,23 @@ export default function ManufacturingPage() {
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            准备开启智能制造转型之旅？
+            Ready to Begin Your Smart Manufacturing Transformation Journey?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            立即联系我们，获得专业的制造业自动化解决方案，实现工业4.0智能制造升级
+            Contact us immediately to get professional manufacturing automation solutions and achieve Industry 4.0 smart manufacturing upgrade
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/tools/roi-calculator"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              免费评估ROI
+              Free ROI Assessment
             </Link>
             <Link
               href="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
             >
-              联系专家咨询
+              Contact Expert Consultation
             </Link>
           </div>
         </div>

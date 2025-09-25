@@ -55,8 +55,8 @@ export default function operationsautomationPage() {
               <div className="text-red-500 text-4xl mb-4">📦</div>
               <h3 className="text-xl font-semibold mb-3">Chaotic Inventory Management</h3>
               <p className="text-gray-600">
-                缺乏实时库存监控，库存积压和缺货现象严重，资金占用率高达30%，
-                库存周转率低，影响企业资金流和运营效率。
+                Lack of real-time inventory monitoring, severe inventory backlog and stockout issues, capital utilization rate as high as 30%,
+                low inventory turnover rate, affecting enterprise cash flow and operational efficiency.
               </p>
             </div>
 
@@ -64,8 +64,8 @@ export default function operationsautomationPage() {
               <div className="text-orange-500 text-4xl mb-4">🚚</div>
               <h3 className="text-xl font-semibold mb-3">Opaque Supply Chain</h3>
               <p className="text-gray-600">
-                供应链信息孤岛严重，缺乏端到端可视化管理，供应商协调困难，
-                平均交付延期率达25%，客户满意度下降。
+                Severe supply chain information silos, lack of end-to-end visibility management, difficult supplier coordination,
+                average delivery delay rate reaches 25%, declining customer satisfaction.
               </p>
             </div>
 
@@ -73,8 +73,8 @@ export default function operationsautomationPage() {
               <div className="text-blue-500 text-4xl mb-4">📈</div>
               <h3 className="text-xl font-semibold mb-3">Delayed Data Analysis</h3>
               <p className="text-gray-600">
-                缺乏实时数据分析能力，运营决策依赖经验判断，市场响应速度慢，
-                错失业务机遇，竞争优势逐渐丧失。
+                Lack of real-time data analysis capabilities, operational decisions rely on experience-based judgment, slow market response,
+                missing business opportunities, gradually losing competitive advantages.
               </p>
             </div>
 
@@ -82,8 +82,8 @@ export default function operationsautomationPage() {
               <div className="text-purple-500 text-4xl mb-4">⚙️</div>
               <h3 className="text-xl font-semibold mb-3">Poor Process Standardization</h3>
               <p className="text-gray-600">
-                业务流程不规范，依赖人工经验，标准化程度低，
-                运营成本居高不下，质量控制困难。
+                Non-standardized business processes, reliance on manual experience, low standardization level,
+                persistently high operational costs, difficult quality control.
               </p>
             </div>
           </div>
@@ -106,30 +106,30 @@ export default function operationsautomationPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Inventory Management System</h3>
                 <p className="text-gray-600 mb-6">
-                  基于AI预测算法的智能库存管理系统，实现库存水位自动优化和智能补货。
-                  支持多仓库、多SKU管理，提供实时库存监控和预警功能。
+                  AI prediction algorithm-based smart inventory management system that achieves automatic inventory level optimization and intelligent replenishment.
+                  Supports multi-warehouse, multi-SKU management with real-time inventory monitoring and alert functions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    AI需求预测，库存准确率提升85%以上
+                    AI demand forecasting, inventory accuracy improved by over 85%
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    自动补货和调拨，减少缺货风险70%
+                    Automated replenishment and transfer, reducing stockout risk by 70%
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    多维度库存分析，优化资金占用
+                    Multi-dimensional inventory analysis, optimizing capital utilization
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-2xl">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-primary-600 mb-2">85%</div>
-                  <p className="text-gray-600 mb-4">库存准确率提升</p>
+                  <p className="text-gray-600 mb-4">Inventory Accuracy Improvement</p>
                   <div className="text-2xl font-bold text-secondary-600 mb-2">30%</div>
-                  <p className="text-gray-600">库存成本降低</p>
+                  <p className="text-gray-600">Inventory Cost Reduction</p>
                 </div>
               </div>
             </div>
@@ -138,30 +138,30 @@ export default function operationsautomationPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-secondary-600 mb-2">全链路</div>
-                  <p className="text-gray-600 mb-4">可视化管理</p>
+                  <div className="text-4xl font-bold text-secondary-600 mb-2">Full-Chain</div>
+                  <p className="text-gray-600 mb-4">Visibility Management</p>
                   <div className="text-2xl font-bold text-primary-600 mb-2">40%</div>
-                  <p className="text-gray-600">交付效率提升</p>
+                  <p className="text-gray-600">Delivery Efficiency Improvement</p>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Supply Chain Collaboration Platform</h3>
                 <p className="text-gray-600 mb-6">
-                  端到端供应链可视化管理平台，实现供应商、制造商、分销商的无缝协同。
-                  提供实时物流跟踪、供应商绩效管理和风险预警功能。
+                  End-to-end supply chain visibility management platform enabling seamless collaboration between suppliers, manufacturers, and distributors.
+                  Provides real-time logistics tracking, supplier performance management, and risk alert functions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    实时物流追踪，提升交付透明度
+                    Real-time logistics tracking, enhancing delivery transparency
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    供应商协同管理，降低采购成本15%
+                    Supplier collaborative management, reducing procurement costs by 15%
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    智能风险预警，提前识别供应链风险
+                    Intelligent risk alerts, proactive supply chain risk identification
                   </li>
                 </ul>
               </div>
@@ -172,30 +172,30 @@ export default function operationsautomationPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Operations Data Analytics Center</h3>
                 <p className="text-gray-600 mb-6">
-                  集成多源数据的运营分析平台，提供实时运营监控和智能分析报告。
-                  支持自定义KPI指标和可视化看板，帮助管理者快速决策。
+                  Multi-source data integrated operations analytics platform providing real-time operations monitoring and intelligent analysis reports.
+                  Supports customizable KPI metrics and visualization dashboards, helping managers make quick decisions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    实时运营监控，关键指标一目了然
+                    Real-time operations monitoring, key metrics at a glance
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    智能趋势分析，预测业务走向
+                    Intelligent trend analysis, predicting business direction
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                    自定义报表，满足个性化需求
+                    Customizable reports, meeting personalized requirements
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-2xl">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-primary-600 mb-2">实时</div>
-                  <p className="text-gray-600 mb-4">数据监控</p>
+                  <div className="text-4xl font-bold text-primary-600 mb-2">Real-time</div>
+                  <p className="text-gray-600 mb-4">Data Monitoring</p>
                   <div className="text-2xl font-bold text-secondary-600 mb-2">80%</div>
-                  <p className="text-gray-600">决策速度提升</p>
+                  <p className="text-gray-600">Decision Speed Improvement</p>
                 </div>
               </div>
             </div>
@@ -205,29 +205,29 @@ export default function operationsautomationPage() {
               <div className="order-2 lg:order-1 bg-gradient-to-br from-secondary-50 to-primary-50 p-8 rounded-2xl">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-secondary-600 mb-2">99.5%</div>
-                  <p className="text-gray-600 mb-4">质量合格率</p>
+                  <p className="text-gray-600 mb-4">Quality Pass Rate</p>
                   <div className="text-2xl font-bold text-primary-600 mb-2">60%</div>
-                  <p className="text-gray-600">检测效率提升</p>
+                  <p className="text-gray-600">Inspection Efficiency Improvement</p>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Quality Management</h3>
                 <p className="text-gray-600 mb-6">
-                  基于统计过程控制的智能质量管理系统，实现全流程质量监控和预警。
-                  支持质量追溯、不合格品管理和持续改进闭环管理。
+                  Statistical process control-based intelligent quality management system achieving full-process quality monitoring and alerts.
+                  Supports quality traceability, non-conforming product management, and continuous improvement closed-loop management.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    全流程质量追溯，问题快速定位
+                    Full-process quality traceability, rapid problem identification
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    智能质量预警，预防质量事故
+                    Intelligent quality alerts, preventing quality incidents
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-secondary-500 rounded-full mr-3"></span>
-                    持续改进管理，质量水平不断提升
+                    Continuous improvement management, constantly enhancing quality levels
                   </li>
                 </ul>
               </div>
@@ -247,35 +247,35 @@ export default function operationsautomationPage() {
           </div>
 
           <div className="space-y-12">
-            {/* 案例1：制造业企业 */}
+            {/* Case 1: Manufacturing Enterprise */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">制造业</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">某汽车零部件企业供应链优化</h3>
+                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">Manufacturing</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">Automotive Parts Company Supply Chain Optimization</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该企业拥有200多家供应商，传统供应链管理模式导致库存积压严重，交付延期频发，
-                    运营成本居高不下，急需数字化转型提升竞争力。
+                    This enterprise with over 200 suppliers faced severe inventory backlog due to traditional supply chain management,
+                    frequent delivery delays, persistently high operational costs, urgently needing digital transformation to enhance competitiveness.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">优化前问题：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Pre-optimization Issues:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 库存周转率仅6次/年</li>
-                        <li>• 交付延期率达25%</li>
-                        <li>• 供应商协调困难</li>
-                        <li>• 库存资金占用3000万</li>
+                        <li>• Inventory turnover only 6 times/year</li>
+                        <li>• Delivery delay rate at 25%</li>
+                        <li>• Difficult supplier coordination</li>
+                        <li>• Inventory capital tied up at 30 million</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">优化后成果：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Post-optimization Results:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 库存周转率提升至12次/年</li>
-                        <li>• 交付延期率降至8%</li>
-                        <li>• 供应链透明度100%</li>
-                        <li>• 释放库存资金1000万</li>
+                        <li>• Inventory turnover improved to 12 times/year</li>
+                        <li>• Delivery delay rate reduced to 8%</li>
+                        <li>• Supply chain transparency at 100%</li>
+                        <li>• Released 10 million in inventory capital</li>
                       </ul>
                     </div>
                   </div>
@@ -283,43 +283,43 @@ export default function operationsautomationPage() {
                 <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary-600 mb-2">100%</div>
-                    <p className="text-gray-600 mb-4">库存周转率提升</p>
-                    <div className="text-2xl font-bold text-secondary-600 mb-2">1000万</div>
-                    <p className="text-gray-600">资金释放</p>
+                    <p className="text-gray-600 mb-4">Inventory Turnover Improvement</p>
+                    <div className="text-2xl font-bold text-secondary-600 mb-2">10M CNY</div>
+                    <p className="text-gray-600">Capital Released</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 案例2：零售连锁 */}
+            {/* Case 2: Retail Chain */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">零售连锁</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">连锁超市运营数据分析升级</h3>
+                    <span className="bg-secondary-100 text-secondary-600 px-3 py-1 rounded-full text-sm font-medium">Retail Chain</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">Supermarket Chain Operations Data Analytics Upgrade</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该连锁企业拥有300家门店，传统运营管理缺乏数据支撑，决策响应慢，
-                    库存周转效率低，门店运营标准化程度不高。
+                    This chain enterprise with 300 stores lacked data support in traditional operations management, slow decision response,
+                    low inventory turnover efficiency, and poor standardization of store operations.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">升级前挑战：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Pre-upgrade Challenges:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 数据分析滞后5-7天</li>
-                        <li>• 门店库存差异率15%</li>
-                        <li>• 运营决策依赖经验</li>
-                        <li>• 缺货率高达12%</li>
+                        <li>• Data analysis lagged 5-7 days</li>
+                        <li>• Store inventory variance rate at 15%</li>
+                        <li>• Operations decisions relied on experience</li>
+                        <li>• Stockout rate as high as 12%</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">升级后效果：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Post-upgrade Results:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 实时数据分析监控</li>
-                        <li>• 库存差异率降至3%</li>
-                        <li>• 数据驱动精准决策</li>
-                        <li>• 缺货率控制在2%以内</li>
+                        <li>• Real-time data analysis monitoring</li>
+                        <li>• Inventory variance rate reduced to 3%</li>
+                        <li>• Data-driven precise decision making</li>
+                        <li>• Stockout rate controlled within 2%</li>
                       </ul>
                     </div>
                   </div>
@@ -327,43 +327,43 @@ export default function operationsautomationPage() {
                 <div className="bg-gradient-to-br from-secondary-50 to-primary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-secondary-600 mb-2">80%</div>
-                    <p className="text-gray-600 mb-4">库存差异率降低</p>
+                    <p className="text-gray-600 mb-4">Inventory Variance Reduction</p>
                     <div className="text-2xl font-bold text-primary-600 mb-2">83%</div>
-                    <p className="text-gray-600">缺货率降低</p>
+                    <p className="text-gray-600">Stockout Rate Reduction</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 案例3：电商平台 */}
+            {/* Case 3: E-commerce Platform */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 p-8">
                   <div className="flex items-center mb-4">
-                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">电商平台</span>
-                    <h3 className="text-xl font-bold text-gray-900 ml-4">跨境电商智能仓储管理</h3>
+                    <span className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">E-commerce Platform</span>
+                    <h3 className="text-xl font-bold text-gray-900 ml-4">Cross-border E-commerce Smart Warehouse Management</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    该跨境电商平台日订单量10万+，多仓库管理复杂，库存预测困难，
-                    仓储效率低下，客户满意度受到影响。
+                    This cross-border e-commerce platform with 100,000+ daily orders faced complex multi-warehouse management, difficult inventory forecasting,
+                    low warehouse efficiency, and affected customer satisfaction.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">改进前状况：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Pre-improvement Status:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 库存预测准确率60%</li>
-                        <li>• 仓储作业效率低</li>
-                        <li>• 发货延误率18%</li>
-                        <li>• 仓储成本占比25%</li>
+                        <li>• Inventory forecast accuracy at 60%</li>
+                        <li>• Low warehouse operation efficiency</li>
+                        <li>• Shipping delay rate at 18%</li>
+                        <li>• Warehousing costs at 25% of total</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">改进后成效：</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Post-improvement Results:</h4>
                       <ul className="text-gray-600 space-y-1">
-                        <li>• 库存预测准确率92%</li>
-                        <li>• 仓储效率提升60%</li>
-                        <li>• 发货延误率降至5%</li>
-                        <li>• 仓储成本降至18%</li>
+                        <li>• Inventory forecast accuracy at 92%</li>
+                        <li>• Warehouse efficiency improved by 60%</li>
+                        <li>• Shipping delay rate reduced to 5%</li>
+                        <li>• Warehousing costs reduced to 18%</li>
                       </ul>
                     </div>
                   </div>
@@ -371,23 +371,23 @@ export default function operationsautomationPage() {
                 <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary-600 mb-2">53%</div>
-                    <p className="text-gray-600 mb-4">预测准确率提升</p>
+                    <p className="text-gray-600 mb-4">Forecast Accuracy Improvement</p>
                     <div className="text-2xl font-bold text-secondary-600 mb-2">60%</div>
-                    <p className="text-gray-600">仓储效率提升</p>
+                    <p className="text-gray-600">Warehouse Efficiency Improvement</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* 客户证言 */}
+            {/* Customer Testimonial */}
             <div className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white">
               <div className="text-center">
                 <blockquote className="text-xl italic mb-6">
-                  &ldquo;运营自动化平台让我们的供应链管理变得更加透明和高效。库存周转率翻倍提升，
-                  运营成本显著降低，整个团队的工作效率得到了质的飞跃。&rdquo;
+                  &ldquo;The operations automation platform has made our supply chain management more transparent and efficient. Inventory turnover rate doubled,
+                  operational costs significantly reduced, and our entire team's work efficiency achieved a qualitative leap.&rdquo;
                 </blockquote>
                 <cite className="text-primary-100">
-                  — 张总 | 某制造企业COO
+                  — Mr. Zhang | COO of Manufacturing Enterprise
                 </cite>
               </div>
             </div>
@@ -410,9 +410,9 @@ export default function operationsautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">1</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">运营诊断</h3>
+              <h3 className="text-lg font-semibold mb-3">Operations Diagnosis</h3>
               <p className="text-gray-600 text-sm">
-                深入分析现有运营流程和痛点，识别改进机会和优化重点，制定详细的改进计划
+                In-depth analysis of existing operational processes and pain points, identifying improvement opportunities and optimization priorities, developing detailed improvement plans
               </p>
             </div>
 
@@ -420,9 +420,9 @@ export default function operationsautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">2</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">流程优化</h3>
+              <h3 className="text-lg font-semibold mb-3">Process Optimization</h3>
               <p className="text-gray-600 text-sm">
-                基于精益原则重新设计运营流程，消除浪费环节，建立标准化作业体系
+                Redesigning operational processes based on lean principles, eliminating waste, establishing standardized operation systems
               </p>
             </div>
 
@@ -430,9 +430,9 @@ export default function operationsautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">3</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">系统集成</h3>
+              <h3 className="text-lg font-semibold mb-3">System Integration</h3>
               <p className="text-gray-600 text-sm">
-                部署运营自动化系统，完成各业务系统的集成和数据打通，确保信息流畅
+                Deploying operations automation systems, completing integration and data connectivity across business systems, ensuring smooth information flow
               </p>
             </div>
 
@@ -440,9 +440,9 @@ export default function operationsautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">4</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">运营赋能</h3>
+              <h3 className="text-lg font-semibold mb-3">Operations Enablement</h3>
               <p className="text-gray-600 text-sm">
-                开展全员培训和知识转移，建立数据驱动的运营管理文化和工作习惯
+                Conducting company-wide training and knowledge transfer, establishing data-driven operational management culture and work practices
               </p>
             </div>
 
@@ -450,30 +450,30 @@ export default function operationsautomationPage() {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary-600">5</span>
               </div>
-              <h3 className="text-lg font-semibold mb-3">持续改进</h3>
+              <h3 className="text-lg font-semibold mb-3">Continuous Improvement</h3>
               <p className="text-gray-600 text-sm">
-                建立PDCA持续改进机制，定期评估运营效果，不断优化系统功能和流程
+                Establishing PDCA continuous improvement mechanisms, regularly evaluating operational effectiveness, continuously optimizing system functions and processes
               </p>
             </div>
           </div>
 
           <div className="mt-16 bg-gray-50 rounded-2xl p-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">关键成功要素</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Key Success Factors</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-primary-500 text-3xl mb-3">🎯</div>
-                <h4 className="font-semibold mb-2">目标导向</h4>
-                <p className="text-gray-600 text-sm">明确运营改进目标和成功指标，确保项目实施方向正确</p>
+                <h4 className="font-semibold mb-2">Goal-Oriented</h4>
+                <p className="text-gray-600 text-sm">Clear operational improvement goals and success metrics, ensuring correct project implementation direction</p>
               </div>
               <div className="text-center">
                 <div className="text-secondary-500 text-3xl mb-3">🔄</div>
-                <h4 className="font-semibold mb-2">流程先行</h4>
-                <p className="text-gray-600 text-sm">先优化流程再上系统，避免用技术固化落后的管理模式</p>
+                <h4 className="font-semibold mb-2">Process First</h4>
+                <p className="text-gray-600 text-sm">Optimize processes before implementing systems, avoid using technology to solidify outdated management models</p>
               </div>
               <div className="text-center">
                 <div className="text-primary-500 text-3xl mb-3">📊</div>
-                <h4 className="font-semibold mb-2">数据驱动</h4>
-                <p className="text-gray-600 text-sm">建立完善的数据采集和分析体系，让数据指导运营决策</p>
+                <h4 className="font-semibold mb-2">Data-Driven</h4>
+                <p className="text-gray-600 text-sm">Establish comprehensive data collection and analysis systems, let data guide operational decisions</p>
               </div>
             </div>
           </div>
@@ -494,75 +494,75 @@ export default function operationsautomationPage() {
             <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden">
               <thead className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white">
                 <tr>
-                  <th className="px-6 py-4 text-left">功能模块</th>
+                  <th className="px-6 py-4 text-left">Function Modules</th>
                   <th className="px-6 py-4 text-center">AutoBusinessOS</th>
-                  <th className="px-6 py-4 text-center">传统ERP</th>
-                  <th className="px-6 py-4 text-center">专业WMS</th>
+                  <th className="px-6 py-4 text-center">Traditional ERP</th>
+                  <th className="px-6 py-4 text-center">Professional WMS</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr>
-                  <td className="px-6 py-4 font-medium">智能库存管理</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ AI预测算法</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 基础预警</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 专业功能</td>
+                  <td className="px-6 py-4 font-medium">Smart Inventory Management</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ AI Prediction Algorithm</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Basic Alerts</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Professional Features</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">供应链可视化</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 端到端追踪</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 功能有限</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 部分支持</td>
+                  <td className="px-6 py-4 font-medium">Supply Chain Visibility</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ End-to-End Tracking</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Limited Function</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Partial Support</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-medium">运营数据分析</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 实时BI分析</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 基础报表</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 分析能力弱</td>
+                  <td className="px-6 py-4 font-medium">Operations Data Analytics</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Real-time BI Analysis</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Basic Reports</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Weak Analytics</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">质量管理</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 全流程管控</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 基础功能</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 不支持</td>
+                  <td className="px-6 py-4 font-medium">Quality Management</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Full-Process Control</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Basic Functions</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Not Supported</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-medium">移动端支持</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓ 原生APP</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗ 体验较差</td>
-                  <td className="px-6 py-4 text-center text-yellow-600">△ 部分功能</td>
+                  <td className="px-6 py-4 font-medium">Mobile Support</td>
+                  <td className="px-6 py-4 text-center text-green-600">✓ Native APP</td>
+                  <td className="px-6 py-4 text-center text-red-600">✗ Poor Experience</td>
+                  <td className="px-6 py-4 text-center text-yellow-600">△ Partial Functions</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium">实施复杂度</td>
-                  <td className="px-6 py-4 text-center text-green-600">中等</td>
-                  <td className="px-6 py-4 text-center text-red-600">高</td>
-                  <td className="px-6 py-4 text-center text-green-600">中低</td>
+                  <td className="px-6 py-4 font-medium">Implementation Complexity</td>
+                  <td className="px-6 py-4 text-center text-green-600">Medium</td>
+                  <td className="px-6 py-4 text-center text-red-600">High</td>
+                  <td className="px-6 py-4 text-center text-green-600">Medium-Low</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div className="mt-8 bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-6">选型建议</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-6">Selection Recommendations</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6 bg-primary-50 rounded-xl">
-                <h4 className="font-semibold text-primary-600 mb-3">制造企业</h4>
+                <h4 className="font-semibold text-primary-600 mb-3">Manufacturing Enterprises</h4>
                 <p className="text-gray-600 text-sm">
-                  推荐AutoBusinessOS，集成库存、供应链、质量管理，
-                  满足制造业复杂运营需求
+                  Recommend AutoBusinessOS, integrating inventory, supply chain, and quality management
+                  to meet complex manufacturing operational requirements
                 </p>
               </div>
               <div className="text-center p-6 bg-secondary-50 rounded-xl">
-                <h4 className="font-semibold text-secondary-600 mb-3">零售连锁</h4>
+                <h4 className="font-semibold text-secondary-600 mb-3">Retail Chains</h4>
                 <p className="text-gray-600 text-sm">
-                  AutoBusinessOS提供多店铺管理和实时数据分析，
-                  助力零售企业精准运营
+                  AutoBusinessOS provides multi-store management and real-time data analytics,
+                  empowering retail enterprises with precision operations
                 </p>
               </div>
               <div className="text-center p-6 bg-gray-50 rounded-xl">
-                <h4 className="font-semibold text-gray-600 mb-3">电商平台</h4>
+                <h4 className="font-semibold text-gray-600 mb-3">E-commerce Platforms</h4>
                 <p className="text-gray-600 text-sm">
-                  智能仓储管理和供应链协同功能，
-                  完美适配电商高频次运营场景
+                  Smart warehouse management and supply chain collaboration features,
+                  perfectly suited for high-frequency e-commerce operational scenarios
                 </p>
               </div>
             </div>

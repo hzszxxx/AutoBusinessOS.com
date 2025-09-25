@@ -47,7 +47,7 @@ export default function OptimizedImage({
         className={`bg-gray-200 flex items-center justify-center ${className}`}
         style={{ width, height }}
       >
-        <span className="text-gray-400 text-sm">图片加载失败</span>
+        <span className="text-gray-400 text-sm">Image failed to load</span>
       </div>
     );
   }
