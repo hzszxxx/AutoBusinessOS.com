@@ -9,15 +9,15 @@ export default function Home() {
   const faqItems = [
     {
       question: "What is AutoBusinessOS?",
-      answer: "AutoBusinessOS is an enterprise automation platform that transforms how businesses operate. Our AI-powered solutions streamline your entire workflow—from marketing and sales to customer service and finance—delivering measurable efficiency gains of 80% or more."
+      answer: "AutoBusinessOS is an enterprise automation platform that helps businesses streamline operations. Our AI-powered solutions support workflows across marketing, sales, customer service, and finance—helping teams reduce manual tasks and improve efficiency."
     },
     {
       question: "What ROI can I expect from AutoBusinessOS?",
-      answer: "Our clients typically see: 80% boost in operational efficiency, 60% reduction in labor costs, 90% improvement in customer satisfaction, and 70% faster process completion. Beyond the numbers, you'll eliminate human errors, improve data accuracy, and empower your team to focus on strategic, high-value initiatives."
+      answer: "Results vary based on your business size, processes, and implementation scope. Potential benefits may include improved operational efficiency, reduced manual labor, better customer satisfaction, and faster process completion. Use our ROI calculator to estimate potential outcomes for your specific situation. Individual results may vary."
     },
     {
       question: "How quickly can we get started and see results?",
-      answer: "Implementation typically takes 2-8 weeks depending on your organization's size and complexity. Most clients see significant returns within 3-6 months, with average ROI exceeding 300%. Use our ROI calculator to get a personalized estimate for your business."
+      answer: "Implementation typically takes 2-8 weeks depending on your organization's size and complexity. Timeline for measurable results varies by business. Use our ROI calculator to get a personalized estimate for your business."
     },
     {
       question: "Is AutoBusinessOS right for my industry and company size?",
@@ -66,29 +66,6 @@ export default function Home() {
     }
   ];
 
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      company: "TechFlow Inc.",
-      role: "CEO",
-      content: "AutoBusinessOS transformed our operations completely. We've seen 85% efficiency gains and our team can now focus on strategic initiatives instead of repetitive tasks.",
-      avatar: "SJ"
-    },
-    {
-      name: "Michael Chen",
-      company: "Global Manufacturing Co.",
-      role: "Operations Director",
-      content: "The ROI was immediate. Within 3 months, we reduced operational costs by 60% while increasing output by 40%. This platform is a game-changer.",
-      avatar: "MC"
-    },
-    {
-      name: "Emily Rodriguez",
-      company: "HealthTech Solutions",
-      role: "VP of Operations",
-      content: "Implementation was seamless and the results exceeded our expectations. Our customer satisfaction scores improved by 90% thanks to automated workflows.",
-      avatar: "ER"
-    }
-  ];
 
   return (
     <Layout>

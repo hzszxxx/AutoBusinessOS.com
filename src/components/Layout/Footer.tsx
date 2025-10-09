@@ -74,7 +74,10 @@ export default function Footer() {
             <span className="text-white font-semibold">AutoBusinessOS</span>
           </div>
 
-          <div className="mt-4 md:mt-0">
+          <div className="mt-4 md:mt-0 text-center md:text-right">
+            <p className="text-gray-400 text-sm mb-1">
+              Contact: <a href="mailto:contact@autobusinessos.com" className="text-blue-400 hover:text-blue-300">contact@autobusinessos.com</a>
+            </p>
             <p className="text-gray-400 text-sm">
               © {currentYear} AutoBusinessOS. All rights reserved.
             </p>
