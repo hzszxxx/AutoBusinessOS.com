@@ -358,7 +358,7 @@ export default function AutomationLandscape2024() {
               <h4 className="font-bold text-gray-900 mb-3">第一阶段：评估与规划（1-2个月）</h4>
               <ul className="space-y-2 text-gray-700">
                 <li>• 使用流程挖掘技术发现自动化机会</li>
-                <li>• 基于ROI潜力（目标>300%）进行优先级排序</li>
+                <li>• 基于ROI潜力（目标&gt;300%）进行优先级排序</li>
                 <li>• 选择2-3个高价值流程作为POC验证</li>
               </ul>
             </div>

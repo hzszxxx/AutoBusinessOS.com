@@ -24,26 +24,9 @@ export default function StructuredData({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "AutoBusinessOS",
-          "description": "Enterprise-level intelligent automation solution platform providing comprehensive automation services for marketing, sales, customer service, and human resources",
+          "description": "Business automation platform providing comprehensive automation solutions for marketing, sales, customer service, and operations",
           "url": baseUrl,
           "logo": `${baseUrl}/images/logo.png`,
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+1-800-123-4567",
-            "contactType": "customer service",
-            "areaServed": "US",
-            "availableLanguage": "English"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "US",
-            "addressRegion": "California",
-            "addressLocality": "San Francisco"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/company/autobusinessos",
-            "https://twitter.com/autobusinessos"
-          ],
           ...data
         };
 
@@ -94,21 +77,10 @@ export default function StructuredData({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           "name": title || "AutoBusinessOS",
-          "description": description || "Enterprise-level intelligent automation solution platform",
+          "description": description || "Business automation platform for modern enterprises",
           "url": url || baseUrl,
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "Web Browser",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "125"
-          },
           ...data
         };
 

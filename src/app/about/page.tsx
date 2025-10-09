@@ -9,63 +9,49 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  const teamMembers = [
+  const coreCapabilities = [
     {
-      name: "Sarah Johnson",
-      role: "CEO & Founder",
-      bio: "15+ years in enterprise automation, former McKinsey consultant specializing in digital transformation.",
-      image: "👩‍💼"
+      title: "Product Development",
+      description: "Building intuitive automation tools that solve real business problems",
+      icon: "🛠️"
     },
     {
-      name: "Michael Chen",
-      role: "CTO",
-      bio: "AI and automation expert with 12+ years building scalable enterprise solutions at Fortune 500 companies.",
-      image: "👨‍💻"
+      title: "Platform Engineering",
+      description: "Creating robust, scalable infrastructure for automation workflows",
+      icon: "⚙️"
     },
     {
-      name: "Emily Rodriguez",
-      role: "Head of Product",
-      bio: "Product strategy leader with deep expertise in user experience and automation workflow design.",
-      image: "👩‍🎨"
+      title: "User Experience",
+      description: "Designing interfaces that make complex automation simple to use",
+      icon: "🎨"
     },
     {
-      name: "David Kim",
-      role: "Head of Engineering",
-      bio: "Full-stack engineer and automation architect with expertise in cloud-native solutions and microservices.",
-      image: "👨‍🔧"
+      title: "Customer Success",
+      description: "Supporting businesses in their automation journey",
+      icon: "🤝"
     }
   ];
 
-  const milestones = [
+  const developmentPhases = [
     {
-      year: "2020",
-      title: "Company Founded",
-      description: "AutoBusinessOS was founded with a vision to democratize enterprise automation."
+      phase: "Phase 1",
+      title: "Foundation",
+      description: "Building core automation infrastructure and essential features"
     },
     {
-      year: "2021",
-      title: "First Major Client",
-      description: "Secured our first Fortune 500 client, proving the viability of our automation platform."
+      phase: "Phase 2",
+      title: "Platform Development",
+      description: "Creating comprehensive automation workflows for various business functions"
     },
     {
-      year: "2022",
-      title: "Series A Funding",
-      description: "Raised $10M in Series A funding to accelerate product development and market expansion."
-    },
-    {
-      year: "2023",
-      title: "Platform Launch",
-      description: "Launched our comprehensive automation platform with 50+ pre-built workflows."
-    },
-    {
-      year: "2024",
-      title: "Global Expansion",
-      description: "Expanded to 15 countries, serving 500+ enterprise clients worldwide."
-    },
-    {
-      year: "2025",
+      phase: "Phase 3",
       title: "AI Integration",
-      description: "Integrated advanced AI capabilities for intelligent process optimization and predictive analytics."
+      description: "Incorporating intelligent automation and machine learning capabilities"
+    },
+    {
+      phase: "Current",
+      title: "Continuous Improvement",
+      description: "Ongoing platform enhancements and feature development based on user feedback"
     }
   ];
 
@@ -79,21 +65,21 @@ export default function AboutPage() {
               The Team Behind <span className="text-blue-600">Your Success</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              Founded by automation experts with deep enterprise experience, AutoBusinessOS was built to solve the complexity gap in business automation.
-              We combine cutting-edge AI technology with proven methodologies to deliver measurable results.
+              AutoBusinessOS is a modern business automation platform designed to help companies streamline their operations.
+              We focus on making automation accessible and practical for businesses of all sizes.
             </p>
 
             {/* Origin Story */}
             <div className="bg-blue-50 rounded-2xl p-8 mb-8 text-left max-w-3xl mx-auto">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Our Origin Story</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Our Vision</h3>
               <p className="text-gray-700 leading-relaxed">
-                The idea for AutoBusinessOS was born in 2019 when our founders, working as automation consultants for Fortune 500 companies,
-                repeatedly encountered the same problem: existing automation tools were either too complex for business users or too simple for enterprise needs.
-                After manually building custom solutions for dozens of clients, we realized there had to be a better way.
+                AutoBusinessOS was created to address a growing need in the market: businesses need powerful automation tools
+                that are actually usable without extensive technical expertise. We're building a platform that bridges the gap
+                between complex enterprise software and simple task automation.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                We spent 18 months researching, prototyping, and testing with early customers before launching our platform in 2021.
-                Today, our no-code automation platform serves over 500 companies across 15 countries.
+                Our goal is to provide comprehensive automation solutions that help businesses save time, reduce errors,
+                and focus on growth rather than repetitive tasks.
               </p>
             </div>
           </div>
@@ -109,29 +95,29 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                To democratize enterprise automation by making it accessible, affordable, and easy to implement for businesses of all sizes.
-                We believe every organization deserves the power of automation to compete and thrive.
+                To make business automation accessible and practical for organizations of all sizes.
+                We believe that automation should be a tool that empowers businesses, not creates complexity.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our platform combines cutting-edge AI technology with deep industry expertise to deliver
-                automation solutions that transform how businesses operate.
+                Our platform focuses on combining modern technology with intuitive design to deliver
+                automation solutions that actually work for real businesses.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                  <div className="text-gray-600">Enterprise Clients</div>
+                  <div className="text-3xl mb-2">🎯</div>
+                  <div className="text-gray-600 font-semibold">User-Friendly</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">15</div>
-                  <div className="text-gray-600">Countries</div>
+                  <div className="text-3xl mb-2">🔧</div>
+                  <div className="text-gray-600 font-semibold">Practical Solutions</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">92%</div>
-                  <div className="text-gray-600">Client Retention</div>
+                  <div className="text-3xl mb-2">📈</div>
+                  <div className="text-gray-600 font-semibold">Scalable Platform</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$2B+</div>
-                  <div className="text-gray-600">Client Savings</div>
+                  <div className="text-3xl mb-2">💡</div>
+                  <div className="text-gray-600 font-semibold">Continuous Innovation</div>
                 </div>
               </div>
             </div>
@@ -147,62 +133,50 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Core Capabilities Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Meet Our Team
+              What We Do Best
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Automation experts, engineers, and business strategists working together
-              to deliver exceptional results for our clients.
+              Our core competencies that enable us to deliver effective automation solutions
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6 text-center">
-                <div className="text-4xl mb-4">{member.image}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">{member.name}</h3>
-                <div className="text-blue-600 font-semibold mb-3">{member.role}</div>
-                <p className="text-gray-600 text-sm">{member.bio}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {coreCapabilities.map((capability, index) => (
+              <div key={index} className="bg-gray-50 rounded-lg p-8">
+                <div className="text-4xl mb-4">{capability.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{capability.title}</h3>
+                <p className="text-gray-600">{capability.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="py-20 bg-white">
+      {/* Development Roadmap Section */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Our Journey
+              Development Roadmap
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From a startup with a big idea to a global leader in enterprise automation, 
-              here's how we've grown and evolved.
+              Our platform development approach and ongoing evolution
             </p>
           </div>
 
-          <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary-200"></div>
-            <div className="space-y-12">
-              {milestones.map((milestone, index) => (
-                <div key={index} className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
-                    <div className="bg-white rounded-lg shadow-lg p-6">
-                      <div className="text-2xl font-bold text-primary-600 mb-2">{milestone.year}</div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{milestone.title}</h3>
-                      <p className="text-gray-600">{milestone.description}</p>
-                    </div>
-                  </div>
-                  <div className="w-8 h-8 bg-primary-600 rounded-full border-4 border-white shadow-lg flex-shrink-0"></div>
-                  <div className="w-1/2"></div>
-                </div>
-              ))}
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {developmentPhases.map((item, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6">
+                <div className="text-sm font-semibold text-blue-600 mb-2">{item.phase}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
+                <p className="text-gray-600">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -254,8 +228,8 @@ export default function AboutPage() {
             Ready to Work With Us?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Join hundreds of companies that have transformed their operations with AutoBusinessOS.
-            Let's discuss how we can help your business achieve its automation goals.
+            Discover how AutoBusinessOS can help streamline your business operations.
+            Let's explore automation solutions that fit your needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

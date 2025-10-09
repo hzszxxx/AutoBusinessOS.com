@@ -115,7 +115,7 @@ export default function Home() {
             {/* Trust Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-8">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-              Trusted by 500+ companies worldwide
+              Modern Business Automation Platform
             </div>
 
             {/* Main Headline */}
@@ -127,7 +127,7 @@ export default function Home() {
 
             {/* Subtitle */}
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-              The enterprise automation platform that scales with your ambition. Join 500+ companies achieving remarkable growth through intelligent workflow automation and AI-powered business optimization.
+              Transform your business operations with intelligent automation. Streamline workflows, reduce manual tasks, and focus on what matters most—growing your business.
             </p>
 
             {/* CTA Buttons */}
@@ -146,23 +146,23 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Stats */}
+            {/* Key Features */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                <div className="text-gray-600 text-sm">Happy Clients</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">🚀</div>
+                <div className="text-gray-600 text-sm">Quick Setup</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">75%</div>
-                <div className="text-gray-600 text-sm">Avg Efficiency Boost</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">🤖</div>
+                <div className="text-gray-600 text-sm">AI-Powered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">3.2x</div>
-                <div className="text-gray-600 text-sm">Average ROI</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">📊</div>
+                <div className="text-gray-600 text-sm">Analytics</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">99.9%</div>
-                <div className="text-gray-600 text-sm">Uptime</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">🔒</div>
+                <div className="text-gray-600 text-sm">Secure</div>
               </div>
             </div>
           </div>
@@ -182,27 +182,12 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Success Metrics Banner */}
+          {/* Value Proposition */}
           <div className="bg-blue-600 text-white rounded-2xl p-8 mb-16 text-center">
-            <h3 className="text-2xl font-bold mb-4">Proven Results Across Industries</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div>
-                <div className="text-3xl font-bold">4.8/5</div>
-                <div className="text-blue-100 text-sm">Customer Satisfaction</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold">2.1M+</div>
-                <div className="text-blue-100 text-sm">Tasks Automated Daily</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold">156</div>
-                <div className="text-blue-100 text-sm">Countries Served</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold">$847M</div>
-                <div className="text-blue-100 text-sm">Total Client Savings</div>
-              </div>
-            </div>
+            <h3 className="text-2xl font-bold mb-4">Comprehensive Automation Solutions</h3>
+            <p className="text-blue-100 max-w-2xl mx-auto">
+              From marketing campaigns to financial operations, our platform provides the tools you need to automate and optimize your business processes.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -242,42 +227,42 @@ export default function Home() {
                 description: 'Intelligent lead nurturing, campaigns, and analytics',
                 icon: '📊',
                 href: '/solutions/marketing-automation',
-                stats: '80% higher ROI'
+                stats: 'Boost efficiency →'
               },
               {
                 title: 'Sales Automation',
                 description: 'CRM workflows, predictive analytics, automated follow-ups',
                 icon: '💼',
                 href: '/solutions/sales-automation',
-                stats: '60% more conversions'
+                stats: 'Learn more →'
               },
               {
                 title: 'Customer Service',
                 description: 'AI-powered support and smart ticket routing',
                 icon: '🎧',
                 href: '/solutions/customer-service-automation',
-                stats: '70% faster resolution'
+                stats: 'Explore features →'
               },
               {
                 title: 'Finance Operations',
                 description: 'Automated invoicing, expenses, and reporting',
                 icon: '💰',
                 href: '/solutions/finance-automation',
-                stats: '90% less manual work'
+                stats: 'View details →'
               },
               {
                 title: 'Human Resources',
                 description: 'Recruiting, onboarding, and performance management',
                 icon: '👥',
                 href: '/solutions/hr-automation',
-                stats: '50% faster hiring'
+                stats: 'See how →'
               },
               {
                 title: 'Operations',
                 description: 'Inventory, supply chain, and business intelligence',
                 icon: '⚙️',
                 href: '/solutions/operations-automation',
-                stats: '40% efficiency gains'
+                stats: 'Discover more →'
               }
             ].map((solution) => (
               <Link
@@ -324,19 +309,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Trusted Across Industries
+              Industry Solutions
             </h2>
             <p className="text-xl text-gray-600">
-              Companies in every sector rely on AutoBusinessOS for growth
+              Tailored automation solutions for different business sectors
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'E-commerce', href: '/industries/ecommerce', growth: '+150% Revenue' },
-              { name: 'SaaS', href: '/industries/saas', growth: '+200% Growth' },
-              { name: 'Manufacturing', href: '/industries/manufacturing', growth: '+80% Output' },
-              { name: 'Healthcare', href: '/industries/healthcare', growth: '+90% Satisfaction' }
+              { name: 'E-commerce', href: '/industries/ecommerce', desc: 'Order & inventory automation' },
+              { name: 'SaaS', href: '/industries/saas', desc: 'Customer lifecycle management' },
+              { name: 'Manufacturing', href: '/industries/manufacturing', desc: 'Production optimization' },
+              { name: 'Healthcare', href: '/industries/healthcare', desc: 'Patient management systems' }
             ].map((industry) => (
               <Link
                 key={industry.name}
@@ -344,7 +329,7 @@ export default function Home() {
                 className="text-center p-6 bg-white rounded-lg hover:shadow-md transition-shadow"
               >
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{industry.name}</h3>
-                <div className="text-blue-600 font-medium">{industry.growth}</div>
+                <div className="text-gray-600 text-sm">{industry.desc}</div>
               </Link>
             ))}
           </div>
