@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   verification: {
-    google: "PLACEHOLDER_GSC_VERIFICATION_CODE",
+    google: "UXx7pX6vhXfeComf-2WGaNI8nhboxpTGVhJqQHbpzj0",
   },
 };
 
