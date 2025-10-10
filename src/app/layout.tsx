@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   authors: [{ name: "AutoBusinessOS Team" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
+  verification: {
+    google: "PLACEHOLDER_GSC_VERIFICATION_CODE",
+  },
 };
 
 export default function RootLayout({
