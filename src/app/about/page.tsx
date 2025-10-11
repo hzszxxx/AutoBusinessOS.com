@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "About Us - AutoBusinessOS",
-  description: "Learn about AutoBusinessOS, the revolutionary automation platform that transforms businesses through intelligent workflow automation and process optimization.",
+  description: "Learn about AutoBusinessOS, the business automation platform that helps companies eliminate repetitive work and scale efficiently. Discover our mission and approach.",
   keywords: "about AutoBusinessOS, automation company, business automation platform, enterprise automation solutions",
 };
 
@@ -65,21 +65,21 @@ export default function AboutPage() {
               The Team Behind <span className="text-blue-600">Your Success</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              AutoBusinessOS is a modern business automation platform designed to help companies streamline their operations.
-              We focus on making automation accessible and practical for businesses of all sizes.
+              AutoBusinessOS helps companies eliminate repetitive work so teams can focus on what matters.
+              We make automation accessible—no coding degree required.
             </p>
 
             {/* Origin Story */}
             <div className="bg-blue-50 rounded-2xl p-8 mb-8 text-left max-w-3xl mx-auto">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Our Vision</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">🚀 Why We Exist</h3>
               <p className="text-gray-700 leading-relaxed">
-                AutoBusinessOS was created to address a growing need in the market: businesses need powerful automation tools
-                that are actually usable without extensive technical expertise. We're building a platform that bridges the gap
-                between complex enterprise software and simple task automation.
+                We built AutoBusinessOS because traditional automation tools have a problem: they're either too simple to handle
+                real business complexity, or too complex to use without an IT team. You shouldn't need a computer science degree
+                to automate your invoicing workflow.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Our goal is to provide comprehensive automation solutions that help businesses save time, reduce errors,
-                and focus on growth rather than repetitive tasks.
+                Our goal is simple: give business users the power to automate their own workflows—no coding, no lengthy implementation
+                projects, no waiting for IT. Just connect your tools, build your workflow, and watch hours of manual work disappear.
               </p>
             </div>
           </div>
@@ -95,12 +95,12 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                To make business automation accessible and practical for organizations of all sizes.
-                We believe that automation should be a tool that empowers businesses, not creates complexity.
+                Make automation so simple that your marketing manager can build workflows—not just your IT team.
+                Automation should empower your business, not create more work.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our platform focuses on combining modern technology with intuitive design to deliver
-                automation solutions that actually work for real businesses.
+                We combine enterprise capabilities with consumer-grade simplicity. The result: powerful automation
+                that business users can actually deploy—without coding, without IT tickets, without months of implementation.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
@@ -123,10 +123,11 @@ export default function AboutPage() {
             </div>
             <div className="bg-white rounded-lg p-8 shadow-sm">
               <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why We Exist</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">The Problem We Solve</h3>
               <p className="text-gray-600">
-                Traditional automation solutions are complex, expensive, and require extensive technical expertise.
-                We saw an opportunity to change this by creating a platform that makes automation accessible to everyone.
+                Your operations manager knows exactly which processes waste time—but can't automate them without IT.
+                Your IT team is buried in tickets. Traditional tools require months of implementation. We fix this:
+                business users build automation in days, not quarters.
               </p>
             </div>
           </div>
@@ -196,25 +197,25 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-5xl mb-4">🎯</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Excellence</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Ship Quality</h3>
               <p className="text-gray-600">
-                We strive for excellence in everything we do, from product development to customer service.
+                We test every feature with real businesses before launch. No feature ships until it actually saves time—not creates more work. Check our changelog to see what we shipped this month.
               </p>
             </div>
 
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-5xl mb-4">🤝</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Collaboration</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Listen First</h3>
               <p className="text-gray-600">
-                We believe in the power of collaboration and work closely with our clients as partners.
+                We build what businesses actually need, not what sounds impressive in marketing. Every quarter, we interview 50+ customers to understand their automation challenges. Your feedback shapes our roadmap.
               </p>
             </div>
 
             <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-5xl mb-4">💡</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Innovation</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Move Fast</h3>
               <p className="text-gray-600">
-                We continuously innovate to stay ahead of the curve and deliver cutting-edge solutions.
+                We ship new features monthly, not yearly. When you report a bug, we fix it in days. When you request a feature, we build it in weeks. Speed matters when you're trying to scale your business.
               </p>
             </div>
           </div>
@@ -228,8 +229,7 @@ export default function AboutPage() {
             Ready to Work With Us?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Discover how AutoBusinessOS can help streamline your business operations.
-            Let's explore automation solutions that fit your needs.
+            See exactly how much time and money you could save. Our ROI calculator gives you personalized results in 3 minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -242,7 +242,7 @@ export default function AboutPage() {
               href="/tools/roi-calculator"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block"
             >
-              See Our Impact Calculator
+              Calculate Your ROI
             </Link>
           </div>
         </div>

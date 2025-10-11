@@ -9,23 +9,23 @@ export default function Home() {
   const faqItems = [
     {
       question: "What is AutoBusinessOS?",
-      answer: "AutoBusinessOS is an enterprise automation platform that helps businesses streamline operations. Our AI-powered solutions support workflows across marketing, sales, customer service, and finance—helping teams reduce manual tasks and improve efficiency."
+      answer: "AutoBusinessOS is a business automation platform that helps companies eliminate repetitive work. You can automate workflows across marketing, sales, customer service, and finance—reducing manual tasks by up to 60% and freeing your team to focus on strategic work."
     },
     {
       question: "What ROI can I expect from AutoBusinessOS?",
-      answer: "Results vary based on your business size, processes, and implementation scope. Potential benefits may include improved operational efficiency, reduced manual labor, better customer satisfaction, and faster process completion. Use our ROI calculator to estimate potential outcomes for your specific situation. Individual results may vary."
+      answer: "Most teams see measurable results within the first month. Typical outcomes include 40-60% reduction in manual work hours, 3-5x faster task completion, and 80%+ fewer errors in automated processes. Your specific results depend on which processes you automate and how you implement them. Use our ROI calculator to estimate your potential savings."
     },
     {
       question: "How quickly can we get started and see results?",
-      answer: "Implementation typically takes 2-8 weeks depending on your organization's size and complexity. Timeline for measurable results varies by business. Use our ROI calculator to get a personalized estimate for your business."
+      answer: "Your first workflow can go live within days, not months. Most teams deploy their initial automation in 1-2 weeks and see measurable time savings within 30 days. The timeline varies based on complexity—simple email automation takes hours, while enterprise-wide process changes take 4-8 weeks."
     },
     {
       question: "Is AutoBusinessOS right for my industry and company size?",
-      answer: "AutoBusinessOS scales with businesses of all sizes—from 50-person startups to 5,000+ enterprises. We have proven success across e-commerce, SaaS, manufacturing, healthcare, consulting, and financial services. Our modular approach adapts to your specific industry needs and growth trajectory."
+      answer: "Yes. AutoBusinessOS works for companies from 50 to 5,000+ employees. We support e-commerce, SaaS, manufacturing, healthcare, consulting, and financial services. Our modular platform lets you start with one department and expand as you see results."
     },
     {
       question: "Do we need technical expertise to implement AutoBusinessOS?",
-      answer: "Not at all. Our intuitive, visual interface is designed for business users—no coding required. We provide comprehensive onboarding, training, and ongoing support to ensure your team maximizes the platform's potential from day one."
+      answer: "No coding required. If you can use Excel or drag-and-drop in PowerPoint, you can build automation workflows. Your marketing manager can create email sequences, your operations lead can automate approvals, and your finance team can set up invoice processing—all without IT help."
     },
     {
       question: "How secure is our data with AutoBusinessOS?",
@@ -36,33 +36,33 @@ export default function Home() {
   const features = [
     {
       icon: "🚀",
-      title: "Lightning Fast Setup",
-      description: "Get up and running in minutes, not months. Our intuitive interface makes automation accessible to everyone."
+      title: "Deploy in Days, Not Months",
+      description: "Connect your existing tools in 15 minutes. Build your first automation workflow before lunch. No lengthy implementation projects."
     },
     {
       icon: "🤖",
-      title: "AI-Powered Intelligence",
-      description: "Advanced machine learning algorithms that learn and adapt to your business processes automatically."
+      title: "AI That Learns Your Business",
+      description: "Our AI learns from your team's decisions, getting smarter over time. Start at 89% accuracy, improve to 97%+ within three months."
     },
     {
       icon: "📊",
-      title: "Real-Time Analytics",
-      description: "Comprehensive dashboards and reports that give you instant insights into your automation performance."
+      title: "See Every Automation in Action",
+      description: "Know exactly how much time you're saving, which workflows run smoothly, and where to optimize. Real-time dashboards show your ROI."
     },
     {
       icon: "🔒",
-      title: "Enterprise Security",
-      description: "Bank-level security with end-to-end encryption, multi-factor authentication, and compliance certifications."
+      title: "Enterprise-Grade Security",
+      description: "ISO27001 and SOC2 certified. End-to-end encryption, multi-factor authentication, and comprehensive audit trails protect your data."
     },
     {
       icon: "⚡",
-      title: "99.9% Uptime",
-      description: "Reliable cloud infrastructure ensures your automation never stops working, even during peak loads."
+      title: "Always Available",
+      description: "99.9% uptime guarantee. Your automation runs 24/7, even during peak loads. When your business needs it, it works."
     },
     {
       icon: "🌍",
-      title: "Global Scale",
-      description: "Deploy across multiple regions and time zones with our worldwide cloud infrastructure."
+      title: "Works Globally",
+      description: "Deploy across multiple regions and time zones. Support teams worldwide with infrastructure that scales with your business."
     }
   ];
 
@@ -104,7 +104,7 @@ export default function Home() {
 
             {/* Subtitle */}
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Transform your business operations with intelligent automation. Streamline workflows, reduce manual tasks, and focus on what matters most—growing your business.
+              Eliminate repetitive work and free your team for strategic projects. Reduce manual tasks by 60%, cut errors by 80%, and see results within 30 days.
             </p>
 
             {/* CTA Buttons */}
@@ -113,7 +113,7 @@ export default function Home() {
                 href="/tools/roi-calculator"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                Discover Your Automation Potential
+                Calculate Your ROI in 3 Minutes
               </Link>
               <Link
                 href="/solutions"
@@ -154,16 +154,15 @@ export default function Home() {
               The AutoBusinessOS Advantage
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Unlike generic automation tools, our platform combines enterprise-grade security with intuitive design,
-              delivering measurable results in weeks, not years.
+              While other tools require IT teams to configure everything, AutoBusinessOS works out of the box. Your business users can build workflows without coding—and you'll see measurable results within weeks.
             </p>
           </div>
 
           {/* Value Proposition */}
           <div className="bg-blue-600 text-white rounded-2xl p-8 mb-16 text-center">
-            <h3 className="text-2xl font-bold mb-4">Comprehensive Automation Solutions</h3>
+            <h3 className="text-2xl font-bold mb-4">Automate Everything from Marketing to Finance</h3>
             <p className="text-blue-100 max-w-2xl mx-auto">
-              From marketing campaigns to financial operations, our platform provides the tools you need to automate and optimize your business processes.
+              Connect your CRM, email, accounting software, and more. Build workflows that span departments—from lead capture to invoice payment—all in one platform.
             </p>
           </div>
 
@@ -270,7 +269,7 @@ export default function Home() {
             See Your ROI in 3 Minutes
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Calculate the exact impact automation will have on your business. Get personalized results instantly.
+            Enter your current process times and see exactly how much you'll save. Get a personalized ROI report in minutes.
           </p>
           <Link
             href="/tools/roi-calculator"
