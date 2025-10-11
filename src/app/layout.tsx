@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AutoBusinessOS - Enterprise Automation Platform",
-  description: "Revolutionary automated business operating system that enables 100% automation of enterprise workflows, improving efficiency by 80% and reducing costs by 60%. Comprehensive automation solutions for marketing, sales, customer service, finance, and HR.",
+  description: "Business automation platform that helps companies automate workflows across marketing, sales, customer service, and finance. Comprehensive automation solutions designed to reduce manual tasks and improve operational efficiency.",
   keywords: "enterprise automation, business process automation, marketing automation, sales automation, AutoBusinessOS",
   authors: [{ name: "AutoBusinessOS Team" }],
   viewport: "width=device-width, initial-scale=1",
