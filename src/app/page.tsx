@@ -9,15 +9,15 @@ export default function Home() {
   const faqItems = [
     {
       question: "What is AutoBusinessOS?",
-      answer: "AutoBusinessOS is a business automation platform that helps companies eliminate repetitive work. You can automate workflows across marketing, sales, customer service, and finance—reducing manual tasks by up to 60% and freeing your team to focus on strategic work."
+      answer: "AutoBusinessOS is a business automation platform that helps companies eliminate repetitive work. You can automate workflows across marketing, sales, customer service, and finance—helping reduce manual tasks and freeing your team to focus on strategic work."
     },
     {
       question: "What ROI can I expect from AutoBusinessOS?",
-      answer: "Most teams see measurable results within the first month. Typical outcomes include 40-60% reduction in manual work hours, 3-5x faster task completion, and 80%+ fewer errors in automated processes. Your specific results depend on which processes you automate and how you implement them. Use our ROI calculator to estimate your potential savings."
+      answer: "Results vary based on your implementation and business processes. Automation can help reduce manual work hours, speed up task completion, and minimize errors in automated processes. Your specific results depend on which processes you automate and how you implement them. Use our ROI calculator to estimate your potential outcomes. Individual results may vary."
     },
     {
       question: "How quickly can we get started and see results?",
-      answer: "Your first workflow can go live within days, not months. Most teams deploy their initial automation in 1-2 weeks and see measurable time savings within 30 days. The timeline varies based on complexity—simple email automation takes hours, while enterprise-wide process changes take 4-8 weeks."
+      answer: "Implementation timelines vary based on complexity and your team's needs. Simple workflows can be deployed quickly, while comprehensive automation projects take longer. The timeline depends on your specific processes and organizational requirements. Our team can provide a customized estimate for your situation."
     },
     {
       question: "Is AutoBusinessOS right for my industry and company size?",
@@ -29,7 +29,7 @@ export default function Home() {
     },
     {
       question: "How secure is our data with AutoBusinessOS?",
-      answer: "Security is our top priority. We maintain enterprise-grade protection with end-to-end encryption, multi-factor authentication, and comprehensive audit trails. Our platform is ISO27001 and SOC2 certified, meeting the highest international security standards for enterprise data protection."
+      answer: "Security is our top priority. We maintain enterprise-grade protection with end-to-end encryption, multi-factor authentication, and comprehensive audit trails. Our platform follows industry-standard security practices to protect your data and maintain compliance with international data protection standards."
     }
   ];
 
@@ -37,12 +37,12 @@ export default function Home() {
     {
       icon: "🚀",
       title: "Deploy in Days, Not Months",
-      description: "Connect your existing tools in 15 minutes. Build your first automation workflow before lunch. No lengthy implementation projects."
+      description: "Connect your existing tools quickly and start building automation workflows. Our platform is designed for fast deployment without lengthy implementation projects."
     },
     {
       icon: "🤖",
       title: "AI That Learns Your Business",
-      description: "Our AI learns from your team's decisions, getting smarter over time. Start at 89% accuracy, improve to 97%+ within three months."
+      description: "Our AI learns from your team's decisions, improving accuracy over time. The system adapts to your business processes, handling exceptions more effectively as it learns from your workflow patterns."
     },
     {
       icon: "📊",
@@ -52,12 +52,12 @@ export default function Home() {
     {
       icon: "🔒",
       title: "Enterprise-Grade Security",
-      description: "ISO27001 and SOC2 certified. End-to-end encryption, multi-factor authentication, and comprehensive audit trails protect your data."
+      description: "End-to-end encryption, multi-factor authentication, and comprehensive audit trails protect your data. We follow industry-standard security practices and compliance frameworks."
     },
     {
       icon: "⚡",
       title: "Always Available",
-      description: "99.9% uptime guarantee. Your automation runs 24/7, even during peak loads. When your business needs it, it works."
+      description: "Built for reliability with 99.9% uptime target. Your automation is designed to run 24/7 and handle peak loads. Our infrastructure is monitored continuously to maintain availability."
     },
     {
       icon: "🌍",
@@ -104,7 +104,7 @@ export default function Home() {
 
             {/* Subtitle */}
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Eliminate repetitive work and free your team for strategic projects. Reduce manual tasks by 60%, cut errors by 80%, and see results within 30 days.
+              Eliminate repetitive work and free your team for strategic projects. Automation can help reduce manual tasks, minimize errors, and deliver measurable results.
             </p>
 
             {/* CTA Buttons */}
