@@ -9,24 +9,47 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <span className="text-yellow-300">Success Stories</span> Research Center
+              <span className="text-yellow-300">Automation Scenarios</span> Research Center
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-indigo-100 max-w-4xl mx-auto">
-              Real cases, actual data, in-depth analysis of successful enterprise automation transformation paths
+              Illustrative automation scenarios based on industry research and typical implementation patterns
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/resources/case-studies/ecommerce-success"
                 className="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
               >
-                View Popular Cases →
+                View Example Scenarios →
               </Link>
               <Link
                 href="/contact"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors inline-block"
               >
-                Share Your Case
+                Contact Us
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Important Disclaimer */}
+      <section className="py-8 bg-yellow-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white border-l-4 border-yellow-400 p-6 rounded-r-lg shadow-sm">
+            <div className="flex">
+              <div className="flex-shrink-0">
+                <svg className="h-6 w-6 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div className="ml-3">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  📊 Important Notice About These Scenarios
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong>The scenarios presented on this page are illustrative examples</strong> based on industry research, published automation studies, and typical implementation patterns. They are designed to demonstrate potential automation applications and outcomes across various industries. <strong>These are not actual client case studies or guaranteed results.</strong> Your specific outcomes will vary significantly based on your business context, implementation approach, process complexity, team adoption, and many other factors unique to your organization.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -37,29 +60,29 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Case Library Overview
+              Scenario Overview
             </h2>
             <p className="text-xl text-gray-600">
-              Real automation success cases covering multiple industries
+              Example automation scenarios covering multiple industries
             </p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="bg-blue-50 rounded-lg p-8">
-              <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-              <div className="text-gray-700">Success Cases</div>
+              <div className="text-3xl mb-2">📚</div>
+              <div className="text-gray-700 font-medium">Multiple Scenarios</div>
             </div>
             <div className="bg-green-50 rounded-lg p-8">
-              <div className="text-3xl font-bold text-green-600 mb-2">15</div>
-              <div className="text-gray-700">Industries Covered</div>
+              <div className="text-3xl mb-2">🏭</div>
+              <div className="text-gray-700 font-medium">Various Industries</div>
             </div>
             <div className="bg-purple-50 rounded-lg p-8">
-              <div className="text-3xl font-bold text-purple-600 mb-2">280%</div>
-              <div className="text-gray-700">Average ROI</div>
+              <div className="text-3xl mb-2">💡</div>
+              <div className="text-gray-700 font-medium">Example Solutions</div>
             </div>
             <div className="bg-orange-50 rounded-lg p-8">
-              <div className="text-3xl font-bold text-orange-600 mb-2">85%</div>
-              <div className="text-gray-700">Efficiency Improvement</div>
+              <div className="text-3xl mb-2">📈</div>
+              <div className="text-gray-700 font-medium">Potential Benefits</div>
             </div>
           </div>
         </div>
@@ -70,10 +93,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Case Studies by Industry
+              Example Scenarios by Industry
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Different industries face different challenges and solutions. Find success cases relevant to your industry
+              Different industries face different challenges and solutions. Explore example automation scenarios relevant to your industry
             </p>
           </div>
 
@@ -82,8 +105,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "E-commerce & Retail",
                 icon: "🛒",
-                caseCount: "12 Cases",
-                avgROI: "320%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["Order Processing Automation", "Customer Service Bots", "Inventory Management"],
                 topCase: {
                   title: "E-commerce Platform Automation Transformation Success",
@@ -94,8 +117,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "Manufacturing",
                 icon: "🏭",
-                caseCount: "10 Cases",
-                avgROI: "280%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["Production Planning Optimization", "Quality Control", "Supply Chain Management"],
                 topCase: {
                   title: "Manufacturing Enterprise Automation Upgrade Case",
@@ -106,8 +129,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "SaaS Software",
                 icon: "💻",
-                caseCount: "8 Cases",
-                avgROI: "350%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["User Onboarding", "Customer Success", "Product Analytics"],
                 topCase: {
                   title: "SaaS Company Achieves 200% User Growth Through Automation",
@@ -118,8 +141,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "Financial Services",
                 icon: "🏦",
-                caseCount: "7 Cases",
-                avgROI: "240%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["Risk Control", "Compliance Reporting", "Customer Service"],
                 topCase: {
                   title: "Banking Digital Transformation Case",
@@ -130,8 +153,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "Healthcare",
                 icon: "🏥",
-                caseCount: "6 Cases",
-                avgROI: "260%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["Patient Management", "Appointment System", "Medical Records"],
                 topCase: {
                   title: "Healthcare Institution Digital Transformation Case",
@@ -142,8 +165,8 @@ export default function CaseStudiesPage() {
               {
                 industry: "Consulting Services",
                 icon: "💼",
-                caseCount: "5 Cases",
-                avgROI: "300%",
+                caseCount: "Multiple Examples",
+                avgROI: "Example ROI",
                 mainBenefits: ["Project Management", "Knowledge Management", "Client Relations"],
                 topCase: {
                   title: "Consulting Firm Automation Upgrade Case",
@@ -158,8 +181,6 @@ export default function CaseStudiesPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{category.industry}</h3>
                   <div className="flex justify-center gap-4 text-sm text-gray-600">
                     <span>{category.caseCount}</span>
-                    <span>•</span>
-                    <span>Avg ROI {category.avgROI}</span>
                   </div>
                 </div>
 
@@ -198,10 +219,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Featured Success Cases
+              Featured Example Scenarios
             </h2>
             <p className="text-xl text-gray-600">
-              In-depth analysis of the most representative automation transformation cases
+              In-depth examples of typical automation transformation scenarios
             </p>
           </div>
 
@@ -268,7 +289,7 @@ export default function CaseStudiesPage() {
                     <div className="flex items-center mb-4">
                       {caseStudy.featured && (
                         <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mr-3">
-                          🏆 Featured Case
+                          🏆 Featured Example
                         </span>
                       )}
                       <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
@@ -319,12 +340,12 @@ export default function CaseStudiesPage() {
 
                     <div className="mt-6 text-center">
                       <div className="text-3xl font-bold text-indigo-600 mb-2">{caseStudy.roi}</div>
-                      <div className="text-sm text-gray-600 mb-4">Return on Investment</div>
+                      <div className="text-sm text-gray-600 mb-4">Example ROI</div>
                       <Link
                         href={caseStudy.href}
                         className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors text-sm font-medium"
                       >
-                        View Full Case →
+                        View Full Example →
                       </Link>
                     </div>
                   </div>
@@ -340,10 +361,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Explore More Cases
+              Explore More Scenarios
             </h2>
             <p className="text-xl text-gray-600">
-              Use filters to find the most relevant case studies
+              Use filters to find the most relevant example scenarios
             </p>
           </div>
 
@@ -454,10 +475,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Common Characteristics of Success Cases
+              Common Success Factors in Automation
             </h2>
             <p className="text-xl text-gray-600">
-              Through analyzing hundreds of success cases, we've identified the following key success factors
+              Based on industry research and automation best practices, these are common success factors
             </p>
           </div>
 
@@ -518,7 +539,7 @@ export default function CaseStudiesPage() {
             Ready to Start Your Automation Journey?
           </h2>
           <p className="text-xl mb-8 text-indigo-100">
-            Learn from successful case experiences and let us help you achieve business automation transformation
+            Learn from these example scenarios and let us help you achieve business automation transformation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -6,8 +6,8 @@ import InternalLinks from '@/components/SEO/InternalLinks'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Marketing Automation Platform - Increase Conversion Rates by 73% with AI-Powered Solutions | AutoBusinessOS',
-  description: 'Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses increase conversion rates by 73% and reduce customer acquisition costs by 52%.',
+  title: 'Marketing Automation Platform - AI-Powered Solutions to Improve Conversions | AutoBusinessOS',
+  description: 'Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses improve conversion rates and reduce customer acquisition costs through intelligent automation.',
   keywords: 'marketing automation, email marketing, lead nurturing, social media marketing, marketing ROI, business automation',
 }
 
@@ -48,8 +48,8 @@ export default function MarketingAutomationPage() {
     <Layout>
       <StructuredData
         type="article"
-        title="Marketing Automation Platform - Boost ROI by 80% with AI-Powered Solutions"
-        description="Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses increase marketing efficiency by 80% and reduce customer acquisition costs by 60%."
+        title="Marketing Automation Platform - AI-Powered Solutions for Better ROI"
+        description="Professional marketing automation solutions including email marketing, social media management, lead nurturing, and conversion tracking. Help businesses improve marketing efficiency and reduce customer acquisition costs through intelligent automation."
         url="https://autobusinessos.com/solutions/marketing-automation"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -61,7 +61,7 @@ export default function MarketingAutomationPage() {
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Marketing Automation Platform
-              <span className="block text-blue-600">Increase Conversions by 73%</span>
+              <span className="block text-blue-600">Improve Conversions with AI</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               Transform your marketing operations with intelligent automation that nurtures leads, optimizes campaigns, and drives conversions.
@@ -98,7 +98,7 @@ export default function MarketingAutomationPage() {
               <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
                 <span className="text-2xl">⏱️</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Repetitive Tasks Consume 80% of Time</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Repetitive Tasks Consume Significant Time</h3>
               <p className="text-gray-600">
                 Manual email sending, social media posting, lead follow-ups, and other repetitive tasks consume massive human resources, preventing teams from focusing on high-value strategy development.
               </p>
@@ -175,24 +175,33 @@ export default function MarketingAutomationPage() {
             </div>
 
             <div className="bg-gradient-to-br from-primary-50 to-secondary-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Marketing Automation Performance Data</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Marketing Automation Benefits</h3>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">80%</div>
-                  <div className="text-sm text-gray-600">Marketing Efficiency Boost</div>
+                  <div className="text-3xl mb-2">⚡</div>
+                  <div className="text-sm font-semibold text-gray-900 mb-1">Efficiency</div>
+                  <div className="text-xs text-gray-600">Improved marketing efficiency</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-600 mb-2">60%</div>
-                  <div className="text-sm text-gray-600">Customer Acquisition Cost Reduction</div>
+                  <div className="text-3xl mb-2">💰</div>
+                  <div className="text-sm font-semibold text-gray-900 mb-1">Cost Savings</div>
+                  <div className="text-xs text-gray-600">Reduced acquisition costs</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">45%</div>
-                  <div className="text-sm text-gray-600">Lead Conversion Rate Improvement</div>
+                  <div className="text-3xl mb-2">📈</div>
+                  <div className="text-sm font-semibold text-gray-900 mb-1">Conversions</div>
+                  <div className="text-xs text-gray-600">Better lead conversion</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">300%</div>
-                  <div className="text-sm text-gray-600">Marketing ROI Growth</div>
+                  <div className="text-3xl mb-2">🎯</div>
+                  <div className="text-sm font-semibold text-gray-900 mb-1">ROI</div>
+                  <div className="text-xs text-gray-600">Improved marketing ROI</div>
                 </div>
+              </div>
+              <div className="mt-6 pt-6 border-t border-gray-200">
+                <p className="text-xs text-gray-500 text-center italic">
+                  Results vary based on implementation and business context
+                </p>
               </div>
             </div>
           </div>
@@ -291,7 +300,7 @@ export default function MarketingAutomationPage() {
                   'Score leads based on behavior to identify high-quality prospects',
                   'Automatically assign leads to appropriate sales representatives'
                 ],
-                result: 'Customer acquisition cost reduced by 50%, lead quality improved by 70%'
+                result: 'Potential for reduced customer acquisition costs and improved lead quality'
               },
               {
                 title: 'E-commerce Customer Retention Strategy',
@@ -302,7 +311,7 @@ export default function MarketingAutomationPage() {
                   'Inactive users automatically receive special offers',
                   'Loyal customers get exclusive VIP events and new product previews'
                 ],
-                result: 'Customer retention rate increased by 60%, repeat purchase rate up 40%'
+                result: 'Potential for improved customer retention and repeat purchase rates'
               },
               {
                 title: 'SaaS Product Activation Optimization',
@@ -313,7 +322,7 @@ export default function MarketingAutomationPage() {
                   'Send help content to users who haven\'t completed key actions',
                   'Push upgrade offers and success stories before trial period ends'
                 ],
-                result: 'Product activation rate increased by 80%, paid conversion rate up 45%'
+                result: 'Potential for higher product activation and paid conversion rates'
               }
             ].map((useCase, index) => (
               <div key={index} className="bg-gray-50 rounded-2xl p-8">

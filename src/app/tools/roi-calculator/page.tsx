@@ -320,7 +320,7 @@ export default function ROICalculatorPage() {
             {[
               {
                 question: 'How accurate are the ROI calculation results?',
-                answer: 'Our calculation model is based on actual implementation data from 1000+ enterprises, with an accuracy rate of over 85%. However, actual results may be affected by factors such as company size, implementation quality, and employee cooperation. We recommend using the calculation results as a reference.'
+                answer: 'Our calculation model is based on industry research and typical automation scenarios. Results are estimates only and actual outcomes may vary significantly based on factors such as company size, implementation quality, process complexity, and team adoption. We recommend using these calculations as a general reference for planning purposes.'
               },
               {
                 question: 'When is automation investment not recommended?',

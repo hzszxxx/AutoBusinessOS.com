@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Finance Automation Systems - Invoice Processing, Expense Management & Financial Reporting | AutoBusinessOS',
-  description: 'Professional finance solutions featuring invoice processing, expense management, and financial reporting. Reduce manual data entry by 90% and drive digital transformation.',
+  description: 'Professional finance solutions featuring invoice processing, expense management, and financial reporting. Help reduce manual data entry and drive digital transformation.',
   keywords: 'finance automation, financial automation, invoice processing, expense management',
 }
 
@@ -20,7 +20,7 @@ export default function financeautomationPage() {
               <span className="block text-yellow-300">Invoice Processing, Expense Management & Financial Reporting</span>
             </h1>
             <p className="text-xl mb-8 text-primary-100">
-              Professional finance automation system solutions that help enterprises achieve efficient and intelligent business process management. Reduce manual data entry by 90% and improve overall operational efficiency.
+              Professional finance automation system solutions that help enterprises achieve efficient and intelligent business process management. Help reduce manual data entry and improve overall operational efficiency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -35,6 +35,29 @@ export default function financeautomationPage() {
               >
                 View Features
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Important Disclaimer */}
+      <section className="py-8 bg-yellow-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white border-l-4 border-yellow-400 p-6 rounded-r-lg shadow-sm">
+            <div className="flex">
+              <div className="flex-shrink-0">
+                <svg className="h-6 w-6 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div className="ml-3">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  📊 Important Notice
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong>The statistics, percentages, and examples on this page are illustrative</strong> and based on industry research and typical automation scenarios. They are not based on our actual client data and should not be considered guaranteed outcomes. Your specific results will vary significantly based on your business context, implementation quality, process complexity, and many other factors. These examples are provided for educational purposes to demonstrate potential automation applications.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -55,8 +78,8 @@ export default function financeautomationPage() {
               <div className="text-red-500 text-4xl mb-4">⚠️</div>
               <h3 className="text-xl font-semibold mb-3">Low Manual Entry Efficiency</h3>
               <p className="text-gray-600">
-                Repetitive tasks such as invoice entry and account reconciliation take up over 80% of finance staff time,
-                with error rates as high as 15%, seriously affecting work efficiency and data accuracy.
+                Repetitive tasks such as invoice entry and account reconciliation consume significant finance staff time,
+                with notable error rates affecting work efficiency and data accuracy.
               </p>
             </div>
 
@@ -65,7 +88,7 @@ export default function financeautomationPage() {
               <h3 className="text-xl font-semibold mb-3">Difficult Cost Control</h3>
               <p className="text-gray-600">
                 Lack of real-time expense monitoring, delayed financial reports, inability to promptly detect cost anomalies,
-                leading to an average 25% increase in enterprise operating costs.
+                potentially leading to increased enterprise operating costs.
               </p>
             </div>
 
@@ -83,7 +106,7 @@ export default function financeautomationPage() {
               <h3 className="text-xl font-semibold mb-3">Increased Compliance Risks</h3>
               <p className="text-gray-600">
                 Manual processing is prone to compliance loopholes, difficult audit traceability,
-                with average annual penalty losses exceeding $500K due to financial non-compliance.
+                potentially resulting in significant penalties due to financial non-compliance.
               </p>
             </div>
           </div>
