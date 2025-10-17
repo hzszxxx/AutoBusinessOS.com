@@ -236,6 +236,42 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "2024 Enterprise Automation Trends Report",
+                excerpt: "Comprehensive analysis of major automation trends including AI-powered workflows, cloud-native platforms, and implementation insights",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "12 min",
+                views: "New",
+                category: "Industry Insights",
+                tags: ["AI Automation", "Cloud Platform", "Trends 2024"],
+                href: "/resources/blog/2024-automation-trends-report",
+                image: "/images/blog/trends-report-hero.jpg"
+              },
+              {
+                title: "Enterprise Automation Getting Started Guide",
+                excerpt: "7 steps from manual processes to intelligent workflows. Practical guidance for launching your automation journey",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "10 min",
+                views: "New",
+                category: "Implementation Guide",
+                tags: ["Getting Started", "Best Practices", "Implementation"],
+                href: "/resources/blog/enterprise-automation-getting-started",
+                image: "/images/blog/getting-started-hero.jpg"
+              },
+              {
+                title: "Automation Use Cases Across 5 Industries",
+                excerpt: "From E-commerce to SaaS: Explore automation opportunities with implementation insights and realistic expectations",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "11 min",
+                views: "New",
+                category: "Industry Analysis",
+                tags: ["E-commerce", "SaaS", "Use Cases"],
+                href: "/resources/blog/automation-industry-use-cases",
+                image: "/images/blog/industry-cases-hero.jpg"
+              },
+              {
                 title: "Cross-Industry Automation Maturity Comparison Analysis",
                 excerpt: "In-depth analysis of automation development levels and characteristics across manufacturing, finance, retail and other industries",
                 author: "Expert Zhang",
