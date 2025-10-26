@@ -52,8 +52,8 @@ export default function ContactPage() {
                   <div className="text-2xl mr-4">📧</div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">hello@autobusinessos.com</p>
-                    <p className="text-gray-600">support@autobusinessos.com</p>
+                    <p className="text-gray-600">contact@autobusinessos.com</p>
+                    <p className="text-gray-600">For general inquiries and support</p>
                   </div>
                 </div>
 
@@ -61,19 +61,19 @@ export default function ContactPage() {
                   <div className="text-2xl mr-4">📞</div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-gray-600">Mon-Fri 9AM-6PM EST</p>
+                    <p className="text-gray-600">Available upon request</p>
+                    <p className="text-gray-600">Contact us via email for phone consultation</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <div className="text-2xl mr-4">📍</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Address</h4>
+                    <h4 className="font-semibold text-gray-900">Location</h4>
                     <p className="text-gray-600">
-                      123 Automation Street<br />
-                      Tech City, TC 12345<br />
-                      United States
+                      Remote-first company<br />
+                      Serving clients globally<br />
+                      Contact us for local support details
                     </p>
                   </div>
                 </div>

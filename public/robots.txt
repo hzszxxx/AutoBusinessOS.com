@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://autobusinessos.com/sitemap.xml
+Sitemap: https://www.autobusinessos.com/sitemap.xml
 
 # Crawl-delay for all bots
 Crawl-delay: 1
@@ -14,6 +14,8 @@ Allow: /resources/
 Allow: /tools/
 Allow: /about
 Allow: /contact
+Allow: /privacy
+Allow: /terms
 
 # Block admin and private areas (if any exist)
 Disallow: /admin/

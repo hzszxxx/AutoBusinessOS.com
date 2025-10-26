@@ -236,6 +236,42 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "Marketing Automation Platform Comparison 2025: Top 10 Tools Reviewed",
+                excerpt: "Compare the top 10 marketing automation platforms. In-depth analysis of features, pricing, integrations, and best use cases for HubSpot, Marketo, ActiveCampaign, and more.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "22 min",
+                views: "New",
+                category: "Tool Comparison",
+                tags: ["Marketing Automation", "Tool Review", "Platform Comparison"],
+                href: "/resources/blog/marketing-automation-platforms-comparison-2025",
+                image: "/images/blog/marketing-automation-hero.jpg"
+              },
+              {
+                title: "Best Workflow Automation Tools 2025: Compare Top 12 Platforms",
+                excerpt: "Complete comparison of leading workflow automation platforms including Zapier, Make, Power Automate, n8n, and more. Find the right tool for your needs.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "25 min",
+                views: "New",
+                category: "Tool Comparison",
+                tags: ["Workflow Automation", "Tool Comparison", "Integration"],
+                href: "/resources/blog/workflow-automation-tools-comparison-2025",
+                image: "/images/blog/workflow-automation-hero.jpg"
+              },
+              {
+                title: "15 Business Tasks You Can Automate Today: Small Business Guide",
+                excerpt: "Discover 15 practical tasks you can automate immediately with step-by-step implementation guides, tools, and cost savings for small businesses.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "20 min",
+                views: "New",
+                category: "Implementation Guide",
+                tags: ["Small Business", "Automation Tasks", "Practical Guide"],
+                href: "/resources/blog/small-business-automation-tasks-2025",
+                image: "/images/blog/small-business-automation-hero.jpg"
+              },
+              {
                 title: "2024 Enterprise Automation Trends Report",
                 excerpt: "Comprehensive analysis of major automation trends including AI-powered workflows, cloud-native platforms, and implementation insights",
                 author: "AutoBusinessOS Team",

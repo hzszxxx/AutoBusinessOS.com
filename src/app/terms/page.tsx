@@ -254,7 +254,7 @@ export default function TermsPage() {
                   <strong>Website:</strong> <a href="https://autobusinessos.com/contact" className="text-blue-600 hover:underline">https://autobusinessos.com/contact</a>
                 </p>
                 <p className="text-gray-700">
-                  <strong>Email:</strong> <a href="mailto:legal@autobusinessos.com" className="text-blue-600 hover:underline">legal@autobusinessos.com</a>
+                  <strong>Email:</strong> <a href="mailto:contact@autobusinessos.com" className="text-blue-600 hover:underline">contact@autobusinessos.com</a>
                 </p>
               </div>
             </section>
