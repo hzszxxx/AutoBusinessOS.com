@@ -160,7 +160,7 @@ export default function Home() {
 
           {/* Value Proposition */}
           <div className="bg-blue-600 text-white rounded-2xl p-8 mb-16 text-center">
-            <h3 className="text-2xl font-bold mb-4">Automate Everything from Marketing to Finance</h3>
+            <h3 className="text-2xl font-bold mb-4">Automate Business Processes from Marketing to Finance</h3>
             <p className="text-blue-100 max-w-2xl mx-auto">
               Connect your CRM, email, accounting software, and more. Build workflows that span departments—from lead capture to invoice payment—all in one platform.
             </p>
@@ -321,7 +321,7 @@ export default function Home() {
         links={[
           {
             title: "ROI Calculator",
-            description: "Calculate automation investment returns instantly",
+            description: "Calculate automation investment returns quickly",
             href: "/tools/roi-calculator",
             category: "Tools"
           },

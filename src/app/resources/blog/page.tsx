@@ -46,7 +46,6 @@ export default function BlogPage() {
               {
                 category: "Industry Trends",
                 icon: "📈",
-                count: "25 Articles",
                 description: "Latest technology trends and market dynamics",
                 color: "blue",
                 topics: ["AI Technology Development", "Market Analysis", "Future Predictions"]
@@ -54,35 +53,29 @@ export default function BlogPage() {
               {
                 category: "Technical Deep Dive",
                 icon: "⚙️",
-                count: "18 Articles",
                 description: "Technical principles and implementation details",
                 color: "green",
                 topics: ["Architecture Design", "Tool Comparison", "Implementation Methods"]
               },
               {
-                category: "Case Analysis",
+                category: "Implementation Guides",
                 icon: "📊",
-                count: "22 Articles",
-                description: "In-depth analysis of real-world cases",
+                description: "Step-by-step implementation guides",
                 color: "purple",
-                topics: ["Success Stories", "Lessons Learned", "Experience Summary"]
+                topics: ["Getting Started", "Best Practices", "Real-world Examples"]
               },
               {
-                category: "Management Insights",
+                category: "Business Analysis",
                 icon: "💼",
-                count: "15 Articles",
-                description: "Management strategies and decision thinking",
+                description: "Business strategies and ROI analysis",
                 color: "orange",
-                topics: ["Strategic Planning", "Team Management", "Change Leadership"]
+                topics: ["Strategic Planning", "Cost Analysis", "ROI Calculation"]
               }
             ].map((category) => (
               <div key={category.category} className={`bg-${category.color}-50 border-2 border-${category.color}-200 rounded-lg p-6 hover:shadow-lg transition-shadow cursor-pointer`}>
                 <div className="text-center mb-4">
                   <div className="text-4xl mb-3">{category.icon}</div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{category.category}</h3>
-                  <div className={`text-sm text-${category.color}-600 font-medium mb-3`}>
-                    {category.count}
-                  </div>
                   <p className="text-gray-600 text-sm">{category.description}</p>
                 </div>
 
@@ -133,11 +126,9 @@ export default function BlogPage() {
                   </div>
                   <div className="p-6">
                     <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
-                      <span>September 15, 2024</span>
+                      <span>October 2024</span>
                       <div className="flex items-center gap-4">
                         <span>📖 15 min read</span>
-                        <span>💬 156 comments</span>
-                        <span>👁️ 8.2K views</span>
                       </div>
                     </div>
                     <p className="text-gray-600 leading-relaxed">
@@ -166,17 +157,17 @@ export default function BlogPage() {
                 {
                   title: "Deep Integration of AI and Automation: New Business Opportunities",
                   excerpt: "Exploring how artificial intelligence is redefining the boundaries and possibilities of enterprise automation",
-                  date: "September 12, 2024",
+                  date: "October 2024",
                   readTime: "12 min",
                   category: "Technical Deep Dive",
                   href: "/resources/blog/ai-automation-integration"
                 },
                 {
-                  title: "Enterprise Automation Cost Analysis: The Art of Balancing Investment and Returns",
+                  title: "Enterprise Automation Cost Analysis: Investment and Returns",
                   excerpt: "Detailed analysis of automation project cost structure and ROI calculation methods",
-                  date: "September 10, 2024",
+                  date: "October 2024",
                   readTime: "18 min",
-                  category: "Management Insights",
+                  category: "Business Analysis",
                   href: "/resources/blog/automation-cost-analysis"
                 }
               ].map((article, index) => (
@@ -236,148 +227,124 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "CRM Automation Complete Guide 2025: Boost Sales Productivity",
+                excerpt: "Complete guide to CRM automation. Learn how to automate lead management, sales processes, customer communications, and reporting to increase productivity.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
+                readTime: "24 min",
+                category: "Implementation Guide",
+                tags: ["CRM Automation", "Sales Automation", "Lead Management"],
+                href: "/resources/blog/crm-automation-complete-guide-2025"
+              },
+              {
                 title: "Marketing Automation Platform Comparison 2025: Top 10 Tools Reviewed",
                 excerpt: "Compare the top 10 marketing automation platforms. In-depth analysis of features, pricing, integrations, and best use cases for HubSpot, Marketo, ActiveCampaign, and more.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "22 min",
-                views: "New",
                 category: "Tool Comparison",
                 tags: ["Marketing Automation", "Tool Review", "Platform Comparison"],
-                href: "/resources/blog/marketing-automation-platforms-comparison-2025",
-                image: "/images/blog/marketing-automation-hero.jpg"
+                href: "/resources/blog/marketing-automation-platforms-comparison-2025"
               },
               {
                 title: "Best Workflow Automation Tools 2025: Compare Top 12 Platforms",
                 excerpt: "Complete comparison of leading workflow automation platforms including Zapier, Make, Power Automate, n8n, and more. Find the right tool for your needs.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "25 min",
-                views: "New",
                 category: "Tool Comparison",
                 tags: ["Workflow Automation", "Tool Comparison", "Integration"],
-                href: "/resources/blog/workflow-automation-tools-comparison-2025",
-                image: "/images/blog/workflow-automation-hero.jpg"
+                href: "/resources/blog/workflow-automation-tools-comparison-2025"
               },
               {
                 title: "15 Business Tasks You Can Automate Today: Small Business Guide",
                 excerpt: "Discover 15 practical tasks you can automate immediately with step-by-step implementation guides, tools, and cost savings for small businesses.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "20 min",
-                views: "New",
                 category: "Implementation Guide",
                 tags: ["Small Business", "Automation Tasks", "Practical Guide"],
-                href: "/resources/blog/small-business-automation-tasks-2025",
-                image: "/images/blog/small-business-automation-hero.jpg"
+                href: "/resources/blog/small-business-automation-tasks-2025"
+              },
+              {
+                title: "E-commerce Automation Complete Guide 2025",
+                excerpt: "Comprehensive guide to e-commerce automation. Learn how to automate inventory, orders, customer service, and marketing for online stores.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
+                readTime: "23 min",
+                category: "Implementation Guide",
+                tags: ["E-commerce", "Store Automation", "Order Management"],
+                href: "/resources/blog/ecommerce-automation-complete-guide-2025"
+              },
+              {
+                title: "How to Calculate Automation ROI: Complete Guide",
+                excerpt: "Step-by-step guide to calculating automation return on investment. Learn cost analysis methods, ROI formulas, and how to measure automation success.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
+                readTime: "18 min",
+                category: "Business Analysis",
+                tags: ["ROI Calculation", "Cost Analysis", "Business Case"],
+                href: "/resources/blog/calculate-automation-roi-guide"
+              },
+              {
+                title: "Automation Security and Compliance Guide 2025",
+                excerpt: "Essential guide to security and compliance in automation. Learn data protection, access control, audit trails, and regulatory compliance best practices.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
+                readTime: "19 min",
+                category: "Security & Compliance",
+                tags: ["Security", "Compliance", "Data Protection"],
+                href: "/resources/blog/automation-security-compliance-2025"
               },
               {
                 title: "2024 Enterprise Automation Trends Report",
-                excerpt: "Comprehensive analysis of major automation trends including AI-powered workflows, cloud-native platforms, and implementation insights",
+                excerpt: "Comprehensive analysis of major automation trends including AI-powered workflows, cloud-native platforms, and implementation insights.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "12 min",
-                views: "New",
                 category: "Industry Insights",
                 tags: ["AI Automation", "Cloud Platform", "Trends 2024"],
-                href: "/resources/blog/2024-automation-trends-report",
-                image: "/images/blog/trends-report-hero.jpg"
+                href: "/resources/blog/2024-automation-trends-report"
               },
               {
                 title: "Enterprise Automation Getting Started Guide",
-                excerpt: "7 steps from manual processes to intelligent workflows. Practical guidance for launching your automation journey",
+                excerpt: "Step-by-step guide from manual processes to intelligent workflows. Practical guidance for launching your automation journey.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "10 min",
-                views: "New",
                 category: "Implementation Guide",
                 tags: ["Getting Started", "Best Practices", "Implementation"],
-                href: "/resources/blog/enterprise-automation-getting-started",
-                image: "/images/blog/getting-started-hero.jpg"
+                href: "/resources/blog/enterprise-automation-getting-started"
               },
               {
                 title: "Automation Use Cases Across 5 Industries",
-                excerpt: "From E-commerce to SaaS: Explore automation opportunities with implementation insights and realistic expectations",
+                excerpt: "From E-commerce to SaaS: Explore automation opportunities with implementation insights and realistic expectations.",
                 author: "AutoBusinessOS Team",
-                date: "January 2025",
+                date: "October 2024",
                 readTime: "11 min",
-                views: "New",
                 category: "Industry Analysis",
                 tags: ["E-commerce", "SaaS", "Use Cases"],
-                href: "/resources/blog/automation-industry-use-cases",
-                image: "/images/blog/industry-cases-hero.jpg"
+                href: "/resources/blog/automation-industry-use-cases"
               },
               {
-                title: "Cross-Industry Automation Maturity Comparison Analysis",
-                excerpt: "In-depth analysis of automation development levels and characteristics across manufacturing, finance, retail and other industries",
-                author: "Expert Zhang",
-                date: "September 8, 2024",
-                readTime: "14 min",
-                views: "3.2K",
-                category: "Industry Trends",
-                tags: ["Industry Comparison", "Maturity Assessment", "Development Trends"],
-                href: "/resources/blog/industry-automation-comparison",
-                image: "/api/blog/images/industry-comparison.jpg"
+                title: "RPA Implementation Guide: Best Practices",
+                excerpt: "Comprehensive guide to implementing Robotic Process Automation. Learn planning, development, deployment, and maintenance best practices.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
+                readTime: "17 min",
+                category: "Implementation Guide",
+                tags: ["RPA", "Implementation", "Best Practices"],
+                href: "/resources/blog/rpa-implementation-guide"
               },
               {
-                title: "Complete Guide to Enterprise Automation Security",
-                excerpt: "Comprehensive introduction to security risks and protection strategies for automation systems, ensuring digital transformation security",
-                author: "Security Li",
-                date: "September 6, 2024",
+                title: "Digital Transformation Strategy Guide",
+                excerpt: "Strategic guide to digital transformation. Learn how to plan, execute, and measure digital transformation initiatives successfully.",
+                author: "AutoBusinessOS Team",
+                date: "October 2024",
                 readTime: "16 min",
-                views: "2.8K",
-                category: "Technical Deep Dive",
-                tags: ["Security Protection", "Risk Control", "Best Practices"],
-                href: "/resources/blog/automation-security-guide",
-                image: "/api/blog/images/security-guide.jpg"
-              },
-              {
-                title: "Practical Automation Transformation Path for SMEs",
-                excerpt: "Tailored to SME characteristics, providing practical automation implementation advice and strategies",
-                author: "Consultant Wang",
-                date: "September 4, 2024",
-                readTime: "11 min",
-                views: "4.1K",
-                category: "Management Insights",
-                tags: ["Small & Medium Enterprise", "Transformation Strategy", "Implementation Path"],
-                href: "/resources/blog/sme-automation-path",
-                image: "/api/blog/images/sme-path.jpg"
-              },
-              {
-                title: "Common RPA Implementation Pitfalls and How to Avoid Them",
-                excerpt: "Based on extensive practical experience, summarizing typical problems and solutions in RPA project implementation",
-                author: "Implementation Chen",
-                date: "September 2, 2024",
-                readTime: "13 min",
-                views: "2.5K",
-                category: "Case Analysis",
-                tags: ["RPA", "Implementation Experience", "Problem Solving"],
-                href: "/resources/blog/rpa-pitfalls-solutions",
-                image: "/api/blog/images/rpa-pitfalls.jpg"
-              },
-              {
-                title: "Talent Development Strategy in the Age of Automation",
-                excerpt: "Exploring talent development strategies and skill training methods during automation transformation",
-                author: "HR Liu",
-                date: "August 30, 2024",
-                readTime: "12 min",
-                views: "3.7K",
-                category: "Management Insights",
-                tags: ["Talent Development", "Skill Development", "Organizational Change"],
-                href: "/resources/blog/automation-talent-strategy",
-                image: "/api/blog/images/talent-strategy.jpg"
-              },
-              {
-                title: "Low-Code Platform Selection and Evaluation Guide",
-                excerpt: "Detailed comparison of mainstream low-code platform features, pros and cons, and applicable scenarios",
-                author: "Architect Zhao",
-                date: "August 28, 2024",
-                readTime: "20 min",
-                views: "1.9K",
-                category: "Technical Deep Dive",
-                tags: ["Low-Code", "Platform Selection", "Technical Assessment"],
-                href: "/resources/blog/low-code-platform-guide",
-                image: "/api/blog/images/low-code-guide.jpg"
+                category: "Strategy",
+                tags: ["Digital Transformation", "Strategy", "Change Management"],
+                href: "/resources/blog/digital-transformation-strategy"
               }
             ].map((article, index) => (
               <Link key={index} href={article.href} className="block group">
@@ -410,13 +377,10 @@ export default function BlogPage() {
 
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <div className="flex items-center gap-2">
-                        <span>👤 {article.author}</span>
-                        <span>•</span>
                         <span>{article.date}</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <span>📖 {article.readTime}</span>
-                        <span>👁️ {article.views}</span>
                       </div>
                     </div>
                   </div>
@@ -481,78 +445,6 @@ export default function BlogPage() {
                 By subscribing, you agree to our privacy policy. You can unsubscribe at any time.
               </div>
             </form>
-          </div>
-        </div>
-      </section>
-
-      {/* Popular Authors */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Our Expert Authors
-            </h2>
-            <p className="text-xl text-gray-600">
-              Industry veterans providing professional insights
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                name: "Ming Zhang",
-                title: "Automation Technology Director",
-                company: "Leading Tech Company",
-                expertise: "RPA, AI Integration, Technical Architecture",
-                articles: 12,
-                followers: "5.2K",
-                bio: "15 years of automation technology experience, specializing in enterprise-level automation solution design and implementation"
-              },
-              {
-                name: "Hua Li",
-                title: "Digital Transformation Consultant",
-                company: "Top Consulting Firm",
-                expertise: "Strategic Planning, Change Management, ROI Analysis",
-                articles: 18,
-                followers: "8.1K",
-                bio: "Helped 200+ enterprises successfully achieve digital transformation with extensive management consulting experience"
-              },
-              {
-                name: "Fang Wang",
-                title: "Business Process Expert",
-                company: "Process Optimization Consulting",
-                expertise: "Process Design, Efficiency Optimization, Best Practices",
-                articles: 15,
-                followers: "6.7K",
-                bio: "Specializes in business process analysis and optimization, helping enterprises improve operational efficiency"
-              },
-              {
-                name: "Qiang Chen",
-                title: "AI Product Manager",
-                company: "AI Technology Company",
-                expertise: "AI Applications, Product Design, User Experience",
-                articles: 9,
-                followers: "4.3K",
-                bio: "AI product design expert, specializing in intelligent automation product planning and implementation"
-              }
-            ].map((author, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
-                <div className="bg-gradient-to-br from-teal-400 to-blue-500 w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-lg">
-                  {author.name[0]}
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">{author.name}</h3>
-                <div className="text-sm text-gray-600 mb-2">{author.title}</div>
-                <div className="text-xs text-gray-500 mb-3">{author.company}</div>
-                <p className="text-sm text-gray-600 mb-4">{author.bio}</p>
-                <div className="text-xs text-gray-500 mb-3">
-                  <strong>Expertise:</strong> {author.expertise}
-                </div>
-                <div className="flex justify-center gap-4 text-xs text-gray-500">
-                  <span>📝 {author.articles} articles</span>
-                  <span>👥 {author.followers} followers</span>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
