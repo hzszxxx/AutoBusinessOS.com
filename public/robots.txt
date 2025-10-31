@@ -27,6 +27,11 @@ User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
 
+# Google AdSense bot (CRITICAL for AdSense approval)
+User-agent: Mediapartners-Google
+Allow: /
+Disallow:
+
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 2

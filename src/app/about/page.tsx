@@ -182,6 +182,71 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Team & Company Info Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              About Our Organization
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Transparency and trust are fundamental to how we operate
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-gray-50 rounded-lg p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">🏢 Company Information</h3>
+              <div className="space-y-3 text-gray-700">
+                <p><strong>Organization:</strong> AutoBusinessOS</p>
+                <p><strong>Focus:</strong> Business Process Automation Platform Development</p>
+                <p><strong>Location:</strong> Operating globally with remote-first approach</p>
+                <p><strong>Established:</strong> 2024</p>
+                <p><strong>Type:</strong> Technology Platform Provider</p>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">📞 Contact Information</h3>
+              <div className="space-y-3 text-gray-700">
+                <p><strong>Website:</strong> autobusinessos.com</p>
+                <p><strong>Support:</strong> Available through contact form</p>
+                <p><strong>Documentation:</strong> Comprehensive guides and resources</p>
+                <p><strong>Community:</strong> Active user forum and support</p>
+              </div>
+              <Link
+                href="/contact"
+                className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                Contact Us
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-blue-50 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">🎯 Our Approach</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+              <div>
+                <h4 className="font-bold mb-2">Product Development</h4>
+                <p>We build automation tools based on real business needs, tested extensively with actual companies before launch. Every feature must save time in practice, not just in theory.</p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Customer-Centric</h4>
+                <p>Our roadmap is driven by customer feedback. We conduct regular interviews with businesses to understand their automation challenges and priorities.</p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Transparency</h4>
+                <p>We maintain clear communication about our platform capabilities, limitations, and development progress. No overpromising, just honest guidance.</p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Continuous Improvement</h4>
+                <p>We ship regular updates, fix bugs quickly, and constantly refine the platform based on user experience and feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
