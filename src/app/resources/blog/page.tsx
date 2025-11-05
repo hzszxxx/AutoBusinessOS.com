@@ -227,6 +227,39 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "AI Agents for Business in 2025: Complete Implementation Guide",
+                excerpt: "Learn how to deploy autonomous AI agents in your business. From 3% to 25% adoption - discover the complete guide with 10+ use cases, platform comparisons, and ROI analysis. Market growing from $5.1B to $47.1B by 2030.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "15 min",
+                category: "AI Automation",
+                tags: ["AI Agents", "Agentic AI", "Implementation Guide"],
+                href: "/resources/blog/ai-agents-business-implementation-guide-2025",
+                badge: "🔥 NEW"
+              },
+              {
+                title: "Top 10 No-Code Automation Platforms in 2025: Complete Comparison",
+                excerpt: "Compare the best no-code automation platforms in 2025. Build workflows without coding and save $100K+ on development costs. Detailed comparison of Zapier, Make, n8n, and 7 more platforms with pricing and features.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "18 min",
+                category: "Tool Comparison",
+                tags: ["No-Code", "Platform Comparison", "Workflow Automation"],
+                href: "/resources/blog/no-code-automation-platforms-2025-comparison",
+                badge: "🔥 NEW"
+              },
+              {
+                title: "Marketing Automation ROI Calculator 2025: How 500+ Companies Achieved 312% ROI",
+                excerpt: "Learn how 500+ companies achieved 312% ROI with marketing automation. Step-by-step framework, free calculator, real case studies, and platform comparisons. 70% of marketing leaders are increasing automation investments in 2025.",
+                author: "AutoBusinessOS Team",
+                date: "January 2025",
+                readTime: "20 min",
+                category: "Business Analysis",
+                tags: ["Marketing Automation", "ROI Calculator", "Case Studies"],
+                href: "/resources/blog/marketing-automation-roi-calculator-framework-2025",
+                badge: "🔥 NEW"
+              },
+              {
                 title: "CRM Automation Complete Guide 2025: Boost Sales Productivity",
                 excerpt: "Complete guide to CRM automation. Learn how to automate lead management, sales processes, customer communications, and reporting to increase productivity.",
                 author: "AutoBusinessOS Team",
