@@ -169,6 +169,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/sitemap-html`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/privacy`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -252,6 +258,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/blog/marketing-automation-platforms-comparison-2025`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/resources/blog/workflow-automation-tools-comparison-2025`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/resources/blog/small-business-automation-tasks-2025`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/resources/blog/crm-automation-complete-guide-2025`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    // New High-Priority Articles (January 2025)
+    {
+      url: `${baseUrl}/resources/blog/ai-agents-business-implementation-guide-2025`,
+      lastModified: new Date('2025-01-05'),
+      changeFrequency: 'weekly',
+      priority: 0.9, // High priority - new trending content
+    },
+    {
+      url: `${baseUrl}/resources/blog/no-code-automation-platforms-2025-comparison`,
+      lastModified: new Date('2025-01-05'),
+      changeFrequency: 'weekly',
+      priority: 0.9, // High priority - comprehensive comparison
+    },
+    {
+      url: `${baseUrl}/resources/blog/marketing-automation-roi-calculator-framework-2025`,
+      lastModified: new Date('2025-01-05'),
+      changeFrequency: 'weekly',
+      priority: 0.9, // High priority - data-driven content
     },
   ]
 }
