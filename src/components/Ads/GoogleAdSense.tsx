@@ -85,37 +85,74 @@ export default function GoogleAdSense({
 }
 
 // Ad unit components for different placements
-export const HeaderAd = () => (
-  <GoogleAdSense
-    adSlot="1234567890"
-    adFormat="horizontal"
-    adStyle={{ display: 'block', width: '100%', height: '90px' }}
-  />
-);
+// These components read ad slot IDs from environment variables
+// Configure them in .env.local or Vercel environment variables
+// See ADSENSE_AD_UNITS_SETUP_GUIDE.md for setup instructions
 
-export const SidebarAd = () => (
-  <GoogleAdSense
-    adSlot="0987654321"
-    adFormat="vertical"
-    adStyle={{ display: 'block', width: '300px', height: '600px' }}
-  />
-);
+export const HeaderAd = () => {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_HEADER_AD_SLOT;
+  
+  // Don't render if ad slot is not configured
+  if (!adSlot || adSlot === '1234567890') {
+    return null;
+  }
+  
+  return (
+    <GoogleAdSense
+      adSlot={adSlot}
+      adFormat="horizontal"
+      adStyle={{ display: 'block', width: '100%', height: '90px' }}
+    />
+  );
+};
 
-export const InContentAd = () => (
-  <GoogleAdSense
-    adSlot="1122334455"
-    adFormat="rectangle"
-    adStyle={{ display: 'block', width: '100%', height: '250px' }}
-  />
-);
+export const SidebarAd = () => {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SIDEBAR_AD_SLOT;
+  
+  if (!adSlot || adSlot === '0987654321') {
+    return null;
+  }
+  
+  return (
+    <GoogleAdSense
+      adSlot={adSlot}
+      adFormat="vertical"
+      adStyle={{ display: 'block', width: '300px', height: '600px' }}
+    />
+  );
+};
 
-export const FooterAd = () => (
-  <GoogleAdSense
-    adSlot="5566778899"
-    adFormat="horizontal"
-    adStyle={{ display: 'block', width: '100%', height: '90px' }}
-  />
-);
+export const InContentAd = () => {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_INCONTENT_AD_SLOT;
+  
+  if (!adSlot || adSlot === '1122334455') {
+    return null;
+  }
+  
+  return (
+    <GoogleAdSense
+      adSlot={adSlot}
+      adFormat="rectangle"
+      adStyle={{ display: 'block', width: '100%', height: '250px' }}
+    />
+  );
+};
+
+export const FooterAd = () => {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_FOOTER_AD_SLOT;
+  
+  if (!adSlot || adSlot === '5566778899') {
+    return null;
+  }
+  
+  return (
+    <GoogleAdSense
+      adSlot={adSlot}
+      adFormat="horizontal"
+      adStyle={{ display: 'block', width: '100%', height: '90px' }}
+    />
+  );
+};
 
 // Responsive ad unit
 export const ResponsiveAd = ({ adSlot }: { adSlot: string }) => (
