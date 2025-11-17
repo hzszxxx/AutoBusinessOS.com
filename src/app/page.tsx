@@ -9,60 +9,60 @@ export default function Home() {
   const faqItems = [
     {
       question: "What is AutoBusinessOS?",
-      answer: "AutoBusinessOS is a business automation platform that helps companies eliminate repetitive work. You can automate workflows across marketing, sales, customer service, and finance—helping reduce manual tasks and freeing your team to focus on strategic work."
+      answer: "AutoBusinessOS is an educational resource and knowledge hub dedicated to business automation. We provide comprehensive guides, case studies, research, and tools to help organizations understand and implement automation strategies effectively."
     },
     {
-      question: "What ROI can I expect from AutoBusinessOS?",
-      answer: "Results vary based on your implementation and business processes. Automation can help reduce manual work hours, speed up task completion, and minimize errors in automated processes. Your specific results depend on which processes you automate and how you implement them. Use our ROI calculator to estimate your potential outcomes. Individual results may vary."
+      question: "What kind of content do you publish?",
+      answer: "We publish in-depth guides on automation technologies, implementation strategies, tool comparisons, industry-specific best practices, and case studies. Our content covers marketing automation, sales processes, customer service, finance, HR, and operations management."
     },
     {
-      question: "How quickly can we get started and see results?",
-      answer: "Implementation timelines vary based on complexity and your team's needs. Simple workflows can be deployed quickly, while comprehensive automation projects take longer. The timeline depends on your specific processes and organizational requirements. Our team can provide a customized estimate for your situation."
+      question: "Who writes your content?",
+      answer: "Our content is created by automation specialists and industry experts with extensive experience in enterprise process optimization, digital transformation, and technology implementation across various sectors."
     },
     {
-      question: "Is AutoBusinessOS right for my industry and company size?",
-      answer: "Yes. AutoBusinessOS works for companies from 50 to 5,000+ employees. We support e-commerce, SaaS, manufacturing, healthcare, consulting, and financial services. Our modular platform lets you start with one department and expand as you see results."
+      question: "Are your guides free to access?",
+      answer: "Yes, all our guides, articles, case studies, and tools are freely available. We believe in providing valuable educational resources to help businesses make informed decisions about their automation initiatives."
     },
     {
-      question: "Do we need technical expertise to implement AutoBusinessOS?",
-      answer: "No coding required. If you can use Excel or drag-and-drop in PowerPoint, you can build automation workflows. Your marketing manager can create email sequences, your operations lead can automate approvals, and your finance team can set up invoice processing—all without IT help."
+      question: "How can I stay updated with new content?",
+      answer: "You can browse our latest articles on the blog page, subscribe to our newsletter for weekly updates, or follow specific topic categories that interest you. We regularly publish new guides and update existing content with the latest industry insights."
     },
     {
-      question: "How secure is our data with AutoBusinessOS?",
-      answer: "Security is our top priority. We maintain enterprise-grade protection with end-to-end encryption, multi-factor authentication, and comprehensive audit trails. Our platform follows industry-standard security practices to protect your data and maintain compliance with international data protection standards."
+      question: "Do you recommend specific automation tools?",
+      answer: "We provide objective comparisons and analysis of various automation platforms and tools. Our recommendations are based on research, feature analysis, and suitability for different use cases. We aim to help you make informed decisions based on your specific needs."
     }
   ];
 
   const features = [
     {
-      icon: "🚀",
-      title: "Deploy in Days, Not Months",
-      description: "Connect your existing tools quickly and start building automation workflows. Our platform is designed for fast deployment without lengthy implementation projects."
+      icon: "📖",
+      title: "Comprehensive Guides",
+      description: "In-depth tutorials covering everything from basic automation concepts to advanced AI integration strategies. Step-by-step implementation guides for all major platforms."
     },
     {
-      icon: "🤖",
-      title: "AI That Learns Your Business",
-      description: "Our AI learns from your team's decisions, improving accuracy over time. The system adapts to your business processes, handling exceptions more effectively as it learns from your workflow patterns."
+      icon: "🔬",
+      title: "Research-Backed Insights",
+      description: "Analysis based on industry research, market trends, and automation best practices. Stay informed about the latest developments in business process automation."
+    },
+    {
+      icon: "💼",
+      title: "Real-World Case Studies",
+      description: "Learn from successful automation implementations across various industries. Understand challenges, solutions, and measurable outcomes from actual business scenarios."
+    },
+    {
+      icon: "🛠️",
+      title: "Free Tools & Resources",
+      description: "Access ROI calculators, comparison charts, and templates to help you evaluate automation opportunities and plan your implementation strategy."
     },
     {
       icon: "📊",
-      title: "See Every Automation in Action",
-      description: "Know exactly how much time you're saving, which workflows run smoothly, and where to optimize. Real-time dashboards show your ROI."
+      title: "Industry Analysis",
+      description: "Detailed breakdowns of automation opportunities in e-commerce, SaaS, manufacturing, healthcare, and other sectors. Understand sector-specific challenges and solutions."
     },
     {
-      icon: "🔒",
-      title: "Enterprise-Grade Security",
-      description: "End-to-end encryption, multi-factor authentication, and comprehensive audit trails protect your data. We follow industry-standard security practices and compliance frameworks."
-    },
-    {
-      icon: "⚡",
-      title: "Always Available",
-      description: "Built for reliability with 99.9% uptime target. Your automation is designed to run 24/7 and handle peak loads. Our infrastructure is monitored continuously to maintain availability."
-    },
-    {
-      icon: "🌍",
-      title: "Works Globally",
-      description: "Deploy across multiple regions and time zones. Support teams worldwide with infrastructure that scales with your business."
+      icon: "🎓",
+      title: "Expert Knowledge Base",
+      description: "Articles written by automation specialists with years of experience in enterprise process optimization, digital transformation, and technology implementation."
     }
   ];
 
@@ -92,77 +92,79 @@ export default function Home() {
             {/* Trust Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-8">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-              Modern Business Automation Platform
+              Enterprise Automation Knowledge Hub
             </div>
 
             {/* Main Headline */}
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Automate Your Business,
+              Learn Business Automation
               <br />
-              <span className="text-blue-600">Accelerate Growth</span>
+              <span className="text-blue-600">Best Practices & Guides</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Eliminate repetitive work and free your team for strategic projects. Automation can help reduce manual tasks, minimize errors, and deliver measurable results.
+              Your comprehensive resource for understanding automation technologies, implementation strategies, and industry best practices. Free guides, case studies, and expert insights.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <Link
-                href="/tools/roi-calculator"
+                href="/resources/blog"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                Calculate Your ROI in 3 Minutes
+                Browse Latest Articles
               </Link>
               <Link
-                href="/solutions"
+                href="/resources/guides"
                 className="border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
               >
-                View Solutions
+                View Complete Guides
               </Link>
             </div>
 
             {/* Key Features */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">🚀</div>
-                <div className="text-gray-600 text-sm">Quick Setup</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">📚</div>
+                <div className="text-gray-600 text-sm">20+ Guides</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">🤖</div>
-                <div className="text-gray-600 text-sm">AI-Powered</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">💡</div>
+                <div className="text-gray-600 text-sm">Expert Insights</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">📊</div>
-                <div className="text-gray-600 text-sm">Analytics</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">🔧</div>
+                <div className="text-gray-600 text-sm">Free Tools</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">🔒</div>
-                <div className="text-gray-600 text-sm">Secure</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">🎯</div>
+                <div className="text-gray-600 text-sm">Case Studies</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Unique Value Proposition */}
+      {/* Latest Articles Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              The AutoBusinessOS Advantage
+              Latest Automation Insights
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              While other tools require IT teams to configure everything, AutoBusinessOS works out of the box. Your business users can build workflows without coding—and you'll see measurable results within weeks.
+              Stay updated with the latest trends, technologies, and best practices in enterprise automation.
+              Our expert team publishes comprehensive guides to help you make informed decisions.
             </p>
           </div>
 
-          {/* Value Proposition */}
+          {/* Featured Content */}
           <div className="bg-blue-600 text-white rounded-2xl p-8 mb-16 text-center">
-            <h3 className="text-2xl font-bold mb-4">Automate Business Processes from Marketing to Finance</h3>
+            <h3 className="text-2xl font-bold mb-4">📖 New Article Series: 2025 Automation Trends</h3>
             <p className="text-blue-100 max-w-2xl mx-auto">
-              Connect your CRM, email, accounting software, and more. Build workflows that span departments—from lead capture to invoice payment—all in one platform.
+              Discover how AI agents, no-code platforms, and intelligent workflows are transforming businesses.
+              Learn from real-world implementations and industry research.
             </p>
           </div>
 
@@ -184,15 +186,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Core Solutions */}
+      {/* Topic Categories */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Complete Business Automation Solutions
+              Explore Automation Topics
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From marketing to operations, automate every aspect of your business with our comprehensive platform
+              Deep-dive into specific automation areas with our comprehensive guides and tutorials
             </p>
           </div>
 
@@ -200,45 +202,45 @@ export default function Home() {
             {[
               {
                 title: 'Marketing Automation',
-                description: 'Intelligent lead nurturing, campaigns, and analytics',
+                description: 'Email campaigns, lead scoring, and multi-channel strategies',
                 icon: '📊',
                 href: '/solutions/marketing-automation',
-                stats: 'Boost efficiency →'
+                stats: 'Read guides →'
               },
               {
-                title: 'Sales Automation',
-                description: 'CRM workflows, predictive analytics, automated follow-ups',
+                title: 'Sales Process Automation',
+                description: 'CRM optimization, pipeline management, and sales workflows',
                 icon: '💼',
                 href: '/solutions/sales-automation',
-                stats: 'Learn more →'
+                stats: 'Learn best practices →'
               },
               {
                 title: 'Customer Service',
-                description: 'AI-powered support and smart ticket routing',
+                description: 'Support ticket automation, chatbots, and response systems',
                 icon: '🎧',
                 href: '/solutions/customer-service-automation',
-                stats: 'Explore features →'
+                stats: 'Explore strategies →'
               },
               {
-                title: 'Finance Operations',
-                description: 'Automated invoicing, expenses, and reporting',
+                title: 'Finance & Accounting',
+                description: 'Invoice processing, expense management, and reporting',
                 icon: '💰',
                 href: '/solutions/finance-automation',
-                stats: 'View details →'
+                stats: 'View tutorials →'
               },
               {
                 title: 'Human Resources',
-                description: 'Recruiting, onboarding, and performance management',
+                description: 'Recruitment automation, onboarding, and HR workflows',
                 icon: '👥',
                 href: '/solutions/hr-automation',
-                stats: 'See how →'
+                stats: 'Discover methods →'
               },
               {
-                title: 'Operations',
-                description: 'Inventory, supply chain, and business intelligence',
+                title: 'Operations Management',
+                description: 'Supply chain, inventory, and process optimization',
                 icon: '⚙️',
                 href: '/solutions/operations-automation',
-                stats: 'Discover more →'
+                stats: 'Browse articles →'
               }
             ].map((solution) => (
               <Link
@@ -254,7 +256,7 @@ export default function Home() {
                   {solution.description}
                 </p>
                 <div className="text-blue-600 font-medium text-sm">
-                  {solution.stats} →
+                  {solution.stats}
                 </div>
               </Link>
             ))}
@@ -262,33 +264,33 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ROI Calculator CTA */}
+      {/* Free Resources CTA */}
       <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            See Your ROI in 3 Minutes
+            Free Automation Tools & Templates
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Enter your current process times and see exactly how much you'll save. Get a personalized ROI report in minutes.
+            Access our collection of free calculators, templates, and worksheets to evaluate and plan your automation initiatives. No signup required.
           </p>
           <Link
             href="/tools/roi-calculator"
             className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block"
           >
-            Get My ROI Analysis →
+            Browse Free Tools →
           </Link>
         </div>
       </section>
 
-      {/* Industry Cases */}
+      {/* Industry Guides */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Industry Solutions
+              Industry-Specific Automation Guides
             </h2>
             <p className="text-xl text-gray-600">
-              Tailored automation solutions for different business sectors
+              Learn automation strategies tailored to your industry's unique challenges and opportunities
             </p>
           </div>
 

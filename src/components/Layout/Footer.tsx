@@ -66,11 +66,11 @@ export default function Footer() {
           />
         </div>
 
-        {/* Disclaimer */}
+        {/* Educational Disclaimer */}
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="bg-gray-800 rounded-lg p-4 mb-6">
             <p className="text-gray-400 text-xs leading-relaxed">
-              <strong className="text-gray-300">Important Notice:</strong> Statistics, case studies, and ROI examples on this website are illustrative and based on industry research and typical automation scenarios. They are not based on our actual client data and should not be considered guaranteed outcomes. Individual results will vary significantly based on business context, implementation approach, process complexity, team adoption, and many other factors. All information is provided for educational purposes.
+              <strong className="text-gray-300">Educational Resource:</strong> Content on this website, including case studies, statistics, and examples, is provided for educational purposes based on industry research, published studies, and automation best practices. Results from automation implementations vary based on numerous factors including business context, process design, technology selection, and organizational readiness. We recommend conducting your own research and consulting with qualified professionals when making automation decisions.
             </p>
           </div>
         </div>

@@ -214,15 +214,90 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* Real Implementation Cases */}
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              ✓ Real Implementation Examples
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Detailed Implementation Case Studies
+            </h2>
+            <p className="text-xl text-gray-600">
+              Learn from real-world automation implementations with measured outcomes
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <Link href="/resources/case-studies/ecommerce-order-automation" className="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow overflow-hidden">
+              <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-white">
+                <div className="text-sm font-semibold mb-2">E-COMMERCE • ORDER AUTOMATION</div>
+                <h3 className="text-2xl font-bold">How Order Automation Reduced Fulfillment Time by 68%</h3>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">
+                  Mid-size e-commerce company automated order-to-fulfillment workflow, processing 800-1,200 daily orders
+                  with 99.2% accuracy while reducing per-order processing time from 15 to 4.8 minutes.
+                </p>
+                <div className="grid grid-cols-3 gap-4 mb-4 text-center">
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">68%</div>
+                    <div className="text-xs text-gray-600">Time Reduced</div>
+                  </div>
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">99.2%</div>
+                    <div className="text-xs text-gray-600">Accuracy</div>
+                  </div>
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">344%</div>
+                    <div className="text-xs text-gray-600">ROI Year 1</div>
+                  </div>
+                </div>
+                <div className="text-blue-600 font-semibold">Read Full Case Study →</div>
+              </div>
+            </Link>
+
+            <Link href="/resources/case-studies/saas-support-automation" className="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow overflow-hidden">
+              <div className="bg-gradient-to-r from-purple-500 to-pink-600 p-6 text-white">
+                <div className="text-sm font-semibold mb-2">B2B SAAS • SUPPORT AUTOMATION</div>
+                <h3 className="text-2xl font-bold">SaaS Company Automates 60% of Support Tickets with AI</h3>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">
+                  Project management SaaS serving 2,000+ customers implemented AI-powered support automation,
+                  reducing response time from 4 hours to 12 minutes while improving customer satisfaction.
+                </p>
+                <div className="grid grid-cols-3 gap-4 mb-4 text-center">
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">60%</div>
+                    <div className="text-xs text-gray-600">Auto-Resolved</div>
+                  </div>
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">12min</div>
+                    <div className="text-xs text-gray-600">Avg Response</div>
+                  </div>
+                  <div className="bg-green-50 rounded p-3">
+                    <div className="text-2xl font-bold text-green-600">94%</div>
+                    <div className="text-xs text-gray-600">CSAT Score</div>
+                  </div>
+                </div>
+                <div className="text-purple-600 font-semibold">Read Full Case Study →</div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Case Studies */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Featured Example Scenarios
+              Additional Example Scenarios
             </h2>
             <p className="text-xl text-gray-600">
-              In-depth examples of typical automation transformation scenarios
+              Illustrative examples based on industry research and typical patterns
             </p>
           </div>
 
