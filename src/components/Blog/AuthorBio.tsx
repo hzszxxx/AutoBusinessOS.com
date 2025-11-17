@@ -21,6 +21,11 @@ interface AuthorBioProps {
 }
 
 export default function AuthorBio({ author, publishDate, readTime, compact = false }: AuthorBioProps) {
+  // Safety check for server-side rendering
+  if (!author || !author.name) {
+    return null;
+  }
+
   if (compact) {
     return (
       <div className="flex items-center gap-3 text-sm">
