@@ -1,7 +1,8 @@
 import Layout from '@/components/Layout/Layout';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import AuthorBio, { AUTHORS } from '@/components/Blog/AuthorBio';
+import AuthorBio from '@/components/Blog/AuthorBio';
+import { AUTHORS } from '@/data/authors';
 
 export const metadata: Metadata = {
   title: "E-commerce Order Automation Case Study - AutoBusinessOS",
